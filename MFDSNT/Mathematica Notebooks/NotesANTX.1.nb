@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     39494,       1174]
-NotebookOptionsPosition[     30604,       1016]
-NotebookOutlinePosition[     31295,       1038]
-CellTagsIndexPosition[     31252,       1035]
+NotebookDataLength[     44703,       1342]
+NotebookOptionsPosition[     34624,       1165]
+NotebookOutlinePosition[     35315,       1187]
+CellTagsIndexPosition[     35272,       1184]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1011,6 +1011,155 @@ Cell[BoxData[
  RowBox[{"Gamma", "[", "n", "]"}]], "Output",
  CellLabel->
   "Out[441]=",ExpressionUUID->"8b0d9128-91be-425f-9197-71cffb57bd60"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{
+   SuperscriptBox["t", 
+    RowBox[{"n", "-", "1"}]], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellLabel->
+  "In[444]:=",ExpressionUUID->"28c8c72f-ed22-48a0-957d-065ecaab78c0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", "1"}], "+", "n"}], ")"}], " ", 
+  SuperscriptBox["t", 
+   RowBox[{
+    RowBox[{"-", "2"}], "+", "n"}]]}]], "Output",
+ CellLabel->
+  "Out[444]=",ExpressionUUID->"20993d3c-461b-4735-86d0-7db013b359d9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"g", "[", "n_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"-", 
+    RowBox[{"(", 
+     SuperscriptBox["t", 
+      RowBox[{"n", "-", "1"}]], ")"}]}], 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"-", "t"}]]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"g", "[", "n", "]"}], "-", 
+    RowBox[{"g", "[", "0", "]"}]}], ",", 
+   RowBox[{"n", "->", "Infinity"}]}], "]"}]}], "Input",
+ CellLabel->
+  "In[448]:=",ExpressionUUID->"43423d68-2578-4b06-9d54-3942d507ed8c"],
+
+Cell[BoxData[
+ TemplateBox[{
+   FractionBox[
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", "t"}]], "t"], 
+   RowBox[{
+     RowBox[{
+       RowBox[{"(", 
+         RowBox[{
+           FractionBox[
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"-", "t"}]], "t"], "|", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"-", "t"}]]}], ")"}], "\[Element]", 
+       TemplateBox[{}, "Reals"]}], "&&", 
+     RowBox[{
+       RowBox[{"Log", "[", "t", "]"}], "<", "0"}]}]},
+  "ConditionalExpression"]], "Output",
+ CellLabel->
+  "Out[449]=",ExpressionUUID->"7b7fc21b-8b8c-4d14-8dae-f6a7e8d6cdd7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["t", 
+     RowBox[{"1", "-", "1"}]], 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", "t"}]]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["t", 
+     RowBox[{"2", "-", "1"}]], 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", "t"}]]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["t", 
+     RowBox[{"3", "-", "1"}]], 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", "t"}]]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["t", 
+     RowBox[{"4", "-", "1"}]], 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", "t"}]]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]}], "Input",
+ CellLabel->
+  "In[463]:=",ExpressionUUID->"c0ab7b56-4d96-47a8-89de-ae17b3e05428"],
+
+Cell[BoxData["1"], "Output",
+ CellLabel->
+  "Out[463]=",ExpressionUUID->"d23f283c-1b6b-4fcc-8914-2129bd41a8ed"],
+
+Cell[BoxData["1"], "Output",
+ CellLabel->
+  "Out[464]=",ExpressionUUID->"af919311-dedc-42b8-83e0-1c5bfb1eb703"],
+
+Cell[BoxData["2"], "Output",
+ CellLabel->
+  "Out[465]=",ExpressionUUID->"e1ae996e-5135-4b91-a5a8-afdd7a4e0cab"],
+
+Cell[BoxData["6"], "Output",
+ CellLabel->
+  "Out[466]=",ExpressionUUID->"f61329b5-8e1b-4269-8f83-169a2f70c298"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{"Integrate", "[", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["t", "2"], " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"-", "t"}]]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]}]], "Input",
+ CellLabel->
+  "In[474]:=",ExpressionUUID->"9a8c3251-e05f-4083-a6e7-1de48a2e198d"],
+
+Cell[BoxData["2"], "Output",
+ CellLabel->
+  "Out[474]=",ExpressionUUID->"bf45b237-a523-455f-82e0-63388d170621"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -1174,6 +1323,25 @@ Cell[29707, 983, 133, 3, 48, "Output",ExpressionUUID->"4ee6b835-43d7-4750-be4e-8
 Cell[CellGroupData[{
 Cell[29877, 991, 554, 16, 31, "Input",ExpressionUUID->"f98355b3-fd4c-424b-a69e-5e5c1f9fe928"],
 Cell[30434, 1009, 142, 3, 32, "Output",ExpressionUUID->"8b0d9128-91be-425f-9197-71cffb57bd60"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30613, 1017, 259, 8, 31, "Input",ExpressionUUID->"28c8c72f-ed22-48a0-957d-065ecaab78c0"],
+Cell[30875, 1027, 268, 9, 32, "Output",ExpressionUUID->"20993d3c-461b-4735-86d0-7db013b359d9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31180, 1041, 537, 17, 50, "Input",ExpressionUUID->"43423d68-2578-4b06-9d54-3942d507ed8c"],
+Cell[31720, 1060, 633, 19, 64, "Output",ExpressionUUID->"7b7fc21b-8b8c-4d14-8dae-f6a7e8d6cdd7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32390, 1084, 1229, 41, 96, "Input",ExpressionUUID->"c0ab7b56-4d96-47a8-89de-ae17b3e05428"],
+Cell[33622, 1127, 111, 2, 32, "Output",ExpressionUUID->"d23f283c-1b6b-4fcc-8914-2129bd41a8ed"],
+Cell[33736, 1131, 111, 2, 32, "Output",ExpressionUUID->"af919311-dedc-42b8-83e0-1c5bfb1eb703"],
+Cell[33850, 1135, 111, 2, 32, "Output",ExpressionUUID->"e1ae996e-5135-4b91-a5a8-afdd7a4e0cab"],
+Cell[33964, 1139, 111, 2, 32, "Output",ExpressionUUID->"f61329b5-8e1b-4269-8f83-169a2f70c298"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34112, 1146, 370, 11, 31, "Input",ExpressionUUID->"9a8c3251-e05f-4083-a6e7-1de48a2e198d"],
+Cell[34485, 1159, 111, 2, 55, "Output",ExpressionUUID->"bf45b237-a523-455f-82e0-63388d170621"]
 }, Open  ]]
 }, Open  ]]
 }

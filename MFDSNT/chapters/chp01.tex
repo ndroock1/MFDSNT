@@ -1,11 +1,23 @@
 \newpage
-\section{Preliminaries}
 
-\subsection{Introduction}
-The Gamma function is worthwile studying because it is ubiquitous in number theory, and because it is   
+\section{Gamma Function}
 
-\subsection{Integration By Parts}
-[ TBD ]
+$\Gamma(z) \myeq \int_{0}^{\infty} t^{z-1} e^{-t}\ dt .$ 
 
-\subsection{Definition Gamma}
-[ TBD ]
+\noindent $\Gamma(z)$ can be analytically continued to $\mathbb{C}$ except for
+poles at $S=\{0, -1, -2, -3, \cdots \}$ with residue $\frac{(-1)^n}{n!}$ at
+$s=-n$.
+
+Representations of $\Gamma(z)$:
+
+$$\Gamma(z) = \lim_{n->\infty} \frac{n^{z}n!}{z(z+1)(z+2) \cdots (z+n)}$$
+
+$$\frac{1}{\Gamma(z)} = z e^{Cz} \prod_{n=1}^{\infty}
+(1+\frac{z}{n})e^{-\frac{z}{n}}$$
+for all z, and where $C$ is Euler's constant. ( Product Formula ).
+
+Functional equations of $\Gamma(z)$:
+
+$$\Gamma(z+1) = z \Gamma(z)$$
+
+$$\Gamma(z)\Gamma(1-z) = \frac{\pi}{\sin{(\pi z)}}$$

@@ -3,11 +3,12 @@
 %standalone class ?? http://www.ctan.org/pkg/standalone
 
 \usepackage{amsmath,amsthm}
-\usepackage{hyperref}
+% \usepackage{hyperref}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{geometry}
 \usepackage[table,xcdraw]{xcolor}
+\usepackage{parskip}
 
 %\theoremstyle{theorem}
 \newtheorem{theorem}{Theorem}
@@ -25,6 +26,10 @@
 \theoremstyle{definition}
 \newtheorem*{definition}{Definition}
 
+\newcommand\myeq{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily def}}}{=}}}
+
+\parskip=1ex
+
 \allowdisplaybreaks
 
 \setcounter{secnumdepth}{1} % levels under \section are not numbered
@@ -33,21 +38,8 @@
 
 	\tableofcontents
 
-    \chapter{Gamma Function}
+    \chapter{Synopsis Complex Analysis}
     \newpage
    	\input{chapters/chp01.tex}
-
-
-\section{Title}
-
-\subsection{Subtitle}
-
-Plain text.
-
-And another sentence.
-
-\subsection{Another subtitle}
-
-Een subsection tekstje.
 
 \end{document}

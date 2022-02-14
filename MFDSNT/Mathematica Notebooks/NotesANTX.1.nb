@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    150447,       3764]
-NotebookOptionsPosition[    133677,       3472]
-NotebookOutlinePosition[    134367,       3494]
-CellTagsIndexPosition[    134324,       3491]
+NotebookDataLength[    151993,       3813]
+NotebookOptionsPosition[    134732,       3511]
+NotebookOutlinePosition[    135428,       3533]
+CellTagsIndexPosition[    135385,       3530]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3468,11 +3468,50 @@ Cell[BoxData[
 }, Open  ]]
 }, Open  ]],
 
-Cell["Mellin Transformation", "Section",ExpressionUUID->"7b2cdd12-49ea-491f-ba1b-d79aeddc6944"]
+Cell[CellGroupData[{
+
+Cell["Mellin Transformation", "Section",ExpressionUUID->"7b2cdd12-49ea-491f-ba1b-d79aeddc6944"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MellinTransform", "[", 
+  RowBox[{
+   FractionBox["1", 
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", "x"], "-", "1"}]], ",", "x", ",", 
+   "s"}], "]"}]], "Input",
+ CellLabel->"In[2]:=",ExpressionUUID->"ca043ac0-29e4-44aa-9480-30e49a76c93a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Gamma", "[", "s", "]"}], " ", 
+  RowBox[{"Zeta", "[", "s", "]"}]}]], "Output",
+ CellLabel->"Out[2]=",ExpressionUUID->"512020bc-f495-4209-ae03-596c6fb1b571"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"InverseMellinTransform", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Gamma", "[", "s", "]"}], 
+    RowBox[{"Zeta", "[", "s", "]"}]}], ",", "s", ",", "x"}], "]"}]], "Input",
+ CellLabel->"In[3]:=",ExpressionUUID->"2ec2cdca-ce70-4a99-9050-6cb2198fb64f"],
+
+Cell[BoxData[
+ FractionBox["1", 
+  RowBox[{
+   RowBox[{"-", "1"}], "+", 
+   SuperscriptBox["\[ExponentialE]", "x"]}]]], "Output",
+ CellLabel->"Out[3]=",ExpressionUUID->"1744bbaf-cc49-418e-bed5-a4387b7ae7a5"]
+}, Open  ]]
+}, Open  ]]
 },
 WindowToolbars->{"RulerBar", "EditBar"},
 WindowSize->{1130.25, 709.5},
-WindowMargins->{{Automatic, 48}, {Automatic, 12}},
+WindowMargins->{{Automatic, 30.75}, {Automatic, 24.75}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->Notebook[{
@@ -3765,7 +3804,17 @@ Cell[132941, 3449, 598, 16, 32, "Output",ExpressionUUID->"40fe4ff6-56c7-43dd-bac
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
-Cell[133578, 3470, 95, 0, 67, "Section",ExpressionUUID->"7b2cdd12-49ea-491f-ba1b-d79aeddc6944"]
+Cell[CellGroupData[{
+Cell[133600, 3472, 95, 0, 67, "Section",ExpressionUUID->"7b2cdd12-49ea-491f-ba1b-d79aeddc6944"],
+Cell[CellGroupData[{
+Cell[133720, 3476, 271, 7, 46, "Input",ExpressionUUID->"ca043ac0-29e4-44aa-9480-30e49a76c93a"],
+Cell[133994, 3485, 191, 4, 32, "Output",ExpressionUUID->"512020bc-f495-4209-ae03-596c6fb1b571"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[134222, 3494, 272, 6, 28, "Input",ExpressionUUID->"2ec2cdca-ce70-4a99-9050-6cb2198fb64f"],
+Cell[134497, 3502, 207, 5, 72, "Output",ExpressionUUID->"1744bbaf-cc49-418e-bed5-a4387b7ae7a5"]
+}, Open  ]]
+}, Open  ]]
 }
 ]
 *)

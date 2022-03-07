@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    636963,      13153]
-NotebookOptionsPosition[    611208,      12711]
-NotebookOutlinePosition[    611890,      12733]
-CellTagsIndexPosition[    611847,      12730]
+NotebookDataLength[    637938,      13183]
+NotebookOptionsPosition[    611948,      12737]
+NotebookOutlinePosition[    612636,      12759]
+CellTagsIndexPosition[    612593,      12756]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -12705,13 +12705,39 @@ Cell[BoxData[
 
 Cell[BoxData["1.8378770664093453`"], "Output",
  CellLabel->"Out[10]=",ExpressionUUID->"fea1af9e-901d-4c76-a388-0f2905d57916"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NIntegrate", "[", 
+  RowBox[{
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"Log", "[", "t", "]"}]], 
+    FractionBox["1", 
+     RowBox[{"t", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["t", "2"], "-", "1"}], ")"}]}]]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", 
+     RowBox[{"ZetaZero", "[", "5", "]"}], ",", "Infinity"}], "}"}]}], 
+  "]"}]], "Input",
+ CellLabel->"In[9]:=",ExpressionUUID->"0344be43-6e24-4750-b0b9-2094d511c65f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "0.00010189089868972271`"}], "+", 
+  RowBox[{"0.00003700539781332788`", " ", "\[ImaginaryI]"}]}]], "Output",
+ CellLabel->"Out[9]=",ExpressionUUID->"c5fac19f-a14b-4ed3-afec-92633d8efd7a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->{"RulerBar", "EditBar"},
-WindowSize->{949, 497},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{960, 508},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->Notebook[{
@@ -13152,6 +13178,10 @@ Cell[610723, 12695, 110, 0, 38, "Subsection",ExpressionUUID->"241bd142-cde8-4684
 Cell[CellGroupData[{
 Cell[610858, 12699, 182, 4, 28, "Input",ExpressionUUID->"dea2ee0c-4e4f-44f0-9b18-18ba4afb2083"],
 Cell[611043, 12705, 125, 1, 32, "Output",ExpressionUUID->"fea1af9e-901d-4c76-a388-0f2905d57916"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[611205, 12711, 475, 15, 51, "Input",ExpressionUUID->"0344be43-6e24-4750-b0b9-2094d511c65f"],
+Cell[611683, 12728, 225, 4, 32, "Output",ExpressionUUID->"c5fac19f-a14b-4ed3-afec-92633d8efd7a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

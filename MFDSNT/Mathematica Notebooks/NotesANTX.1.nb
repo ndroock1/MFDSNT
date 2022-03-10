@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    677745,      14047]
-NotebookOptionsPosition[    649361,      13560]
-NotebookOutlinePosition[    650044,      13582]
-CellTagsIndexPosition[    650001,      13579]
+NotebookDataLength[    651376,      13523]
+NotebookOptionsPosition[    623809,      13051]
+NotebookOutlinePosition[    624497,      13073]
+CellTagsIndexPosition[    624454,      13070]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -12951,616 +12951,107 @@ Cell[BoxData[{
    RowBox[{
     RowBox[{"-", "2"}], " ", 
     RowBox[{"muValues", "[", 
-     RowBox[{"[", "muIndices", "]"}], "]"}]}]}], ";"}]}], "Input",
- CellLabel->"In[46]:=",ExpressionUUID->"2dd0203c-6d48-41cb-9855-10050a014663"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"ll", "=", 
-  RowBox[{"CreateDataStructure", "[", "\"\<LinkedList\>\"", "]"}]}]], "Input",
- CellLabel->"In[50]:=",ExpressionUUID->"9a54c787-30d0-471a-8b4c-508fe3418669"],
-
-Cell[BoxData[
- InterpretationBox[
+     RowBox[{"[", "muIndices", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"T", "[", 
+   RowBox[{"x_", ",", "k_"}], "]"}], ":=", 
+  RowBox[{"mu", ".", 
+   RowBox[{"Re", "[", 
+    RowBox[{"ExpIntegralEi", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"rho", "[", 
+         RowBox[{"[", "k", "]"}], "]"}], 
+        RowBox[{"Log", "[", 
+         RowBox[{"N", "[", "x", "]"}], "]"}]}], ")"}], "/", "muIndices"}], 
+     "]"}], "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{
-   TagBox["DataStructure",
-    "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-    TemplateBox[{
-      PaneSelectorBox[{False -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["0", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}], True -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["0", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}]}, 
-       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-     "SummaryPanel"],
-    DynamicModuleValues:>{}], "]"}],
-  DataStructure["LinkedList", {"Data" -> {}}],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Output",
- CellLabel->"Out[50]=",ExpressionUUID->"7ff311d4-a9a3-4789-a805-7c5c7e624c65"]
-}, Open  ]],
-
-Cell[CellGroupData[{
+   RowBox[{"Attributes", "[", "T", "]"}], "=", "Listable"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"domain", "=", 
+   RowBox[{"Range", "[", 
+    RowBox[{"12.", ",", "100", ",", 
+     RowBox[{"88", "/", "200"}]}], "]"}]}], ";"}]}], "Input",
+ CellLabel->"In[74]:=",ExpressionUUID->"2dd0203c-6d48-41cb-9855-10050a014663"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"ll", "[", " ", 
-   RowBox[{"\"\<Append\>\"", ",", "\"\<Aap\>\""}], "]"}], 
-  "\[IndentingNewLine]"}]], "Input",
- CellLabel->"In[52]:=",ExpressionUUID->"f9c680d7-0f2b-4f7a-9e85-83e6e86b785d"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-   TagBox["DataStructure",
-    "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-    TemplateBox[{
-      PaneSelectorBox[{False -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["1", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}], True -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["1", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}]}, 
-       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-     "SummaryPanel"],
-    DynamicModuleValues:>{}], "]"}],
-  DataStructure["LinkedList", {"Data" -> {"Aap"}}],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Output",
- CellLabel->"Out[52]=",ExpressionUUID->"a3e3677d-09ff-4e3c-96f2-21521fd7a062"]
-}, Open  ]],
+  RowBox[{"TData", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"T", "[", 
+      RowBox[{"domain", ",", "i"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "100"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellLabel->"In[81]:=",ExpressionUUID->"dd225c49-0009-4932-b4de-3948a2b7a69f"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"ll", "[", " ", 
-  RowBox[{"\"\<Append\>\"", ",", "\"\<Noot\>\""}], "]"}]], "Input",
- CellLabel->"In[53]:=",ExpressionUUID->"d8f2c642-fe49-49f6-a915-ed200c9988c3"],
-
-Cell[BoxData[
- InterpretationBox[
+ RowBox[{"Manipulate", "[", 
   RowBox[{
-   TagBox["DataStructure",
-    "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-    TemplateBox[{
-      PaneSelectorBox[{False -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["2", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}], True -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["2", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}]}, 
-       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-     "SummaryPanel"],
-    DynamicModuleValues:>{}], "]"}],
-  DataStructure["LinkedList", {"Data" -> {"Aap", "Noot"}}],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Output",
- CellLabel->"Out[53]=",ExpressionUUID->"513c322b-2feb-4207-a303-3e8ebe8e8a95"]
-}, Open  ]],
-
-Cell[CellGroupData[{
+   RowBox[{"ListLinePlot", "[", 
+    RowBox[{
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{"domain", ",", 
+        RowBox[{"TData", "[", 
+         RowBox[{"[", "i", "]"}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Frame", "->", "True"}], ",", 
+     RowBox[{"Axes", "->", "False"}], ",", 
+     RowBox[{"PlotStyle", "->", "Thick"}], ",", 
+     RowBox[{"PlotRange", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "0.5"}], ",", "0.5"}], "}"}]}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "1", ",", "100", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellLabel->"In[82]:=",ExpressionUUID->"7a4f667f-5add-4f62-b5a2-5dfb2a2d2856"],
 
 Cell[BoxData[
- RowBox[{"ll", "[", 
-  RowBox[{"\"\<Prepend\>\"", ",", "\"\<Mies\>\""}], "]"}]], "Input",
- CellLabel->"In[59]:=",ExpressionUUID->"bb125e70-e3d1-472b-b390-6bd57abc1d42"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-   TagBox["DataStructure",
-    "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-    TemplateBox[{
-      PaneSelectorBox[{False -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["3", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}], True -> GridBox[{{
-            GraphicsBox[{
-              Thickness[0.041666666666666664`], {
-               FaceForm[{
-                 RGBColor[0.639, 0.706, 0.8], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                4.}, {4., 4.}, {4., 9.}, {9., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9., 
-                15.}, {4., 15.}, {4., 20.}, {9., 20.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                4.}, {15., 4.}, {15., 9.}, {20., 9.}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20., 
-                15.}, {15., 15.}, {15., 20.}, {20., 20.}}}]}, {
-               FaceForm[{
-                 RGBColor[0.325, 0.463, 0.627], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{11.0278, 19.7939}, {
-                14.999799999999999`, 17.4999}, {11.0278, 15.2059}, {11.0278, 
-                16.9999}, {8.999799999999999, 16.9999}, {8.999799999999999, 
-                17.9999}, {11.0278, 17.9999}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{19.7939, 12.9722}, {17.4999, 
-                9.000200000000001}, {15.2059, 12.9722}, {16.9999, 12.9722}, {
-                16.9999, 15.000200000000001`}, {17.9999, 
-                15.000200000000001`}, {17.9999, 12.9722}}}], 
-               
-               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
-                0, 1, 0}, {0, 1, 0}}}, {{{12.9722, 7.}, {15.000200000000001`, 
-                7.}, {15.000200000000001`, 6.}, {12.9722, 6.}, {12.9722, 
-                4.2059999999999995`}, {9.000200000000001, 6.5}, {12.9722, 
-                8.794}}}]}}, AspectRatio -> Automatic, 
-             ImageSize -> {24., 24.}, PlotRange -> {{0., 24.}, {0., 24.}}], 
-            GridBox[{{
-               RowBox[{
-                 TagBox["\"Type:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"LinkedList\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Length:\"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["3", "SummaryItem"]}]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}]}, 
-       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-     "SummaryPanel"],
-    DynamicModuleValues:>{}], "]"}],
-  DataStructure["LinkedList", {"Data" -> {"Mies", "Aap", "Noot"}}],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Output",
- CellLabel->"Out[59]=",ExpressionUUID->"4ee351df-a90e-49a7-8b52-ef411972799c"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Normal", "[", "ll", "]"}]], "Input",
- CellLabel->"In[60]:=",ExpressionUUID->"4471efaf-c8fd-4287-ab5a-8c4d0bfd84f2"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"\<\"Mies\"\>", ",", "\<\"Aap\"\>", ",", "\<\"Noot\"\>"}], 
-  "}"}]], "Output",
- CellLabel->"Out[60]=",ExpressionUUID->"e6f3c1ed-c4b4-4ffb-a8f7-07bfdd8aabb6"]
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`i$$], 1, 100, 1}}, Typeset`size$$ = {
+    360., {109., 113.10205752535714`}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`i$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> ListLinePlot[
+        Transpose[{$CellContext`domain, 
+          Part[$CellContext`TData, $CellContext`i$$]}], Frame -> True, Axes -> 
+        False, PlotStyle -> Thick, PlotRange -> {-0.5, 0.5}], 
+      "Specifications" :> {{$CellContext`i$$, 1, 100, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{627., {139.134033203125, 144.865966796875}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellLabel->"Out[82]=",ExpressionUUID->"f9f0fe41-d53c-4ce2-b1a5-f2c7314adbe3"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->{"RulerBar", "EditBar"},
-WindowSize->{604, 502},
-WindowMargins->{{Automatic, -5}, {Automatic, 0}},
+WindowSize->{960, 508},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->Notebook[{
@@ -14024,29 +13515,14 @@ Cell[CellGroupData[{
 Cell[612072, 12745, 79, 0, 53, "Section",ExpressionUUID->"b9ca525e-555a-4bff-9120-23cd336a40d4"],
 Cell[612154, 12747, 418, 12, 28, "Input",ExpressionUUID->"b07af943-56b3-4c72-9204-a1a6e95a5bcd"],
 Cell[CellGroupData[{
-Cell[612597, 12763, 1371, 41, 105, "Input",ExpressionUUID->"29c3da12-13d0-439c-9bc9-a288d2b25475"],
+Cell[612597, 12763, 1371, 41, 48, "Input",ExpressionUUID->"29c3da12-13d0-439c-9bc9-a288d2b25475"],
 Cell[613971, 12806, 5284, 113, 238, "Output",ExpressionUUID->"8da89879-3d91-47be-8e89-aa32eb27458c"]
 }, Open  ]],
-Cell[619270, 12922, 991, 32, 86, "Input",ExpressionUUID->"2dd0203c-6d48-41cb-9855-10050a014663"],
+Cell[619270, 12922, 1709, 55, 143, "Input",ExpressionUUID->"2dd0203c-6d48-41cb-9855-10050a014663"],
+Cell[620982, 12979, 326, 9, 28, "Input",ExpressionUUID->"dd225c49-0009-4932-b4de-3948a2b7a69f"],
 Cell[CellGroupData[{
-Cell[620286, 12958, 192, 3, 28, "Input",ExpressionUUID->"9a54c787-30d0-471a-8b4c-508fe3418669"],
-Cell[620481, 12963, 6931, 137, 64, "Output",ExpressionUUID->"7ff311d4-a9a3-4789-a805-7c5c7e624c65"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[627449, 13105, 225, 5, 48, "Input",ExpressionUUID->"f9c680d7-0f2b-4f7a-9e85-83e6e86b785d"],
-Cell[627677, 13112, 6936, 137, 64, "Output",ExpressionUUID->"a3e3677d-09ff-4e3c-96f2-21521fd7a062"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[634650, 13254, 186, 3, 28, "Input",ExpressionUUID->"d8f2c642-fe49-49f6-a915-ed200c9988c3"],
-Cell[634839, 13259, 6944, 137, 64, "Output",ExpressionUUID->"513c322b-2feb-4207-a303-3e8ebe8e8a95"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[641820, 13401, 182, 3, 28, "Input",ExpressionUUID->"bb125e70-e3d1-472b-b390-6bd57abc1d42"],
-Cell[642005, 13406, 6952, 137, 64, "Output",ExpressionUUID->"4ee351df-a90e-49a7-8b52-ef411972799c"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[648994, 13548, 139, 2, 28, "Input",ExpressionUUID->"4471efaf-c8fd-4287-ab5a-8c4d0bfd84f2"],
-Cell[649136, 13552, 197, 4, 54, "Output",ExpressionUUID->"e6f3c1ed-c4b4-4ffb-a8f7-07bfdd8aabb6"]
+Cell[621333, 12992, 723, 19, 48, "Input",ExpressionUUID->"7a4f667f-5add-4f62-b5a2-5dfb2a2d2856"],
+Cell[622059, 13013, 1722, 34, 325, "Output",ExpressionUUID->"f9f0fe41-d53c-4ce2-b1a5-f2c7314adbe3"]
 }, Open  ]]
 }, Open  ]]
 }

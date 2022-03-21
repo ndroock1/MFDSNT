@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    683862,      14404]
-NotebookOptionsPosition[    652909,      13876]
-NotebookOutlinePosition[    653597,      13898]
-CellTagsIndexPosition[    653554,      13895]
+NotebookDataLength[    685382,      14456]
+NotebookOptionsPosition[    654065,      13921]
+NotebookOutlinePosition[    654754,      13943]
+CellTagsIndexPosition[    654711,      13940]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -13871,12 +13871,57 @@ Cell[BoxData[
   Manipulate`InterpretManipulate[1]]], "Output",
  CellLabel->"Out[95]=",ExpressionUUID->"39b1206a-0520-4129-aee0-e22d9a1fd21f"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Testing...", "Subsection",ExpressionUUID->"2d08a09a-8875-4aac-b9b4-cce2a60c7ad4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Residue", "[", 
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      RowBox[{"Zeta", "[", 
+       RowBox[{"s", "-", "1"}], "]"}], 
+      RowBox[{"Zeta", "[", "s", "]"}]], 
+     FractionBox[
+      SuperscriptBox["x", "s"], "s"]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"s", ",", "0"}], "}"}]}], "]"}], "+", 
+  RowBox[{"Residue", "[", 
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      RowBox[{"Zeta", "[", 
+       RowBox[{"s", "-", "1"}], "]"}], 
+      RowBox[{"Zeta", "[", "s", "]"}]], 
+     FractionBox[
+      SuperscriptBox["x", "s"], "s"]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"s", ",", "2"}], "}"}]}], "]"}]}]], "Input",
+ CellLabel->
+  "In[141]:=",ExpressionUUID->"a673f865-d146-4184-b860-f766f30f0110"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "6"], "+", 
+  FractionBox[
+   RowBox[{"3", " ", 
+    SuperscriptBox["x", "2"]}], 
+   SuperscriptBox["\[Pi]", "2"]]}]], "Output",
+ CellLabel->
+  "Out[141]=",ExpressionUUID->"a7b6969a-5922-4646-9704-73b01dd51367"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->{"RulerBar", "EditBar"},
-WindowSize->{853.5, 483.},
-WindowMargins->{{40.5, Automatic}, {Automatic, 0}},
+WindowSize->{853.5, 461.},
+WindowMargins->{{Automatic, 27}, {15.5, Automatic}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->Notebook[{
@@ -14404,7 +14449,14 @@ Cell[CellGroupData[{
 Cell[649261, 13781, 1610, 46, 67, "Input",ExpressionUUID->"4bed9573-edd7-4d93-a69f-9557991e93c4"],
 Cell[650874, 13829, 1995, 42, 303, "Output",ExpressionUUID->"39b1206a-0520-4129-aee0-e22d9a1fd21f"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[652918, 13877, 87, 0, 38, "Subsection",ExpressionUUID->"2d08a09a-8875-4aac-b9b4-cce2a60c7ad4"],
+Cell[CellGroupData[{
+Cell[653030, 13881, 738, 25, 49, "Input",ExpressionUUID->"a673f865-d146-4184-b860-f766f30f0110"],
+Cell[653771, 13908, 254, 8, 74, "Output",ExpressionUUID->"a7b6969a-5922-4646-9704-73b01dd51367"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]

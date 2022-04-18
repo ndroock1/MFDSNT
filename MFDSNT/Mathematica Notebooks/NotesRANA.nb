@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     49014,       1417]
-NotebookOptionsPosition[     41004,       1275]
-NotebookOutlinePosition[     41686,       1297]
-CellTagsIndexPosition[     41643,       1294]
+NotebookDataLength[     49042,       1418]
+NotebookOptionsPosition[     41032,       1276]
+NotebookOutlinePosition[     41714,       1298]
+CellTagsIndexPosition[     41671,       1295]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1229,7 +1229,8 @@ a53e64f5d504"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"(*", " ", "TEST", " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"DO", ":", " ", "TEST"}], " ", "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{"l", ":=", 
     RowBox[{"Array", "[", 
@@ -1247,15 +1248,15 @@ Cell[BoxData[
       RowBox[{"l", ",", 
        RowBox[{"2", "->", "5"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
+    RowBox[{"p", ":=", 
+     RowBox[{"j", "[", 
+      RowBox[{"2", ",", "3", ",", "5"}], "]"}]}], ";"}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"p", "=", 
      RowBox[{"Join", "[", 
       RowBox[{"p", ",", 
-       RowBox[{"j", "[", 
-        RowBox[{"2", ",", "3", ",", "5"}], "]"}]}], "]"}]}], ";"}], " ", 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"p", ":=", 
-     RowBox[{"s", "[", "1", "]"}]}], ";"}], "\[IndentingNewLine]", 
+       RowBox[{"s", "[", "1", "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"p", "=", 
      RowBox[{"Join", "[", 
@@ -1266,7 +1267,7 @@ Cell[BoxData[
      RowBox[{"Join", "[", 
       RowBox[{"p", ",", 
        RowBox[{"j", "[", 
-        RowBox[{"4", ",", "5", ",", "7"}], "]"}]}], "]"}]}], ";"}], " ", 
+        RowBox[{"1", ",", "1", ",", "1"}], "]"}]}], "]"}]}], ";"}], " ", 
    "\[IndentingNewLine]", 
    RowBox[{"pcnt", ":=", "1"}], "\[IndentingNewLine]", 
    RowBox[{"exec", "[", "]"}]}]}]], "Input",ExpressionUUID->"a28a0b9e-1fcf-\
@@ -1417,7 +1418,7 @@ Cell[CellGroupData[{
 Cell[36403, 1129, 79, 0, 53, "Section",ExpressionUUID->"3bf08a47-241c-4497-9834-38b5e0b06960"],
 Cell[36485, 1131, 2796, 86, 390, "Input",ExpressionUUID->"16188124-0eac-46e0-b844-7b7448864386"],
 Cell[39284, 1219, 248, 8, 48, "Input",ExpressionUUID->"e05ee36a-3ce5-4dad-92aa-a53e64f5d504"],
-Cell[39535, 1229, 1453, 43, 200, "Input",ExpressionUUID->"a28a0b9e-1fcf-4c71-a6f1-f3be74f2ff41"]
+Cell[39535, 1229, 1481, 44, 200, "Input",ExpressionUUID->"a28a0b9e-1fcf-4c71-a6f1-f3be74f2ff41"]
 }, Open  ]]
 }
 ]

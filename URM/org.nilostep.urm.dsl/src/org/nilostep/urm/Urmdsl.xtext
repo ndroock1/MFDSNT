@@ -1,0 +1,9 @@
+grammar org.nilostep.urm.Urmdsl with org.eclipse.xtext.common.Terminals
+
+generate urmdsl "http://www.nilostep.org/urm/Urmdsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

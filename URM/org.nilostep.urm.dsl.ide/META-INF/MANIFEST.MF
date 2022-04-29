@@ -8,5 +8,8 @@ Bundle-SymbolicName: org.nilostep.urm.dsl.ide; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.nilostep.urm.dsl,
  org.eclipse.xtext.ide,
- org.eclipse.xtext.xbase.ide
+ org.eclipse.xtext.xbase.ide,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.example.domainmodel.ide.contentassist.antlr,
+ org.example.domainmodel.ide.contentassist.antlr.internal

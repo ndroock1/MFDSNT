@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     42961,       1066]
-NotebookOptionsPosition[     32577,        920]
-NotebookOutlinePosition[     33350,        944]
-CellTagsIndexPosition[     33307,        941]
+NotebookDataLength[     46843,       1220]
+NotebookOptionsPosition[     36029,       1068]
+NotebookOutlinePosition[     36800,       1092]
+CellTagsIndexPosition[     36757,       1089]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -82,7 +82,7 @@ Cell[TextData[StyleBox["Example",
  CellChangeTimes->{{3.7828068396307926`*^9, 
   3.782806841526989*^9}},ExpressionUUID->"741ce6e3-3daf-4cc1-810c-\
 8d6edfec343d"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -282,137 +282,285 @@ Cell[BoxData[
 }, Open  ]]
 }, Closed]]
 }, Closed]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Real Analysis", "Section",ExpressionUUID->"9ac7cbf7-37f7-4a53-ad38-0fbaeed3b662"],
 
+Cell[TextData[{
+ "[ TBD ]\n? Heine-Borel Theorem ?\n? Compactness, Open Cover, Finite \
+Subcover ?\n? Topology of the Real Line ?\n",
+ StyleBox["? Cantor Set ?",
+  FontWeight->"Bold"]
+}], "Text",ExpressionUUID->"53ec1a15-309f-4dad-82fd-a2896010d47d"],
+
+Cell[CellGroupData[{
+
 Cell["Ordered Fields", "Subsection",ExpressionUUID->"c1f2c843-d1ff-418b-84ba-b1ebf3dd6b95"],
 
-Cell["The Real Numbers", "Subsection",ExpressionUUID->"9a27a2fe-5433-4218-b7e7-e27371c62430"],
+Cell["\<\
+For all  x,y\[Element]R , exactly one of the three relations holds:  x=y ,  \
+y<x , or  x<y .
+For all  x,y,z\[Element]R , if  x<y  and  y<z , then  x<z .
+For all  x,y,z\[Element]R , if  x<y , then  x+z<y+z .
+For all  x,y,z\[Element]R , if  x<y  and  0<z , then  xz<yz .\
+\>", "Text",ExpressionUUID->"58f0988c-da17-442e-b889-328cb95a4a00"],
 
-Cell["The Triangle Inequality", "Subsection",ExpressionUUID->"41d77ddd-bf56-4f5d-bb85-1b07f008693e"],
+Cell["A field with characteristic 0 contains Q.", "Text",ExpressionUUID->"f10c23a1-d49a-4357-b2a3-141a575e1b8a"],
 
-Cell["The Reverse Triangle Inequality", "Subsection",ExpressionUUID->"9166f174-8785-4846-87b9-bff525a54744"],
+Cell["\<\
+If the characteristic of R is 0, then R contains a subring isomorphic to Z.\
+\>", "Text",ExpressionUUID->"e705213f-584d-4238-9795-37a494b25c32"]
+}, Open  ]],
 
-Cell["The Archimedean Property", "Subsection",ExpressionUUID->"25989466-94ec-4220-8f8d-ab5581856204"],
+Cell["The Real Numbers", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"9a27a2fe-5433-4218-b7e7-e27371c62430"],
 
-Cell["Density of the Rationals in the Reals", "Subsection",ExpressionUUID->"fed7c734-862f-4f2a-a0f4-e163812f4ead"],
+Cell["The Triangle Inequality", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"41d77ddd-bf56-4f5d-bb85-1b07f008693e"],
 
-Cell["Density of the Irrationals in the Reals", "Subsection",ExpressionUUID->"40b247e0-9c8a-4451-a7ea-38d510e86ff1"],
+Cell["The Reverse Triangle Inequality", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"9166f174-8785-4846-87b9-bff525a54744"],
 
-Cell["The Nested Interval Theorem", "Subsection",ExpressionUUID->"19b0f4f9-f916-4fb0-ba1c-981d5fcc5b88"],
+Cell["The Archimedean Property", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"25989466-94ec-4220-8f8d-ab5581856204"],
 
-Cell["The Epsilon Definition of the Limit of a Sequence", "Subsection",ExpressionUUID->"cf1815b1-71ae-4285-b40e-61344de35e85"],
+Cell["Density of the Rationals in the Reals", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"fed7c734-862f-4f2a-a0f4-e163812f4ead"],
 
-Cell["The Algebra of Limits", "Subsection",ExpressionUUID->"218eb24e-27be-47f0-b1eb-71972e35f9f8"],
+Cell["Density of the Irrationals in the Reals", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"40b247e0-9c8a-4451-a7ea-38d510e86ff1"],
 
-Cell["The Monotone Convergence Theorem", "Subsection",ExpressionUUID->"9d46c420-3907-430a-b7cc-38c3cf87c778"],
+Cell["The Nested Interval Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"19b0f4f9-f916-4fb0-ba1c-981d5fcc5b88"],
 
-Cell["The Squeeze/Sandwich Theorem", "Subsection",ExpressionUUID->"772c9254-055f-4b9c-be32-747809f2cf77"],
+Cell["The Epsilon Definition of the Limit of a Sequence", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"cf1815b1-71ae-4285-b40e-61344de35e85"],
 
-Cell["Subsequences", "Subsection",ExpressionUUID->"f0abccff-c186-453c-a345-b5ca0e18e449"],
+Cell["The Algebra of Limits", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"218eb24e-27be-47f0-b1eb-71972e35f9f8"],
 
-Cell["Cauchy Sequences", "Subsection",ExpressionUUID->"73fb4e20-fb43-4c10-b567-127862445711"],
+Cell["The Monotone Convergence Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"9d46c420-3907-430a-b7cc-38c3cf87c778"],
 
-Cell["The Bolzano-Weierstrass Theorem", "Subsection",ExpressionUUID->"be068bfe-0cbb-455d-8e65-1904d557893b"],
+Cell["The Squeeze/Sandwich Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"772c9254-055f-4b9c-be32-747809f2cf77"],
 
-Cell["Sequences with Infinite Limits", "Subsection",ExpressionUUID->"764a3b2e-6251-42c8-b17f-078c94e8a4cb"],
+Cell["Subsequences", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"f0abccff-c186-453c-a345-b5ca0e18e449"],
 
-Cell["Limit Points of Sequences", "Subsection",ExpressionUUID->"e6c7bafb-f703-43a0-a3d6-2369d06657cb"],
+Cell["Cauchy Sequences", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"73fb4e20-fb43-4c10-b567-127862445711"],
 
-Cell["Limit Superior and Limit Inferior", "Subsection",ExpressionUUID->"da8b6ceb-4ca3-4682-b3f4-67a790b4d831"],
+Cell["The Bolzano-Weierstrass Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"be068bfe-0cbb-455d-8e65-1904d557893b"],
 
-Cell["The Comparison Test", "Subsection",ExpressionUUID->"3c9f7b37-928e-4bd2-bf6b-e248f393abb2"],
+Cell["Sequences with Infinite Limits", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"764a3b2e-6251-42c8-b17f-078c94e8a4cb"],
 
-Cell["The Ratio Test", "Subsection",ExpressionUUID->"8489adc2-544d-44e0-86e9-044224da14e1"],
+Cell["Limit Points of Sequences", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"e6c7bafb-f703-43a0-a3d6-2369d06657cb"],
 
-Cell["The Alternating Series Test", "Subsection",ExpressionUUID->"b1a54cbe-1c2e-4d38-a9e0-653c5255f2a7"],
+Cell["Limit Superior and Limit Inferior", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"da8b6ceb-4ca3-4682-b3f4-67a790b4d831"],
 
-Cell["Convergence of a Power Series", "Subsection",ExpressionUUID->"aec8f1f2-27f7-49da-83c8-328646bb11d5"],
+Cell["The Comparison Test", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"3c9f7b37-928e-4bd2-bf6b-e248f393abb2"],
 
-Cell["The Epsilon-Delta Definition of the Limit of a Function", "Subsection",ExpressionUUID->"7ece616d-ba53-4473-abe6-c561dda7e4b7"],
+Cell["The Ratio Test", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"8489adc2-544d-44e0-86e9-044224da14e1"],
 
-Cell["One Sided Limits of Functions", "Subsection",ExpressionUUID->"9eb4549c-aad1-4f93-ba72-f873c583ae78"],
+Cell["The Alternating Series Test", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"b1a54cbe-1c2e-4d38-a9e0-653c5255f2a7"],
 
-Cell["Functions with Infinite Limits", "Subsection",ExpressionUUID->"2215797f-a338-4fd7-ab83-4541d598b9d7"],
+Cell["Convergence of a Power Series", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"aec8f1f2-27f7-49da-83c8-328646bb11d5"],
 
-Cell["Introduction to Continuous Functions", "Subsection",ExpressionUUID->"e465c1d6-91a4-4b5e-9ece-9a4d7656ece8"],
+Cell["The Epsilon-Delta Definition of the Limit of a Function", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"7ece616d-ba53-4473-abe6-c561dda7e4b7"],
 
-Cell["Composites of Continuous Functions are Continuous", "Subsection",ExpressionUUID->"984c6f23-f333-42b4-86f1-08c636c2a973"],
+Cell["One Sided Limits of Functions", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"9eb4549c-aad1-4f93-ba72-f873c583ae78"],
 
-Cell["The Intermediate Value Theorem", "Subsection",ExpressionUUID->"0e12d102-e6b4-4574-916f-0444aefcd536"],
+Cell["Functions with Infinite Limits", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"2215797f-a338-4fd7-ab83-4541d598b9d7"],
 
-Cell["The Extreme Value Theorem", "Subsection",ExpressionUUID->"6eab8f0e-e033-4426-995e-9f541fe8d18a"],
+Cell["Introduction to Continuous Functions", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"e465c1d6-91a4-4b5e-9ece-9a4d7656ece8"],
 
-Cell["Classification of Discontinuities", "Subsection",ExpressionUUID->"517d4379-341a-4380-8eed-353a544dbee0"],
+Cell["Composites of Continuous Functions are Continuous", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"984c6f23-f333-42b4-86f1-08c636c2a973"],
 
-Cell["Uniform Continuity", "Subsection",ExpressionUUID->"5f20faae-9937-4107-90f2-7f050ff1b048"],
+Cell["The Intermediate Value Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"0e12d102-e6b4-4574-916f-0444aefcd536"],
 
-Cell["Formal Definition of Differentiation", "Subsection",ExpressionUUID->"3e648d64-361c-49cf-8091-cad50e2993c2"],
+Cell["The Extreme Value Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"6eab8f0e-e033-4426-995e-9f541fe8d18a"],
 
-Cell["Differientiability Implies Continuity", "Subsection",ExpressionUUID->"27cd6664-d6ad-4ece-b6ba-fb931f9ded3c"],
+Cell["Classification of Discontinuities", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"517d4379-341a-4380-8eed-353a544dbee0"],
 
-Cell["The Linearity of Differentiation", "Subsection",ExpressionUUID->"02cdbe0f-2434-40fc-bdd2-77d4a931745b"],
+Cell["Uniform Continuity", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"5f20faae-9937-4107-90f2-7f050ff1b048"],
 
-Cell["The Product Rule", "Subsection",ExpressionUUID->"9eabd1ac-1745-465b-9df1-232a0f340037"],
+Cell["Formal Definition of Differentiation", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"3e648d64-361c-49cf-8091-cad50e2993c2"],
 
-Cell["The Chain Rule", "Subsection",ExpressionUUID->"d4259826-5d79-4e52-8230-72efab22b0b5"],
+Cell["Differientiability Implies Continuity", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"27cd6664-d6ad-4ece-b6ba-fb931f9ded3c"],
 
-Cell["Higher Derivatives", "Subsection",ExpressionUUID->"072d30f0-db99-4933-9310-9175ec1e0692"],
+Cell["The Linearity of Differentiation", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"02cdbe0f-2434-40fc-bdd2-77d4a931745b"],
 
-Cell["Differentiability of Polynomials", "Subsection",ExpressionUUID->"963837c2-5073-42b0-953f-850a32cd8da5"],
+Cell["The Product Rule", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"9eabd1ac-1745-465b-9df1-232a0f340037"],
 
-Cell["Rolle\[CloseCurlyQuote]s Theorem", "Subsection",ExpressionUUID->"44d91f7d-fedf-4644-a8ba-2c491c8a99f0"],
+Cell["The Chain Rule", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"d4259826-5d79-4e52-8230-72efab22b0b5"],
 
-Cell["The Mean Value Theorem", "Subsection",ExpressionUUID->"01a1da9d-4854-45cf-ac6f-598e8830ee8e"],
+Cell["Higher Derivatives", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"072d30f0-db99-4933-9310-9175ec1e0692"],
 
-Cell["The Generalised Mean Value Theorem", "Subsection",ExpressionUUID->"8a004728-a90c-4880-b635-7b97a0ffc185"],
+Cell["Differentiability of Polynomials", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"963837c2-5073-42b0-953f-850a32cd8da5"],
 
-Cell["Taylor\[CloseCurlyQuote]s Theorem Proof", "Subsection",ExpressionUUID->"42f51bba-2f2b-44a0-8d3c-923d04f40138"],
+Cell["Rolle\[CloseCurlyQuote]s Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"44d91f7d-fedf-4644-a8ba-2c491c8a99f0"],
 
-Cell["The Second Derivative Test", "Subsection",ExpressionUUID->"5484a290-8cd7-4f1e-a5cf-96ed36a664ad"],
+Cell["The Mean Value Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"01a1da9d-4854-45cf-ac6f-598e8830ee8e"],
 
-Cell["Riemann Integration", "Subsection",ExpressionUUID->"cb6dd112-5225-4a68-b017-01a9a74d1236"],
+Cell["The Generalised Mean Value Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"8a004728-a90c-4880-b635-7b97a0ffc185"],
 
-Cell["The Riemann Integrability Criterion", "Subsection",ExpressionUUID->"b78384b0-ba25-41be-9d6c-a9abe99fdb09"],
+Cell["Taylor\[CloseCurlyQuote]s Theorem Proof", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"42f51bba-2f2b-44a0-8d3c-923d04f40138"],
 
-Cell["The Linearity of Integration", "Subsection",ExpressionUUID->"97346839-c3f0-4e91-82f0-6ac1b9f65f7f"],
+Cell["The Second Derivative Test", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"5484a290-8cd7-4f1e-a5cf-96ed36a664ad"],
 
-Cell["Additivity of Integration", "Subsection",ExpressionUUID->"04b227de-c007-4751-86ec-228930ab8937"],
+Cell["Riemann Integration", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"cb6dd112-5225-4a68-b017-01a9a74d1236"],
 
-Cell["Integration and Continuity", "Subsection",ExpressionUUID->"78fa19e3-6761-40a9-8b18-9fec1e2ec425"],
+Cell["The Riemann Integrability Criterion", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"b78384b0-ba25-41be-9d6c-a9abe99fdb09"],
 
-Cell["The Fundamental Theorem of Calculus", "Subsection",ExpressionUUID->"35d4dc06-5f43-4a0a-bb6b-b49874d3a413"],
+Cell["The Linearity of Integration", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"97346839-c3f0-4e91-82f0-6ac1b9f65f7f"],
 
-Cell["The Mean Value Theorem for Integrals", "Subsection",ExpressionUUID->"009312cd-900f-4eb2-978f-20e269c9af48"],
+Cell["Additivity of Integration", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"04b227de-c007-4751-86ec-228930ab8937"],
 
-Cell["Integration By Parts", "Subsection",ExpressionUUID->"84b2e16b-1df3-46cc-af7b-5f302d3b713e"],
+Cell["Integration and Continuity", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"78fa19e3-6761-40a9-8b18-9fec1e2ec425"],
 
-Cell["Integration By Substition", "Subsection",ExpressionUUID->"292988b2-1eaa-4256-a669-c64646cf3a1e"],
+Cell["The Fundamental Theorem of Calculus", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"35d4dc06-5f43-4a0a-bb6b-b49874d3a413"],
 
-Cell["Improper Integrals", "Subsection",ExpressionUUID->"b3d523fa-be46-4c89-867c-2598884df8ce"],
+Cell["The Mean Value Theorem for Integrals", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"009312cd-900f-4eb2-978f-20e269c9af48"],
 
-Cell["Monotone Functions are Integrable", "Subsection",ExpressionUUID->"46c54126-1e29-46dc-af2c-99012e026f08"],
+Cell["Integration By Parts", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"84b2e16b-1df3-46cc-af7b-5f302d3b713e"],
 
-Cell["Sequences of Functions", "Subsection",ExpressionUUID->"da7bbd86-9c73-4d6b-9834-af72c2bb014f"],
+Cell["Integration By Substition", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"292988b2-1eaa-4256-a669-c64646cf3a1e"],
 
-Cell["Uniform Convergence", "Subsection",ExpressionUUID->"1b264c3e-5e41-498a-86db-6a1f84b74373"],
+Cell["Improper Integrals", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"b3d523fa-be46-4c89-867c-2598884df8ce"],
 
-Cell["The Uniform Limit Theorem", "Subsection",ExpressionUUID->"5223aac2-fedf-4fcf-896b-724336b050bc"],
+Cell["Monotone Functions are Integrable", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"46c54126-1e29-46dc-af2c-99012e026f08"],
 
-Cell["Uniform Convergence and Integration", "Subsection",ExpressionUUID->"0ae0c5bb-20b2-4545-98de-b5ea1869f42e"],
+Cell["Sequences of Functions", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"da7bbd86-9c73-4d6b-9834-af72c2bb014f"],
 
-Cell["The Weierstrass M Test", "Subsection",ExpressionUUID->"07875457-6802-4c1a-bcbe-ab1e3801528e"],
+Cell["Uniform Convergence", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"1b264c3e-5e41-498a-86db-6a1f84b74373"],
 
-Cell["The Cauchy-Schwarz Inequality", "Subsection",ExpressionUUID->"ed6537bd-ea4a-4c3d-8080-3f1490c8025c"],
+Cell["The Uniform Limit Theorem", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"5223aac2-fedf-4fcf-896b-724336b050bc"],
 
-Cell["Real N-Space", "Subsection",ExpressionUUID->"ff20acc1-87dd-40c6-b34b-34f3dc307f59"],
+Cell["Uniform Convergence and Integration", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"0ae0c5bb-20b2-4545-98de-b5ea1869f42e"],
 
-Cell["Limits of Sequences in Real N-Space", "Subsection",ExpressionUUID->"0565837a-a509-4a22-9602-b324286a9753"],
+Cell["The Weierstrass M Test", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"07875457-6802-4c1a-bcbe-ab1e3801528e"],
 
-Cell["Limits of Multivariable Functions", "Subsection",ExpressionUUID->"fb04ad8e-a4a1-40d2-9fc0-b98bf8f213b2"]
+Cell["The Cauchy-Schwarz Inequality", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"ed6537bd-ea4a-4c3d-8080-3f1490c8025c"],
+
+Cell["Real N-Space", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"ff20acc1-87dd-40c6-b34b-34f3dc307f59"],
+
+Cell["Limits of Sequences in Real N-Space", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"0565837a-a509-4a22-9602-b324286a9753"],
+
+Cell["Limits of Multivariable Functions", "Subsection",
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"fb04ad8e-a4a1-40d2-9fc0-b98bf8f213b2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -919,8 +1067,8 @@ Cell[BoxData[
 }, Closed]]
 },
 WindowToolbars->"EditBar",
-WindowSize->{1138.5, 627.75},
-WindowMargins->{{122.25, Automatic}, {Automatic, 44.25}},
+WindowSize->{1130.25, 622.5},
+WindowMargins->{{Automatic, 47.25}, {Automatic, 25.5}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->Notebook[{
@@ -955,9 +1103,9 @@ Cell[1540, 51, 364, 6, 54, "Subsection",ExpressionUUID->"a73767dc-da7f-4f30-b355
 Cell[1907, 59, 674, 10, 45, "Subsubsection",ExpressionUUID->"647ffe1f-34c1-4183-b04e-b4fa274fb19d"],
 Cell[2584, 71, 166, 3, 37, "Subsubsection",ExpressionUUID->"ca7ae836-4645-4cb2-b244-e563110366b9"],
 Cell[2753, 76, 290, 7, 37, "Subsubsection",ExpressionUUID->"741ce6e3-3daf-4cc1-810c-8d6edfec343d"]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[3080, 88, 297, 5, 38, "Subsection",ExpressionUUID->"40d3c714-e711-4449-9662-b09cb735022c"],
+Cell[3080, 88, 297, 5, 54, "Subsection",ExpressionUUID->"40d3c714-e711-4449-9662-b09cb735022c"],
 Cell[CellGroupData[{
 Cell[3402, 97, 262, 4, 45, "Subsubsection",ExpressionUUID->"99b84f84-760f-4fba-96cd-a24c9c89b930"],
 Cell[CellGroupData[{
@@ -983,89 +1131,95 @@ Cell[7991, 273, 252, 7, 32, "Output",ExpressionUUID->"33badb97-d6ed-4c60-bb10-52
 }, Open  ]]
 }, Closed]]
 }, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[8316, 288, 87, 0, 53, "Section",ExpressionUUID->"9ac7cbf7-37f7-4a53-ad38-0fbaeed3b662"],
-Cell[8406, 290, 91, 0, 54, "Subsection",ExpressionUUID->"c1f2c843-d1ff-418b-84ba-b1ebf3dd6b95"],
-Cell[8500, 292, 93, 0, 38, "Subsection",ExpressionUUID->"9a27a2fe-5433-4218-b7e7-e27371c62430"],
-Cell[8596, 294, 100, 0, 38, "Subsection",ExpressionUUID->"41d77ddd-bf56-4f5d-bb85-1b07f008693e"],
-Cell[8699, 296, 108, 0, 38, "Subsection",ExpressionUUID->"9166f174-8785-4846-87b9-bff525a54744"],
-Cell[8810, 298, 101, 0, 38, "Subsection",ExpressionUUID->"25989466-94ec-4220-8f8d-ab5581856204"],
-Cell[8914, 300, 114, 0, 38, "Subsection",ExpressionUUID->"fed7c734-862f-4f2a-a0f4-e163812f4ead"],
-Cell[9031, 302, 116, 0, 38, "Subsection",ExpressionUUID->"40b247e0-9c8a-4451-a7ea-38d510e86ff1"],
-Cell[9150, 304, 104, 0, 38, "Subsection",ExpressionUUID->"19b0f4f9-f916-4fb0-ba1c-981d5fcc5b88"],
-Cell[9257, 306, 126, 0, 38, "Subsection",ExpressionUUID->"cf1815b1-71ae-4285-b40e-61344de35e85"],
-Cell[9386, 308, 98, 0, 38, "Subsection",ExpressionUUID->"218eb24e-27be-47f0-b1eb-71972e35f9f8"],
-Cell[9487, 310, 109, 0, 38, "Subsection",ExpressionUUID->"9d46c420-3907-430a-b7cc-38c3cf87c778"],
-Cell[9599, 312, 105, 0, 38, "Subsection",ExpressionUUID->"772c9254-055f-4b9c-be32-747809f2cf77"],
-Cell[9707, 314, 89, 0, 38, "Subsection",ExpressionUUID->"f0abccff-c186-453c-a345-b5ca0e18e449"],
-Cell[9799, 316, 93, 0, 38, "Subsection",ExpressionUUID->"73fb4e20-fb43-4c10-b567-127862445711"],
-Cell[9895, 318, 108, 0, 38, "Subsection",ExpressionUUID->"be068bfe-0cbb-455d-8e65-1904d557893b"],
-Cell[10006, 320, 107, 0, 38, "Subsection",ExpressionUUID->"764a3b2e-6251-42c8-b17f-078c94e8a4cb"],
-Cell[10116, 322, 102, 0, 38, "Subsection",ExpressionUUID->"e6c7bafb-f703-43a0-a3d6-2369d06657cb"],
-Cell[10221, 324, 110, 0, 38, "Subsection",ExpressionUUID->"da8b6ceb-4ca3-4682-b3f4-67a790b4d831"],
-Cell[10334, 326, 96, 0, 38, "Subsection",ExpressionUUID->"3c9f7b37-928e-4bd2-bf6b-e248f393abb2"],
-Cell[10433, 328, 91, 0, 38, "Subsection",ExpressionUUID->"8489adc2-544d-44e0-86e9-044224da14e1"],
-Cell[10527, 330, 104, 0, 38, "Subsection",ExpressionUUID->"b1a54cbe-1c2e-4d38-a9e0-653c5255f2a7"],
-Cell[10634, 332, 106, 0, 38, "Subsection",ExpressionUUID->"aec8f1f2-27f7-49da-83c8-328646bb11d5"],
-Cell[10743, 334, 132, 0, 38, "Subsection",ExpressionUUID->"7ece616d-ba53-4473-abe6-c561dda7e4b7"],
-Cell[10878, 336, 106, 0, 38, "Subsection",ExpressionUUID->"9eb4549c-aad1-4f93-ba72-f873c583ae78"],
-Cell[10987, 338, 107, 0, 38, "Subsection",ExpressionUUID->"2215797f-a338-4fd7-ab83-4541d598b9d7"],
-Cell[11097, 340, 113, 0, 38, "Subsection",ExpressionUUID->"e465c1d6-91a4-4b5e-9ece-9a4d7656ece8"],
-Cell[11213, 342, 126, 0, 38, "Subsection",ExpressionUUID->"984c6f23-f333-42b4-86f1-08c636c2a973"],
-Cell[11342, 344, 107, 0, 38, "Subsection",ExpressionUUID->"0e12d102-e6b4-4574-916f-0444aefcd536"],
-Cell[11452, 346, 102, 0, 38, "Subsection",ExpressionUUID->"6eab8f0e-e033-4426-995e-9f541fe8d18a"],
-Cell[11557, 348, 110, 0, 38, "Subsection",ExpressionUUID->"517d4379-341a-4380-8eed-353a544dbee0"],
-Cell[11670, 350, 95, 0, 38, "Subsection",ExpressionUUID->"5f20faae-9937-4107-90f2-7f050ff1b048"],
-Cell[11768, 352, 113, 0, 38, "Subsection",ExpressionUUID->"3e648d64-361c-49cf-8091-cad50e2993c2"],
-Cell[11884, 354, 114, 0, 38, "Subsection",ExpressionUUID->"27cd6664-d6ad-4ece-b6ba-fb931f9ded3c"],
-Cell[12001, 356, 109, 0, 38, "Subsection",ExpressionUUID->"02cdbe0f-2434-40fc-bdd2-77d4a931745b"],
-Cell[12113, 358, 93, 0, 38, "Subsection",ExpressionUUID->"9eabd1ac-1745-465b-9df1-232a0f340037"],
-Cell[12209, 360, 91, 0, 38, "Subsection",ExpressionUUID->"d4259826-5d79-4e52-8230-72efab22b0b5"],
-Cell[12303, 362, 95, 0, 38, "Subsection",ExpressionUUID->"072d30f0-db99-4933-9310-9175ec1e0692"],
-Cell[12401, 364, 109, 0, 38, "Subsection",ExpressionUUID->"963837c2-5073-42b0-953f-850a32cd8da5"],
-Cell[12513, 366, 109, 0, 38, "Subsection",ExpressionUUID->"44d91f7d-fedf-4644-a8ba-2c491c8a99f0"],
-Cell[12625, 368, 99, 0, 38, "Subsection",ExpressionUUID->"01a1da9d-4854-45cf-ac6f-598e8830ee8e"],
-Cell[12727, 370, 111, 0, 38, "Subsection",ExpressionUUID->"8a004728-a90c-4880-b635-7b97a0ffc185"],
-Cell[12841, 372, 116, 0, 38, "Subsection",ExpressionUUID->"42f51bba-2f2b-44a0-8d3c-923d04f40138"],
-Cell[12960, 374, 103, 0, 38, "Subsection",ExpressionUUID->"5484a290-8cd7-4f1e-a5cf-96ed36a664ad"],
-Cell[13066, 376, 96, 0, 38, "Subsection",ExpressionUUID->"cb6dd112-5225-4a68-b017-01a9a74d1236"],
-Cell[13165, 378, 112, 0, 38, "Subsection",ExpressionUUID->"b78384b0-ba25-41be-9d6c-a9abe99fdb09"],
-Cell[13280, 380, 105, 0, 38, "Subsection",ExpressionUUID->"97346839-c3f0-4e91-82f0-6ac1b9f65f7f"],
-Cell[13388, 382, 102, 0, 38, "Subsection",ExpressionUUID->"04b227de-c007-4751-86ec-228930ab8937"],
-Cell[13493, 384, 103, 0, 38, "Subsection",ExpressionUUID->"78fa19e3-6761-40a9-8b18-9fec1e2ec425"],
-Cell[13599, 386, 112, 0, 38, "Subsection",ExpressionUUID->"35d4dc06-5f43-4a0a-bb6b-b49874d3a413"],
-Cell[13714, 388, 113, 0, 38, "Subsection",ExpressionUUID->"009312cd-900f-4eb2-978f-20e269c9af48"],
-Cell[13830, 390, 97, 0, 38, "Subsection",ExpressionUUID->"84b2e16b-1df3-46cc-af7b-5f302d3b713e"],
-Cell[13930, 392, 102, 0, 38, "Subsection",ExpressionUUID->"292988b2-1eaa-4256-a669-c64646cf3a1e"],
-Cell[14035, 394, 95, 0, 38, "Subsection",ExpressionUUID->"b3d523fa-be46-4c89-867c-2598884df8ce"],
-Cell[14133, 396, 110, 0, 38, "Subsection",ExpressionUUID->"46c54126-1e29-46dc-af2c-99012e026f08"],
-Cell[14246, 398, 99, 0, 38, "Subsection",ExpressionUUID->"da7bbd86-9c73-4d6b-9834-af72c2bb014f"],
-Cell[14348, 400, 96, 0, 38, "Subsection",ExpressionUUID->"1b264c3e-5e41-498a-86db-6a1f84b74373"],
-Cell[14447, 402, 102, 0, 38, "Subsection",ExpressionUUID->"5223aac2-fedf-4fcf-896b-724336b050bc"],
-Cell[14552, 404, 112, 0, 38, "Subsection",ExpressionUUID->"0ae0c5bb-20b2-4545-98de-b5ea1869f42e"],
-Cell[14667, 406, 99, 0, 38, "Subsection",ExpressionUUID->"07875457-6802-4c1a-bcbe-ab1e3801528e"],
-Cell[14769, 408, 106, 0, 38, "Subsection",ExpressionUUID->"ed6537bd-ea4a-4c3d-8080-3f1490c8025c"],
-Cell[14878, 410, 89, 0, 38, "Subsection",ExpressionUUID->"ff20acc1-87dd-40c6-b34b-34f3dc307f59"],
-Cell[14970, 412, 112, 0, 38, "Subsection",ExpressionUUID->"0565837a-a509-4a22-9602-b324286a9753"],
-Cell[15085, 414, 110, 0, 38, "Subsection",ExpressionUUID->"fb04ad8e-a4a1-40d2-9fc0-b98bf8f213b2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15232, 419, 111, 0, 67, "Section",ExpressionUUID->"75573a8d-1740-44c1-99dd-05be71579959"],
-Cell[15346, 421, 985, 15, 403, "Text",ExpressionUUID->"8e2ed30d-d3c3-44aa-a0c9-03465762cca5"],
-Cell[16334, 438, 156, 2, 35, "Text",ExpressionUUID->"10458eab-5d11-4a8c-951d-23ba4401f799"],
-Cell[16493, 442, 6762, 191, 638, "Input",ExpressionUUID->"14ef0968-1f4d-4089-8bf3-aad08d1ad606"]
+Cell[8316, 288, 87, 0, 67, "Section",ExpressionUUID->"9ac7cbf7-37f7-4a53-ad38-0fbaeed3b662"],
+Cell[8406, 290, 250, 5, 127, "Text",ExpressionUUID->"53ec1a15-309f-4dad-82fd-a2896010d47d"],
+Cell[CellGroupData[{
+Cell[8681, 299, 91, 0, 54, "Subsection",ExpressionUUID->"c1f2c843-d1ff-418b-84ba-b1ebf3dd6b95"],
+Cell[8775, 301, 348, 6, 104, "Text",ExpressionUUID->"58f0988c-da17-442e-b889-328cb95a4a00"],
+Cell[9126, 309, 112, 0, 35, "Text",ExpressionUUID->"f10c23a1-d49a-4357-b2a3-141a575e1b8a"],
+Cell[9241, 311, 154, 2, 35, "Text",ExpressionUUID->"e705213f-584d-4238-9795-37a494b25c32"]
+}, Open  ]],
+Cell[9410, 316, 134, 2, 70, "Subsection",ExpressionUUID->"9a27a2fe-5433-4218-b7e7-e27371c62430"],
+Cell[9547, 320, 141, 2, 54, "Subsection",ExpressionUUID->"41d77ddd-bf56-4f5d-bb85-1b07f008693e"],
+Cell[9691, 324, 149, 2, 54, "Subsection",ExpressionUUID->"9166f174-8785-4846-87b9-bff525a54744"],
+Cell[9843, 328, 142, 2, 54, "Subsection",ExpressionUUID->"25989466-94ec-4220-8f8d-ab5581856204"],
+Cell[9988, 332, 155, 2, 54, "Subsection",ExpressionUUID->"fed7c734-862f-4f2a-a0f4-e163812f4ead"],
+Cell[10146, 336, 157, 2, 54, "Subsection",ExpressionUUID->"40b247e0-9c8a-4451-a7ea-38d510e86ff1"],
+Cell[10306, 340, 145, 2, 54, "Subsection",ExpressionUUID->"19b0f4f9-f916-4fb0-ba1c-981d5fcc5b88"],
+Cell[10454, 344, 167, 2, 54, "Subsection",ExpressionUUID->"cf1815b1-71ae-4285-b40e-61344de35e85"],
+Cell[10624, 348, 139, 2, 54, "Subsection",ExpressionUUID->"218eb24e-27be-47f0-b1eb-71972e35f9f8"],
+Cell[10766, 352, 150, 2, 54, "Subsection",ExpressionUUID->"9d46c420-3907-430a-b7cc-38c3cf87c778"],
+Cell[10919, 356, 146, 2, 54, "Subsection",ExpressionUUID->"772c9254-055f-4b9c-be32-747809f2cf77"],
+Cell[11068, 360, 130, 2, 54, "Subsection",ExpressionUUID->"f0abccff-c186-453c-a345-b5ca0e18e449"],
+Cell[11201, 364, 134, 2, 54, "Subsection",ExpressionUUID->"73fb4e20-fb43-4c10-b567-127862445711"],
+Cell[11338, 368, 149, 2, 54, "Subsection",ExpressionUUID->"be068bfe-0cbb-455d-8e65-1904d557893b"],
+Cell[11490, 372, 148, 2, 54, "Subsection",ExpressionUUID->"764a3b2e-6251-42c8-b17f-078c94e8a4cb"],
+Cell[11641, 376, 143, 2, 54, "Subsection",ExpressionUUID->"e6c7bafb-f703-43a0-a3d6-2369d06657cb"],
+Cell[11787, 380, 151, 2, 54, "Subsection",ExpressionUUID->"da8b6ceb-4ca3-4682-b3f4-67a790b4d831"],
+Cell[11941, 384, 137, 2, 54, "Subsection",ExpressionUUID->"3c9f7b37-928e-4bd2-bf6b-e248f393abb2"],
+Cell[12081, 388, 132, 2, 54, "Subsection",ExpressionUUID->"8489adc2-544d-44e0-86e9-044224da14e1"],
+Cell[12216, 392, 145, 2, 54, "Subsection",ExpressionUUID->"b1a54cbe-1c2e-4d38-a9e0-653c5255f2a7"],
+Cell[12364, 396, 147, 2, 54, "Subsection",ExpressionUUID->"aec8f1f2-27f7-49da-83c8-328646bb11d5"],
+Cell[12514, 400, 173, 2, 54, "Subsection",ExpressionUUID->"7ece616d-ba53-4473-abe6-c561dda7e4b7"],
+Cell[12690, 404, 147, 2, 54, "Subsection",ExpressionUUID->"9eb4549c-aad1-4f93-ba72-f873c583ae78"],
+Cell[12840, 408, 148, 2, 54, "Subsection",ExpressionUUID->"2215797f-a338-4fd7-ab83-4541d598b9d7"],
+Cell[12991, 412, 154, 2, 54, "Subsection",ExpressionUUID->"e465c1d6-91a4-4b5e-9ece-9a4d7656ece8"],
+Cell[13148, 416, 167, 2, 54, "Subsection",ExpressionUUID->"984c6f23-f333-42b4-86f1-08c636c2a973"],
+Cell[13318, 420, 148, 2, 54, "Subsection",ExpressionUUID->"0e12d102-e6b4-4574-916f-0444aefcd536"],
+Cell[13469, 424, 143, 2, 54, "Subsection",ExpressionUUID->"6eab8f0e-e033-4426-995e-9f541fe8d18a"],
+Cell[13615, 428, 151, 2, 54, "Subsection",ExpressionUUID->"517d4379-341a-4380-8eed-353a544dbee0"],
+Cell[13769, 432, 136, 2, 54, "Subsection",ExpressionUUID->"5f20faae-9937-4107-90f2-7f050ff1b048"],
+Cell[13908, 436, 154, 2, 54, "Subsection",ExpressionUUID->"3e648d64-361c-49cf-8091-cad50e2993c2"],
+Cell[14065, 440, 155, 2, 54, "Subsection",ExpressionUUID->"27cd6664-d6ad-4ece-b6ba-fb931f9ded3c"],
+Cell[14223, 444, 150, 2, 54, "Subsection",ExpressionUUID->"02cdbe0f-2434-40fc-bdd2-77d4a931745b"],
+Cell[14376, 448, 134, 2, 54, "Subsection",ExpressionUUID->"9eabd1ac-1745-465b-9df1-232a0f340037"],
+Cell[14513, 452, 132, 2, 54, "Subsection",ExpressionUUID->"d4259826-5d79-4e52-8230-72efab22b0b5"],
+Cell[14648, 456, 136, 2, 54, "Subsection",ExpressionUUID->"072d30f0-db99-4933-9310-9175ec1e0692"],
+Cell[14787, 460, 150, 2, 54, "Subsection",ExpressionUUID->"963837c2-5073-42b0-953f-850a32cd8da5"],
+Cell[14940, 464, 150, 2, 54, "Subsection",ExpressionUUID->"44d91f7d-fedf-4644-a8ba-2c491c8a99f0"],
+Cell[15093, 468, 140, 2, 54, "Subsection",ExpressionUUID->"01a1da9d-4854-45cf-ac6f-598e8830ee8e"],
+Cell[15236, 472, 152, 2, 54, "Subsection",ExpressionUUID->"8a004728-a90c-4880-b635-7b97a0ffc185"],
+Cell[15391, 476, 157, 2, 54, "Subsection",ExpressionUUID->"42f51bba-2f2b-44a0-8d3c-923d04f40138"],
+Cell[15551, 480, 144, 2, 54, "Subsection",ExpressionUUID->"5484a290-8cd7-4f1e-a5cf-96ed36a664ad"],
+Cell[15698, 484, 137, 2, 54, "Subsection",ExpressionUUID->"cb6dd112-5225-4a68-b017-01a9a74d1236"],
+Cell[15838, 488, 153, 2, 54, "Subsection",ExpressionUUID->"b78384b0-ba25-41be-9d6c-a9abe99fdb09"],
+Cell[15994, 492, 146, 2, 54, "Subsection",ExpressionUUID->"97346839-c3f0-4e91-82f0-6ac1b9f65f7f"],
+Cell[16143, 496, 143, 2, 54, "Subsection",ExpressionUUID->"04b227de-c007-4751-86ec-228930ab8937"],
+Cell[16289, 500, 144, 2, 54, "Subsection",ExpressionUUID->"78fa19e3-6761-40a9-8b18-9fec1e2ec425"],
+Cell[16436, 504, 153, 2, 54, "Subsection",ExpressionUUID->"35d4dc06-5f43-4a0a-bb6b-b49874d3a413"],
+Cell[16592, 508, 154, 2, 54, "Subsection",ExpressionUUID->"009312cd-900f-4eb2-978f-20e269c9af48"],
+Cell[16749, 512, 138, 2, 54, "Subsection",ExpressionUUID->"84b2e16b-1df3-46cc-af7b-5f302d3b713e"],
+Cell[16890, 516, 143, 2, 54, "Subsection",ExpressionUUID->"292988b2-1eaa-4256-a669-c64646cf3a1e"],
+Cell[17036, 520, 136, 2, 54, "Subsection",ExpressionUUID->"b3d523fa-be46-4c89-867c-2598884df8ce"],
+Cell[17175, 524, 151, 2, 54, "Subsection",ExpressionUUID->"46c54126-1e29-46dc-af2c-99012e026f08"],
+Cell[17329, 528, 140, 2, 54, "Subsection",ExpressionUUID->"da7bbd86-9c73-4d6b-9834-af72c2bb014f"],
+Cell[17472, 532, 137, 2, 54, "Subsection",ExpressionUUID->"1b264c3e-5e41-498a-86db-6a1f84b74373"],
+Cell[17612, 536, 143, 2, 54, "Subsection",ExpressionUUID->"5223aac2-fedf-4fcf-896b-724336b050bc"],
+Cell[17758, 540, 153, 2, 54, "Subsection",ExpressionUUID->"0ae0c5bb-20b2-4545-98de-b5ea1869f42e"],
+Cell[17914, 544, 140, 2, 54, "Subsection",ExpressionUUID->"07875457-6802-4c1a-bcbe-ab1e3801528e"],
+Cell[18057, 548, 147, 2, 54, "Subsection",ExpressionUUID->"ed6537bd-ea4a-4c3d-8080-3f1490c8025c"],
+Cell[18207, 552, 130, 2, 54, "Subsection",ExpressionUUID->"ff20acc1-87dd-40c6-b34b-34f3dc307f59"],
+Cell[18340, 556, 153, 2, 54, "Subsection",ExpressionUUID->"0565837a-a509-4a22-9602-b324286a9753"],
+Cell[18496, 560, 151, 2, 54, "Subsection",ExpressionUUID->"fb04ad8e-a4a1-40d2-9fc0-b98bf8f213b2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18684, 567, 111, 0, 67, "Section",ExpressionUUID->"75573a8d-1740-44c1-99dd-05be71579959"],
+Cell[18798, 569, 985, 15, 403, "Text",ExpressionUUID->"8e2ed30d-d3c3-44aa-a0c9-03465762cca5"],
+Cell[19786, 586, 156, 2, 35, "Text",ExpressionUUID->"10458eab-5d11-4a8c-951d-23ba4401f799"],
+Cell[19945, 590, 6762, 191, 638, "Input",ExpressionUUID->"14ef0968-1f4d-4089-8bf3-aad08d1ad606"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[23292, 638, 108, 0, 53, "Section",ExpressionUUID->"4c793f90-6d09-41f9-8695-ee4b81c2a78c"],
-Cell[23403, 640, 4493, 125, 390, "Input",ExpressionUUID->"daeeada2-d40d-493e-b5f0-eeebb48f3d5f"]
+Cell[26744, 786, 108, 0, 53, "Section",ExpressionUUID->"4c793f90-6d09-41f9-8695-ee4b81c2a78c"],
+Cell[26855, 788, 4493, 125, 390, "Input",ExpressionUUID->"daeeada2-d40d-493e-b5f0-eeebb48f3d5f"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[27933, 770, 98, 0, 53, "Section",ExpressionUUID->"3bf08a47-241c-4497-9834-38b5e0b06960"],
-Cell[28034, 772, 2797, 86, 390, "Input",ExpressionUUID->"16188124-0eac-46e0-b844-7b7448864386"],
+Cell[31385, 918, 98, 0, 53, "Section",ExpressionUUID->"3bf08a47-241c-4497-9834-38b5e0b06960"],
+Cell[31486, 920, 2797, 86, 390, "Input",ExpressionUUID->"16188124-0eac-46e0-b844-7b7448864386"],
 Cell[CellGroupData[{
-Cell[30856, 862, 1442, 46, 219, "Input",ExpressionUUID->"a28a0b9e-1fcf-4c71-a6f1-f3be74f2ff41"],
-Cell[32301, 910, 248, 6, 32, "Output",ExpressionUUID->"024861c9-fd8f-4762-8cbb-0ebcb37dc23b"]
+Cell[34308, 1010, 1442, 46, 219, "Input",ExpressionUUID->"a28a0b9e-1fcf-4c71-a6f1-f3be74f2ff41"],
+Cell[35753, 1058, 248, 6, 32, "Output",ExpressionUUID->"024861c9-fd8f-4762-8cbb-0ebcb37dc23b"]
 }, Open  ]]
 }, Closed]]
 }

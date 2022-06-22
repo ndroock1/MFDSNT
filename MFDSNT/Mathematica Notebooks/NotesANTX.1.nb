@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    767526,      16477]
-NotebookOptionsPosition[    724841,      15766]
-NotebookOutlinePosition[    725568,      15789]
-CellTagsIndexPosition[    725525,      15786]
+NotebookDataLength[    769843,      16551]
+NotebookOptionsPosition[    726602,      15831]
+NotebookOutlinePosition[    727329,      15854]
+CellTagsIndexPosition[    727286,      15851]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -15760,6 +15760,71 @@ Cell[BoxData[
 Cell[BoxData["32"], "Output",
  CellLabel->
   "Out[218]=",ExpressionUUID->"6ceabdae-91d0-422c-b222-0850cf6fc8f3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["x", "2"], "-", 
+     RowBox[{"64", "x"}], " ", "+", "1024"}], "==", "0"}], ",", "x"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["x", "2"], "-", 
+     RowBox[{"64", "x"}], " ", "+", "1024"}], "==", "0"}], ",", "x", ",", 
+   RowBox[{"Modulus", "\[Rule]", "33"}]}], "]"}]}], "Input",
+ CellLabel->
+  "In[228]:=",ExpressionUUID->"2fcc16fd-d7e6-4a5f-8934-d7f8c1d425d9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "32"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "32"}], "}"}]}], "}"}]], "Output",
+ CellLabel->
+  "Out[228]=",ExpressionUUID->"7a51e073-6150-4fe3-a585-2765dca549e2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"x", "\[Rule]", "32"}], "}"}], "}"}]], "Output",
+ CellLabel->
+  "Out[229]=",ExpressionUUID->"83deb0db-30d6-46d6-a591-d7006a8e96cb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"f", "[", "x_", "]"}], ":=", 
+  RowBox[{
+   SuperscriptBox["x", "2"], "+", 
+   RowBox[{"3", "x"}], "+", "17"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"f", "[", "x", "]"}], "==", "0"}], ",", "x", ",", 
+   RowBox[{"Modulus", "\[Rule]", "9"}]}], "]"}]}], "Input",
+ CellLabel->
+  "In[230]:=",ExpressionUUID->"a64b6f63-a0d9-4aac-ad00-253c224cc796"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "4"}], "}"}]}], "}"}]], "Output",
+ CellLabel->
+  "Out[231]=",ExpressionUUID->"a2239d39-36a6-45aa-b252-f05da4e46c90"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -16471,11 +16536,20 @@ Cell[719909, 15610, 1506, 45, 148, "Input",ExpressionUUID->"c64b9595-44ae-4182-9
 Cell[721418, 15657, 112, 2, 24, "Output",ExpressionUUID->"640aa9a3-8ec9-4875-932f-8c66ad6607fe"],
 Cell[721533, 15661, 112, 2, 24, "Output",ExpressionUUID->"25d2eb5c-4a7d-4285-8ce1-eabbfa6d109b"],
 Cell[721648, 15665, 111, 2, 24, "Output",ExpressionUUID->"f1e17b35-9098-46a5-81e0-3dd7f0b08669"],
-Cell[721762, 15669, 211, 4, 50, "Output",ExpressionUUID->"7aef8481-8540-4cbc-8fb1-ca41956fb9f3"],
+Cell[721762, 15669, 211, 4, 24, "Output",ExpressionUUID->"7aef8481-8540-4cbc-8fb1-ca41956fb9f3"],
 Cell[721976, 15675, 115, 2, 24, "Output",ExpressionUUID->"e9514df1-64ba-4e23-aba9-ac29f2c4c8ee"],
 Cell[722094, 15679, 270, 8, 24, "Output",ExpressionUUID->"ab9dd237-6da9-46a4-ae79-cb270496b725"],
 Cell[722367, 15689, 2319, 68, 39, "Output",ExpressionUUID->"f0af4a67-36ae-4fa3-8c58-545f56ea1584"],
 Cell[724689, 15759, 112, 2, 24, "Output",ExpressionUUID->"6ceabdae-91d0-422c-b222-0850cf6fc8f3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[724838, 15766, 532, 16, 41, "Input",ExpressionUUID->"2fcc16fd-d7e6-4a5f-8934-d7f8c1d425d9"],
+Cell[725373, 15784, 268, 8, 24, "Output",ExpressionUUID->"7a51e073-6150-4fe3-a585-2765dca549e2"],
+Cell[725644, 15794, 187, 5, 24, "Output",ExpressionUUID->"83deb0db-30d6-46d6-a591-d7006a8e96cb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[725868, 15804, 425, 12, 38, "Input",ExpressionUUID->"a64b6f63-a0d9-4aac-ad00-253c224cc796"],
+Cell[726296, 15818, 266, 8, 24, "Output",ExpressionUUID->"a2239d39-36a6-45aa-b252-f05da4e46c90"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

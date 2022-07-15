@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18256,        490]
-NotebookOptionsPosition[     12903,        395]
-NotebookOutlinePosition[     13721,        420]
-CellTagsIndexPosition[     13678,        417]
+NotebookDataLength[     18732,        503]
+NotebookOptionsPosition[     13380,        408]
+NotebookOutlinePosition[     14196,        433]
+CellTagsIndexPosition[     14153,        430]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -380,11 +380,24 @@ Cell[TextData[StyleBox["Q2 : When does a set S have Lebesgue measure zero?",
  FontVariations->{"Underline"->True}]], "Text",ExpressionUUID->"53b7013c-ec88-\
 40fa-9f32-02d96e6a67a2"],
 
-Cell["\<\
-A2: A set S has Lebesgue measure zero when it can be covered with a sequence \
-of open intervals I1, I2, I3,... whose bounded total measure is arbitrarily \
-small. In this case, S is a null set and we write m(S) = 0.\
-\>", "Text",ExpressionUUID->"3fbefa5f-4484-49ff-950e-18b6f2f5aa16"],
+Cell[TextData[{
+ "A2: A set S has Lebesgue measure zero when it can be covered with a \
+sequence of open intervals I1, I2, I3,... whose bounded total measure is \
+arbitrarily small. In this case, S is a null set and we write m(S) = 0. This \
+basically means that given any \[CurlyEpsilon] > 0, S can be covered with a \
+sequence of open intervals I1, I2, . . . , where ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+     RowBox[{"m", "(", 
+      SubscriptBox["I", "n"], ")"}]}], "<=", "\[Epsilon]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "20707db7-7fea-4bb8-b26a-e1c09b531fa2"],
+ " ."
+}], "Text",ExpressionUUID->"3fbefa5f-4484-49ff-950e-18b6f2f5aa16"],
 
 Cell[TextData[StyleBox["Q3 : Give an example of two Lebesgue measure-zero \
 sets, at least one having an infinite number of elements.",
@@ -395,7 +408,7 @@ sets, at least one having an infinite number of elements.",
 },
 WindowToolbars->{"RulerBar", "EditBar"},
 WindowSize->{969.75, 624.75},
-WindowMargins->{{Automatic, 32.25}, {Automatic, 28.5}},
+WindowMargins->{{149.25, Automatic}, {Automatic, 9}},
 TrackCellChangeTimes->False,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
@@ -488,8 +501,8 @@ Cell[11596, 365, 88, 0, 30, "Subsection",ExpressionUUID->"f3560305-aa3c-4ebd-839
 Cell[11687, 367, 236, 3, 27, "Text",ExpressionUUID->"127d1888-a4a1-4762-b33f-208d0ff476de"],
 Cell[11926, 372, 224, 4, 45, "Text",ExpressionUUID->"1e47e79d-9bad-4210-b199-68286d67fb84"],
 Cell[12153, 378, 181, 2, 27, "Text",ExpressionUUID->"53b7013c-ec88-40fa-9f32-02d96e6a67a2"],
-Cell[12337, 382, 295, 4, 45, "Text",ExpressionUUID->"3fbefa5f-4484-49ff-950e-18b6f2f5aa16"],
-Cell[12635, 388, 240, 3, 27, "Text",ExpressionUUID->"4f59cb1d-73b9-40cd-af0b-ef68a4281ded"]
+Cell[12337, 382, 772, 17, 45, "Text",ExpressionUUID->"3fbefa5f-4484-49ff-950e-18b6f2f5aa16"],
+Cell[13112, 401, 240, 3, 27, "Text",ExpressionUUID->"4f59cb1d-73b9-40cd-af0b-ef68a4281ded"]
 }, Open  ]]
 }, Open  ]]
 }

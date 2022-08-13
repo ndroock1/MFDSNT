@@ -24,9 +24,19 @@ So $0 \leq (r-b) = (a-qb)-b=a-(q+1)b$. Since $a-(q+1)b \geq 0$ it is an element 
 We conclude that $r-b=a-(q+1)b < r$, but $r$ is the least element of $S$. Here we ran into a contradiction. Therefore
 $r \geq b$ must be false and thus $r < b$.\\
 \newline
-We still have to show that both $q$ and $r$ are unique. Suppose we have $(q_1,r_1)$ and $(q_2,r_2)$ such that:\\'
-\hspace*{0.5 cm}$bq_1+r_1 = bq_2+r_2$, and\\
+We still have to show that both $q$ and $r$ are unique. Suppose we have $(q_1,r_1)$ and $(q_2,r_2)$ such that:\\
+\hspace*{0.5 cm}$a = bq_1+r_1 = bq_2+r_2$, and\\
 \hspace*{0.5 cm}$0 \le r_1 < b$, and\\
 \hspace*{0.5 cm}$0 \le r_2 < b$.\\
-We must show that necessarily $q_1=q_2$ and $r_1=r_2$.
+We must show that necessarily $q_1=q_2$ and $r_1=r_2$.\\
+Suppose, without loss of generality that $r_1 \geq r_2$, therefore $r_1-r_2 \geq 0$.\\
+Since $a=q_1b+r_1=q_2b+r_2$, we know that $q_2b-q_1b=r_1-r_2$.\\
+So
+\hspace*{0.5 cm}$0 \leq r_1 -r_2$ \\
+\hspace*{0.5 cm}$0 \leq (q_2 -q_1)b < b$, or \\
+\hspace*{0.5 cm}$0 \leq (q_2 -q_1) < 1$.\\
+Because $(q_2-q_1)$ must be an integer we know that $q_2-q_1=0$, and thus $q_1=q_2$ and also\\
+$r_1=a-q_1 b= a - q_2 b = r_2$.\\
+\newline
+So we have found that there exist a unique $(q,r)$ such that $a=q_1 b + r$ and $0 \leq r < b$. 
 \end{proof}

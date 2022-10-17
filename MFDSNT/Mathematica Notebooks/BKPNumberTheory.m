@@ -17,7 +17,6 @@ out::usage="Declaring out as an exported symbol in the X` context";
 out$::usage="Declaring out as an exported symbol in the X` context";
 
 
-
 (* INITIAL UTILITIES FROM NotesAnaNT *)
 SetAttributes[tex, HoldFirst]
 tex[exp_] := TeXForm[HoldForm[exp]]

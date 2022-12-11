@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    173494,       4373]
-NotebookOptionsPosition[    156015,       4056]
-NotebookOutlinePosition[    156726,       4079]
-CellTagsIndexPosition[    156683,       4076]
+NotebookDataLength[    174763,       4406]
+NotebookOptionsPosition[    156961,       4084]
+NotebookOutlinePosition[    157672,       4107]
+CellTagsIndexPosition[    157629,       4104]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4051,7 +4051,35 @@ Cell[BoxData[
  CellLabel->
   "Out[685]=",ExpressionUUID->"d6d26007-1ee7-44b0-9227-1557b1a7c70d"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["temp-Prototype2", "Section",ExpressionUUID->"45f4ffee-b857-4e8d-b608-58adaca538d0"],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "prsig", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "nPrimeSignatureToListOfIntegers", "]"}]}], "Input",
+ CellLabel->
+  "In[1666]:=",ExpressionUUID->"29a74592-d279-4803-87d1-e74694673f9b"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"nInitialize", "[", "init_", "]"}], ":=", 
+  "init"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nPrimeSignatureToListOfIntegers", "[", 
+   RowBox[{"prsig_", ",", "k_"}], "]"}], ":=", 
+  RowBox[{"prsig", "->", 
+   RowBox[{"{", "k", "}"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nAddPrsigIntlistToAssoc", "[", 
+   RowBox[{"lst_", ",", "assoc_"}], "]"}], ":=", 
+  RowBox[{"Association", "[", 
+   RowBox[{"assoc", "->", "lst"}], "]"}]}]}], "Input",
+ CellLabel->
+  "In[1660]:=",ExpressionUUID->"95ed88f1-7f78-4d0c-b96b-2f12a2de97f2"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->"EditBar",
@@ -4373,7 +4401,12 @@ Cell[154529, 4006, 793, 23, 64, "Input",ExpressionUUID->"d89065b2-4645-4a9e-85ca
 Cell[155325, 4031, 114, 2, 35, "Output",ExpressionUUID->"7d019800-8052-468d-b0c1-56bd0c32318b"],
 Cell[155442, 4035, 533, 16, 35, "Output",ExpressionUUID->"d6d26007-1ee7-44b0-9227-1557b1a7c70d"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[156024, 4057, 89, 0, 40, "Section",ExpressionUUID->"45f4ffee-b857-4e8d-b608-58adaca538d0"],
+Cell[156116, 4059, 237, 4, 46, "Input",ExpressionUUID->"29a74592-d279-4803-87d1-e74694673f9b"],
+Cell[156356, 4065, 577, 15, 63, "Input",ExpressionUUID->"95ed88f1-7f78-4d0c-b96b-2f12a2de97f2"]
+}, Open  ]]
 }, Open  ]]
 }
 ]

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    271810,       6713]
-NotebookOptionsPosition[    245827,       6263]
-NotebookOutlinePosition[    246542,       6287]
-CellTagsIndexPosition[    246499,       6284]
+NotebookDataLength[    273590,       6766]
+NotebookOptionsPosition[    247473,       6313]
+NotebookOutlinePosition[    248190,       6337]
+CellTagsIndexPosition[    248147,       6334]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6243,27 +6243,77 @@ Cell[BoxData["1989"], "Output",
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"FactorInteger", "[", "2012", "]"}]], "Input",
- CellLabel->"In[37]:=",ExpressionUUID->"4b2143d5-7e64-4d46-84c5-1f1d2bb2f2a3"],
+ RowBox[{
+  RowBox[{"nFactorListInteger", "[", "30", "]"}], "//", "tf"}]], "Input",
+ CellLabel->"In[38]:=",ExpressionUUID->"4b2143d5-7e64-4d46-84c5-1f1d2bb2f2a3"],
 
 Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"2", ",", "2"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"503", ",", "1"}], "}"}]}], "}"}]], "Output",
- CellLabel->"Out[37]=",ExpressionUUID->"62db1142-9d75-4a65-abfe-91e1a164bd01"]
+ InterpretationBox[GridBox[{
+    {"30", "\<\"\"\>", "\<\"\"\>"},
+    {"2", "15", "\<\"\"\>"},
+    {"5", "6", "\<\"\"\>"},
+    {"3", "10", "\<\"\"\>"},
+    {"2", "3", "5"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  TableForm[{{30}, {2, 15}, {5, 6}, {3, 10}, {2, 3, 5}}]]], "Output",
+ CellLabel->
+  "Out[38]//TableForm=",ExpressionUUID->"1efe9a6d-eeed-4903-a0e4-\
+f8e2b90e32a8"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
-Cell["Prepare nFactorListInteger => Number Theory Package", "Section",ExpressionUUID->"d558ddbd-9cc6-43a7-b8b7-8a669b7fb980"]
+Cell[CellGroupData[{
+
+Cell["Prepare nFactorListInteger => Number Theory Package", "Section",ExpressionUUID->"d558ddbd-9cc6-43a7-b8b7-8a669b7fb980"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"nFactorListIntegerDEV", "[", "n_", "]"}], ":=", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Apply", "[", 
+      RowBox[{"Times", ",", "#"}], "]"}], "&"}], ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{"#", "&"}], ",", 
+      RowBox[{"DeleteDuplicates", "[", 
+       RowBox[{"Map", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Sort", "[", "#", "]"}], "&"}], ",", 
+         RowBox[{"SetPartitions", "[", 
+          RowBox[{"Flatten", "[", 
+           RowBox[{"Map", "[", 
+            RowBox[{
+             RowBox[{"Function", "[", 
+              RowBox[{"x", ",", 
+               RowBox[{"Array", "[", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"x", "[", 
+                   RowBox[{"[", "1", "]"}], "]"}], "&"}], ",", 
+                 RowBox[{"x", " ", "[", 
+                  RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], "]"}], ",", 
+             RowBox[{"FactorInteger", "[", "n", "]"}]}], "]"}], "]"}], 
+          "]"}]}], "]"}], "]"}]}], "]"}], ",", 
+    RowBox[{"{", "2", "}"}]}], "]"}]}]], "Input",ExpressionUUID->"3bd6d049-\
+29aa-4bb7-b306-0e15d9144e13"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->"EditBar",
-WindowSize->{1093.5, 660.},
-WindowMargins->{{Automatic, 21.75}, {19.5, Automatic}},
+WindowSize->{1206.75, 660.},
+WindowMargins->{{Automatic, 32.25}, {Automatic, 30.75}},
 TrackCellChangeTimes->False,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
@@ -6302,7 +6352,7 @@ Cell[CellGroupData[{
 Cell[4119, 112, 81, 0, 30, "Subsection",ExpressionUUID->"0f1b3230-8e31-480f-a28a-aafa217d903e"],
 Cell[CellGroupData[{
 Cell[4225, 116, 140, 2, 21, "Input",ExpressionUUID->"720ab3c7-4c2b-42ad-98c1-8661b1045d5a"],
-Cell[4368, 120, 1546, 22, 82, "Output",ExpressionUUID->"484ddb66-e2de-4000-8492-2100333cb25c"]
+Cell[4368, 120, 1546, 22, 53, "Output",ExpressionUUID->"484ddb66-e2de-4000-8492-2100333cb25c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -6575,7 +6625,7 @@ Cell[155123, 3996, 1480, 44, 24, "Output",ExpressionUUID->"c07c695b-66a9-46e7-9b
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[156640, 4045, 138, 2, 21, "Input",ExpressionUUID->"c9723cb3-bc01-40a9-affb-dd919dd6846b"],
-Cell[156781, 4049, 44822, 808, 200, "Output",ExpressionUUID->"db557ec6-280a-4ca4-ac44-11fa443288bb"]
+Cell[156781, 4049, 44822, 808, 174, "Output",ExpressionUUID->"db557ec6-280a-4ca4-ac44-11fa443288bb"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -6708,12 +6758,15 @@ Cell[244963, 6234, 131, 2, 21, "Input",ExpressionUUID->"527b8ab0-04ae-4f75-8a88-
 Cell[245097, 6238, 110, 1, 24, "Output",ExpressionUUID->"40b6650e-e05a-4fa1-991b-0355ab6d36b9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[245244, 6244, 148, 2, 21, "Input",ExpressionUUID->"4b2143d5-7e64-4d46-84c5-1f1d2bb2f2a3"],
-Cell[245395, 6248, 252, 7, 76, "Output",ExpressionUUID->"62db1142-9d75-4a65-abfe-91e1a164bd01"]
+Cell[245244, 6244, 176, 3, 21, "Input",ExpressionUUID->"4b2143d5-7e64-4d46-84c5-1f1d2bb2f2a3"],
+Cell[245423, 6249, 657, 19, 85, "Output",ExpressionUUID->"1efe9a6d-eeed-4903-a0e4-f8e2b90e32a8"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
-Cell[245686, 6260, 125, 0, 50, "Section",ExpressionUUID->"d558ddbd-9cc6-43a7-b8b7-8a669b7fb980"]
+Cell[CellGroupData[{
+Cell[246141, 6275, 125, 0, 50, "Section",ExpressionUUID->"d558ddbd-9cc6-43a7-b8b7-8a669b7fb980"],
+Cell[246269, 6277, 1176, 32, 22, "Input",ExpressionUUID->"3bd6d049-29aa-4bb7-b306-0e15d9144e13"]
+}, Open  ]]
 }, Open  ]]
 }
 ]

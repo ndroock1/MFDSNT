@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3426,        104]
-NotebookOptionsPosition[      2231,         74]
-NotebookOutlinePosition[      2686,         91]
-CellTagsIndexPosition[      2643,         88]
+NotebookDataLength[     10134,        284]
+NotebookOptionsPosition[      7936,        237]
+NotebookOutlinePosition[      8392,        254]
+CellTagsIndexPosition[      8349,        251]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -29,9 +29,85 @@ Cell[CellGroupData[{
 
 Cell["Pre-amble", "Section",ExpressionUUID->"87b546fd-d271-44b8-aef1-769a40b40c44"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
- RowBox[{"Needs", "[", "\"\<Combinatorica`\>\"", "]"}]], "Input",ExpressionUUI\
-D->"1dc1d2f7-955d-43f6-9a21-9e1cc867ec34"],
+ RowBox[{"Needs", "[", "\"\<Combinatorica`\>\"", "]"}]], "Input",
+ CellLabel->"In[5]:=",ExpressionUUID->"1dc1d2f7-955d-43f6-9a21-9e1cc867ec34"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "compat", 
+   "\"Combinatorica Graph and Permutations functionality has been superseded \
+by preloaded functionality. The package now being loaded may conflict with \
+this. Please see the Compatibility Guide for details.\"", 2, 5, 1, 
+   23296346671356399964, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8914130052344484`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a5bc6263-33a7-4501-9cc8-13cf00f8dc78"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GraphJoin", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"GraphJoin\\\\\\\"\\\"}]\\) appears \
+in multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Combinatorica`\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"System`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions in context \\!\
+\\(\\*RowBox[{\\\"\\\\\\\"Combinatorica`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 5, 2, 23296346671356399964, "Local", 
+   "Combinatorica`GraphJoin"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.891413005304446*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cebbc737-2598-44ed-8a1f-bea514349067"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GraphProduct", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"GraphProduct\\\\\\\"\\\"}]\\) \
+appears in multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Combinatorica`\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"System`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions in context \\!\
+\\(\\*RowBox[{\\\"\\\\\\\"Combinatorica`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 5, 3, 23296346671356399964, "Local", 
+   "Combinatorica`GraphProduct"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8914130053364515`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a8c9c67f-a3a0-4907-b113-dedf3e65b3db"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GraphSum", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"GraphSum\\\\\\\"\\\"}]\\) appears \
+in multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Combinatorica`\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"System`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions in context \\!\
+\\(\\*RowBox[{\\\"\\\\\\\"Combinatorica`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 5, 4, 23296346671356399964, "Local", 
+   "Combinatorica`GraphSum"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.891413005398446*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9ecfa32b-ffba-40dc-ac98-d9ff59403058"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "SetDelayed", "write", 
+   "\"Tag \\!\\(\\*RowBox[{\\\"EdgeChromaticNumber\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"EdgeChromaticNumber\\\", \\\"[\\\", \\\"g_Graph\\\", \
+\\\"]\\\"}]\\) is Protected.\"", 2, 5, 5, 23296346671356399964, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.891413005926447*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"63360b68-e5ba-4504-a176-85f081133516"]
+}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{
@@ -59,21 +135,108 @@ Cell["Chapter 1. Inversions", "Section",
   3.8914077054305825`*^9}},ExpressionUUID->"6366796d-ff94-440f-acaa-\
 5607f4e2e052"],
 
+Cell[CellGroupData[{
+
 Cell["1.1 Stern\[CloseCurlyQuote]s Problem", "Subsection",
  CellChangeTimes->{{3.8914077516233606`*^9, 
   3.8914077598473525`*^9}},ExpressionUUID->"14932e56-1418-4073-862c-\
 55c2dfeffb06"],
 
+Cell[CellGroupData[{
+
+Cell["Definition: Inversion", "Subsubsection",
+ CellChangeTimes->{{3.8914107042226577`*^9, 3.8914107126290317`*^9}, 
+   3.891410942080611*^9},ExpressionUUID->"e339b0e5-e09a-4c6d-bd90-\
+3d9b3b81084e"],
+
+Cell[TextData[{
+ "Definition Inversion: Let p=p1p2\[CenterDot]\[CenterDot]\[CenterDot]pn be a \
+permutation. We say that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["p", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c5c9debb-b6e3-40c7-bd7c-488bccb307eb"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "j"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1e1b7192-2cb2-4eaf-9e49-daa1d0aca9af"],
+ ") is an ",
+ StyleBox["inversion",
+  FontWeight->"Bold"],
+ " of p if i < j but ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "i"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "68ac1cc2-9404-461a-b488-c22b9245e947"],
+ " > ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "j"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e767627a-6e4a-4b6f-aa51-136f707c1153"],
+ ". \nExample: In the permutation {1,3,2}  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{
+     SubscriptBox["p", "2"], ",", 
+     SubscriptBox["p", "3"]}], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "02921009-d34c-4eec-913a-6be8788092d1"],
+ " is an inversion of {1,3,2} since ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", " ", "<", " ", "3"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e3e97af3-2478-4b18-be6a-ed76310e3198"],
+ " but ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["p", "2"], " ", ">", " ", 
+    SubscriptBox["p", "3"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "456e3721-9b1c-42ec-8625-74ba140f1423"],
+ ". ( 3 > 2 )."
+}], "Text",
+ CellChangeTimes->{{3.8914113052806144`*^9, 3.8914113403263645`*^9}, {
+  3.8914115521641097`*^9, 
+  3.891411585496563*^9}},ExpressionUUID->"28e2b402-cec3-4aa8-b601-\
+55baee6e110e"]
+}, Open  ]],
+
+Cell["\<\
+Formula: Total number of inversions of permutations of length n\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.8914107042226577`*^9, 3.8914107126290317`*^9}, 
+   3.891410942080611*^9, {3.89142841180375*^9, 
+   3.8914284593496633`*^9}},ExpressionUUID->"ad42ec0e-e900-4bb0-ac17-\
+ff5be24b8dc7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
 Cell["1.1 Exercises", "Subsection",
  CellChangeTimes->{{3.8914077516233606`*^9, 3.8914077598473525`*^9}, {
   3.8914077910152884`*^9, 
   3.8914077944222283`*^9}},ExpressionUUID->"a3bc1ffd-535d-46db-871f-\
-b1428806e6a8"]
+b1428806e6a8"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.89141293283646*^9, 
+  3.891412950052811*^9}},ExpressionUUID->"1ec59942-89b4-482e-bfdf-\
+260aa5c339db"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{981.75, 621.75},
-WindowMargins->{{Automatic, 47.25}, {37.5, Automatic}},
+WindowMargins->{{57.75, Automatic}, {Automatic, 20.25}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
@@ -94,16 +257,33 @@ Cell[CellGroupData[{
 Cell[580, 22, 163, 3, 69, "Chapter",ExpressionUUID->"f4386914-da11-49ab-aa29-7ccd93c94771"],
 Cell[CellGroupData[{
 Cell[768, 29, 83, 0, 67, "Section",ExpressionUUID->"87b546fd-d271-44b8-aef1-769a40b40c44"],
-Cell[854, 31, 136, 2, 28, "Input",ExpressionUUID->"1dc1d2f7-955d-43f6-9a21-9e1cc867ec34"],
-Cell[993, 35, 356, 8, 67, "Input",ExpressionUUID->"e0e00e4e-7280-454c-9407-2c5a68b34c5f"]
+Cell[CellGroupData[{
+Cell[876, 33, 157, 2, 28, "Input",ExpressionUUID->"1dc1d2f7-955d-43f6-9a21-9e1cc867ec34"],
+Cell[1036, 37, 500, 11, 46, "Message",ExpressionUUID->"a5bc6263-33a7-4501-9cc8-13cf00f8dc78"],
+Cell[1539, 50, 694, 14, 46, "Message",ExpressionUUID->"cebbc737-2598-44ed-8a1f-bea514349067"],
+Cell[2236, 66, 705, 14, 46, "Message",ExpressionUUID->"a8c9c67f-a3a0-4907-b113-dedf3e65b3db"],
+Cell[2944, 82, 691, 14, 46, "Message",ExpressionUUID->"9ecfa32b-ffba-40dc-ac98-d9ff59403058"],
+Cell[3638, 98, 456, 10, 28, "Message",ExpressionUUID->"63360b68-e5ba-4504-a176-85f081133516"]
+}, Open  ]],
+Cell[4109, 111, 356, 8, 67, "Input",ExpressionUUID->"e0e00e4e-7280-454c-9407-2c5a68b34c5f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1398, 49, 198, 3, 69, "Chapter",ExpressionUUID->"70b522df-c91c-4dbb-9b42-93ad5add9422"],
+Cell[4514, 125, 198, 3, 69, "Chapter",ExpressionUUID->"70b522df-c91c-4dbb-9b42-93ad5add9422"],
 Cell[CellGroupData[{
-Cell[1621, 56, 170, 3, 67, "Section",ExpressionUUID->"6366796d-ff94-440f-acaa-5607f4e2e052"],
-Cell[1794, 61, 188, 3, 54, "Subsection",ExpressionUUID->"14932e56-1418-4073-862c-55c2dfeffb06"],
-Cell[1985, 66, 218, 4, 38, "Subsection",ExpressionUUID->"a3bc1ffd-535d-46db-871f-b1428806e6a8"]
+Cell[4737, 132, 170, 3, 67, "Section",ExpressionUUID->"6366796d-ff94-440f-acaa-5607f4e2e052"],
+Cell[CellGroupData[{
+Cell[4932, 139, 188, 3, 54, "Subsection",ExpressionUUID->"14932e56-1418-4073-862c-55c2dfeffb06"],
+Cell[CellGroupData[{
+Cell[5145, 146, 199, 3, 45, "Subsubsection",ExpressionUUID->"e339b0e5-e09a-4c6d-bd90-3d9b3b81084e"],
+Cell[5347, 151, 1825, 58, 59, "Text",ExpressionUUID->"28e2b402-cec3-4aa8-b601-55baee6e110e"]
+}, Open  ]],
+Cell[7187, 212, 300, 6, 45, "Subsubsection",ExpressionUUID->"ad42ec0e-e900-4bb0-ac17-ff5be24b8dc7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7524, 223, 218, 4, 54, "Subsection",ExpressionUUID->"a3bc1ffd-535d-46db-871f-b1428806e6a8"],
+Cell[7745, 229, 151, 3, 28, "Input",ExpressionUUID->"1ec59942-89b4-482e-bfdf-260aa5c339db"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }

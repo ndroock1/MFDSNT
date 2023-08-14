@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    541341,      14487]
-NotebookOptionsPosition[    485331,      13538]
-NotebookOutlinePosition[    486028,      13561]
-CellTagsIndexPosition[    485985,      13558]
+NotebookDataLength[    543806,      14564]
+NotebookOptionsPosition[    487336,      13607]
+NotebookOutlinePosition[    488033,      13630]
+CellTagsIndexPosition[    487990,      13627]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -13532,6 +13532,75 @@ Cell[BoxData[
 Cell[BoxData["10.626792029032831`"], "Output",
  CellLabel->
   "Out[370]=",ExpressionUUID->"5ebf9a8e-252f-445a-9336-7232d1c48bbb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["n", 
+     RowBox[{"s", "-", "4"}]], " ", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{"DiracDelta", "[", 
+       RowBox[{"x", "-", "n"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"n", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]], "Input",
+ CellLabel->"In[45]:=",ExpressionUUID->"f705af02-1399-4033-b00a-0ab5467bd57a"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Integral]", "0", "\[Infinity]"], 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["n", 
+     RowBox[{
+      RowBox[{"-", "4"}], "+", "s"}]], " ", 
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"n", "=", "0"}], "\[Infinity]"], 
+     RowBox[{"DiracDelta", "[", 
+      RowBox[{
+       RowBox[{"-", "n"}], "+", "x"}], "]"}]}]}], 
+   RowBox[{"\[DifferentialD]", "x"}]}]}]], "Output",
+ CellLabel->"Out[45]=",ExpressionUUID->"947c6be5-6cd2-4ecc-8bf4-b9a28f6b5ee2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"InverseMellinTransform", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["n", 
+     RowBox[{"s", "-", "4"}]], " ", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{"DiracDelta", "[", 
+       RowBox[{"x", "-", "n"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"n", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]}], ",", "s", 
+   ",", "x"}], "]"}]], "Input",
+ CellLabel->"In[46]:=",ExpressionUUID->"4519bc10-ebc2-495c-8049-c862ba915129"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{"DiracDelta", "[", 
+    RowBox[{
+     RowBox[{"-", "n"}], "+", "x"}], "]"}], " ", 
+   RowBox[{
+    UnderoverscriptBox["\[Sum]", 
+     RowBox[{"n", "=", "0"}], "\[Infinity]"], 
+    RowBox[{"DiracDelta", "[", 
+     RowBox[{
+      RowBox[{"-", "n"}], "+", "x"}], "]"}]}]}], 
+  SuperscriptBox["n", "3"]]], "Output",
+ CellLabel->"Out[46]=",ExpressionUUID->"64d058d1-c3c9-4fc5-b6a8-a305cdbd6b69"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -14486,6 +14555,14 @@ Cell[484375, 13506, 502, 14, 50, "Input",ExpressionUUID->"311c46a6-5820-4cde-8f8
 Cell[484880, 13522, 129, 2, 24, "Output",ExpressionUUID->"abccfcc9-6a52-4cc2-bd97-02f8a711cbd4"],
 Cell[485012, 13526, 147, 3, 24, "Output",ExpressionUUID->"59b3052d-618a-4245-8340-74c998f80552"],
 Cell[485162, 13531, 129, 2, 24, "Output",ExpressionUUID->"5ebf9a8e-252f-445a-9336-7232d1c48bbb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[485328, 13538, 505, 14, 23, "Input",ExpressionUUID->"f705af02-1399-4033-b00a-0ab5467bd57a"],
+Cell[485836, 13554, 514, 15, 42, "Output",ExpressionUUID->"947c6be5-6cd2-4ecc-8bf4-b9a28f6b5ee2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[486387, 13574, 466, 13, 23, "Input",ExpressionUUID->"4519bc10-ebc2-495c-8049-c862ba915129"],
+Cell[486856, 13589, 440, 13, 39, "Output",ExpressionUUID->"64d058d1-c3c9-4fc5-b6a8-a305cdbd6b69"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

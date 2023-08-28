@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1155447,      23236]
-NotebookOptionsPosition[   1147192,      23088]
-NotebookOutlinePosition[   1147634,      23105]
-CellTagsIndexPosition[   1147591,      23102]
+NotebookDataLength[   1030301,      21267]
+NotebookOptionsPosition[   1021232,      21102]
+NotebookOutlinePosition[   1021673,      21119]
+CellTagsIndexPosition[   1021630,      21116]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,6 +23,10 @@ Cell["Preamble", "Section",
   3.9015913862102017`*^9, 
   3.9015913907804394`*^9}},ExpressionUUID->"d9dce192-5deb-4a0b-a842-\
 4ec578b41970"],
+
+Cell[CellGroupData[{
+
+Cell["Foreword, etc.", "Chapter",ExpressionUUID->"af07d7d5-a4f0-423f-8e83-837ba92a3bba"],
 
 Cell[CellGroupData[{
 
@@ -213,6 +217,60 @@ Cell[BoxData["True"], "Output",
   "Out[725]=",ExpressionUUID->"5c514244-6e97-4fa1-9a9b-e504f6f7155d"]
 }, Open  ]]
 }, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Reverse Triangle Inequality Theorem", "Section",
+ CellChangeTimes->{{3.9018565224402637`*^9, 3.9018565326962614`*^9}, {
+  3.9018588533416476`*^9, 3.9018588656026707`*^9}, {3.9022275941350727`*^9, 
+  3.9022275957436476`*^9}},ExpressionUUID->"11601827-1d75-4c7c-b7bb-\
+f64786015a2b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Abs", "[", 
+   RowBox[{"z", "+", "w"}], "]"}], "<=", 
+  RowBox[{
+   RowBox[{"Abs", "[", "z", "]"}], "+", 
+   RowBox[{"Abs", "[", "w", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.901858868870639*^9, 3.901858919100424*^9}},
+ CellLabel->
+  "In[725]:=",ExpressionUUID->"4808a1ca-1bea-4dcf-9413-3ee102265ae9"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{{3.90185887460982*^9, 3.901858920531025*^9}},
+ CellLabel->
+  "Out[725]=",ExpressionUUID->"3f930ffb-57db-43b8-a04e-f6fcd38f33f9"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Stereographic Projection", "Section",
+ CellChangeTimes->{{3.9018565224402637`*^9, 3.9018565326962614`*^9}, {
+  3.9018588533416476`*^9, 3.9018588656026707`*^9}, {3.9022275941350727`*^9, 
+  3.9022275957436476`*^9}, {3.9022279715357656`*^9, 
+  3.902227979247839*^9}},ExpressionUUID->"4652ff6c-708d-4a03-a772-\
+dcb9d0608af3"],
+
+Cell["\<\
+(* https://mathematica.stackexchange.com/questions/23793/stereographic-\
+projection *)\
+\>", "Text",
+ CellChangeTimes->{{3.9022279991984644`*^9, 
+  3.9022280178247423`*^9}},ExpressionUUID->"895088f6-11d2-4924-98be-\
+006419d2ffbd"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["[ TBD ]", "Chapter",
+ CellChangeTimes->{{3.902227746011286*^9, 
+  3.902227748960727*^9}},ExpressionUUID->"7b498714-48ba-4dce-9831-\
+f46436571645"],
 
 Cell[CellGroupData[{
 
@@ -1845,7 +1903,16 @@ Cell[BoxData[
   "Out[484]//TableForm=",ExpressionUUID->"4e87cd37-28b9-4fdc-862b-\
 87ac19830a63"]
 }, Open  ]]
-}, Closed]],
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Notes", "Chapter",
+ CellChangeTimes->{{3.902227746011286*^9, 3.902227748960727*^9}, {
+  3.9022280815835447`*^9, 
+  3.9022280851630096`*^9}},ExpressionUUID->"8f725b0c-66ec-4fc6-ab06-\
+cb1bb1eabbce"],
 
 Cell[CellGroupData[{
 
@@ -2232,6 +2299,16 @@ Cell[BoxData["w"], "Output",
  CellLabel->
   "Out[758]=",ExpressionUUID->"c4a94ef0-fa1b-4778-8854-404089c24a89"]
 }, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\<http://www.mathematicaguidebooks.org/V6/downloads/\
+RiemannSurfacePlot3D.m\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", "\"\<Lines\>\""}], "}"}]}], "]"}], 
+  ";"}]], "Input",ExpressionUUID->"610b0fe8-f502-425a-916a-46daadc47cc2"],
 
 Cell[BoxData[
  RowBox[{"Import", "[", 
@@ -21019,2074 +21096,11 @@ uBCLuT1oD9qDdn8be/4DidTiRw==\
   3.902124974880146*^9},
  CellLabel->
   "Out[764]=",ExpressionUUID->"072fa1fe-16d4-4480-ae18-fc008f8898f1"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Import", "[", 
-  RowBox[{
-  "\"\<http://www.mathematicaguidebooks.org/V6/downloads/RiemannSurfacePlot3D.\
-m\>\"", ",", 
-   RowBox[{"{", 
-    RowBox[{"\"\<Text\>\"", ",", "\"\<Lines\>\""}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.902148171404233*^9, 3.9021481861371155`*^9}, {
-  3.9021482347941356`*^9, 3.902148289840742*^9}, {3.902148340184804*^9, 
-  3.9021483551938787`*^9}},
- CellLabel->
-  "In[767]:=",ExpressionUUID->"b77f2ce4-7175-49ba-b1e6-2668f571900e"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"\<\"(* ::Package:: *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subtitle:: *)\"\>", 
-   ",", "\<\"(*Plotting Riemann Surfaces of Compositions of Elementary \
-Functions*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Version information*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Text:: *)\"\>", 
-   ",", "\<\"(*Author:  Michael Trott (mtrott@wolfram.com)*)\"\>", 
-   ",", "\<\"(**)\"\>", ",", "\<\"(*Version:  2.0.42 (June 2007)*)\"\>", 
-   ",", "\<\"(**)\"\>", ",", "\<\"(*Tested Mathematica Version:  6.0*)\"\>", 
-   ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*From: The Mathematica GuideBook for Numerics, second edition, \
-Springer 2008*)\"\>", ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*Copyright:  Springer 2008*)\"\>", ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*Limitations: *)\"\>", 
-   ",", "\<\"(*- Only functions with finitely many branch points, all of \
-which can be determined in closed form, can be plotted.*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Outline of the algorithm*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Text:: *)\"\>", 
-   ",", "\<\"(*To construct the Riemann surface we will proceed with the \
-following, partially symbolic, partially numerical steps:*)\"\>", 
-   ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*We assume given an equation of the form w = w(z) (or f(w, z) = \
-c and we assume that we can solve for w=w(z)). *)\"\>", 
-   ",", "\<\"(*We consider the functions of the form w(z) = q(z) where q(z) \
-is a composition of nested elementary functions, including root objects. *)\"\
-\>", ",", "\<\"(*We will display Riemann surfaces of the form Re(w(z)) and \
-Im(w(z)).*)\"\>", 
-   ",", "\<\"(*After having checked that we can deal with the function at \
-hand, the following steps are carried out:*)\"\>", ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*1. *)\"\>", 
-   ",", "\<\"(*All branch points come from either due to arctrig functions, \
-logarithms, radicals, or roots. For a uniform treatment, we transform all \
-arctrig functions into a representation using only logarithms. We then \
-extract all log\\\\[Dash]terms and radicals and root\\\\[Dash]objects and \
-determine their branchpoints independently. These are the (potential) \
-branchpoints of the function under consideration. Determining the location \
-branch points will be done using Reduce and we consider only the case were we \
-have finitely many branch points that can be expressed in closed form.*)\"\>",
-    ",", "\<\"(**)\"\>", ",", "\<\"(*2. *)\"\>", 
-   ",", "\<\"(*Then, we divide the complex z\\\\[Dash]plane radially and \
-azimuthally into sectors generated by the outer product of the radial and \
-azimuthal coordinates of the branch points, so that every sector has no \
-interior branch points.*)\"\>", ",", "\<\"(**)\"\>", ",", "\<\"(*3. *)\"\>", 
-   ",", "\<\"(*We generate some possible sheets of the function. For radicals \
-and Root\\\\[Dash]objects we generate all possible sheets, and for \
-logarithmic terms we use n (by default we will use three sheets) out of the \
-infinitely many sheets.*)\"\>", ",", "\<\"(**)\"\>", ",", "\<\"(*4. *)\"\>", 
-   ",", "\<\"(*We derive a set of coupled nonlinear ordinary differential \
-equations describing w_j(z) as a rational function in z and the w_k(z) for \
-all radical and logarithmic expressions. Solving such a system of \
-differential equation with branch-cut free right-hand sides avoids meeting \
-branch cuts.*)\"\>", ",", "\<\"(**)\"\>", ",", "\<\"(*5. *)\"\>", 
-   ",", "\<\"(*By starting quite near the branch points, we solve the \
-differential equation radially outwards for all sheets of every sector. Here \
-it is important to avoid calculating sheets more than once.*)\"\>", 
-   ",", "\<\"(**)\"\>", ",", "\<\"(*6. *)\"\>", 
-   ",", "\<\"(*Starting from the radial solutions of the differential \
-equations constructed in step 3) we solve the differential equation \
-azimuthally inside the sectors constructed in step 2). These solutions \
-results in parametrized (parametrized by the radius r and the angle \
-\\\\[CurlyPhi]) parts of all sheets for each sector.*)\"\>", 
-   ",", "\<\"(**)\"\>", ",", "\<\"(*7. *)\"\>", 
-   ",", "\<\"(*We generate values and derivatives of all patches for all \
-sheets. Potentially, interpolate the values.*)\"\>", ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*8.  *)\"\>", 
-   ",", "\<\"(*We form graphics complexes of polygons with normals for all \
-patches of all sheets and apply potential plot styles, color functions and \
-form the resulting 3D graphics object. Potentially small graphics complexes \
-that stitch the graphics complexes of the patches over the sectors are added. \
-*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Package context change*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"BeginPackage[\\\"RiemannSurfacePlot3D`\\\"] \"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Usage messages for the exported functions*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfacePlot3D::usage = \"\>", 
-   ",", "\<\"\\\"RiemannSurfacePlot3D[w == f[z], reim[w[z]], {z, w}] plots a \
-Riemann surface of w as \"\>", 
-   ",", "\<\" the real or imaginary part reim of w over the complex \
-z-plane.\"\>", 
-   ",", "\<\" RiemannSurfacePlot3D[w == f[z], {\\\\[Zeta]1, \\\\[Zeta]2, \
-\\\\[Zeta]3}, {z, w}] plots a Riemann surface of w as {\\\\[Zeta]1, \
-\\\\[Zeta]2, \\\\[Zeta]3} \"\>", 
-   ",", "\<\" along the Cartesian coordinate axes where \\\\[Zeta]1, \
-\\\\[Zeta]2, \\\\[Zeta]3 can be Re[z], Im[z], Re[w], Im[w] or a linear \
-combination of them.\\\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"Coloring::usage = \"\>", 
-   ",", "\<\"\\\"Coloring is an option of RiemannSurfacePlot3D. The coloring \
-should be specified as an expression containing \"\>", 
-   ",", "\<\"Re[z], Im[z], Re[w], Im[w] that for numerical values evaluates \
-to a coloring directive.\\\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"BranchPointOffset::usage = \"\>", 
-   ",", "\<\"\\\"BranchPointOffset is an option of RiemannSurfacePlot3D and \
-determines how far away from a branch point the \"\>", 
-   ",", "\<\"numerical solution of the differential equation should \
-start.\\\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"StitchPatches::usage = \"\>", 
-   ",", "\<\"\\\"StitchPatches is an option of RiemannSurfacePlot3D and \
-determines if the individual patches should be joined.\\\";\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"LogSheets::usage = \"\>", 
-   ",", "\<\"\\\"LogSheets is an option of RiemannSurfacePlot3D and \
-determines which sheets to use for logarithms\"\>", 
-   ",", "\<\"and product logarithms. The default is {-1, 0, 1}, meaning the \
-main sheet and the sheets immediately below \"\>", 
-   ",", "\<\"and above the main sheet.\\\";\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"NDSolveOptions::usage = \"\>", 
-   ",", "\<\"\\\"NDSolveOptions is an option of RiemannSurfacePlot3D and \
-allows propagating options to NDSolve\"\>", 
-   ",", "\<\"for the solution of the coupled system of nonlinear differential \
-equations.\\\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Private context change*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"Begin[\\\"`Private`\\\"]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Implementation*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Debug switch*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*debugQ = False;*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Example specification*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>",
-    ",", "\<\"(* ::Text:: *)\"\>", 
-   ",", "\<\"(*Some simple example to see how the code works.*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 1 *)*)\"\>", 
-   ",", "\<\"(*wExample=Sqrt[z];*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 2 *)*)\"\>", 
-   ",", "\<\"(*wExample=ArcSin[z^2 + 1];*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 3 *)*)\"\>", 
-   ",", "\<\"(*wExample=ProductLog[z^2 + 1];*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 4 *)*)\"\>", 
-   ",", "\<\"(*wExample=ArcSin[z^3 + 1];*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 5 *) *)\"\>", 
-   ",", "\<\"(*wExample = -2 Sqrt[-1 + z^4]; *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 6 *) *)\"\>", 
-   ",", "\<\"(*wExample = ProductLog[3, z (z - 1)]; *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 7 *) *)\"\>", 
-   ",", "\<\"(*wExample = z^E; *)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 8 *) *)\"\>", 
-   ",", "\<\"(*wExample = Sqrt[z^2]; *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 9 *) *)\"\>", 
-   ",", "\<\"(*wExample = Cos[z^3] (z^3 - 1)^(1/3); *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example 10 *) *)\"\>", 
-   ",", "\<\"(*wExample = Sqrt[z]/Log[z/3]; *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Find branch points*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"ArcTrigFunctionQ[f_] := MatchQ[f, ArcSin | ArcCos | ArcTan | \
-ArcCot | ArcSec | ArcCsc |\"\>", 
-   ",", "\<\"\\t\\t\\t                      ArcSinh | ArcCosh | ArcTanh | \
-ArcCoth | ArcSech | ArcCsch]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"canonicalizeFunction[w_] :=  \"\>", 
-   ",", "\<\" w //. f_?ArcTrigFunctionQ[x_] :> \
-(Evaluate[TrigToExp[f[#]]]&[x]) //.\"\>", 
-   ",", "\<\"       ProductLog[_Integer, arg_] :> ProductLog[arg]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*wcan=canonicalizeFunction[wExample]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*canonicalizeFunction[ArcSin[ArcSin[z]]]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*canonicalizeFunction[ArcTan[1/ArcCos[1/z]]]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"multiValuedTerms[w_, z_] := \"\>", 
-   ",", "\<\"Union[Cases[canonicalizeFunction[w], \"\>", 
-   ",", "\<\"\\t\\t    Log[_?(MemberQ[#, z, {0, \\\\[Infinity]}]&)] | \"\>", 
-   ",", "\<\"            ProductLog[_?(MemberQ[#, z, {0, \\\\[Infinity]}]&)] \
-| \"\>", ",", "\<\"            ProductLog[_Integer, _?(MemberQ[#, z, {0, \
-\\\\[Infinity]}]&)] |\"\>", 
-   ",", "\<\"\\t\\t    Power[_?(MemberQ[#, z, {0, \\\\[Infinity]}]&), \"\>", 
-   ",", "\<\"                  _?(Not[(* some simplification effort \
-*)IntegerQ[Together //@ #]]&)] |           \"\>", 
-   ",", "\<\"\\t\\t\\tRoot[_?(MemberQ[#, z, {0, \\\\[Infinity]}]&), __], {0, \
-\\\\[Infinity]}]]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*multiValuedTerms[z^z+3^z+(2 z+1)^Sin[z], z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*multiValuedTerms[Root[-1+2 z #-#^5&, 3]+Log[z]-Log[z]^Log[z], \
-z]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*multiValuedTerms[1/(z+(z^(3/2)-(z-1)^(-3/2))^2), z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*multiValuedTerms[ProductLog[z+1]^2 + 1, z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", ",", "\<\"(*multiValuedTerms[z^E, z]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"branchPoints[w_, z_] := \"\>",
-    ",", "\<\"Module[{mvt = multiValuedTerms[w, z], bcsPre, bps},\"\>", 
-   ",", "\<\"       bcsPre = DeleteCases[Flatten[branchPointsF[#, z]& /@ \
-mvt], z | _DirectedInfinity, \\\\[Infinity]]; \"\>", 
-   ",", "\<\"       bps = If[And @@ (NumericQ /@ bcsPre), bcsPre, $Failed];\"\
-\>", ",", "\<\"       If[debugQ, Print[Style[Row[{Text[\\\"Branch points: \
-\\\"], bps}], Darker[Green]]]];\"\>", ",", "\<\"       bps] // Quiet\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchPointsF[Log[f_], z_] := z /. {ToRules[Reduce[f == 0 || 1/f \
-== 0, z]]}\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchPointsF[ProductLog[f_], z_] := z /. {ToRules[Reduce[f == 0 \
-|| 1/f == 0 || f == -1/E, z]]}\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchPointsF[Power[f_, _], z_] := z /. {ToRules[Reduce[f == 0 \
-|| 1/f == 0, z]]}\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchPointsF[Root[f_, _], z_] := \"\>", 
-   ",", "\<\"Module[{w, p}, p = f[w]; (z /. {ToRules[Reduce[Resultant[p, D[p, \
-w], w] == 0, z]]})]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*bpsExact=branchPoints[wExample, z] *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* example *)*)\"\>", 
-   ",", "\<\"(*(bps=bpsExact) // N[#, 30]&//N*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchPoints[1/(z + (z^(3/2) - (z - 1)^(-(3/2)))^2), z]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchPoints[ArcSin[z^3 + 3*z - 7]/(z - 1), z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchPoints[Root[-1+2 z #-#^5&, 3]+Log[z], z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchPoints[ProductLog[z], z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchPoints[z^z+3^z+(2 z+1)^Sin[z], z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchPoints[1/(z+(z^(3/2)-(z-1)^(-3/2))^2), z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test -- countably many branch points *)*)\"\>", 
-   ",", "\<\"(*branchPoints[Log[Sin[z]], z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Form sectors in the complex z-plane*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"sectorArray[branchPoints_, branchPointOffset_:10^-6, prec_:25] \
-:= \"\>", 
-   ",", "\<\"\\tModule[{\\\\[CurlyEpsilon] = branchPointOffset, rMax, rList, \
-\\\\[CurlyPhi]List}, \"\>", 
-   ",", "\<\"        rMax = If[# == 0., 1, 15/10 #]&[Max[Abs[rList = Abs /@ \
-N[branchPoints, prec]]]];\\t\\t\"\>", 
-   ",", "\<\"\\t\\t(* the different distances *)\"\>", 
-   ",", "\<\"\\t\\trList = Union[Prepend[Append[rList, rMax], \
-\\\\[CurlyEpsilon]], SameTest -> ((Abs[#1 - #2]< 2 \
-\\\\[CurlyEpsilon])&)];\"\>", ",", "\<\"\\t\\t(* the different angles *)\"\>",
-    ",", "\<\"\\t    \\\\[CurlyPhi]List = Sort[Union[If[# == 0., (* bignum \
-zero *) SetAccuracy[0, prec], \"\>", 
-   ",", "\<\"                         Arg[#]]& /@ branchPoints,  SameTest -> \
-(Abs[#1 - #2] < \\\\[CurlyEpsilon] &)], Less];\"\>", 
-   ",", "\<\"\\t\\t\\\\[CurlyPhi]List = Append[\\\\[CurlyPhi]List, \
-First[\\\\[CurlyPhi]List] + 2 Pi];\"\>", 
-   ",", "\<\"\\t\\t(* the different sectors *)      \"\>", 
-   ",", "\<\"        N[#, prec]& @ Table[{rList[[i]] + \\\\[CurlyEpsilon], \\\
-\\[CurlyPhi]List[[j]] + \\\\[CurlyEpsilon], rList[[i + 1]] - \
-\\\\[CurlyEpsilon], \\\\[CurlyPhi]List[[j + 1]] - \\\\[CurlyEpsilon]}, \"\>", 
-   ",", "\<\"\\t\\t\\t\\t            {i, Length[rList] - 1}, {j, \
-Length[\\\\[CurlyPhi]List] - 1}]]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*(s1=sectorArray[bps, 10^-6, 25])//Length*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*(s1List=Flatten[s1, 1])//Length*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*sectorPolygon[{r1_,\\\\[CurlyPhi]1_,r2_,\\\\[CurlyPhi]2_}, \
-\\\\[Delta]_:0]:=*)\"\>", 
-   ",", "\<\"(*\\tWith[{pp=30, \\\\[Delta]r = Abs[r2 - r1]/60, \
-\\\\[Delta]\\\\[CurlyPhi] = Abs[\\\\[CurlyPhi]2 - \\\\[CurlyPhi]1]/60},  \
-Polygon[Join[*)\"\>", 
-   ",", "\<\"(*\\t\\t  Table[(r1+\\\\[Delta]r)  {Cos[\\\\[CurlyPhi]  ],Sin[\\\
-\\[CurlyPhi]  ]},{\\\\[CurlyPhi],\\\\[CurlyPhi]1 + \\\\[Delta]\\\\[CurlyPhi], \
-\\\\[CurlyPhi]2 - \\\\[Delta],(\\\\[CurlyPhi]2-\\\\[CurlyPhi]1-2\\\\[Delta]\\\
-\\[CurlyPhi])/pp}],*)\"\>", 
-   ",", "\<\"(*\\t \\t Table[r    \
-{Cos[\\\\[CurlyPhi]2-\\\\[Delta]\\\\[CurlyPhi]],Sin[\\\\[CurlyPhi]2-\\\\[\
-Delta]\\\\[CurlyPhi]]},{r,r1 + \\\\[Delta]r, \
-r2-\\\\[Delta]r,(r2-r1-2\\\\[Delta]r)/pp}],*)\"\>", 
-   ",", "\<\"(* \\t\\t Table[(r2 -\\\\[Delta]r) {Cos[\\\\[CurlyPhi]  ],Sin[\\\
-\\[CurlyPhi]  ]},{\\\\[CurlyPhi],\\\\[CurlyPhi]2 - \\\\[Delta]\\\\[CurlyPhi], \
-\\\\[CurlyPhi]1 + \
-\\\\[Delta]\\\\[CurlyPhi],(\\\\[CurlyPhi]1-\\\\[CurlyPhi]2-2\\\\[Delta]\\\\[\
-CurlyPhi])/pp}],*)\"\>", 
-   ",", "\<\"(* \\t\\t Table[r    \
-{Cos[\\\\[CurlyPhi]1+\\\\[Delta]\\\\[CurlyPhi]],Sin[\\\\[CurlyPhi]1+\\\\[\
-Delta]\\\\[CurlyPhi]]},{r,r2 - \\\\[Delta]r, r1 + \
-\\\\[Delta]r,(r1-r2-2\\\\[Delta]r)/pp}]]]];*)\"\>", ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*Graphics[{ {Hue[RandomReal[]], Opacity[0.33],sectorPolygon[#, \
-0.02]}& /@s1List,*)\"\>", 
-   ",", "\<\"(*\\t\\t       \
-PointSize[0.02],Point[{Re[#],Im[#]}]&/@bps},*)\"\>", 
-   ",", "\<\"(*\\t                   PlotRange->All, Frame->True]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Form multi-valued terms*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"numberMultiValuedTerms[w_, z_] := \"\>", 
-   ",", "\<\"Module[{root, function, \\\\[Omega], res}, \"\>", 
-   ",", "\<\"res = Block[{i = 1}, \"\>", 
-   ",", "\<\"MapAll[Which[MatchQ[#, Log[_?(MemberQ[#, z, {0, \
-\\\\[Infinity]}]&)]], \"\>", 
-   ",", "\<\"\\t\\t\\t\\t       (* the Log terms *)  Subscript[Log, i++] @@ \
-#, \"\>", 
-   ",", "\<\"             MatchQ[#, ProductLog[_?(MemberQ[#, z, {0, \
-\\\\[Infinity]}]&)]], \"\>", 
-   ",", "\<\"\\t\\t\\t\\t       (* the Log terms *)  Subscript[ProductLog, \
-i++] @@ #, \"\>", 
-   ",", "\<\"             MatchQ[#, Power[_?(MemberQ[#, z, {0, \
-\\\\[Infinity]}]&), _Rational]], \"\>", 
-   ",", "\<\"\\t\\t\\t\\t       (* the rational power terms *) \
-Subscript[Power, i++] @@ #, \"\>", 
-   ",", "\<\"\\t\\t\\t MatchQ[#, Power[\\\\[AlignmentMarker]_?(MemberQ[#, z, \
-{0, \\\\[Infinity]}]&), \"\>", 
-   ",", "\<\"\\t\\t\\t\\t\\t\\\\[AlignmentMarker]_?((MemberQ[#, z, {0, \
-\\\\[Infinity]}] || Not[IntegerQ[#]])&)]], \"\>", 
-   ",", "\<\"\\t\\t\\t\\t       (* the f[z]^g[z] terms *) Exp[Subscript[Log, \
-i++][#[[1]]] #[[2]]], \"\>", 
-   ",", "\<\"\\t\\t\\t MatchQ[#, root[_?(MemberQ[#, z, {0, \
-\\\\[Infinity]}]&), _]], \"\>", 
-   ",", "\<\"\\t\\t\\t\\t       (* the Root terms *) Subscript[root, i++] @@ \
-#, \"\>", ",", "\<\"             True, #]&, \"\>", 
-   ",", "\<\"\\t\\t\\t\\t(* some preprocessing for Root objects *)\"\>", 
-   ",", "\<\"\\t\\t\\t\\tw //. Root[f_, __] :> root[f, \
-Exponent[f[\\\\[Omega]], \\\\[Omega]]] //.   \"\>", 
-   ",", "\<\"                (* neutralizing the Function in Root *) Function \
--> function] //.\"\>", 
-   ",", "\<\"\\t\\t\\t(* some postprocessing for Root objects *) {function -> \
-Function, root -> Root}\"\>", ",", "\<\"\\t  ];\"\>", 
-   ",", "\<\"  If[debugQ, Print[Style[Row[{Text[\\\"Numbered multivalued \
-sheets: \\\"], res}], Darker[Green]]]];\"\>", ",", "\<\"  res]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*wnum=numberMultiValuedTerms[wcan, z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*numberMultiValuedTerms[Sin[z] + Root[#^7 z-z+1&, 2]+Power[z, \
-(5)^-1] + Log[2 z], z]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*numberMultiValuedTerms[z^2+z^Pi+z^z+3^z+(2 z+1)^Sin[z], z]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"powerAndLogTerms[w_, z_] := \"\>", 
-   ",", "\<\"\\tModule[{powerTerms, logTerms, productLogTerms, \
-sortedPowerAndLogTerms, rootTerms}, \"\>", 
-   ",", "\<\"           \\\\[AlignmentMarker]powerTerms = Cases[w, \
-Subscript[Power, _][__], {0, \\\\[Infinity]}];\"\>", 
-   ",", "\<\"           productLogTerms = Cases[w, Subscript[ProductLog, \
-_][_], {0, \\\\[Infinity]}];\"\>", 
-   ",", "\<\"           \\\\[AlignmentMarker]logTerms = Cases[w, \
-Subscript[Log, _][_], {0, \\\\[Infinity]}];\"\>", 
-   ",", "\<\"           rootTerms = Cases[w, Subscript[Root, _][__], {0, \
-\\\\[Infinity]}];\"\>", 
-   ",", "\<\"\\t       Sort[Join[powerTerms, logTerms, productLogTerms, \
-rootTerms], #1[[0, 2]] < #2[[0, 2]]&]]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>",
-    ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*plts=powerAndLogTerms[wnum, z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"substitutions[powerAndLogTerms_, wFunc_, w_, z_] := \"\>", 
-   ",", "\<\"\\tModule[{ws = (# -> Subscript[w, #[[0, 2]]][z])& /@ \
-powerAndLogTerms}, \"\>", 
-   ",", "\<\"\\t   \\t{Last /@ FoldList[Append[#1, #2 //. #1]&, \"\>", 
-   ",", "\<\"           {First[ws]}, Rest[ws]], ws, wFunc//.ws}]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*subs=substitutions[plts, wnum, w, z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Form differential equations*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"toODE[\\\\[Omega]:(Subscript[Log, _][\\\\[Xi]_] -> w_), z_] := \
-\"\>", ",", "\<\"     {\\\\[Omega], D[w, z] == Together[D[\\\\[Xi], \
-z]/\\\\[Xi]]}\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"toODE[\\\\[Omega]:(Subscript[ProductLog, _][\\\\[Xi]_] -> w_), \
-z_] := \"\>", 
-   ",", "\<\"     {\\\\[Omega], D[w, z] == w/(1 + w) Together[D[\\\\[Xi], z]/\
-\\\\[Xi]]}\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"toODE[\\\\[Omega]:(Subscript[Power, _][f_, Rational[p_, q_]] -> \
-w_), z_] := \"\>", 
-   ",", "\<\"     {\\\\[Omega], D[w, z]== Together[p/q w D[f, z]/f]}\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"toODE[\\\\[Omega]:(Subscript[Root, _][\\\\[Xi]_, d_] -> w_), z_] \
-:= \"\>", 
-   ",", "\<\"     {\\\\[Omega], D[w, z] == Together[-D[\\\\[Xi], \
-z][w]/D[\\\\[Xi][w], w]]}\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*(odes1=toODE[#, z]& /@ subs[[1]])//TableForm*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*toODE[Subscript[Root, i][#^5-2 z+# z^2-1&, 5]->W[z], z]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"derivativeFreeRhs[odes_] := \"\>", 
-   ",", "\<\"Apply[Equal, Last /@ Transpose[{First /@ odes, \"\>", 
-   ",", "\<\"      Last /@ FoldList[Append[#1, #2 //. #1]&, \"\>", 
-   ",", "\<\"              {First[#]}, Rest[#]]&[Apply[Rule, Last /@ odes, \
-{1}]]}], {1}]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*(odes2=derivativeFreeRhs[odes1])//TableForm*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*w\\\\[Psi]Prime = D[subs[[-1]], z]//.(Rule @@@ odes2) *)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* this function is not used directly later; \"\>", 
-   ",", "\<\"   but comes in handy sometimes *)\"\>", 
-   ",", "\<\"makeOdes[f_, {w_, z_}] :=  \"\>", 
-   ",", "\<\"        Function[\\\\[Omega], MapAt[derivativeFreeRhs[toODE[#, \
-z]& /@ #]&, \"\>", 
-   ",", "\<\"                     substitutions[powerAndLogTerms[#, z], #, w, \
-z]&[\"\>", 
-   ",", "\<\"                                   \
-numberMultiValuedTerms[\\\\[Omega], z]], 1]][f]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*makeOdes[z^z+3^z+(2 z+1)^Sin[z]-Sin[z]^4+Root[#^7 z-z+1&, \
-2]^2+*)\"\>", 
-   ",", "\<\"(*                     Power[z, 1/5]+Sqrt[Log[2 z]]/(Sqrt[z]-2), \
-{w, z}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*makeOdes[((1/z)^(1/z))^(1/z), {w, z}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*makeOdes[Log[Log[1/Log[Log[z]]]], {w, z}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Form sheets and azimuthal/radial differential equations*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"sheets[\\\\[Omega]:Subscript[Power, i_][\\\\[Xi]_, \
-r:Rational[p_, q_]], ___] := \"\>", 
-   ",", "\<\"       Table[\\\\[Omega] -> E^((2\\\\[Pi] I j)/q) \\\\[Xi]^r, \
-{j, 0, q - 1}];\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"sheets[\\\\[Omega]:Subscript[Log, i_][\\\\[Xi]_], ks_List] := \"\
-\>", ",", "\<\"       (\\\\[Omega] -> Log[\\\\[Xi]] + 2 # I \\\\[Pi])& /@ \
-ks\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"sheets[\\\\[Omega]:Subscript[ProductLog, i_][\\\\[Xi]_], \
-ks_List] := \"\>", 
-   ",", "\<\"       (\\\\[Omega] -> ProductLog[#, \\\\[Xi]])& /@ ks\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"sheets[\\\\[Omega]:Subscript[Root, _][\\\\[Xi]_, d_], ___] := \"\
-\>", ",", "\<\"       Table[\\\\[Omega] -> Root[\\\\[Xi], j], {j, 1, d}]\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*sr=sheets [#, {-1, 1}]&/@ plts*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"allSheets[sheetRealizations_] := \"\>", 
-   ",", "\<\"Module[{res},\"\>", 
-   ",", "\<\"       res = Flatten[Outer[List, ##]& @@ sheetRealizations, \
-Length[sheetRealizations] - 1];\"\>", 
-   ",", "\<\"       If[debugQ, Print[Style[Row[{Text[\\\"All sheets: \\\"], \
-res}], Darker[Green]]]];\"\>", ",", "\<\"       res]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*asp=allSheets[sr]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"odeAzimuthal[\\\\!\\\\(\\\\*\"\>", 
-   ",", "\<\"SubsuperscriptBox[\\\"w_\\\", \\\"i_\\\", \\\"\\\\[Prime]\\\",\"\
-\>", ",", "\<\"MultilineFunction->None][z_]\\\\)==rhs_, {Subscript[w_, i_], \
-z_}, {\\\\[Psi]_, \\\\[CurlyPhi]_}, r_] := \"\>", 
-   ",", "\<\"             Subscript[\\\\[Psi], i]'[\\\\[CurlyPhi]] == rhs D[r \
-E^(I \\\\[CurlyPhi]), \\\\[CurlyPhi]] /.\"\>", 
-   ",", "\<\"                       Subscript[w, j_][z] :> \
-Subscript[\\\\[Psi], j][\\\\[CurlyPhi]] /. z -> r Exp[I \\\\[CurlyPhi]]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"odeRadial[\\\\!\\\\(\\\\*\"\>",
-    ",", "\<\"SubsuperscriptBox[\\\"w_\\\", \\\"i_\\\", \
-\\\"\\\\[Prime]\\\",\"\>", 
-   ",", "\<\"MultilineFunction->None][z_]\\\\)==rhs_, {Subscript[w_, i_], \
-z_}, {\\\\[Psi]_, \\\\[Rho]_}, \\\\[ScriptD]_] := \"\>", 
-   ",", "\<\"          Subscript[\\\\[Psi], i]'[\\\\[Rho]] == rhs D[\\\\[Rho] \
-\\\\[ScriptD], \\\\[Rho]] /.\"\>", 
-   ",", "\<\"                      Subscript[w, j_][z] :> \
-Subscript[\\\\[Psi], j][\\\\[Rho]] /. z -> \\\\[ScriptD] \\\\[Rho]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*odes\\\\[CurlyPhi]=odeAzimuthal[#, {#[[1, 0, 1]], z}, \
-{\\\\[Psi], \\\\[CurlyPhi]}, r]& /@ odes2*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*odesr=odeRadial[#, {#[[1, 0, 1]], z}, {\\\\[Psi], \\\\[Rho]}, \
-\\\\[ScriptD]]& /@ odes2*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Solve differential equations numerically*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"sectorSheetPatchPoints[args: PatternSequence[{w_, z_}, \
-{w\\\\[Psi]_, w\\\\[Psi]Prime_}, wSheet_, {odes\\\\[CurlyPhi]_, {\\\\[Psi]_, \
-\\\\[CurlyPhi]_}, r_},    \"\>", 
-   ",", "\<\"                                             {odesr_, \
-{\\\\[Psi]_, \\\\[Rho]_}, \\\\[ScriptD]_}, sector:{r1_, \\\\[CurlyPhi]1_, \
-r2_, \\\\[CurlyPhi]2_}, {pp\\\\[CurlyPhi]O_, pprO_}, \"\>", 
-   ",", "\<\"                                             prec_, \
-NDSolveOptions___]] := \"\>", 
-   ",", "\<\"\\tModule[{radialStartingValues, radialInits, radialIFs, \
-azimuthalIFs, points, ra, \\\\[CurlyPhi]a, rb, \\\\[CurlyPhi]b, \
-pp\\\\[CurlyPhi], ppr, \\\\[Psi]s,\"\>", 
-   ",", "\<\"            \\\\[CapitalPsi], \\\\[CapitalPsi]P, values, \
-derivatives, defaultNDSolveOptions}, \"\>", 
-   ",", "\<\"        {pp\\\\[CurlyPhi], ppr} = {pp\\\\[CurlyPhi]O, pprO} - 1;\
-\"\>", ",", "\<\"\\t\\t(* get initial values for the differential equation *)\
-\"\>", ",", "\<\"\\t\\tradialStartingValues = N[((Last /@ wSheet) //. wSheet) \
-/. z -> r1 Exp[I \\\\[CurlyPhi]1], prec];\"\>", 
-   ",", "\<\"\\t\\t(* the functions of the odes *) \"\>", 
-   ",", "\<\"\\t\\t\\\\[Psi]s = #[[1, 0, 1]]& /@ odesr;\"\>", 
-   ",", "\<\"\\t\\t(* calculate initial conditions for radial odes *)\"\>", 
-   ",", "\<\"\\t\\tradialInits = Apply[Equal, Transpose[{#[r1]& /@ \
-\\\\[Psi]s, radialStartingValues}], {1}];\"\>", 
-   ",", "\<\"        (* default options for numerical ODE solving *)\"\>", 
-   ",", "\<\"        defaultNDSolveOptions = Sequence[PrecisionGoal -> 12, \
-AccuracyGoal -> 12, MaxSteps -> 20000,\"\>", 
-   ",", "\<\"                                         InterpolationOrder -> \
-All];\"\>", 
-   ",", "\<\"\\t\\t(* solve the differential equation radially *)\"\>", 
-   ",", "\<\"\\t\\tradialIFs = NDSolve[Join[odesr, radialInits] /. \
-\\\\[ScriptD] -> Exp[I \\\\[CurlyPhi]1], \\\\[Psi]s , {\\\\[Rho], r1, r2}, \"\
-\>", ",", "\<\"                            NDSolveOptions, \
-defaultNDSolveOptions];\"\>", 
-   ",", "\<\"        (* solve the differential equation azimuthally *)\"\>", 
-   ",", "\<\"    \\tazimuthalIFs = Table[ra = r1 + i/ppr(r2 - r1);\"\>", 
-   ",", "\<\"          NDSolve[Join[odes\\\\[CurlyPhi] /. r -> ra, \"\>", 
-   ",", "\<\"                       Apply[Equal, \
-Transpose[{#[\\\\[CurlyPhi]1]& /@ \\\\[Psi]s, #[ra]& /@ \\\\[Psi]s /. \
-radialIFs[[1]]}], {1}]],\"\>", 
-   ",", "\<\"                          \\\\[Psi]s, {\\\\[CurlyPhi], \
-\\\\[CurlyPhi]1, \\\\[CurlyPhi]2}, NDSolveOptions, defaultNDSolveOptions], \"\
-\>", ",", "\<\"\\t\\t\\t\\t       {i, 0, ppr}];  azimuthalIFs;\"\>", 
-   ",", "\<\"\\t   (* generate the function itself *)     \"\>", 
-   ",", "\<\"       \\\\[CapitalPsi] = (w\\\\[Psi] /. Subscript[w, \
-i_][\\\\[Xi]_] :> Subscript[\\\\[Psi], i][\\\\[CurlyPhi]b] /. azimuthalIFs) \
-/. z -> rb E^(I \\\\[CurlyPhi]b); \"\>", 
-   ",", "\<\"\\t   (* calculate points for the patch *)\\t\"\>", 
-   ",", "\<\"\\t   values = Developer`ToPackedArray @ \"\>", 
-   ",", "\<\"                Table[rb = r1 + i/ppr(r2 - r1); \\\\[CurlyPhi]b \
-= \\\\[CurlyPhi]1 + k/pp\\\\[CurlyPhi](\\\\[CurlyPhi]2 - \\\\[CurlyPhi]1); \
-{rb, \\\\[CurlyPhi]b, \\\\[CapitalPsi][[i + 1, 1]]}, \"\>", 
-   ",", "\<\"                      {i, 0, ppr}, {k, 0, \
-pp\\\\[CurlyPhi]}];\"\>", 
-   ",", "\<\"       (* generate the derivative *)    \"\>", 
-   ",", "\<\"       Clear[rb, \\\\[CurlyPhi]b];\"\>", 
-   ",", "\<\"       \\\\[CapitalPsi]P = (w\\\\[Psi]Prime /. Subscript[w, i_][\
-\\\\[Xi]_] :> Subscript[\\\\[Psi], i][\\\\[CurlyPhi]b] /. azimuthalIFs) /. z \
--> rb E^(I \\\\[CurlyPhi]b); \"\>", 
-   ",", "\<\"   \\t(* calculate the derivative of the function *)     \
-\\t\"\>", ",", "\<\"\\t   derivatives = Developer`ToPackedArray @ \"\>", 
-   ",", "\<\"                     Table[rb = r1 + i/ppr(r2 - r1); \
-\\\\[CurlyPhi]b = \\\\[CurlyPhi]1 + k/pp\\\\[CurlyPhi](\\\\[CurlyPhi]2 - \
-\\\\[CurlyPhi]1); {rb, \\\\[CurlyPhi]b, \\\\[CapitalPsi]P[[i + 1, 1]]}, \"\>",
-    ",", "\<\"                           {i, 0, ppr}, {k, 0, \
-pp\\\\[CurlyPhi]}];\"\>", 
-   ",", "\<\"\\t   (* return values and derivatives *)\"\>", 
-   ",", "\<\"\\t   {sector, {values, derivatives}}]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*vdData =  sectorSheetPatchPoints[{w, z}, {subs[[-1]], \
-w\\\\[Psi]Prime}, asp[[1]], *)\"\>", 
-   ",", "\<\"(*\\t                                                            \
-    {odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, s1List[[1]], {10, 16}, 25];*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Form graphics complexes for the patches*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"interpolateValuesAndDerivatives[{sector:{r1_, \\\\[CurlyPhi]1_, \
-r2_, \\\\[CurlyPhi]2_}, {values_, derivatives_}}, \"\>", 
-   ",", "\<\"                                {pp\\\\[CurlyPhi]IO_, pprIO_}, \
-ifOptions___] :=\"\>", 
-   ",", "\<\"Module[{rb, \\\\[CurlyPhi]b, pp\\\\[CurlyPhi]I, pprI, \
-\\\\[CapitalPsi]IF, \\\\[CapitalPsi]PIF, valuesIF, derivativesIF},\"\>", 
-   ",", "\<\"     If[(InterpolationOrder /. {ifOptions}) === Automatic,\"\>", 
-   ",", "\<\"        Apply[{#1 Cos[#2], #1 Sin[#2], #3}&, {values, \
-derivatives}, {-2}],\"\>", 
-   ",", "\<\"       {pp\\\\[CurlyPhi]I, pprI} = {pp\\\\[CurlyPhi]IO, pprIO} - \
-1;\"\>", ",", "\<\"       (* form interpolating functions for function values \
-and derivatives *)\"\>", 
-   ",", "\<\"       \\\\[CapitalPsi]IF = Interpolation[Flatten[values, 1], \
-ifOptions];\"\>", 
-   ",", "\<\"       \\\\[CapitalPsi]PIF = Interpolation[Flatten[derivatives, \
-1], ifOptions];\"\>", 
-   ",", "\<\"       (* form array of interpolated values *)\"\>", 
-   ",", "\<\"       valuesIF = Developer`ToPackedArray @ \"\>", 
-   ",", "\<\"             Table[rb = r1 + i/pprI(r2 - r1); \\\\[CurlyPhi]b = \
-\\\\[CurlyPhi]1 + k/pp\\\\[CurlyPhi]I(\\\\[CurlyPhi]2 - \\\\[CurlyPhi]1); \
-\"\>", ",", "\<\"                   {rb Cos[\\\\[CurlyPhi]b], rb \
-Sin[\\\\[CurlyPhi]b], \\\\[CapitalPsi]IF[rb, \\\\[CurlyPhi]b]}, \"\>", 
-   ",", "\<\"                   {i, 0, pprI}, {k, 0, \
-pp\\\\[CurlyPhi]I}];\"\>", 
-   ",", "\<\"       derivativesIF = Developer`ToPackedArray @ \"\>", 
-   ",", "\<\"             Table[rb = r1 + i/pprI(r2 - r1); \\\\[CurlyPhi]b = \
-\\\\[CurlyPhi]1 + k/pp\\\\[CurlyPhi]I(\\\\[CurlyPhi]2 - \\\\[CurlyPhi]1); \
-\"\>", ",", "\<\"                   {rb Cos[\\\\[CurlyPhi]b], rb \
-Sin[\\\\[CurlyPhi]b], \\\\[CapitalPsi]PIF[rb, \\\\[CurlyPhi]b]}, \"\>", 
-   ",", "\<\"                   {i, 0, pprI}, {k, 0, \
-pp\\\\[CurlyPhi]I}];\"\>", ",", "\<\"      {valuesIF, derivativesIF}\"\>", 
-   ",", "\<\"       ]\"\>", ",", "\<\"      ]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*interpolateValuesAndDerivatives[vdData, {3, 3}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"makePointsAndNormals = \"\>", 
-   ",", "\<\"Compile[{{M, _Real, 2}, {valuesAndDerivatives, _Complex, \
-4}},\"\>", 
-   ",", "\<\"       Module[{values = valuesAndDerivatives[[1]], derivatives = \
-valuesAndDerivatives[[2]],\"\>", 
-   ",", "\<\"               a = {0., 0., 0.}, b = {0., 0., 0.}},\"\>", 
-   ",", "\<\"       {Map[Re[M.{#[[1]], #[[2]], Re[#[[3]]], Im[#[[3]]]}]&, \
-values, {2}], \"\>", 
-   ",", "\<\"        Map[(a = Re[M.{1., 0.,  Re[#[[3]]], Im[#[[3]]]}];\"\>", 
-   ",", "\<\"             b = Re[M.{0., 1., -Im[#[[3]]], Re[#[[3]]]}];\"\>", 
-   ",", "\<\"          (* form cross product *)\"\>", 
-   ",", "\<\"            -Re[{a[[2]] b[[3]] - a[[3]] b[[2]],\"\>", 
-   ",", "\<\"                 a[[3]] b[[1]] - a[[1]] b[[3]],\"\>", 
-   ",", "\<\"                 a[[1]] b[[2]] - a[[2]] b[[1]]}])&, derivatives, \
-{2}]}]\"\>", ",", "\<\"        ];\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"makeVertexColors[values_, cf_] := \"\>", 
-   ",", "\<\"    cf @@@ Flatten[Map[{#[[1]], #[[2]], Re[#[[3]]], \
-Im[#[[3]]]}&, values, {2}], 1]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"makeGraphicsComplex[{points_?ArrayQ, normals_?ArrayQ}]  :=  \
-\"\>", ",", "\<\"Module[{lOuter = Length[points], lInner = \
-Length[points[[1]]]}, \"\>", 
-   ",", "\<\"       GraphicsComplex[Flatten[N[points], 1], {EdgeForm[], \"\>",
-    ",", "\<\"       GraphicsGroup[Polygon[Flatten[#, 1]& @ \"\>", 
-   ",", "\<\"           Table[{i lInner + j, i lInner + j + 1, (i + 1) lInner \
-+ j + 1, (i + 1) lInner + j}, \"\>", 
-   ",", "\<\"                 {i, 0, lOuter - 2}, {j, lInner - 1}]]]}, \"\>", 
-   ",", "\<\"                    VertexNormals -> (Normalize /@ \
-Flatten[N[normals], 1])]]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"sheetGraphicsComplex[M_, {values_, derivatives_}, cf_:Automatic] \
- := \"\>", 
-   ",", "\<\"With[{gc =  makeGraphicsComplex[makePointsAndNormals[M, {values, \
-derivatives}]]},\"\>", 
-   ",", "\<\"    If[cf === Automatic, gc, Append[gc, VertexColors -> \
-makeVertexColors[values, cf]]]\"\>", ",", "\<\"    ]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"MRe = {{1, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, 1, 0}};\"\>", 
-   ",", "\<\"MIm = {{1, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, 0, 1}};\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*Graphics3D[{Green, sheetGraphicsComplex[MRe, *)\"\>", 
-   ",", "\<\"(*        interpolateValuesAndDerivatives[#, 4 {10, 16}, \
-InterpolationOrder -> {1,1}]& @*)\"\>", 
-   ",", "\<\"(*                sectorSheetPatchPoints[{w, z}, {subs[[-1]], \
-w\\\\[Psi]Prime}, asp[[1]], *)\"\>", 
-   ",", "\<\"(*\\t                                                            \
-{odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, *)\"\>", 
-   ",", "\<\"(*\\t                                                            \
-s1List[[1]], 2 {10, 16}, 25]]}, *)\"\>", 
-   ",", "\<\"(*                       BoxRatios -> {1, 1, 2}, PlotRange -> \
-Automatic]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"complexUnion[l_, SameTest -> func_] := \"\>", 
-   ",", "\<\"Fold[Function[{u, v}, If[Select[u, func[#, v]&, 1] === {}, \"\>",
-    ",", "\<\"           Append[u, v], u]], {First[#]}, Rest[#]]&[Union[l]]\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"differentSheetRealizations[allSheets_, wnum_, z_, z1_, prec_] := \
-\"\>", ",", "\<\"complexUnion[{#, N[(wnum //. #) /. z -> z1, prec]}& /@ \
-allSheets, \"\>", 
-   ",", "\<\"\\t\\t       SameTest -> Function[{x, y}, If[x[[2]] == 0, x[[2]] \
-== y[[2]], \"\>", 
-   ",", "\<\"                                               Abs[(x[[2]] - \
-y[[2]])/x[[2]]] < 10^-(prec - 10)]]];\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"identicalSheetsQ[{sector1_, pointArray1_}, {sector2_, \
-pointArray2_}]  :=  \"\>", 
-   ",", "\<\"Module[{ap1 = Map[Last, pointArray1, {2}], ap2 = Map[Last, \
-pointArray2, {2}], \"\>", 
-   ",", "\<\"        \\\\[Delta]\\\\[CapitalSigma], scale, \\\\[CurlyEpsilon] \
-= 10^-4}, \"\>", 
-   ",", "\<\"        (* check sum of absolute values of differences at all \
-points *)\"\>", 
-   ",", "\<\"        \\\\[Delta]\\\\[CapitalSigma] = Total[Flatten[Abs[ap1 - \
-ap2]]];\"\>", 
-   ",", "\<\"        scale =  Total[Flatten[Abs[ap1]]] + \
-Total[Flatten[Abs[ap2]]];\"\>", 
-   ",", "\<\"        If[scale == 0, True, \\\\[Delta]\\\\[CapitalSigma]/scale \
-< \\\\[CurlyEpsilon]]\"\>", ",", "\<\"       ]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"dropMultipleSheetPointArrays[sectorSheetPointArrays_]  :=  \"\>",
-    ",", "\<\"Union[sectorSheetPointArrays, SameTest -> \
-(identicalSheetsQ[#1[[1]], #2[[1]]]&)]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>",
-    ",", "\<\"sectorSheetPatches[{w_, z_}, w\\\\[Psi]AndPrime_, wnum_, \
-sheetRealizations_, \"\>", 
-   ",", "\<\"                   {odes\\\\[CurlyPhi]_, {\\\\[Psi]_, \
-\\\\[CurlyPhi]_}, r_}, {odesr_, {\\\\[Psi]_, \\\\[Rho]_}, dir_}, \"\>", 
-   ",", "\<\"                   sector:{r1_, \\\\[CurlyPhi]1_, r2_, \
-\\\\[CurlyPhi]2_}, {pp\\\\[CurlyPhi]_, ppr_}, {pp\\\\[CurlyPhi]I_, pprI_}, \"\
-\>", ",", "\<\"                   prec_, io_, NDSolveOptions___] := \"\>", 
-   ",", "\<\"Module[{sheetValues, sheetPointArrays, uniqueSheetDataArrays}, \
-\"\>", ",", "\<\"\\t\\t(* the various log and radical sheet realizations *)\"\
-\>", ",", "\<\"       sheetValues = First /@ \
-differentSheetRealizations[sheetRealizations, wnum, z, r1 E^(I \
-\\\\[CurlyPhi]1), prec]; \"\>", 
-   ",", "\<\"\\t\\t(* calculating the sheet patches *)\"\>", 
-   ",", "\<\"       sheetPointArrays = sectorSheetPatchPoints[Sequence @@ \
-({\"\>", ",", "\<\"\\t\\t\\t\\t                    {w, z}, \
-w\\\\[Psi]AndPrime, #, {odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, \
-{odesr, {\\\\[Psi], \\\\[Rho]}, dir}, \"\>", 
-   ",", "\<\"\\t                                sector, {pp\\\\[CurlyPhi], \
-ppr}, prec, NDSolveOptions})]& /@ sheetValues;\"\>", 
-   ",", "\<\"       uniqueSheetDataArrays = \
-dropMultipleSheetPointArrays[sheetPointArrays];\"\>", 
-   ",", "\<\"        (* interpolate data *)\"\>", 
-   ",", "\<\"       interpolateValuesAndDerivatives[#, {pp\\\\[CurlyPhi]I, \
-pprI}, \"\>", 
-   ",", "\<\"                                       InterpolationOrder -> \
-io]& /@ uniqueSheetDataArrays] // Quiet\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example (all sheets for one patch) *)*)\"\>",
-    ",", "\<\"(*Graphics3D[{Hue[RandomReal[]],  sheetGraphicsComplex[MRe, \
-#]}& /@ *)\"\>", 
-   ",", "\<\"(*                            sectorSheetPatches[{w, z}, \
-{subs[[-1]], w\\\\[Psi]Prime}, wnum, asp, *)\"\>", 
-   ",", "\<\"(*\\t                                                            \
-   {odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, *)\"\>", 
-   ",", "\<\"(*\\t                                                            \
-   s1List[[1]], {32, 16},{32, 16},  25, 2],*)\"\>", 
-   ",", "\<\"(*                          BoxRatios -> {1, 1, 2}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example (all sheets for all patches) \
-*)*)\"\>", 
-   ",", "\<\"(*Graphics3D[{Hue[RandomReal[]],  sheetGraphicsComplex[MRe, #]}& \
-/@ *)\"\>", 
-   ",", "\<\"(*                sectorSheetPatches[{w, z}, {subs[[-1]], \
-w\\\\[Psi]Prime}, wnum, asp, *)\"\>", 
-   ",", "\<\"(*\\t                                                     \
-{odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, *)\"\>", 
-   ",", "\<\"(*\\t                                                     #, \
-{32, 12},{32, 12},  25, 2],*)\"\>", 
-   ",", "\<\"(*                BoxRatios -> {1, 1, 2}, PlotRange -> \
-Automatic]&/@ s1List*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example (show all sheets together \
-individually colored) *)*)\"\>", 
-   ",", "\<\"(*Show[%,PlotRange -> All, BoxRatios -> {1, 1, 2}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example (real part of all sheets for all \
-patches) *)*)\"\>", 
-   ",", "\<\"(*Graphics3D[{sheetGraphicsComplex[MRe, #]}& /@ *)\"\>", 
-   ",", "\<\"(*                sectorSheetPatches[{w, z}, {subs[[-1]], \
-w\\\\[Psi]Prime}, wnum, asp, *)\"\>", 
-   ",", "\<\"(*\\t                                                     \
-{odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, *)\"\>", 
-   ",", "\<\"(*\\t                                                     #, \
-{32, 12},{32, 12},  25, 2]&/@s1List, *)\"\>", 
-   ",", "\<\"(*                 BoxRatios -> {1, 1, 2}, PlotRange -> \
-Automatic]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example (imaginary part all sheets for all \
-patches) *)*)\"\>", 
-   ",", "\<\"(*Graphics3D[{sheetGraphicsComplex[MIm, #]}& /@ *)\"\>", 
-   ",", "\<\"(*                sectorSheetPatches[{w, z}, {subs[[-1]], \
-w\\\\[Psi]Prime}, wnum, asp, *)\"\>", 
-   ",", "\<\"(*\\t                                                     \
-{odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, *)\"\>", 
-   ",", "\<\"(*\\t                                                     #, \
-{32, 12},{32, 12},  25, 2]&/@s1List, *)\"\>", 
-   ",", "\<\"(*                 BoxRatios -> {1, 1, 2}, PlotRange -> \
-Automatic]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Stitch graphics complexes together *)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"makeConnectingPatches[patchArray_] := \"\>", 
-   ",", "\<\"Module[{dr = Length[patchArray], d\\\\[CurlyPhi] = \
-Length[patchArray[[1]]],\"\>", 
-   ",", "\<\"        patchArrayPairsR, patchArrayPairs\\\\[CapitalPhi], \
-stitchPatches},\"\>", ",", "\<\"       (* radial *)\"\>", 
-   ",", "\<\"        patchArrayPairsR = Flatten[Table[{patchArray[[k, j]], \
-patchArray[[k + 1, j]]},\"\>", 
-   ",", "\<\"                                         {k, dr - 1}, {j, \
-d\\\\[CurlyPhi]}], 1]; \"\>", ",", "\<\"\"\>", 
-   ",", "\<\"       (* azimuthal *)\"\>", 
-   ",", "\<\"        patchArrayPairs\\\\[CapitalPhi] = \
-Flatten[Table[{patchArray[[k, j]], patchArray[[k, Mod[j + 1, d\\\\[CurlyPhi], \
-1]]]},\"\>", 
-   ",", "\<\"                                         {k, dr}, {j, \
-d\\\\[CurlyPhi]}], 1];   \"\>", 
-   ",", "\<\"       (* form stitch patches *)\"\>", 
-   ",", "\<\"        stitchPatches = Join[Flatten[addConnectingStripRadial /@ \
-patchArrayPairsR, 1],\"\>", 
-   ",", "\<\"                             Flatten[addConnectingStripAzimuthal \
-/@ patchArrayPairs\\\\[CapitalPhi], 1]];\"\>", 
-   ",", "\<\"        If[debugQ, Print[Style[Row[{Text[\\\"Number of stitch \
-patches:\\\"], Text[Length[stitchPatches]]}], \"\>", 
-   ",", "\<\"                               Darker[Green]]]];\"\>", 
-   ",", "\<\"        stitchPatches\"\>", ",", "\<\"        ]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"glueDifference[{patchLine1_, patchPoints2_}] :=\"\>", 
-   ",", "\<\"With[{T = (Take[#, {2, -2}]& /@ #)&},\"\>", 
-   ",", "\<\"     (* ignore endpoints--because of branch cuts derivatives can \
-be quite different *)\"\>", 
-   ",", "\<\"     Mean[Norm /@ Flatten[T[patchLine1 - patchPoints2], 1]]/(* \
-scale *)\"\>", 
-   ",", "\<\"     If[# == 0., 1, #]&[Mean[Join[Norm /@ Flatten[T[patchLine1], \
-1], \"\>", 
-   ",", "\<\"                                  Norm /@ \
-Flatten[T[patchPoints2], 1]]]]\"\>", ",", "\<\"      ]       \"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"addConnectingStripRadial[{patch1_, patch2_}] := \"\>", 
-   ",", "\<\"Module[{n = Length[patch1], \\\\[CurlyEpsilon] = 10.^-3, \
-bottoms, tops, diffData},\"\>", 
-   ",", "\<\"       bottoms = Table[{Last @ patch1[[k, 1]], Last @ patch1[[k, \
-2]]}, {k, n}];\"\>", 
-   ",", "\<\"       tops = Table[{First @ patch2[[k, 1]], First @ patch2[[k, \
-2]]}, {k, n}];\"\>", 
-   ",", "\<\"       Table[diffData = Sort[{N[glueDifference[#]], #}& /@ \
-Table[{bottoms[[i]], tops[[j]]}, {j, n}],\"\>", 
-   ",", "\<\"                             #1[[1]] < #2[[1]]&];\"\>", 
-   ",", "\<\"             If[diffData[[1, 1]] < \\\\[CurlyEpsilon], \
-Transpose[diffData[[1, 2]]], Sequence @@ {}],\"\>", 
-   ",", "\<\"            {i, n}]\"\>", ",", "\<\"      ]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"addConnectingStripAzimuthal[{patch1_, patch2_}] := \"\>", 
-   ",", "\<\"Module[{n = Length[patch1], \\\\[CurlyEpsilon] = 10.^-3, lefts, \
-rights, diffData},\"\>", 
-   ",", "\<\"       lefts = Table[{Last /@ patch1[[k, 1]], Last /@ patch1[[k, \
-2]]}, {k, n}]; \"\>", 
-   ",", "\<\"       rights = Table[{First /@ patch2[[k, 1]], First /@ \
-patch2[[k, 2]]}, {k, n}]; \"\>", 
-   ",", "\<\"       Table[diffData = Sort[{N[glueDifference[#]], #}& /@ \
-Table[{lefts[[i]], rights[[j]]}, {j, n}],\"\>", 
-   ",", "\<\"                             #1[[1]] < #2[[1]]&]; \"\>", 
-   ",", "\<\"             If[diffData[[1, 1]] < \\\\[CurlyEpsilon], \
-Transpose[diffData[[1, 2]]], Sequence @@ {}],\"\>", 
-   ",", "\<\"            {i, n}]\"\>", ",", "\<\"      ]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*patchArray =  *)\"\>", 
-   ",", "\<\"(*Map[sectorSheetPatches[{w, z}, {subs[[-1]], w\\\\[Psi]Prime}, \
-wnum, asp, *)\"\>", 
-   ",", "\<\"(*\\t                                             \
-{odes\\\\[CurlyPhi], {\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \
-\\\\[Rho]}, \\\\[ScriptD]}, *)\"\>", 
-   ",", "\<\"(*\\t                                              #, {32, \
-12},{32, 12},  25, 2]&,   s1, {2}];*)\"\>", ",", "\<\"(**)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*Dimensions[patchArray]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *)*)\"\>", 
-   ",", "\<\"(*(conPats=makeConnectingPatches[patchArray])//Length*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* canonical test example *) \
-Graphics3D[(sheetGraphicsComplex[MRe, #]&/@ conPats)/. Polygon [l_]:> \
-{Hue[RandomReal[]], Line[l]}, *)\"\>", 
-   ",", "\<\"(*                        PlotRange -> 2, Axes -> True, \
-BoxRatios -> {1, 1, 1}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Argument checking and messages*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfacePlot3D::cantFindAllBranchPoints=\"\>", 
-   ",", "\<\"\\\"Unable to calculate all branchpoints for the function `1`.\\\
-\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfacePlot3D::noBrachPointsPresent=\"\>", 
-   ",", "\<\"\\\"`1` is not a multivalued function. Simply use Plot3D or \
-ParametricPlot3D to display the surface.\\\";\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfacePlot3D::containsFunctionCurrentlyNotTreated=\"\>", 
-   ",", "\<\"\\\"`1` contains the functions `2` which are are not treated in \
-this implementation.\\\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* quick check if a function has no branch cuts *)\"\>", 
-   ",", "\<\"Clear[branchCutFreeQI\"\>", ",", "\<\"];\"\>", 
-   ",", "\<\"branchCutFreeQI[f_, z_] := True /; FreeQ[f, z, {0, \
-Infinity}]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[z_^n_Integer, z_] := True \"\>", ",", "\<\"\"\>",
-    ",", "\<\"branchCutFreeQI[z_, z_] := True \"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[p_Plus, z_] := And @@ (branchCutFreeQI[#, z]& /@ \
-(List @@ p)) \"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[t_Times, z_] := And @@ (branchCutFreeQI[#, z]& \
-/@ (List @@ t))\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[Power[f_, _Integer], z_] := branchCutFreeQI[f, \
-z]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[Power[f_, a_], z_] := True /; FreeQ[Together //@ \
-f, z, {0, Infinity}]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[Power[a_, f_], z_] := True /; FreeQ[a, z, {0, \
-Infinity}]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"branchCutFreeQI[(Exp | Sin | Cos | Tan | Cot | Sec | Csc | \"\>",
-    ",", "\<\"                 Sinh | Cosh | Tanh | Coth | Sech | Csch)[f_], \
-z_] := \"\>", ",", "\<\"                branchCutFreeQ[f, z]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* gives true for a function that does not have branch cuts. \
-\"\>", ",", "\<\"   False can be returned in case of absence or presence of \
-branch cuts *)\"\>", 
-   ",", "\<\"branchCutFreeQ[expr_, z_] := TrueQ[branchCutFreeQI[expr, \
-z]]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", ",", "\<\"(*branchCutFreeQ[z^2 , z]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchCutFreeQ[z^2 Sin[z^2+Cos[z]], z]*)\"\>", ",", "\<\"\"\>",
-    ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchCutFreeQ[Sqrt[z], z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchCutFreeQ[Log[z], z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*branchCutFreeQ[Log[Exp[z]], z]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"notTreatedFunctions[w_, z_] := \"\>", 
-   ",", "\<\"Module[{foreignFunction, u}, \"\>", 
-   ",", "\<\"(* z is the independent variable *)\"\>", 
-   ",", "\<\"foreignFunction[z] = {};\"\>", 
-   ",", "\<\"(* u is the dummy variable needed for the Root pure functions *)\
-\"\>", ",", "\<\"foreignFunction[u] = {};\"\>", 
-   ",", "\<\"(* numerical values *)\\t\\t\\t\"\>", 
-   ",", "\<\"foreignFunction[_?NumericQ] := {};\"\>", 
-   ",", "\<\"(* recursively go down in Power, ArcTrigs, and Root *)\"\>", 
-   ",", "\<\"foreignFunction[Power[b_, e_]] := foreignFunction /@ {b, \
-e};\"\>", 
-   ",", "\<\"foreignFunction[pt_Plus|pt_Times] := foreignFunction /@ \
-(List@@pt);\"\>", ",", "\<\"(* the known numeric functions *)\\t\\t\"\>", 
-   ",", "\<\"Map[(foreignFunction[#[f_]] = foreignFunction[f])&, \"\>", 
-   ",", "\<\"      \\t{Exp, Log, ProductLog,\"\>", 
-   ",", "\<\"           Sin, Cos, Tan, Cot, Sec, Csc, \"\>", 
-   ",", "\<\"      \\t Sinh, Cosh, Tanh, Coth, Sech, Csch, \"\>", 
-   ",", "\<\"      \\t ArcSin, ArcCos, ArcTan, ArcCot, ArcSec, ArcCsc, \"\>", 
-   ",", "\<\"      \\t ArcSinh, ArcCosh, ArcTanh, ArcCoth, ArcSech, \
-ArcCsch}];\"\>", ",", "\<\"(* the Root case *)\\t\\t\"\>", 
-   ",", "\<\"foreignFunction[Root[p_, __]] := foreignFunction[p[u]];\"\>", 
-   ",", "\<\"(* return first \\\"foreign\\\" function *)\\t\\t\"\>", 
-   ",", "\<\"First /@ Union[Flatten[{foreignFunction[w]}]]]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"numericQ[w_, z_] := \"\>", 
-   ",", "\<\"\\tModule[{x}, SetAttributes[x, NumericFunction]; NumericQ[w //. \
-z->x[1]]]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfacePlot3D::notANumericFunction = \\\"`1` is not a \
-numeric function of `2`.\\\";\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Define the main internal functions*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"patchPlotPoints[{r1_, \\\\[CurlyPhi]1_, r2_, \\\\[CurlyPhi]2_}, \
-rMax_, {pp\\\\[CurlyPhi]_, ppr_}] := \"\>", 
-   ",", "\<\"                Max[#, 4]& /@ Round[{pp\\\\[CurlyPhi], ppr} \
-{\\\\[CurlyPhi]2 - \\\\[CurlyPhi]1, r2 - r1}/{2 Pi, rMax}]\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"Clear[RiemannSurfacePatchData];\"\>", 
-   ",", "\<\"RiemannSurfacePatchData[args:PatternSequence[{w_, z_}, \
-{pp\\\\[CurlyPhi]_, ppr_}, {pp\\\\[CurlyPhi]I_, pprI_}, ks_, \"\>", 
-   ",", "\<\"                        branchPointOffset_, workingPrecision_, \
-interpolationOrder_, NDSolveOptions___]] := \"\>", 
-   ",", "\<\"Module[{wf, wcan, bps, secarray, wnum, \
-\\\\[CapitalPsi]\\\\[CapitalPsi]p, \\\\[CurlyPhi], rplts, subs, odes1, plts, \
-\"\>", ",", "\<\"\\t\\todes2, sr, asp, odes\\\\[CurlyPhi], odesr, rMax, \
-polys, test1, test2, test3, test4, oF, sheetGraphics, \"\>", 
-   ",", "\<\"        \\\\[Psi],  \\\\[Rho] , r,  \\\\[ScriptD], \
-\\\\[Lambda]1, \\\\[Lambda]2, \"\>", 
-   ",", "\<\"        allSheetPatchesArray,  allSheetPatches, \
-allSheetPatchesArrayRes}, \"\>", 
-   ",", "\<\"\\t\\t     (* are all functions occuring in w known? *)\"\>", 
-   ",", "\<\"\\t\\t     test1 = (oF = notTreatedFunctions[w, z]) === {};\"\>",
-    ",", "\<\"\\t\\t     If[test1, \"\>", 
-   ",", "\<\"                 wcan = canonicalizeFunction[w];\"\>", 
-   ",", "\<\"          \\t   (* can we calculate all branch points *)\"\>", 
-   ",", "\<\"\\t             test2 = ((bps = N[branchPoints[w, z], \
-workingPrecision]) =!= $Failed); \"\>", 
-   ",", "\<\"\\t\\t\\t     (* is there at least one finite branch point \
-*)\"\>", ",", "\<\"\\t\\t\\t   test3 = bps =!= {};  \"\>", 
-   ",", "\<\"               test4 = bps =!= $Failed;  \"\>", 
-   ",", "\<\"              allSheetPatchesArray = \"\>", 
-   ",", "\<\"                    If[test2 && test3 && test4,\"\>", 
-   ",", "\<\"\\t\\t\\t\\t\\t   (* all the steps from above  *)\"\>", 
-   ",", "\<\"\\t\\t               secarray = sectorArray[bps, \
-branchPointOffset, workingPrecision]; \"\>", 
-   ",", "\<\"                       If[debugQ, \
-Print[Style[Row[{Text[\\\"Inside RiemannSurfacePatchData, numbering sheets \
-...\\\"]}], \"\>", 
-   ",", "\<\"                                              \
-Darker[Green]]]];\"\>", 
-   ",", "\<\"                       wnum = numberMultiValuedTerms[wcan, z];\"\
-\>", ",", "\<\"                       plts = powerAndLogTerms[wnum, z];\"\>", 
-   ",", "\<\"                       If[debugQ, \
-Print[Style[Row[{Text[\\\"Inside RiemannSurfacePatchData, forming \
-substitutions ...\\\"]}], \"\>", 
-   ",", "\<\"                                              \
-Darker[Green]]]];\"\>", 
-   ",", "\<\"                       subs = substitutions[plts, wnum, wf, \
-z];\"\>", 
-   ",", "\<\"                       If[debugQ, \
-Print[Style[Row[{Text[\\\"Inside RiemannSurfacePatchData, forming \
-differential equations ...\\\"]}], \"\>", 
-   ",", "\<\"                                              \
-Darker[Green]]]];\"\>", 
-   ",", "\<\"                       odes1 = toODE[#, z]& /@ subs[[1]];\"\>", 
-   ",", "\<\"                       odes2 = derivativeFreeRhs[odes1]; \"\>", 
-   ",", "\<\"                       \\\\[CapitalPsi]\\\\[CapitalPsi]p = \
-{subs[[-1]], D[subs[[-1]], z] //. (Rule @@@ odes2)};\"\>", 
-   ",", "\<\"                       If[debugQ, \
-Print[Style[Row[{Text[\\\"Inside RiemannSurfacePatchData, calculating sheets \
-...\\\"]}], \"\>", 
-   ",", "\<\"                                              \
-Darker[Green]]]];\"\>", 
-   ",", "\<\"                       sr = sheets[#, ks]& /@ plts; \"\>", 
-   ",", "\<\"                       asp = allSheets[sr];\"\>", 
-   ",", "\<\"                       odes\\\\[CurlyPhi] = odeAzimuthal[#, \
-{#[[1, 0, 1]], z}, {\\\\[Psi], \\\\[CurlyPhi]}, r]& /@ odes2;\"\>", 
-   ",", "\<\"                       odesr = odeRadial[#, {#[[1, 0, 1]], z}, {\
-\\\\[Psi], \\\\[Rho]}, \\\\[ScriptD]]& /@ odes2;\"\>", 
-   ",", "\<\"\\t\\t               rMax = Max[#[[3]]& /@ Flatten[secarray, \
-1]];\"\>", 
-   ",", "\<\"                       If[debugQ, \
-Print[Style[Row[{Text[\\\"Inside RiemannSurfacePatchData, calculating sector \
-patches ...\\\"]}], \"\>", 
-   ",", "\<\"                                              \
-Darker[Green]]]];\"\>", 
-   ",", "\<\"\\t                   \\\\[Lambda]1 = Length[secarray]; \
-\\\\[Lambda]2 = Length[secarray[[1]]]; \\\\[Lambda] = \\\\[Lambda]1 \
-\\\\[Lambda]2;\"\>", 
-   ",", "\<\"                       Function[f, If[TrueQ[debugQ || \
-sheetProgressMonitoringQ], \"\>", 
-   ",", "\<\"                                      Monitor[f, Style[Text[\\\"\
-\\\\[SixPointedStar] Calculating sector \\\" <> \"\>", 
-   ",", "\<\"                                                               \
-ToString[(jk1 - 1) \\\\[Lambda]2 + jk2]  <> \\\" out of \\\" <>\"\>", 
-   ",", "\<\"                                                                 \
-   ToString[\\\\[Lambda]]], Darker[ Green,0.2]]], f], {HoldAll}][\"\>", 
-   ",", "\<\"                       Table[sectorSheetPatches[{wf, z}, \
-\\\\[CapitalPsi]\\\\[CapitalPsi]p, wnum, asp, \"\>", 
-   ",", "\<\"\\t\\t\\t\\t                          {odes\\\\[CurlyPhi], \
-{\\\\[Psi], \\\\[CurlyPhi]}, r}, {odesr, {\\\\[Psi], \\\\[Rho]}, \
-\\\\[ScriptD]}, secarray[[jk1, jk2]],\"\>", 
-   ",", "\<\"                                          \
-patchPlotPoints[secarray[[jk1, jk2]], rMax, {pp\\\\[CurlyPhi], ppr}], \"\>", 
-   ",", "\<\"                                          \
-patchPlotPoints[secarray[[jk1, jk2]], rMax, {pp\\\\[CurlyPhi]I, pprI}],\"\>", 
-   ",", "\<\"                                          workingPrecision, \
-interpolationOrder, NDSolveOptions], \"\>", 
-   ",", "\<\"                              {jk1, \\\\[Lambda]1}, {jk2, \
-\\\\[Lambda]2}]], \"\>", ",", "\<\"                       $Failed]];\"\>", 
-   ",", "\<\"                (* return sheets *)\"\>", 
-   ",", "\<\"                allSheetPatches = If[allSheetPatchesArray =!= \
-$Failed, Flatten[allSheetPatchesArray, 1], $Failed];\"\>", 
-   ",", "\<\"\\t\\t\\t    allSheetPatchesArrayRes = If[allSheetPatchesArray \
-=!= $Failed &&\"\>", 
-   ",", "\<\"                                             TrueQ[And @@ \
-(ArrayQ[#, 4, NumberQ]& /@ Flatten[allSheetPatches, 1])], \"\>", 
-   ",", "\<\"                                             \
-allSheetPatchesArray, $Failed]; \"\>", 
-   ",", "\<\"                ((* cache last result to allow for plotting \
-real/imaginary part quickly *) \"\>", 
-   ",", "\<\"                 DownValues[RiemannSurfacePatchData] = \
-Take[DownValues[RiemannSurfacePatchData], -1];\"\>", 
-   ",", "\<\"                 RiemannSurfacePatchData[args] = \
-allSheetPatchesArrayRes;\"\>", 
-   ",", "\<\"                 allSheetPatchesArrayRes) /;\"\>", 
-   ",", "\<\" \\t(* generate appropriate messages if something fails *)\"\>", 
-   ",", "\<\"     (If[Not[test1], \
-Message[RiemannSurfacePlot3D::containsFunctionCurrentlyNotTreated, w, oF]];\"\
-\>", ",", "\<\"\\t  If[test1 && Not[test2], \
-Message[RiemannSurfacePlot3D::cantFindAllBranchPoints, w]];\"\>", 
-   ",", "\<\"\\t  If[test1 && Not[test3] && branchCutFreeQ[w, z], \"\>", 
-   ",", "\<\"         Message[RiemannSurfacePlot3D::noBrachPointsPresent, \
-w]];\"\>", ",", "\<\"\\t  TrueQ[test1 && test2 && test3])] /;   \"\>", 
-   ",", "\<\"      If[numericQ[w, z], True, \
-RiemannSurfacePlot3D::notANumericFunction; False]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfaceGraphics3DData[{w_, z_}, reImMatrix_, \
-colorFunction_,\"\>", 
-   ",", "\<\"                             {pp\\\\[CurlyPhi]_, ppr_}, \
-{pp\\\\[CurlyPhi]I_, pprI_}, ks_, \"\>", 
-   ",", "\<\"                             branchPointOffset_, \
-workingPrecision_, \"\>", 
-   ",", "\<\"                             interpolationOrder_, stitchQ_, \
-NDSolveOptions___] := \"\>", 
-   ",", "\<\"Module[{rsfpd = RiemannSurfacePatchData[{w, z}, \
-{pp\\\\[CurlyPhi], ppr}, {pp\\\\[CurlyPhi]I, pprI}, ks, \"\>", 
-   ",", "\<\"                                        branchPointOffset, \
-workingPrecision, interpolationOrder, NDSolveOptions],\"\>", 
-   ",", "\<\"       stitchPatches, stitchCGs},  \"\>", 
-   ",", "\<\"     If[debugQ, Print[Style[Row[{Text[\\\"Call to \
-RiemannSurfacePatchData with: \\\"],\"\>", 
-   ",", "\<\"                       HoldForm[RiemannSurfacePatchData][{w, z}, \
-{pp\\\\[CurlyPhi], ppr}, {pp\\\\[CurlyPhi]I, pprI}, ks, \"\>", 
-   ",", "\<\"                                      branchPointOffset, \
-workingPrecision, interpolationOrder, NDSolveOptions]}], \"\>", 
-   ",", "\<\"                               Darker[Green]]]];\"\>", 
-   ",", "\<\"     If[rsfpd === $Failed || Head[rsfpd] === \
-RiemannSurfacePatchData, $Failed,\"\>", 
-   ",", "\<\"        If[debugQ, Print[Style[Row[{Text[\\\"Inside \
-RiemannSurfaceGraphics3DData, forming graphics complexes ...\\\"]}], \"\>", 
-   ",", "\<\"                               Darker[Green]]]];\"\>", 
-   ",", "\<\"        {sheetGraphicsComplex[reImMatrix, #, colorFunction]& /@ \
-\"\>", ",", "\<\"                             (* all patches for all sectors \
-*) Flatten[rsfpd, 2],\"\>", ",", "\<\"         If[TrueQ[stitchQ], \"\>", 
-   ",", "\<\"            If[debugQ, Print[Style[Row[{Text[\\\"Inside \
-RiemannSurfaceGraphics3DData, stitching ...\\\"]}], \"\>", 
-   ",", "\<\"                               Darker[Green]]]];\"\>", 
-   ",", "\<\"            stitchPatches = makeConnectingPatches[rsfpd];\"\>", 
-   ",", "\<\"            stitchCGs = sheetGraphicsComplex[reImMatrix, #, \
-colorFunction]& /@ stitchPatches, {}]}]]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{Sqrt[z], z},MRe, Automatic, {32, \
-12}, {12, 12}, {-1, 1}, 10^-6, 25, 2, False] // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{Sqrt[z], z},MRe, Automatic, {32, \
-12}, {12, 12}, {-1, 1}, 10^-6, 25, 2, True] // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{Sqrt[z] + 1, z},MRe, Automatic, \
-{32, 12}, {12, 12}, {-1, 1}, 10^-6, 25, 2, True] // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfaceGraphics3DData[{eq_Equal, w_, z_}, reImMatrix_, \
-colorFunction_,\"\>", 
-   ",", "\<\"                             {pp\\\\[CurlyPhi]_, ppr_}, \
-{pp\\\\[CurlyPhi]I_, pprI_}, ks_, \"\>", 
-   ",", "\<\"                             branchPointOffset_, \
-workingPrecision_, \"\>", 
-   ",", "\<\"                             interpolationOrder_, stitchQ_, \
-NDSolveOptions___] := \"\>", 
-   ",", "\<\"With[{sol = Quiet[Solve[eq, w]]}, \"\>", 
-   ",", "\<\"      If[debugQ, Print[Style[Row[{Text[\\\"After solving for w, \
-now plotting function \\\"], w /. sol[[1, 1]]}], Darker[Green]]]];\"\>", 
-   ",", "\<\"\\t  RiemannSurfaceGraphics3DData[{w /. sol[[1, 1]], z}, \
-reImMatrix, colorFunction,\"\>", 
-   ",", "\<\"                                   {pp\\\\[CurlyPhi], ppr}, \
-{pp\\\\[CurlyPhi]I, pprI}, ks, \"\>", 
-   ",", "\<\"                                   branchPointOffset, \
-workingPrecision, \"\>", 
-   ",", "\<\"                                   interpolationOrder, stitchQ, \
-NDSolveOptions] /;\"\>", 
-   ",", "\<\"      Head[sol] =!= Solve && (* only one connected solution \
-branch *)\"\>", 
-   ",", "\<\"      Total[Boole[MemberQ[First[#], z | w, {0, Infinity}]]& /@ \
-FactorList[eq]] === 1]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{w^2 == z, w, z}, MRe, Automatic, \
- *)\"\>", 
-   ",", "\<\"(*                                                             \
-{32, 12},2  {32,12}, {-1, 1}, 10^-6, 25, 2, True]  // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{w == Sqrt[z] + Log[z], w, z}, \
-MRe,Automatic, *)\"\>", 
-   ",", "\<\"(*                                                              \
-{32, 12}, {32, 12}, {-1, 1}, 10^-6, 25, 2, True]  // Graphics3D[#, PlotRange \
--> 2]&*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{w^3 == z^2 - 1, w, z}, \
-MRe,Automatic,*)\"\>", 
-   ",", "\<\"(*                                                              \
-{32, 12}, {32, 12}, {-1, 1}, 10^-6, 25, 2, True]  // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{w^2 == z^3 - 1, w, z}, \
-MRe,Automatic,*)\"\>", 
-   ",", "\<\"(*                                                             \
-2{32, 12}, 2{32, 12}, {-1, 1}, 10^-6, 25, 2, True]  // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{w^2 == z^3 - 1, w, z}, \
-MRe,Automatic,*)\"\>", 
-   ",", "\<\"(*                                                             \
-{32, 12}, 2{32, 12}, {-1, 1}, 10^-6, 25, 1, True]  // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* Test *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfaceGraphics3DData[{w == ArcSin[z^4 + 1], w, z}, MRe \
-+ MIm,Automatic,*)\"\>", 
-   ",", "\<\"(*                                                             \
-{32, 12}, 2{32, 12}, {-1, 1}, 10^-6, 25, 1, True]  // Graphics3D*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Option-processing-related functions*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"(* make transformation matrix from 4D to 3D *)\"\>", 
-   ",", "\<\"makeMatrix[Re[w_], {z_, w_}] := MRe\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"makeMatrix[Im[w_], {z_, w_}] := MIm\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"makeMatrix[f_, {z_, w_}] := Coefficient[#, {Re[z], Im[z], Re[w], \
-Im[w]}]& /@ {Re[z], Im[z], f}\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"makeMatrix[v3_List, {z_, w_}] := Coefficient[#, {Re[z], Im[z], \
-Re[w], Im[w]}]& /@ v3\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* form a pure function for coloring *)\"\>", 
-   ",", "\<\"makeColorFunction[rhs_, {z_, w_}] := \"\>", 
-   ",", "\<\"         Function[Evaluate[(rhs /. {Re[z] -> #1, Im[z] -> #2, \
-Re[w] -> #3, Im[w] -> #4,\"\>", 
-   ",", "\<\"                                    Abs[z] -> (#1^2 + #2^2), \
-Abs[w] -> (#3^2 + #4^2),\"\>", 
-   ",", "\<\"                                    Arg[z] -> ArcTan[#1, #2], \
-Arg[z] -> ArcTan[#3, #4]})]]\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"makeColorFunction[Automatic, {z_, w_}] := Automatic\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* alternative of non-3D graphics options *)\"\>", 
-   ",", "\<\"nonGraphics3DOptions = PlotPoints | PlotStyle | Coloring | \
-WorkingPrecision |\"\>", 
-   ",", "\<\"                       BranchPointOffset | StitchPatches | \
-NDSolveOptions | LogSheets | \"\>", 
-   ",", "\<\"                       InterpolationPoints | InterpolationOrder;\
-\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Define the exported function*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"Options[RiemannSurfacePlot3D] = \"\>", 
-   ",", "\<\"Join[Options[Graphics3D] /. {(BoxRatios -> _) :> (BoxRatios -> \
-{1, 1, 1.2}),\"\>", 
-   ",", "\<\"                             (PlotRange -> _) :> (PlotRange -> \
-Automatic)}, \"\>", 
-   ",", "\<\"         {InterpolationPoints -> Automatic, \"\>", 
-   ",", "\<\"          PlotPoints -> {30, 12}, \"\>", 
-   ",", "\<\"          PlotStyle -> Automatic, \"\>", 
-   ",", "\<\"          Coloring -> Automatic, \"\>", 
-   ",", "\<\"          InterpolationOrder -> Automatic, \"\>", 
-   ",", "\<\"          BranchPointOffset -> 10^-6, \"\>", 
-   ",", "\<\"          StitchPatches -> False,\"\>", 
-   ",", "\<\"          WorkingPrecision -> 25,\"\>", 
-   ",", "\<\"          LogSheets -> {-1, 0, 1}, \"\>", 
-   ",", "\<\"          NDSolveOptions -> {}}];\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", 
-   ",", "\<\"RiemannSurfacePlot3D[eq_Equal, reimw_, {z_, w_}, \
-opts:OptionsPattern[]] :=  \"\>", 
-   ",", "\<\"Module[{pps, ips, lsr, ndsos, bpo, wp, io, sp, MMat, colF, \
-rsfgcs, rsfgcs1, ps,\"\>", 
-   ",", "\<\"        setGraphics3DOptions, defaultGraphics3DOptions, \
-actualGraphics3DOptions}, \"\>", ",", "\<\"       (* set options *)\"\>", 
-   ",", "\<\"       pps = OptionValue[PlotPoints] {1, 1};\"\>", 
-   ",", "\<\"       ips = OptionValue[InterpolationPoints] /. Automatic -> \
-pps;\"\>", ",", "\<\"       lsr = OptionValue[LogSheets];\"\>", 
-   ",", "\<\"       ndsos = OptionValue[NDSolveOptions];\"\>", 
-   ",", "\<\"       bpo = OptionValue[BranchPointOffset]; \"\>", 
-   ",", "\<\"       wp = OptionValue[WorkingPrecision]; \"\>", 
-   ",", "\<\"       io = If[pps === ips, (* no point interpolating *) \
-Automatic, OptionValue[InterpolationOrder]]; \"\>", 
-   ",", "\<\"       sp = TrueQ @ OptionValue[StitchPatches]; \"\>", 
-   ",", "\<\"       MMat = Developer`ToPackedArray[N[makeMatrix[reimw, {z, \
-w}]]];\"\>", 
-   ",", "\<\"       colF = makeColorFunction[OptionValue[Coloring], {z, \
-w}];\"\>", ",", "\<\"       (* main call *)       \"\>", 
-   ",", "\<\"       rsfgcs = RiemannSurfaceGraphics3DData[{eq, w, z}, MMat, \
-colF, pps, ips, lsr, bpo, wp, io, sp,\"\>", 
-   ",", "\<\"                                             Sequence @@ ndsos];\
-\"\>", ",", "\<\"       (ps = OptionValue[PlotStyle];\"\>", 
-   ",", "\<\"       (* add plot style *)\"\>", 
-   ",", "\<\"        rsfgcs1 = If[ps === Automatic, rsfgcs, {ps, \
-rsfgcs}];\"\>", ",", "\<\"       (* form graphics 3D options *) \"\>", 
-   ",", "\<\"       setGraphics3DOptions = DeleteCases[{opts}, \
-nonGraphics3DOptions -> _];\"\>", 
-   ",", "\<\"       defaultGraphics3DOptions = \
-DeleteCases[Options[RiemannSurfacePlot3D], nonGraphics3DOptions -> _];\"\>", 
-   ",", "\<\"       actualGraphics3DOptions = Sequence @@ \
-Join[setGraphics3DOptions, defaultGraphics3DOptions];\"\>", 
-   ",", "\<\"       (* form and return Graphics3D-object *)\"\>", 
-   ",", "\<\"       Graphics3D[rsfgcs1, actualGraphics3DOptions]) /; \"\>", 
-   ",", "\<\"            Head[rsfgcs] =!= RiemannSurfaceGraphics3DData && \
-rsfgcs =!= $Failed &&\"\>", 
-   ",", "\<\"            Max[Exponent[#, {Re[z], Im[z], Re[w], Im[w]}]& /@ \
-Flatten[{reimw}]] === 1 && \"\>", 
-   ",", "\<\"            MatchQ[lsr, {_Integer ..}] && Positive[bpo] && \
-Positive[wp]\"\>", ",", "\<\"       ]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Examples showing the sectors*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^2 - 1)^(1/2), Im[w], {z, w},        \
-   *)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-{60, 32},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^2 - 1)^(1/2), Im[w], {z, w},        \
-   *)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-{60, 32}, StitchPatches -> True, *)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^12 - 1)^(1/2), Im[w], {z, w},       \
-    *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {120, \
-32},PlotRange -> 1.5,BoxRatios -> {1, 1, 0.6},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==((z-1)(z-I)(z-2I))^(2/3), Im[w], {z, \
-w},           *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {60, \
-32},PlotRange -> All,BoxRatios -> {1, 1, 0.6},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^2 - z^2 /(z^2 -2 I))^(1/2), Im[w], \
-{z, w},           *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {60, \
-32},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^3 - 1)^(1/3), Im[w], {z, w},        \
-   *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {60, \
-32},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^3 - 1/z^3)^(1/3), Im[w], {z, w},    \
-       *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {60, \
-32},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* from Solve[w^5 + 2 w^2 z - z^2 + 1 == 0, w] *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Root[1-z^2+2 z #^2+#^5&,1], Im[w], {z, \
-w},           *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {60, \
-32},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==z^E, Im[w], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Exp[z], Im[w], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", ",", "\<\"(*Tests*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Basic tests*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==Log[z]^2, Re[w], {z, w},           *)\
-\"\>", ",", "\<\"(*                                                 PlotStyle \
--> Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==(z^3 - 1)^(1/3), Re[w], {z, w},       \
-    *)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==(z^4 - 1)^(1/4), Im[w], {z, w},       \
-    *)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==(z^4 - 1)^(1/4), Im[w], {z, w},       \
-    *)\"\>", 
-   ",", "\<\"(*                                           PlotPoints -> {48, \
-24},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]] /. *)\"\>", 
-   ",", "\<\"(*                                                           \
-gc_GraphicsComplex :> {Hue[RandomReal[]], Opacity[0.66], gc}*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, {Re[w], Im[w], Re[z]}, {z, w},   \
-        *)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, {Re[w], Im[w], Re[z]}, {z, w}]*)\
-\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, {Re[w], Im[w], Re[z]}, {z, w},   \
-        *)\"\>", 
-   ",", "\<\"(*                                                Coloring -> \
-(Blue )]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, Re[w], {z, w},           *)\"\>",
-    ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, Re[w], {z, w},           *)\"\>",
-    ",", "\<\"(*                                                PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, Re[w], {z, w},           *)\"\>",
-    ",", "\<\"(*                                                PlotStyle -> \
-Opacity[0.66], Coloring -> Hue[Im[w]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, {Re[z], Im[z], Re[w]+Im[w]}, {z, \
-w}, *)\"\>", 
-   ",", "\<\"(*                                                PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, Im[w], {z, w}, *)\"\>", 
-   ",", "\<\"(*                                                PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w^3==z, Re[w],{z, w},  *)\"\>", 
-   ",", "\<\"(*                                                PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==Sqrt[z]/Log[z], Im[w], {z, w},*)\"\>",
-    ",", "\<\"(*                                               PlotStyle -> \
-Directive[Green, Specularity[Blue, 12]], Axes -> True]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==(z^5-2z + 1)^(1/5), Im[w], {z, w}, *)\
-\"\>", ",", "\<\"(*                                               PlotPoints \
--> {36, 24}, PlotStyle -> Directive[Red, Specularity[Purple, 12]], *)\"\>", 
-   ",", "\<\"(*                                             Axes -> True]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==ArcSin[z^3+3 z-7]/(z-1), Im[w], {z, \
-w},*)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-{36, 24},PlotStyle -> Directive[Red, Specularity[Purple, 12]], Axes -> \
-True]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ Sin[w]==z, Im[w], {z, w}, PlotPoints -> \
-{36, 24},*)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Red, Specularity[Purple, 12]], Axes -> True]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==z^z, Im[w], {z, w},*)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-12]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==z^(z + Sin[z]), Im[w], {z, w},  \
-*)\"\>", ",", "\<\"(*                                                \
-PlotPoints -> 12]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Debug mode*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", ",", "\<\"(*debugQ = True;*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==(z^5-2z + 1)^(1/5), Im[w], {z, w}, \
-*)\"\>", ",", "\<\"(*                                                \
-PlotPoints -> {36, 24}, PlotStyle -> Directive[Red, Specularity[Purple, 12]], \
-*)\"\>", ",", "\<\"(*                                             Axes -> \
-True]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==ArcSin[z^3+3 z-7]/(z-1), Im[w], {z, \
-w},*)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-{36, 24},PlotStyle -> Directive[Red, Specularity[Purple, 12]], *)\"\>", 
-   ",", "\<\"(*                                             Axes -> True]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*debugQ = False;*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Option testing*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w^3==z, Re[w], {z, w},           *)\"\>", 
-   ",", "\<\"(*                                                 PlotStyle -> \
-Directive[Green, Specularity[Yellow, 12]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w^3==z, Re[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                PlotStyle -> \
-Opacity[0.66]]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w^3==z, Re[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                PlotStyle -> \
-Opacity[0.66], Coloring -> Hue[Im[w]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Log[z^3-1],Im[w],{z,w},PlotPoints->{60,\
-40},*)\"\>", 
-   ",", "\<\"(*Coloring -> Hue[0.8 \
-Rescale[ArcTan[Re[w]],{-Pi/2,Pi/2}]]]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w^3==z, Re[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-{60, 24}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w^3==z, Re[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                PlotPoints -> \
-{10, 6}, InterpolationOrder -> Automatic]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w^3==z, Re[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                \
-WorkingPrecision -> 40]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Log[z], Im[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                LogSheets -> \
-{-2, -1, 0, 0, 1, 2}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Log[z], Im[w], {z, w},  *)\"\>", 
-   ",", "\<\"(*                                                NDSolveOptions \
--> {WorkingPrecision -> 32}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Log[z] + Sqrt[z], Im[w], {z, w},  *)\"\
-\>", ",", "\<\"(*                                                \
-BranchPointOffset -> 0.01]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w==Log[z] + Sqrt[z], Im[w], {z, w},  *)\"\
-\>", ",", "\<\"(*                                                \
-BranchPointOffset -> 0.05]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Testing function*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w_ == f_, {z_, w_}] := *)\"\>", 
-   ",", "\<\"(*(*  (Print[DateString[]]; Print[Rasterize[#]]; \
-NotebookSave[];)& @  *)*)\"\>", 
-   ",", "\<\"(*GraphicsRow[{RiemannSurfacePlot3D[w == f, Re[w], {z, w},       \
-    *)\"\>", 
-   ",", "\<\"(*                         PlotStyle -> Directive[Yellow, \
-Specularity[Red, 12]],*)\"\>", 
-   ",", "\<\"(*                                  PlotPoints -> {48, 16}],*)\"\
-\>", ",", "\<\"(*                              RiemannSurfacePlot3D[w == f, \
-Im[w], {z, w}, *)\"\>", 
-   ",", "\<\"(*                        PlotStyle -> Directive[Purple, \
-Specularity[Blue, 12]],*)\"\>", 
-   ",", "\<\"(*                                 PlotPoints -> {48, 16}]},*)\"\
-\>", ",", "\<\"(*                        ImageSize -> 660]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Multivalued functions test suite*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*debugQ = False;*)\"\>", 
-   ",", "\<\"(*sheetProgressMonitoringQ = True;*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcTan[z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^E, {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^z, {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[Log[z]], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Cos[Tan[Log[z]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1/z^2],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z]^2, {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[Log[Log[z]]],  {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/4), {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/3), {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z] + Sin[z],  {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == 1/(2 + ArcCos[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcCosh[z/2], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcTan[z]^(1/3),  {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[ArcTan[z]],{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[Sqrt[z]],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[Log[z]],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z]^E^z,{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-4 + z^2],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-1 + z^5],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ProductLog[(-1 + z)*z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ProductLog[4 + z^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[Log[1 + ArcSin[z]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^Sqrt[z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z^2], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z^3)^(1/3),{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z^5)^(1/5),{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z^5], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z^(-z))^z,{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[1 + z],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Cos[ArcCos[z]/3],{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == E^z*z*Log[z],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1/(-1 + Log[z])], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z/Log[z]],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z*(1 + Log[z])], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-1 + Log[z]^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == Log[-1 + Log[z]^3], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ProductLog[3, (-1 + z)*z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[z]/ArcSin[z],{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Tan[Log[1/z + z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == E^(z + 1/Log[z]),{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/(-1 + Log[z])), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(Sin[z]/3), {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[1 + Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[z^3]^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcTan[2 + Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1 + ArcTan[1/Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == Log[-1 + z^(1/3)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == w^2 - Log[z],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 + Log[z])^(1/5), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z + Log[z]],{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z/E^z],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1/(-1 + z^5)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[Log[z] + z*Log[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^z - Sin[z],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(2 + Sqrt[z]),{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == (-1 + z)^(1/(1 + z)), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z^z^2)^z^3,{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-1 + z^2],{z, w}]*)\"\>", ",", "\<\"\"\>",
-    ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 + z^2)^(1/4),{z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z + z^3],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcCos[Log[-(z^2/2)]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[Sqrt[Log[-1 + z]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -Log[1/z] + Log[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(-1 + ArcSin[z]*Log[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-1 + z]*Log[1 + z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/(1 + Log[z]^2)), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1 + w^2 - z^3,{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-1 + z + z^5], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[ArcCosh[-2 + z^3]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[Sqrt[-1 + z^5]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcTan[1/(-1 + z^(1/3))], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1 - 2*ArcTan[z] + ArcTan[z]^2, {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1/(1 + Log[-1 + z]))^z, {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[1 + Log[-1 + z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[Log[Sqrt[z]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z/Log[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -2*Sqrt[z] + Log[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[4 + Log[z]^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z^2/E^z],{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[Log[z + z^2]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-1 + z^3]^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[Sqrt[-1 + z^5]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1 + z + z^2 + z^9], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/3) + Sqrt[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z]/E^z, {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(z^(1/3)/2), {z, w}]*)\"\>", ",", "\<\"\"\>",
-    ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(Sqrt[z]/2),{z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z^(1/3) + z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == (-2 + z^2)^(3 + z^2), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + z^3)^(1 + z^3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(-E^z + z^z),{z, w}]*)\"\>", ",", "\<\"\"\>",
-    ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[ArcCos[z]/ArcSin[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[z]/(1 - ArcCos[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcSin[Sqrt[1/Log[-1 + z]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + 6*I)*z^(2/3)*ArcSinh[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + Log[z])/(1 + Log[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 3*Log[z] + Log[1/z + z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcTan[z]/(1 - Sin[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1/2)*I*Pi*Log[z]*Tan[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[1 + Sqrt[Log[z]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/2 - z)*Log[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[1 + Log[z] + Log[z]^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-I + Log[z]^3)^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-1 + 2*Log[z]^3], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + Log[z^2]^7)^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == -Log[(z^2)^(1/3 + z)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[((-9 + 2*I) + z)*((1 + 4*I) + z)], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1/z + z]/z^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z + Sqrt[-4 + z^3]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z + Sqrt[-1 + z^3]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1/(1/Log[z] - Log[z])], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[(2*Log[z])/Sqrt[-2 + z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1 + z^9 - Log[z + Log[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z/(1 + ArcSin[z] - Sin[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (24 + 6*I)*E*z^2*ArcTanh[z]*Sin[z], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -2*Sqrt[-1 - z^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[Sqrt[z] + z^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^z/(1 - z^z), {z, w}]*)\"\>", ",", "\<\"\"\>",
-    ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z]^(Log[Sqrt[z]]/2), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^(1/3) + Sqrt[z] + Log[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z/(-1 + 2*z + z^5)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -11*I + 4*z + ArcTan[z] + Cot[z] + Sech[z], \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[1/Log[-Sqrt[z] + z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[Sinh[z]]/(z^(1/3)*ArcCos[z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(z - ArcSin[5 - z^2]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[(-1 + z)/(1 + Log[z])], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[(-I)*z^(1/3) + z^3], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[(-1 + z^3)/(-1 + z^5)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Root[-2 + 2*z*#1 + #1^3 & , 1], {z, w}]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Root[1 + Log[z]*#1 + #1^5 & , 3],{z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == E^ArcCos[Log[z^(1/3)]/Log[Log[z]]],{z, w}]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -(1/(-1 + z)^(1/3)) + z^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1 + w^2 - 1/z + z - w*z, {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z] - (1 + z)^(1/3), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[ArcSin[z]]*((4 + 6*I)*z + Cos[z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Cosh[2 - 2*z^(1/3) + Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -z^(1/3) - 3*z - Cot[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-1 - 2*z^(1/3) + Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[Log[z]]/Log[Sqrt[z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[z]/(1 - Log[1 - z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[1 + z - (1 + z)^(1/3)]^2, {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[Log[1 + Sqrt[-z + z^3]]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 2*I*Log[1/z] + Log[z] + Tan[z^2], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcCosh[1 - z - z^2 - z^3], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-z + z*ArcSin[2*z]^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[I + (-1 + Sqrt[z])^3]^2, {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[(-1 + z)/(1 + Log[z]^2)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + z^7)/Log[1 - z^7], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 + Sqrt[z])^(5/3) - Sin[z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sin[Sqrt[2]*Sqrt[(2 + I)*z]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Tan[2*z*Log[z]]/(2 + E^(-1 + z)),{z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == E^(1/(-3 + 2*z + Log[-1 + z^7]^3)),{z, w}]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + Sqrt[z])/(1 + Sqrt[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(1/(1 + z^(1/3)) + Sqrt[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + z)^((1/2)*(-1 + Sqrt[1 + z])),{z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[(-1 + z)/(3 + 2*I*z)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[2 + Sqrt[-1 + z] + z + z^3], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[(-1 + z^4)/(-1 + z^5)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (8 - 3*z - 2*z^4 + z^7)^(1/5), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -(1 - z)^z + z^(1 - z), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z - Sqrt[-1 + z^3]], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -ArcSin[1 - Sqrt[z] - z^2], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-I)*Log[Sqrt[z]] + Sqrt[Log[z]], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 2/(2 + 2*Sqrt[z] + 3*Log[z]), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-I + 2*z + (1 + I)*z^9], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1 - (14 + 7*I)*z + Sqrt[(1 - I)*z^2], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ArcCos[Log[z]/(-((I*Pi)/2) - Log[4])], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -(ArcSin[7 - 3*z - z^3]/(-1 + z)), {z, w}]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-(1/z) + Log[z])/(1 + Sqrt[z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[-I + z^2]/(-1 + z^3)^(1/3), {z, w}]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Root[-2*z^2 + 2*z*#1 + #1^3 & , 1], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z + Log[-1 + z])/(Log[1 + z] - Sin[z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (18 + 162*I)*z + Csc[Cosh[z]] + (22 + \
-46*I)*z*ArcSinh[z]*Sinh[z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + Sqrt[z])/(1 - z^(1/8)), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + Sqrt[z])/(Sqrt[z] + z^2), {z, w}]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 2 - 2*w + w^3 - z + w*z - z^3, {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[1 - z] - Sqrt[2 + z], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 - I/4) + 2*z + ArcCos[z] + ArcSin[z^(1/3)] \
-+ Cos[z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z^3/(2 + 2*Sqrt[z] + 3*Log[z]), {z, w}]*)\"\>",
-    ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[(1 - z^(1/3))/(1 + z^(1/3))], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -(Sqrt[z]/Log[z]) + Log[z]/Sqrt[z], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-I + 2*Log[z] + (1 + I)*Log[z]^2], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[3]*Sqrt[z] + ArcSin[z] +  Log[-I + z], \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (5 - 6*I)^z - (12 + 9*I)*z + z^3 + ArcSech[z] \
-+ Sech[z^2], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(Sqrt[1 - 1/z^2]*z) + Tanh[z^z], {z, w}]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-5 + z^(1/3) + 2*z + (4 - I)*z^2], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[I*z] - 2*Sqrt[(1 + 2*I)*z], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 + (1 + z)^(1/3))/(-1 + (-1 + z)^(1/3)), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + Sqrt[-1 + z])/(1 + Sqrt[1 + z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/z - z^(3/2) + z^3 - z^2*Log[z], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (Sqrt[-1 + z] + 1/(1 + z) + Log[I + z])^2, {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(1 + Sqrt[-1 + z^2] +  Log[1/Sqrt[z] + z]), \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(z^(1/3) + Sqrt[z] - Log[-1 + 2*z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[(-(1/2) + z)/(-1 + Sqrt[z] + z^2)]^3, {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 + Log[z]^E^z + Sin[z])/(1 - 2*z + z^3), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (3 - I) + Sqrt[z] + 6*z - (6 + 9*I)*z^2 + z^3, \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (1 + Sqrt[z] + z + z^2)/(1 + z + z^2 + \
-Log[z]), {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[(-1 + Log[1 + z])/(1 + Sqrt[-1 + z])], \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == Log[(1 + z + z^2)/(1 + z^(1/3) + Sqrt[z])], \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + 3*I) + 1/Sqrt[1 - 1/z^2] + 1/z^(1/3) + \
-4*z, {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == -(-1 + 2*z^3)^(1/3) + Sqrt[-1 + z^4], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Pi/2 + 3*z - 2*z*ArcSin[z]*Cos[z] - \
-2*z*Cos[z]^2, {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == \
-(Log[2]/4)^ArcTan[ArcCos[z]]*((z*ArcSinh[z])/Log[z])^ArcTan[ArcCos[z]], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 2 + z^(1/3) + 6*z + z^3 + Log[2]/Log[(-4 + \
-I)*z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == ((6 + 2*I) + 1/z^(1/3) + z + z^3)*Sech[(1 + \
-2*I) - I*z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-3 - 5*I) + ((-2 - 7*I) + z)^(1/3) + \
-Sqrt[2]*Sqrt[z] + z, {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[z/(1 + Sqrt[z/(1 + Sqrt[z])])], {z, w}]*)\
-\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z - z^3)/(E^z*Cos[z] - Log[-1 + 2*z]), {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Log[(7 - 2*z + z^3)/Sqrt[-1 + z - 3*z^3 + \
-z^5]], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[I*z]/(3 + z - Sqrt[(1 + I)*z]), {z, w}]*)\
-\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (z + Sqrt[-1 + z^3])/(z - 2*Sqrt[-1 + z^3]), \
-{z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (4 - 4*I)*z + z^3 + ArcSech[z]/(3*z) + \
-3*z^(3/2)*Csch[z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-1 + z^3)*Sqrt[1/(-1 + z) + 1/(-I + z)^3 + \
-1/(1 + z)^2], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == z + Log[Sqrt[z] + (1 - 2*z + z^2)/(8 - 5*z + \
-z^2)], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (-4 + Sqrt[z])*(-3 + Sqrt[z])*(-2 + \
-Sqrt[z])*(-1 + Sqrt[z]), {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[(-5 + z^2)*(-4 + z^2)*(-3 + z^2)*(-2 + \
-z^2)*(-1 + z^2)], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Cos[Sqrt[z] + (z^(2/3) - z^2)/Log[8 - 2*z + \
-z^4]], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == (Sqrt[z] + (1 + z)^(1/3))/(-Sqrt[z] + (1 + \
-z)^(1/3)), {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == (-2 + z)/ArcCos[z] + ArcCoth[(2 + 8*I)/z] + \
-I*ArcTan[(2 + 3*I) - 2*I*z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>",
-    ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(z + (1/Sqrt[(-1 + z)^3] + 1/Sqrt[z^3] - \
-1/Sqrt[(1 + z)^3])^2), {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-5 + z]*Sqrt[-4 + z]* Sqrt[-3 + \
-z]*Sqrt[-2 + z]*Sqrt[-1 + z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-5 + z]*Sqrt[-4 + z] +  Sqrt[-3 + \
-z]*Sqrt[-2 + z]*Sqrt[-1 + z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-5 + z]*Sqrt[-4 + z] +  Sqrt[-3 + \
-z]*Sqrt[-2 + z]/Sqrt[-1 + z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == Sqrt[-5 + z]*Sqrt[-4 + z] +  Sqrt[-3 + \
-z]*Sqrt[-2 + z]^Sqrt[-1 + z], {z, w}]*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Inputs staying unevaluated*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* not multi-sheeted *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ w==Exp[z], Re[w], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* not multi-sheeted *)*)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == 1/(E^z*(2*I + z)), {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* not multi-sheeted after solving *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[ Sin[w z] == 1, Im[w], {z, w},  \
-PlotPoints -> 12]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* countably many branch points *)*)\"\>", 
-   ",", "\<\"(*RiemannSurfacePlot3D[w== Sqrt[Sin[z]], Im[w], {z, w},  \
-PlotPoints -> 12]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Memory intensive examples*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == E^ArcCos[Log[z^(1/3)]/Log[Log[z]]],{z, w}]*)\"\
-\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == \
-(Log[2]/4)^ArcTan[ArcCos[z]]*((z*ArcSinh[z])/Log[z])^ArcTan[ArcCos[z]], {z, \
-w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*ReImPlot3D[ w == (-2 + z)/ArcCos[z] + ArcCoth[(2 + 8*I)/z] + \
-I*ArcTan[(2 + 3*I) - 2*I*z], {z, w}]*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>",
-    ",", "\<\"(* ::Subsubsection::Closed:: *)\"\>", 
-   ",", "\<\"(*Known problems*)\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Input:: *)\"\>", 
-   ",", "\<\"(*(* too large numbers occur *)*)\"\>", 
-   ",", "\<\"(*ReImPlot3D[w == E^ArcCsc[z^(-2 - 2*I)], {z, w}]*)\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"(* ::Subsection::Closed:: *)\"\>", 
-   ",", "\<\"(*End package (context end)*)\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"\"\>", ",", "\<\"End[]\"\>", ",", "\<\"\"\>", ",", "\<\"\"\>", 
-   ",", "\<\"EndPackage[]\"\>"}], "}"}]], "Output",
- CellChangeTimes->{3.902148251319577*^9, 3.902148293458209*^9, 
-  3.902148359233299*^9},
- CellLabel->
-  "Out[767]=",ExpressionUUID->"28d7ed75-7c2c-48f4-9cef-ca2bb89a81d2"]
 }, Open  ]]
 }, Open  ]]
+}, Closed]]
 },
-WindowSize->{1154.25, 518.25},
+WindowSize->{1154.25, 664.5},
 WindowMargins->{{105.75, Automatic}, {Automatic, 32.25}},
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
@@ -23106,138 +21120,155 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 210, 4, 50, "Section",ExpressionUUID->"d9dce192-5deb-4a0b-a842-4ec578b41970"],
 Cell[CellGroupData[{
-Cell[793, 28, 178, 3, 40, "Section",ExpressionUUID->"fec4aa6b-2007-4d31-8a53-631df038ef7f"],
+Cell[793, 28, 88, 0, 44, "Chapter",ExpressionUUID->"af07d7d5-a4f0-423f-8e83-837ba92a3bba"],
 Cell[CellGroupData[{
-Cell[996, 35, 213, 4, 40, "Subsection",ExpressionUUID->"dc31e2eb-47df-4ede-a0c6-e635a2a1b728"],
-Cell[1212, 41, 907, 26, 69, "Input",ExpressionUUID->"777529c0-d0a4-4778-a245-1a9ceaae8ef2"]
+Cell[906, 32, 178, 3, 50, "Section",ExpressionUUID->"fec4aa6b-2007-4d31-8a53-631df038ef7f"],
+Cell[CellGroupData[{
+Cell[1109, 39, 213, 4, 41, "Subsection",ExpressionUUID->"dc31e2eb-47df-4ede-a0c6-e635a2a1b728"],
+Cell[1325, 45, 907, 26, 68, "Input",ExpressionUUID->"777529c0-d0a4-4778-a245-1a9ceaae8ef2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2156, 72, 152, 3, 40, "Subsection",ExpressionUUID->"0f929317-b818-468f-82d1-e8f694acfd58"],
+Cell[2269, 76, 152, 3, 41, "Subsection",ExpressionUUID->"0f929317-b818-468f-82d1-e8f694acfd58"],
 Cell[CellGroupData[{
-Cell[2333, 79, 638, 17, 64, "Input",ExpressionUUID->"1f3276d5-fef9-44b4-bdae-cb446f669205"],
-Cell[2974, 98, 233, 4, 24, "Output",ExpressionUUID->"d6fd68ea-5c58-4b2f-9d42-01ff5b71872b"]
+Cell[2446, 83, 638, 17, 64, "Input",ExpressionUUID->"1f3276d5-fef9-44b4-bdae-cb446f669205"],
+Cell[3087, 102, 233, 4, 35, "Output",ExpressionUUID->"d6fd68ea-5c58-4b2f-9d42-01ff5b71872b"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3256, 108, 201, 4, 40, "Subsection",ExpressionUUID->"2286a781-4411-4ebd-8a44-edba29160280"],
+Cell[3369, 112, 201, 4, 41, "Subsection",ExpressionUUID->"2286a781-4411-4ebd-8a44-edba29160280"],
 Cell[CellGroupData[{
-Cell[3482, 116, 644, 17, 64, "Input",ExpressionUUID->"fa1528ca-f9ff-46a0-a9df-0cff5b343f67"],
-Cell[4129, 135, 231, 4, 24, "Output",ExpressionUUID->"2910cf1a-1f41-40b8-b558-85f661ba8950"]
+Cell[3595, 120, 644, 17, 64, "Input",ExpressionUUID->"fa1528ca-f9ff-46a0-a9df-0cff5b343f67"],
+Cell[4242, 139, 231, 4, 35, "Output",ExpressionUUID->"2910cf1a-1f41-40b8-b558-85f661ba8950"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4409, 145, 154, 3, 40, "Subsection",ExpressionUUID->"4eca8be2-5c3f-49a1-beea-5fe4709c36da"],
+Cell[4522, 149, 154, 3, 41, "Subsection",ExpressionUUID->"4eca8be2-5c3f-49a1-beea-5fe4709c36da"],
 Cell[CellGroupData[{
-Cell[4588, 152, 461, 11, 36, "Input",ExpressionUUID->"8897ef92-ef5c-4970-8a6d-b6d8af8c913d"],
-Cell[5052, 165, 289, 8, 34, "Output",ExpressionUUID->"294bb143-044f-495e-9310-6bd61fce8dc1"],
-Cell[5344, 175, 294, 8, 34, "Output",ExpressionUUID->"e21fd6a3-3480-4a73-bfb2-229187e8cafe"]
+Cell[4701, 156, 461, 11, 36, "Input",ExpressionUUID->"8897ef92-ef5c-4970-8a6d-b6d8af8c913d"],
+Cell[5165, 169, 289, 8, 35, "Output",ExpressionUUID->"294bb143-044f-495e-9310-6bd61fce8dc1"],
+Cell[5457, 179, 294, 8, 35, "Output",ExpressionUUID->"e21fd6a3-3480-4a73-bfb2-229187e8cafe"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[5699, 190, 229, 4, 40, "Section",ExpressionUUID->"f370f964-b141-49ca-b9d2-79d4d99b29f8"],
+Cell[5812, 194, 229, 4, 40, "Section",ExpressionUUID->"f370f964-b141-49ca-b9d2-79d4d99b29f8"],
 Cell[CellGroupData[{
-Cell[5953, 198, 338, 9, 21, "Input",ExpressionUUID->"b1d3efc4-6768-4b3e-9222-ab79f9870686"],
-Cell[6294, 209, 179, 3, 24, "Output",ExpressionUUID->"5c514244-6e97-4fa1-9a9b-e504f6f7155d"]
+Cell[6066, 202, 338, 9, 21, "Input",ExpressionUUID->"b1d3efc4-6768-4b3e-9222-ab79f9870686"],
+Cell[6407, 213, 179, 3, 35, "Output",ExpressionUUID->"5c514244-6e97-4fa1-9a9b-e504f6f7155d"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[6522, 218, 276, 4, 40, "Section",ExpressionUUID->"895938ff-7b9b-43db-a6e0-bf2f7ff90c17"],
+Cell[6635, 222, 287, 4, 40, "Section",ExpressionUUID->"11601827-1d75-4c7c-b7bb-f64786015a2b"],
 Cell[CellGroupData[{
-Cell[6823, 226, 930, 25, 36, "Input",ExpressionUUID->"1c12d52f-a650-48b4-aa18-c08c2b2aa417"],
-Cell[7756, 253, 1023, 24, 26, "Output",ExpressionUUID->"34ef1cf6-3f50-4e89-addd-040613ce437f"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[8816, 282, 1422, 43, 36, "Input",ExpressionUUID->"18db879d-ed79-4bf3-b957-58a59508f4a8"],
-Cell[10241, 327, 767, 16, 24, "Output",ExpressionUUID->"03a97d40-dcfe-4bda-9ce0-4c6d5ba945cb"],
-Cell[11011, 345, 742, 15, 24, "Output",ExpressionUUID->"94b72ec9-990f-4226-8f9d-f915bb475c62"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[11790, 365, 3113, 94, 93, "Input",ExpressionUUID->"04911ac2-a23e-4156-ab60-d3ab03a56d43"],
-Cell[14906, 461, 682, 15, 24, "Output",ExpressionUUID->"73bcb2d2-fb26-4a13-854d-1b1520777c91"],
-Cell[15591, 478, 682, 15, 24, "Output",ExpressionUUID->"511bac8f-3046-4f16-b713-6029042f771b"],
-Cell[16276, 495, 590, 11, 24, "Output",ExpressionUUID->"1e6186ae-12ef-415b-ad60-16793290616f"],
-Cell[16869, 508, 590, 11, 24, "Output",ExpressionUUID->"7cc85891-8ce0-4061-bbde-ebb2298ed496"]
+Cell[6947, 230, 338, 9, 21, "Input",ExpressionUUID->"4808a1ca-1bea-4dcf-9413-3ee102265ae9"],
+Cell[7288, 241, 179, 3, 24, "Output",ExpressionUUID->"3f930ffb-57db-43b8-a04e-f6fcd38f33f9"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[17508, 525, 165, 3, 40, "Section",ExpressionUUID->"530b871b-6bcc-44f7-b52e-a5ceca0c710e"],
-Cell[CellGroupData[{
-Cell[17698, 532, 1094, 24, 36, "Input",ExpressionUUID->"3bfa71bb-66a6-46c8-9096-d3055af16048"],
-Cell[18795, 558, 69175, 1194, 270, "Output",ExpressionUUID->"927a7a53-2ad9-44ca-8ae1-b4b75867f96a"]
+Cell[7516, 250, 327, 5, 40, "Section",ExpressionUUID->"4652ff6c-708d-4a03-a772-dcb9d0608af3"],
+Cell[7846, 257, 240, 6, 27, "Text",ExpressionUUID->"895088f6-11d2-4924-98be-006419d2ffbd"]
+}, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[88007, 1757, 1951, 50, 70, "Input",ExpressionUUID->"c9c52b2f-16d4-4a55-8d6f-d396d18af4de"],
-Cell[89961, 1809, 1200, 36, 76, "Output",ExpressionUUID->"4e87cd37-28b9-4fdc-862b-87ac19830a63"]
+Cell[8135, 269, 152, 3, 51, "Chapter",ExpressionUUID->"7b498714-48ba-4dce-9831-f46436571645"],
+Cell[CellGroupData[{
+Cell[8312, 276, 276, 4, 50, "Section",ExpressionUUID->"895938ff-7b9b-43db-a6e0-bf2f7ff90c17"],
+Cell[CellGroupData[{
+Cell[8613, 284, 930, 25, 36, "Input",ExpressionUUID->"1c12d52f-a650-48b4-aa18-c08c2b2aa417"],
+Cell[9546, 311, 1023, 24, 26, "Output",ExpressionUUID->"34ef1cf6-3f50-4e89-addd-040613ce437f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10606, 340, 1422, 43, 36, "Input",ExpressionUUID->"18db879d-ed79-4bf3-b957-58a59508f4a8"],
+Cell[12031, 385, 767, 16, 24, "Output",ExpressionUUID->"03a97d40-dcfe-4bda-9ce0-4c6d5ba945cb"],
+Cell[12801, 403, 742, 15, 24, "Output",ExpressionUUID->"94b72ec9-990f-4226-8f9d-f915bb475c62"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13580, 423, 3113, 94, 93, "Input",ExpressionUUID->"04911ac2-a23e-4156-ab60-d3ab03a56d43"],
+Cell[16696, 519, 682, 15, 24, "Output",ExpressionUUID->"73bcb2d2-fb26-4a13-854d-1b1520777c91"],
+Cell[17381, 536, 682, 15, 24, "Output",ExpressionUUID->"511bac8f-3046-4f16-b713-6029042f771b"],
+Cell[18066, 553, 590, 11, 24, "Output",ExpressionUUID->"1e6186ae-12ef-415b-ad60-16793290616f"],
+Cell[18659, 566, 590, 11, 24, "Output",ExpressionUUID->"7cc85891-8ce0-4061-bbde-ebb2298ed496"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[91210, 1851, 210, 4, 40, "Section",ExpressionUUID->"a7a63550-78f1-4251-9b8a-4b63fd99e4a4"],
+Cell[19298, 583, 165, 3, 40, "Section",ExpressionUUID->"530b871b-6bcc-44f7-b52e-a5ceca0c710e"],
 Cell[CellGroupData[{
-Cell[91445, 1859, 649, 16, 23, "Input",ExpressionUUID->"c415176b-d0c0-4fab-981f-a1a291f807b8"],
-Cell[92097, 1877, 398, 10, 49, "Output",ExpressionUUID->"929eb2cb-e26e-4f38-b9a6-900457197d0d"]
+Cell[19488, 590, 1094, 24, 36, "Input",ExpressionUUID->"3bfa71bb-66a6-46c8-9096-d3055af16048"],
+Cell[20585, 616, 69175, 1194, 270, "Output",ExpressionUUID->"927a7a53-2ad9-44ca-8ae1-b4b75867f96a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[92532, 1892, 302, 8, 37, "Input",ExpressionUUID->"d2f45a0b-a6a2-4727-af28-a2a894397e00"],
-Cell[92837, 1902, 274, 8, 49, "Output",ExpressionUUID->"1b0f5d8b-55c7-4545-b42d-e8d95706223c"]
+Cell[89797, 1815, 1951, 50, 70, "Input",ExpressionUUID->"c9c52b2f-16d4-4a55-8d6f-d396d18af4de"],
+Cell[91751, 1867, 1200, 36, 76, "Output",ExpressionUUID->"4e87cd37-28b9-4fdc-862b-87ac19830a63"]
+}, Open  ]]
+}, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[93148, 1915, 737, 20, 23, "Input",ExpressionUUID->"196630df-aa73-4e7a-8149-4ce3dce28547"],
-Cell[93888, 1937, 398, 10, 49, "Output",ExpressionUUID->"450a3dd5-9150-4b7e-a03d-7fbd7b79cbc7"]
+Cell[93012, 1910, 203, 4, 51, "Chapter",ExpressionUUID->"8f725b0c-66ec-4fc6-ab06-cb1bb1eabbce"],
+Cell[CellGroupData[{
+Cell[93240, 1918, 210, 4, 50, "Section",ExpressionUUID->"a7a63550-78f1-4251-9b8a-4b63fd99e4a4"],
+Cell[CellGroupData[{
+Cell[93475, 1926, 649, 16, 23, "Input",ExpressionUUID->"c415176b-d0c0-4fab-981f-a1a291f807b8"],
+Cell[94127, 1944, 398, 10, 49, "Output",ExpressionUUID->"929eb2cb-e26e-4f38-b9a6-900457197d0d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[94323, 1952, 1033, 22, 50, "Input",ExpressionUUID->"fe2b323e-55a8-4160-b6fc-38b2186435d1"],
-Cell[95359, 1976, 555, 13, 24, "Output",ExpressionUUID->"6a1ba87e-fb90-40ae-b2ee-7cf249755b30"],
-Cell[95917, 1991, 580, 15, 30, "Output",ExpressionUUID->"a984ab94-fda4-4cb6-a779-1bf029166b32"],
-Cell[96500, 2008, 751, 21, 31, "Output",ExpressionUUID->"fa772da9-e970-405a-b1ad-704fc02327c0"]
+Cell[94562, 1959, 302, 8, 37, "Input",ExpressionUUID->"d2f45a0b-a6a2-4727-af28-a2a894397e00"],
+Cell[94867, 1969, 274, 8, 49, "Output",ExpressionUUID->"1b0f5d8b-55c7-4545-b42d-e8d95706223c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97288, 2034, 253, 6, 21, "Input",ExpressionUUID->"2bc76477-103f-474f-9d89-1de80a95f4e1"],
-Cell[97544, 2042, 210, 5, 24, "Output",ExpressionUUID->"899cd65d-db52-4340-88d4-037ec69f9cab"]
+Cell[95178, 1982, 737, 20, 23, "Input",ExpressionUUID->"196630df-aa73-4e7a-8149-4ce3dce28547"],
+Cell[95918, 2004, 398, 10, 49, "Output",ExpressionUUID->"450a3dd5-9150-4b7e-a03d-7fbd7b79cbc7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97791, 2052, 1032, 32, 132, "Input",ExpressionUUID->"01facc3e-2975-4fff-9434-944d15fa5948"],
-Cell[98826, 2086, 357, 9, 26, "Output",ExpressionUUID->"f348db81-f9c0-405c-bab9-25470ef871bd"],
-Cell[99186, 2097, 357, 9, 26, "Output",ExpressionUUID->"1f01e4e7-cdd5-4d1f-93d1-2e5bd4936ec6"],
-Cell[99546, 2108, 296, 6, 24, "Output",ExpressionUUID->"a8cafa45-c6ae-43b8-9dab-5c2e12739656"],
-Cell[99845, 2116, 296, 6, 24, "Output",ExpressionUUID->"cd9c8762-96ef-4cd0-9849-8c8eccb68f38"],
-Cell[100144, 2124, 284, 5, 35, "Output",ExpressionUUID->"7023b6fa-a74c-4021-a4ca-873a3cde298a"],
-Cell[100431, 2131, 284, 5, 35, "Output",ExpressionUUID->"78d2f0a7-fa29-4df5-8dc9-7c5c8e69d142"]
+Cell[96353, 2019, 1033, 22, 50, "Input",ExpressionUUID->"fe2b323e-55a8-4160-b6fc-38b2186435d1"],
+Cell[97389, 2043, 555, 13, 35, "Output",ExpressionUUID->"6a1ba87e-fb90-40ae-b2ee-7cf249755b30"],
+Cell[97947, 2058, 580, 15, 42, "Output",ExpressionUUID->"a984ab94-fda4-4cb6-a779-1bf029166b32"],
+Cell[98530, 2075, 751, 21, 42, "Output",ExpressionUUID->"fa772da9-e970-405a-b1ad-704fc02327c0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[100752, 2141, 345, 8, 36, "Input",ExpressionUUID->"b721a14a-5cda-48bc-ab3c-71b3e6899001"],
-Cell[101100, 2151, 268, 7, 51, "Output",ExpressionUUID->"9da60f53-19fd-4484-9693-10e139f7612c"],
-Cell[101371, 2160, 179, 3, 35, "Output",ExpressionUUID->"420fef0e-5fab-4658-bc59-936eca2da05d"]
+Cell[99318, 2101, 253, 6, 21, "Input",ExpressionUUID->"2bc76477-103f-474f-9d89-1de80a95f4e1"],
+Cell[99574, 2109, 210, 5, 35, "Output",ExpressionUUID->"899cd65d-db52-4340-88d4-037ec69f9cab"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[101587, 2168, 238, 5, 21, "Input",ExpressionUUID->"9d4e2fa7-67f2-4b86-8867-36b84ddc67af"],
-Cell[101828, 2175, 155, 3, 35, "Output",ExpressionUUID->"c751760d-6582-4d67-a3d0-3029c0cce4fd"]
+Cell[99821, 2119, 1032, 32, 127, "Input",ExpressionUUID->"01facc3e-2975-4fff-9434-944d15fa5948"],
+Cell[100856, 2153, 357, 9, 38, "Output",ExpressionUUID->"f348db81-f9c0-405c-bab9-25470ef871bd"],
+Cell[101216, 2164, 357, 9, 38, "Output",ExpressionUUID->"1f01e4e7-cdd5-4d1f-93d1-2e5bd4936ec6"],
+Cell[101576, 2175, 296, 6, 35, "Output",ExpressionUUID->"a8cafa45-c6ae-43b8-9dab-5c2e12739656"],
+Cell[101875, 2183, 296, 6, 35, "Output",ExpressionUUID->"cd9c8762-96ef-4cd0-9849-8c8eccb68f38"],
+Cell[102174, 2191, 284, 5, 35, "Output",ExpressionUUID->"7023b6fa-a74c-4021-a4ca-873a3cde298a"],
+Cell[102461, 2198, 284, 5, 35, "Output",ExpressionUUID->"78d2f0a7-fa29-4df5-8dc9-7c5c8e69d142"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102020, 2183, 302, 6, 36, "Input",ExpressionUUID->"e65b1fb9-a41e-4a09-9972-a93f0a5d37a6"],
-Cell[102325, 2191, 175, 3, 35, "Output",ExpressionUUID->"b75f6a7a-4ceb-4059-be03-25f590e25e5b"],
-Cell[102503, 2196, 175, 3, 35, "Output",ExpressionUUID->"8a511a81-8ca6-48f4-ab54-b84c7b1b47a8"]
-}, Open  ]],
-Cell[102693, 2202, 237, 5, 21, "Input",ExpressionUUID->"e6e6990b-8196-40d5-91c7-0c8a1d8e026d"],
-Cell[CellGroupData[{
-Cell[102955, 2211, 152, 3, 21, "Input",ExpressionUUID->"3051e895-fc15-4ae9-b7e0-aaebfe935949"],
-Cell[103110, 2216, 177, 3, 35, "Output",ExpressionUUID->"273c1026-97d2-4044-9c50-1492248b7509"]
+Cell[102782, 2208, 345, 8, 36, "Input",ExpressionUUID->"b721a14a-5cda-48bc-ab3c-71b3e6899001"],
+Cell[103130, 2218, 268, 7, 51, "Output",ExpressionUUID->"9da60f53-19fd-4484-9693-10e139f7612c"],
+Cell[103401, 2227, 179, 3, 35, "Output",ExpressionUUID->"420fef0e-5fab-4658-bc59-936eca2da05d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[103324, 2224, 152, 3, 21, "Input",ExpressionUUID->"1cea993b-9fa4-4d98-a942-1bfb47063cc5"],
-Cell[103479, 2229, 177, 3, 35, "Output",ExpressionUUID->"c4a94ef0-fa1b-4778-8854-404089c24a89"]
-}, Open  ]],
-Cell[103671, 2235, 294, 6, 21, "Input",ExpressionUUID->"d5f2cc6e-4aeb-46f2-9b6c-a11727c71b7d"],
-Cell[103968, 2243, 2162, 57, 79, "Input",ExpressionUUID->"213b319a-5f7b-468d-8c52-c08dab8299ff"],
-Cell[CellGroupData[{
-Cell[106155, 2304, 389, 7, 21, "Input",ExpressionUUID->"e98877dd-e311-466f-baa0-61dd55e3eee2"],
-Cell[106547, 2313, 912294, 18707, 325, "Output",ExpressionUUID->"072fa1fe-16d4-4480-ae18-fc008f8898f1"]
+Cell[103617, 2235, 238, 5, 21, "Input",ExpressionUUID->"9d4e2fa7-67f2-4b86-8867-36b84ddc67af"],
+Cell[103858, 2242, 155, 3, 35, "Output",ExpressionUUID->"c751760d-6582-4d67-a3d0-3029c0cce4fd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1018878, 21025, 491, 11, 21, "Input",ExpressionUUID->"b77f2ce4-7175-49ba-b1e6-2668f571900e"],
-Cell[1019372, 21038, 127792, 2046, 7781, "Output",ExpressionUUID->"28d7ed75-7c2c-48f4-9cef-ca2bb89a81d2"]
+Cell[104050, 2250, 302, 6, 36, "Input",ExpressionUUID->"e65b1fb9-a41e-4a09-9972-a93f0a5d37a6"],
+Cell[104355, 2258, 175, 3, 35, "Output",ExpressionUUID->"b75f6a7a-4ceb-4059-be03-25f590e25e5b"],
+Cell[104533, 2263, 175, 3, 35, "Output",ExpressionUUID->"8a511a81-8ca6-48f4-ab54-b84c7b1b47a8"]
+}, Open  ]],
+Cell[104723, 2269, 237, 5, 21, "Input",ExpressionUUID->"e6e6990b-8196-40d5-91c7-0c8a1d8e026d"],
+Cell[CellGroupData[{
+Cell[104985, 2278, 152, 3, 21, "Input",ExpressionUUID->"3051e895-fc15-4ae9-b7e0-aaebfe935949"],
+Cell[105140, 2283, 177, 3, 35, "Output",ExpressionUUID->"273c1026-97d2-4044-9c50-1492248b7509"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[105354, 2291, 152, 3, 21, "Input",ExpressionUUID->"1cea993b-9fa4-4d98-a942-1bfb47063cc5"],
+Cell[105509, 2296, 177, 3, 35, "Output",ExpressionUUID->"c4a94ef0-fa1b-4778-8854-404089c24a89"]
+}, Open  ]],
+Cell[105701, 2302, 318, 8, 21, "Input",ExpressionUUID->"610b0fe8-f502-425a-916a-46daadc47cc2"],
+Cell[106022, 2312, 294, 6, 21, "Input",ExpressionUUID->"d5f2cc6e-4aeb-46f2-9b6c-a11727c71b7d"],
+Cell[106319, 2320, 2162, 57, 50, "Input",ExpressionUUID->"213b319a-5f7b-468d-8c52-c08dab8299ff"],
+Cell[CellGroupData[{
+Cell[108506, 2381, 389, 7, 21, "Input",ExpressionUUID->"e98877dd-e311-466f-baa0-61dd55e3eee2"],
+Cell[108898, 2390, 912294, 18707, 325, "Output",ExpressionUUID->"072fa1fe-16d4-4480-ae18-fc008f8898f1"]
 }, Open  ]]
 }, Open  ]]
+}, Closed]]
 }
 ]
 *)

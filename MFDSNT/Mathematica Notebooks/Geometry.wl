@@ -21,8 +21,8 @@ out$::usage="Declaring out as an exported symbol in the X` context";
 
 
 (* CONSTANTS *)
-FACE:={Cyan,1};
-EDGE:={Black,1,.0025,2\[Pi],2\[Pi]};
+FACE:={Red,1};
+EDGE:={Black,1,.0125,2\[Pi],2\[Pi]};
 POINT:=0;
 POLYGON:=1;
 CIRCLE:=2;

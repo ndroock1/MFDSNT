@@ -6,32 +6,17 @@ BeginPackage["Geometry`"]
 (* Exported symbols added here with SymbolName::usage *) 
 
 
-(*===WHAT IS THIS===???*)
-(*
-t::usage="Declaring y as an exported symbol in the X` context";
-f::usage="Declaring out as an exported symbol in the X` context";
-a::usage="Declaring out as an exported symbol in the X` context";
-p::usage="Declaring out as an exported symbol in the X` context";
-v::usage="Declaring out as an exported symbol in the X` context";
-y::usage="Declaring out as an exported symbol in the X` context";
-n::usage="Declaring out as an exported symbol in the X` context";
-tf::usage="Declaring out as an exported symbol in the X` context";
-mf::usage="Declaring out as an exported symbol in the X` context";
-y::usage="Declaring out as an exported symbol in the X` context";
-out::usage="Declaring out as an exported symbol in the X` context";
-out$::usage="Declaring out as an exported symbol in the X` context";
-*)
-
-
 (* CONSTANTS *)
 FACE:={Red,1};
 EDGE:={Black,1,.0125,2\[Pi],2\[Pi]};
+
 POINT:=0;
 POLYGON:=1;
 CIRCLE:=2;
 LINE:=3;
 DISK:=4;
 FILLEDCURVE:=5;
+
 HYPERBOLICLINE:=6
 kanweg:=999
 
@@ -250,7 +235,7 @@ overlayColorsFromImage3[data_, {imgdata_, dw_}] := Module[{getColor3},
      iw = Dimensions[imgdata][[2]],
      ih = Dimensions[imgdata][[1]],
      dh
-     },
+z     },
     dh = (ih/iw) dw;
     Mean[Flatten[
       Table[

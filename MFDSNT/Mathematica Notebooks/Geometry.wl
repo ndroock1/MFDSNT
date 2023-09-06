@@ -1,6 +1,9 @@
 (* Wolfram Language Package *)
 
+
 (* Created by the Wolfram Workbench 03/7-'18 *)
+(* Version X.1 05/09-'23 *)
+
 
 BeginPackage["Geometry`"]
 (* Exported symbols added here with SymbolName::usage *) 
@@ -38,6 +41,7 @@ rot3[figs_,{a_,p_}]:=figs/.f:pnt:> RotationTransform[a,p][f]
 ref3[figs_,{v_,p_}]:=figs/.f:pnt:> ReflectionTransform[v,p][f]
 cnj3[figs_]:=ref3[figs,{{0,1},{0,0}}];
 sca3[figs_,{s_,p_}]:=figs/.f:pnt :> ScalingTransform[s,p][f]
+
 trf3[figs_,trf_]:=figs/.f:pnt:> trf[f]//N
 
 mid[fig_]:={(Max[Cases[{fig},pnt,Infinity][[All,1]]]+Min[Cases[{fig},pnt,Infinity][[All,1]]])/2,(Max[Cases[{fig},pnt,Infinity][[All,2]]]+Min[Cases[{fig},pnt,Infinity][[All,2]]])/2}

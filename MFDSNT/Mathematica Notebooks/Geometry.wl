@@ -93,6 +93,7 @@ newGeo[n_Integer, col:(_RGBColor | _GrayLevel), alfa_Real] := setVal[newGeo[n, c
 cCircle[p:pnt, n_?NumericQ] := {{{2, {p,{p[[1]]+n,p[[2]]}}},FACE}, EDGE}
 
 
+(* PROPERTIES *)
 repCol[data_, cols_] := MapIndexed[ReplacePart[#1, {1, 2, 1} -> cols[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
 repLineCol[data_, cols_] := MapIndexed[ReplacePart[#1, {2, 1} -> cols[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
 

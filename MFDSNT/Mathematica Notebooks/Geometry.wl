@@ -92,10 +92,11 @@ newGeo[n_Integer, col:(_RGBColor | _GrayLevel), alfa_Real] := setVal[newGeo[n, c
 
 cCircle[p:pnt, n_?NumericQ] := {{{2, {p,{p[[1]]+n,p[[2]]}}},FACE}, EDGE}
 
-setVal[data_, {pos_, val_}]:=MapIndexed[ReplacePart[#1, pos -> val[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
-setEdges[data_, edges_] := MapIndexed[ReplacePart[#1, {2} -> edges[[#2[[1]]]]] &, Cases[{data}, edg, Infinity]]
 repCol[data_, cols_] := MapIndexed[ReplacePart[#1, {1, 2, 1} -> cols[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
 repLineCol[data_, cols_] := MapIndexed[ReplacePart[#1, {2, 1} -> cols[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
+
+setVal[data_, {pos_, val_}]:=MapIndexed[ReplacePart[#1, pos -> val[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
+setEdges[data_, edges_] := MapIndexed[ReplacePart[#1, {2} -> edges[[#2[[1]]]]] &, Cases[{data}, edg, Infinity]]
 repLineAlfa[data_, alfa_] := MapIndexed[ReplacePart[#1, {2, 2} -> alfa[[#2]][[1]]] &, Cases[{data}, edg, Infinity]]
 
 (* Chain of connected nGons *)

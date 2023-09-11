@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2628052,      50294]
-NotebookOptionsPosition[   2601022,      49829]
-NotebookOutlinePosition[   2601456,      49846]
-CellTagsIndexPosition[   2601413,      49843]
+NotebookDataLength[   2644535,      50605]
+NotebookOptionsPosition[   2616647,      50126]
+NotebookOutlinePosition[   2617126,      50144]
+CellTagsIndexPosition[   2617083,      50141]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -49823,12 +49823,310 @@ added\"",
  CellLabel->
   "Out[67]//TableForm=",ExpressionUUID->"840187fc-74d1-496e-9372-\
 bf5322c8ff84"]
+}, Open  ]],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryNoResults",
+  DynamicModuleBox[{Typeset`q$$ = "EntityClasses", Typeset`newq$$ = 
+   "EntityClasses"}, 
+   FrameBox[
+    TagBox[GridBox[{
+       {
+        InputFieldBox[Dynamic[Typeset`newq$$], String,
+         Appearance->None,
+         BaseStyle->{"CalculateInput"},
+         ContinuousAction->True,
+         Enabled->True,
+         FieldSize->{{1, 40}, {1, 
+            DirectedInfinity[1]}},
+         TrapSelection->False], "\[SpanFromLeft]"},
+       {
+        StyleBox[
+         TemplateBox[{"\"(\"", 
+           DynamicBox[
+            ToBoxes[
+             FEPrivate`FrontEndResource["WAStrings", "NoInterpretations"], 
+             StandardForm]], "\")\""},
+          "RowDefault"], "DialogStyle",
+         StripOnInput->False,
+         FontColor->GrayLevel[0.5]], 
+        TagBox[
+         TooltipBox[
+          ButtonBox[
+           
+           DynamicBox[FEPrivate`FrontEndResource[
+            "WABitmaps", "QuestionMarkSmallIcon"],
+            ImageSizeCache->{11.25, {4., 7.25}}],
+           Appearance->None,
+           BaseStyle->{ShowStringCharacters -> False},
+           ButtonFunction:>(Quiet[
+              WolframAlpha[]]; 
+            WolframAlphaClient`Private`openSuggestionsDialog[
+             "NoResults", "EntityClasses"]),
+           Evaluator->Automatic,
+           Method->"Preemptive"],
+          "\"Information, tips and feedback\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Information, tips and feedback", "Tooltip"]& ]}
+      },
+      AutoDelete->False,
+      BaselinePosition->{1, 1},
+      FrameStyle->GrayLevel[0.85],
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxDividers->{
+       "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     "Grid"],
+    Alignment->Top,
+    Background->Dynamic[
+      FEPrivate`If[
+       FEPrivate`And[
+        FEPrivate`SameQ[
+         FEPrivate`Head[Typeset`newq$$], String], 
+        FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+       RGBColor[1., 0.975, 0.95], 
+       GrayLevel[1]]],
+    BaselinePosition->Baseline,
+    FrameStyle->GrayLevel[0.85],
+    ImageSize->Automatic,
+    RoundingRadius->5,
+    StripOnInput->False],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[72]:=",ExpressionUUID->"d7834981-aa0a-431f-868b-8ec6f54d7567"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TemplateBox[{"\"EntityClass\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"WolframLanguageSymbol\"", ",", "\"EntityClass\""}], "]"}], 
+   "\"Entity[\\\"WolframLanguageSymbol\\\", \\\"EntityClass\\\"]\"", 
+   "\"Wolfram Language symbol\""},
+  "Entity"]], "Input",ExpressionUUID->"e74c84a0-5edb-43db-8236-16c8688df9a8"],
+
+Cell[BoxData[
+ TemplateBox[{"\"EntityClass\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"WolframLanguageSymbol\"", ",", "\"EntityClass\""}], "]"}], 
+   "\"Entity[\\\"WolframLanguageSymbol\\\", \\\"EntityClass\\\"]\"", 
+   "\"Wolfram Language symbol\""},
+  "Entity"]], "Output",
+ CellChangeTimes->{3.9033936209730406`*^9},
+ CellLabel->"Out[73]=",ExpressionUUID->"1e584a20-b61c-45a5-8030-8a1ac031ba23"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EntityTypeName", "[", 
+  TemplateBox[{"\"EntityClass\"", 
+    RowBox[{"Entity", "[", 
+      RowBox[{"\"WolframLanguageSymbol\"", ",", "\"EntityClass\""}], "]"}], 
+    "\"Entity[\\\"WolframLanguageSymbol\\\", \\\"EntityClass\\\"]\"", 
+    "\"Wolfram Language symbol\""},
+   "Entity"], "]"}]], "Input",
+ CellChangeTimes->{{3.9033936721002393`*^9, 3.9033936744083242`*^9}},
+ NumberMarks->False,
+ CellLabel->"In[75]:=",ExpressionUUID->"aec7e092-4c2d-490c-8077-347fcc02e2ee"],
+
+Cell[BoxData["\<\"WolframLanguageSymbol\"\>"], "Output",
+ CellChangeTimes->{{3.903393647595373*^9, 3.903393675425725*^9}},
+ CellLabel->"Out[75]=",ExpressionUUID->"0db9524b-0ea8-48ac-9b86-e4d9f247249b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.9033937848194404`*^9, 3.9033938186169796`*^9}},
+ CellLabel->"In[77]:=",ExpressionUUID->"947ad123-5949-4501-88fb-db4afcdda74e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"AdministrativeDivision\"\>", ",", "\<\"Aircraft\"\>", 
+   ",", "\<\"Airline\"\>", ",", "\<\"Airport\"\>", ",", "\<\"AirportType\"\>",
+    ",", "\<\"Alphabet\"\>", ",", "\<\"AmusementPark\"\>", 
+   ",", "\<\"AmusementParkRide\"\>", ",", "\<\"AmusementParkType\"\>", 
+   ",", "\<\"AnatomicalConceptIdentifier\"\>", 
+   ",", "\<\"AnatomicalFunctionalConcept\"\>", 
+   ",", "\<\"AnatomicalSpatialConcept\"\>", 
+   ",", "\<\"AnatomicalStructure\"\>", 
+   ",", "\<\"AnatomicalTemporalConcept\"\>", 
+   ",", "\<\"AnimalAnatomicalStructure\"\>", 
+   ",", "\<\"AnimalCoatColorAndPattern\"\>", ",", "\<\"AnimalEggColor\"\>", 
+   ",", "\<\"AnimalFeatherColor\"\>", ",", "\<\"AnimalSkinColor\"\>", 
+   ",", "\<\"AnimalUse\"\>", ",", "\<\"ArchitecturalStyle\"\>", 
+   ",", "\<\"Artwork\"\>", ",", "\<\"AstronomicalObservatory\"\>", 
+   ",", "\<\"AstronomicalRadioSource\"\>", ",", "\<\"AtmosphericLayer\"\>", 
+   ",", "\<\"AtomicLevel\"\>", ",", "\<\"AtomicLine\"\>", 
+   ",", "\<\"BasicFoodGroup\"\>", ",", "\<\"Beach\"\>", 
+   ",", "\<\"BioSequenceType\"\>", ",", "\<\"BoardGame\"\>", 
+   ",", "\<\"Book\"\>", ",", "\<\"Bridge\"\>", ",", "\<\"BridgeType\"\>", 
+   ",", "\<\"BroadcastStation\"\>", 
+   ",", "\<\"BroadcastStationClassification\"\>", ",", "\<\"Building\"\>", 
+   ",", "\<\"CalculusResult\"\>", ",", "\<\"Canal\"\>", ",", "\<\"Castle\"\>",
+    ",", "\<\"CatBreed\"\>", ",", "\<\"CattleBreed\"\>", ",", "\<\"Cave\"\>", 
+   ",", "\<\"Cemetery\"\>", ",", "\<\"Character\"\>", ",", "\<\"Chemical\"\>",
+    ",", "\<\"City\"\>", ",", "\<\"ClimateType\"\>", ",", "\<\"Cloud\"\>", 
+   ",", "\<\"CognitiveTask\"\>", ",", "\<\"Color\"\>", 
+   ",", "\<\"ColorSet\"\>", ",", "\<\"Comet\"\>", ",", "\<\"Company\"\>", 
+   ",", "\<\"ComputationalComplexityClass\"\>", ",", "\<\"Concept\"\>", 
+   ",", "\<\"Constellation\"\>", ",", "\<\"ConstructionMaterial\"\>", 
+   ",", "\<\"ContinuedFraction\"\>", ",", "\<\"ContinuedFractionResult\"\>", 
+   ",", "\<\"ContinuedFractionSource\"\>", ",", "\<\"Country\"\>", 
+   ",", "\<\"CrystalFamily\"\>", ",", "\<\"CrystallographicSpaceGroup\"\>", 
+   ",", "\<\"CrystalSystem\"\>", ",", "\<\"CurrencyDenomination\"\>", 
+   ",", "\<\"CurrencyDenominationType\"\>", ",", "\<\"Dam\"\>", 
+   ",", "\<\"DeepSpaceProbe\"\>", ",", "\<\"Desert\"\>", 
+   ",", "\<\"Digimon\"\>", ",", "\<\"Dinosaur\"\>", ",", "\<\"Disease\"\>", 
+   ",", "\<\"DisplayFormat\"\>", ",", "\<\"DistrictCourt\"\>", 
+   ",", "\<\"DogBreed\"\>", ",", "\<\"EarthImpact\"\>", 
+   ",", "\<\"Earthquake\"\>", ",", "\<\"EclipseType\"\>", 
+   ",", "\<\"ElectricalOutlet\"\>", ",", "\<\"Element\"\>", 
+   ",", "\<\"Emotion\"\>", ",", "\<\"EthnicGroup\"\>", 
+   ",", "\<\"Exoplanet\"\>", ",", "\<\"FamousChemistryProblem\"\>", 
+   ",", "\<\"FamousGem\"\>", ",", "\<\"FamousMathGame\"\>", 
+   ",", "\<\"FamousMathProblem\"\>", ",", "\<\"FamousPhysicsProblem\"\>", 
+   ",", "\<\"FAOConservationStatus\"\>", ",", "\<\"FictionalCharacter\"\>", 
+   ",", "\<\"FictionalPlace\"\>", ",", "\<\"FictionalSpecies\"\>", 
+   ",", "\<\"FileFormat\"\>", ",", "\<\"Financial\"\>", 
+   ",", "\<\"FiniteGroup\"\>", ",", "\<\"Flight\"\>", 
+   ",", "\<\"FlightStatus\"\>", ",", "\<\"Food\"\>", ",", "\<\"FoodAge\"\>", 
+   ",", "\<\"FoodAlcoholLabel\"\>", ",", "\<\"FoodBeefGrade\"\>", 
+   ",", "\<\"FoodBoneContent\"\>", ",", "\<\"FoodBrandName\"\>", 
+   ",", "\<\"FoodCaffeineLabel\"\>", ",", "\<\"FoodCalorieLabel\"\>", 
+   ",", "\<\"FoodComposition\"\>", ",", "\<\"FoodConcentration\"\>", 
+   ",", "\<\"FoodCrustType\"\>", ",", "\<\"FoodCulture\"\>", 
+   ",", "\<\"FoodDataSource\"\>", ",", "\<\"FoodFatLabel\"\>", 
+   ",", "\<\"FoodFatType\"\>", ",", "\<\"FoodFiberLabel\"\>", 
+   ",", "\<\"FoodFlavor\"\>", ",", "\<\"FoodGeometryType\"\>", 
+   ",", "\<\"FoodGlutenContent\"\>", ",", "\<\"FoodIntendedUse\"\>", 
+   ",", "\<\"FoodIronLabel\"\>", ",", "\<\"FoodLocation\"\>", 
+   ",", "\<\"FoodMaltType\"\>", ",", "\<\"FoodManufacturer\"\>", 
+   ",", "\<\"FoodMeatCut\"\>", ",", "\<\"FoodMeatQuality\"\>", 
+   ",", "\<\"FoodMoistureLevel\"\>", ",", "\<\"FoodNutritionalSupplement\"\>",
+    ",", "\<\"FoodNutritionalSupplementNotAdded\"\>", 
+   ",", "\<\"FoodPackaging\"\>", ",", "\<\"FoodPart\"\>", 
+   ",", "\<\"FoodPattyCount\"\>", ",", "\<\"FoodPeelingType\"\>", 
+   ",", "\<\"FoodPreparation\"\>", ",", "\<\"FoodProcessingType\"\>", 
+   ",", "\<\"FoodSeafoodVariety\"\>", ",", "\<\"FoodSeedContent\"\>", 
+   ",", "\<\"FoodServingType\"\>", ",", "\<\"FoodShape\"\>", 
+   ",", "\<\"FoodSize\"\>", ",", "\<\"FoodSkinContent\"\>", 
+   ",", "\<\"FoodSodiumLabel\"\>", ",", "\<\"FoodState\"\>", 
+   ",", "\<\"FoodStorageType\"\>", ",", "\<\"FoodSubBrandName\"\>", 
+   ",", "\<\"FoodSugarLabel\"\>", ",", "\<\"FoodSugarType\"\>", 
+   ",", "\<\"FoodTexture\"\>", ",", "\<\"FoodTrimmingLevel\"\>", 
+   ",", "\<\"FoodType\"\>", ",", "\<\"FoodTypeGroup\"\>", 
+   ",", "\<\"FoodVariety\"\>", ",", "\<\"FoodVegetablePart\"\>", 
+   ",", "\<\"FoodYeastType\"\>", ",", "\<\"Forest\"\>", 
+   ",", "\<\"FrequencyAllocation\"\>", 
+   ",", "\<\"FunctionalAnalysisSource\"\>", ",", "\<\"FunctionSpace\"\>", 
+   ",", "\<\"Galaxy\"\>", ",", "\<\"Gender\"\>", ",", "\<\"Gene\"\>", 
+   ",", "\<\"GeneticTranslationTable\"\>", ",", "\<\"GeographicRegion\"\>", 
+   ",", "\<\"GeologicalLayer\"\>", ",", "\<\"GeologicalPeriod\"\>", 
+   ",", "\<\"GeometricScene\"\>", ",", "\<\"GivenName\"\>", 
+   ",", "\<\"Glacier\"\>", ",", "\<\"GlobalClimateData\"\>", 
+   ",", "\<\"GoatBreed\"\>", ",", "\<\"GrammaticalUnit\"\>", 
+   ",", "\<\"Graph\"\>", ",", "\<\"HistoricalCountry\"\>", 
+   ",", "\<\"HistoricalEvent\"\>", ",", "\<\"HistoricalPeriod\"\>", 
+   ",", "\<\"HistoricalSite\"\>", ",", "\<\"HorseBreed\"\>", 
+   ",", "\<\"HorseBreedConservationStatus\"\>", 
+   ",", "\<\"HorseCoatColorAndPattern\"\>", ",", "\<\"HorseType\"\>", 
+   ",", "\<\"HorseUse\"\>", ",", "\<\"ICDNine\"\>", ",", "\<\"ICDTen\"\>", 
+   ",", "\<\"Icon\"\>", ",", "\<\"IntegerSequence\"\>", 
+   ",", "\<\"InternetDomain\"\>", ",", "\<\"IPAddress\"\>", 
+   ",", "\<\"Island\"\>", ",", "\<\"ISO15924Group\"\>", 
+   ",", "\<\"Isotope\"\>", ",", "\<\"Knot\"\>", ",", "\<\"Lake\"\>", 
+   ",", "\<\"Lamina\"\>", ",", "\<\"Language\"\>", 
+   ",", "\<\"LanguageLocale\"\>", ",", "\<\"Laser\"\>", 
+   ",", "\<\"Lattice\"\>", ",", "\<\"LatticeSystem\"\>", 
+   ",", "\<\"LibraryBranch\"\>", ",", "\<\"LibrarySystem\"\>", 
+   ",", "\<\"LightColor\"\>", ",", "\<\"LunarInteriorLayer\"\>", 
+   ",", "\<\"MannedSpaceMission\"\>", ",", "\<\"MathematicalFunction\"\>", 
+   ",", "\<\"MathWorld\"\>", ",", "\<\"MatterPhase\"\>", 
+   ",", "\<\"MeasurementDevice\"\>", ",", "\<\"MedicalTest\"\>", 
+   ",", "\<\"MeteorShower\"\>", ",", "\<\"MetropolitanArea\"\>", 
+   ",", "\<\"MilitaryConflict\"\>", ",", "\<\"MilitaryConflictType\"\>", 
+   ",", "\<\"MilitaryFacilityType\"\>", ",", "\<\"Mine\"\>", 
+   ",", "\<\"Mineral\"\>", ",", "\<\"MinorPlanet\"\>", 
+   ",", "\<\"MoonPhase\"\>", ",", "\<\"Mountain\"\>", ",", "\<\"Movie\"\>", 
+   ",", "\<\"MPAARating\"\>", ",", "\<\"Museum\"\>", ",", "\<\"MusicAct\"\>", 
+   ",", "\<\"MusicAlbum\"\>", ",", "\<\"MusicAlbumRelease\"\>", 
+   ",", "\<\"MusicAlbumType\"\>", ",", "\<\"MusicalInstrument\"\>", 
+   ",", "\<\"MusicWork\"\>", ",", "\<\"MusicWorkRecording\"\>", 
+   ",", "\<\"MusicWorkRendition\"\>", ",", "\<\"Mythology\"\>", 
+   ",", "\<\"NaturalHazard\"\>", ",", "\<\"NaturalResource\"\>", 
+   ",", "\<\"NCBITranslationTableVersion\"\>", ",", "\<\"Nebula\"\>", 
+   ",", "\<\"Neighborhood\"\>", ",", "\<\"NetworkService\"\>", 
+   ",", "\<\"Neuron\"\>", ",", "\<\"NonperiodicTiling\"\>", 
+   ",", "\<\"NotableComputer\"\>", ",", "\<\"NuclearExplosion\"\>", 
+   ",", "\<\"NuclearExplosionType\"\>", ",", "\<\"NuclearReactor\"\>", 
+   ",", "\<\"NuclearReactorType\"\>", ",", "\<\"NuclearTestSite\"\>", 
+   ",", "\<\"Nutrient\"\>", ",", "\<\"ObjectStatus\"\>", ",", "\<\"Ocean\"\>",
+    ",", "\<\"OilField\"\>", ",", "\<\"OperatingStatus\"\>", 
+   ",", "\<\"OrganizationType\"\>", ",", "\<\"Park\"\>", 
+   ",", "\<\"Particle\"\>", ",", "\<\"ParticleAccelerator\"\>", 
+   ",", "\<\"ParticulateMatter\"\>", ",", "\<\"Periodical\"\>", 
+   ",", "\<\"PeriodicTiling\"\>", ",", "\<\"Person\"\>", 
+   ",", "\<\"PersonTitle\"\>", ",", "\<\"PhysicalActivity\"\>", 
+   ",", "\<\"PhysicalConstant\"\>", ",", "\<\"PhysicalEffect\"\>", 
+   ",", "\<\"PhysicalQuantity\"\>", ",", "\<\"PhysicalSystem\"\>", 
+   ",", "\<\"PigBreed\"\>", ",", "\<\"PigeonBreed\"\>", 
+   ",", "\<\"PilatesExercise\"\>", ",", "\<\"PlaneCurve\"\>", 
+   ",", "\<\"Planet\"\>", ",", "\<\"PlanetaryMoon\"\>", ",", "\<\"Plant\"\>", 
+   ",", "\<\"Pokemon\"\>", ",", "\<\"PokemonAbilities\"\>", 
+   ",", "\<\"PokemonGeneration\"\>", ",", "\<\"PokemonPokedexColor\"\>", 
+   ",", "\<\"PokemonType\"\>", ",", "\<\"Polyhedron\"\>", 
+   ",", "\<\"PopularCurve\"\>", ",", "\<\"PoultryBreed\"\>", 
+   ",", "\<\"PoultryBreedConservationStatus\"\>", 
+   ",", "\<\"PreservationStatus\"\>", ",", "\<\"PrivateSchool\"\>", 
+   ",", "\<\"ProgrammingLanguage\"\>", ",", "\<\"Protein\"\>", 
+   ",", "\<\"PublicSchool\"\>", ",", "\<\"Pulsar\"\>", ",", "\<\"Reef\"\>", 
+   ",", "\<\"Religion\"\>", ",", "\<\"ReserveLand\"\>", 
+   ",", "\<\"RiemannHypothesisFormulation\"\>", ",", "\<\"River\"\>", 
+   ",", "\<\"Rocket\"\>", ",", "\<\"RocketFunction\"\>", 
+   ",", "\<\"Satellite\"\>", ",", "\<\"SchoolDistrict\"\>", 
+   ",", "\<\"SheepBreed\"\>", ",", "\<\"Ship\"\>", ",", "\<\"Shipwreck\"\>", 
+   ",", "\<\"SkinType\"\>", ",", "\<\"SNP\"\>", 
+   ",", "\<\"SolarSystemFeature\"\>", ",", "\<\"Solid\"\>", 
+   ",", "\<\"Sound\"\>", ",", "\<\"Source\"\>", ",", "\<\"SpaceCurve\"\>", 
+   ",", "\<\"Species\"\>", ",", "\<\"Sport\"\>", ",", "\<\"SportMatch\"\>", 
+   ",", "\<\"SportObject\"\>", ",", "\<\"Stadium\"\>", ",", "\<\"Star\"\>", 
+   ",", "\<\"StarCluster\"\>", ",", "\<\"StatisticalGroup\"\>", 
+   ",", "\<\"StormType\"\>", ",", "\<\"Supernova\"\>", 
+   ",", "\<\"SupernovaType\"\>", ",", "\<\"Surface\"\>", 
+   ",", "\<\"Surname\"\>", ",", "\<\"SystemModel\"\>", 
+   ",", "\<\"TaxonomicRank\"\>", ",", "\<\"TerrainType\"\>", 
+   ",", "\<\"TidalConstituent\"\>", ",", "\<\"TideStation\"\>", 
+   ",", "\<\"TimeZone\"\>", ",", "\<\"TopLevelDomain\"\>", 
+   ",", "\<\"TopologicalSpaceType\"\>", ",", "\<\"Transparency\"\>", 
+   ",", "\<\"TropicalStorm\"\>", ",", "\<\"Tunnel\"\>", 
+   ",", "\<\"UnderseaFeature\"\>", ",", "\<\"University\"\>", 
+   ",", "\<\"USCongressionalDistrict\"\>", ",", "\<\"USDAEggSize\"\>", 
+   ",", "\<\"USDAFoodGroup\"\>", ",", "\<\"VisualArtsArtForm\"\>", 
+   ",", "\<\"VisualArtsArtGenre\"\>", ",", "\<\"Volcano\"\>", 
+   ",", "\<\"Waterfall\"\>", ",", "\<\"WeatherStation\"\>", 
+   ",", "\<\"WeightTrainingExercise\"\>", ",", "\<\"WolframDemonstration\"\>",
+    ",", "\<\"WolframLanguageSymbol\"\>", ",", "\<\"Word\"\>", 
+   ",", "\<\"WritingDirection\"\>", ",", "\<\"WritingScript\"\>", 
+   ",", "\<\"WritingScriptBaseline\"\>", ",", "\<\"WritingScriptLigature\"\>",
+    ",", "\<\"WritingScriptStatus\"\>", ",", "\<\"WritingScriptType\"\>", 
+   ",", "\<\"WritingScriptWhiteSpace\"\>", ",", "\<\"YogaPose\"\>", 
+   ",", "\<\"YogaPosition\"\>", ",", "\<\"YogaProp\"\>", 
+   ",", "\<\"YogaSequence\"\>", ",", "\<\"ZIPCode\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.9033938044245315`*^9, 3.9033938214748383`*^9}},
+ CellLabel->"Out[77]=",ExpressionUUID->"a5ab524e-0a36-4b85-b19a-84c50878f5f6"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{578.25, 573},
-WindowMargins->{{Automatic, 42}, {Automatic, 23.25}},
+WindowMargins->{{Automatic, 63.75}, {71.25, Automatic}},
+TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
@@ -50293,6 +50591,19 @@ Cell[2383821, 44781, 220, 4, 24, "Output",ExpressionUUID->"293293db-6792-49be-84
 Cell[CellGroupData[{
 Cell[2384078, 44790, 362, 7, 21, "Input",ExpressionUUID->"598a5eeb-65f3-432b-8c99-db1f7911a094"],
 Cell[2384443, 44799, 216539, 5025, 17661, "Output",ExpressionUUID->"840187fc-74d1-496e-9372-bf5322c8ff84"]
+}, Open  ]],
+Cell[2600997, 49827, 2521, 71, 51, "WolframAlphaShortInput",ExpressionUUID->"d7834981-aa0a-431f-868b-8ec6f54d7567"],
+Cell[CellGroupData[{
+Cell[2603543, 49902, 333, 6, 31, "Input",ExpressionUUID->"e74c84a0-5edb-43db-8236-16c8688df9a8"],
+Cell[2603879, 49910, 402, 8, 34, "Output",ExpressionUUID->"1e584a20-b61c-45a5-8030-8a1ac031ba23"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2604318, 49923, 494, 10, 31, "Input",ExpressionUUID->"aec7e092-4c2d-490c-8077-347fcc02e2ee"],
+Cell[2604815, 49935, 201, 2, 24, "Output",ExpressionUUID->"0db9524b-0ea8-48ac-9b86-e4d9f247249b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2605053, 49942, 208, 3, 21, "Input",ExpressionUUID->"947ad123-5949-4501-88fb-db4afcdda74e"],
+Cell[2605264, 49947, 11343, 174, 964, "Output",ExpressionUUID->"a5ab524e-0a36-4b85-b19a-84c50878f5f6"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

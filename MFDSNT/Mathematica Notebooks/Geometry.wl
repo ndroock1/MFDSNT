@@ -21,6 +21,7 @@ DISK:=4;
 FILLEDCURVE:=5;
 
 HYPERBOLICLINE:=6
+
 kanweg:=999
 
 

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2426561,      45517]
-NotebookOptionsPosition[   2399719,      45055]
-NotebookOutlinePosition[   2400196,      45073]
-CellTagsIndexPosition[   2400153,      45070]
+NotebookDataLength[   2524821,      47392]
+NotebookOptionsPosition[   2496501,      46912]
+NotebookOutlinePosition[   2496980,      46930]
+CellTagsIndexPosition[   2496937,      46927]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -22,7 +22,7 @@ Notebook[{
 Cell[CellGroupData[{
 Cell["KERNEL-DOCS", "Chapter",
  CellChangeTimes->{{3.9029044636353207`*^9, 3.9029044765456266`*^9}, {
-  3.90307913997933*^9, 3.903079168234905*^9}},
+   3.90307913997933*^9, 3.903079168234905*^9}, 3.9035135564000483`*^9},
  FontWeight->"Bold",ExpressionUUID->"c92fd8e9-36eb-4525-8f22-31b281f241db"],
 
 Cell[CellGroupData[{
@@ -575,16 +575,6 @@ c4989b28282e"],
 Cell[CellGroupData[{
 
 Cell[BoxData[{
- RowBox[{"newGeo", "[", 
-  RowBox[{"{", 
-   RowBox[{"3", ",", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"2", ",", "2"}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], 
-  "]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"newGeo", "[", 
    RowBox[{"{", 
@@ -594,10 +584,25 @@ Cell[BoxData[{
        RowBox[{"{", 
         RowBox[{"2", ",", "2"}], "}"}], ",", 
        RowBox[{"{", 
-        RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}], "//", 
-  "toGL"}], "\[IndentingNewLine]", 
+        RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"fig1", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"newGeo", "[", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}], "//", 
+     "toGL"}], "//", "gr1"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"fig1", ":=", 
    RowBox[{"newGeo", "[", 
     RowBox[{"{", 
      RowBox[{"3", ",", 
@@ -609,17 +614,7 @@ Cell[BoxData[{
          RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{
-   RowBox[{"newGeo", "[", 
-    RowBox[{"{", 
-     RowBox[{"3", ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"2", ",", "2"}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}], "//", 
-   "toGL"}], "//", "gr1"}], "\[IndentingNewLine]", 
+  RowBox[{"fig1", "//", "toGL"}], "//", "gr1"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"fig2", "=", 
    RowBox[{"{", 
@@ -649,68 +644,10 @@ Cell[BoxData[{
  CellChangeTimes->{{3.902553260797392*^9, 3.902553348699284*^9}, {
   3.902643982685791*^9, 3.9026440892266335`*^9}, {3.902650393188847*^9, 
   3.9026504393043346`*^9}, {3.9031943456096325`*^9, 3.903194545537507*^9}, {
-  3.903420722943738*^9, 3.903420755422721*^9}},
- CellLabel->"In[91]:=",ExpressionUUID->"517c2985-7bbb-43cf-a7e0-32bf49363660"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"3", ",", 
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{"2", ",", "2"}], "}"}], ",", 
-         RowBox[{"{", 
-          RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
-        "RGBColorSwatchTemplate"], ",", "1"}], "}"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     TemplateBox[<|"color" -> GrayLevel[0]|>,
-      "GrayLevelColorSwatchTemplate"], ",", "1", ",", "0.0125`", ",", 
-     RowBox[{"2", " ", "\[Pi]"}], ",", 
-     RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{{3.9025532797796063`*^9, 3.9025533499041157`*^9}, {
-   3.9026439869320874`*^9, 3.9026440899091897`*^9}, {3.902650402837268*^9, 
-   3.902650440035024*^9}, {3.9031944420682063`*^9, 3.9031944755300665`*^9}, 
-   3.903194547445693*^9, 3.9034207584601984`*^9},
- CellLabel->"Out[91]=",ExpressionUUID->"e107ab07-f372-4a88-9e04-2a1eafd9256e"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
-    "RGBColorSwatchTemplate"], ",", 
-   RowBox[{"Opacity", "[", "1", "]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     TemplateBox[<|"color" -> GrayLevel[0]|>,
-      "GrayLevelColorSwatchTemplate"], ",", 
-     RowBox[{"Opacity", "[", "1", "]"}], ",", 
-     RowBox[{"Thickness", "[", "0.0125`", "]"}], ",", 
-     RowBox[{"Dashing", "[", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"2", " ", "\[Pi]"}], ",", 
-        RowBox[{"2", " ", "\[Pi]"}]}], "}"}], "]"}], ",", 
-     RowBox[{"Line", "[", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"2", ",", "2"}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"4", ",", "4"}], "}"}]}], "}"}], "]"}]}], "}"}]}], 
-  "}"}]], "Output",
- CellChangeTimes->{{3.9025532797796063`*^9, 3.9025533499041157`*^9}, {
-   3.9026439869320874`*^9, 3.9026440899091897`*^9}, {3.902650402837268*^9, 
-   3.902650440035024*^9}, {3.9031944420682063`*^9, 3.9031944755300665`*^9}, 
-   3.903194547445693*^9, 3.903420758473194*^9},
- CellLabel->"Out[92]=",ExpressionUUID->"c22331a2-3380-4838-b06d-b2ece9d2fa8c"],
+  3.903420722943738*^9, 3.903420755422721*^9}, {3.9035173186391597`*^9, 
+  3.903517339223858*^9}, {3.9035173810341473`*^9, 3.9035174321070642`*^9}},
+ CellLabel->
+  "In[194]:=",ExpressionUUID->"517c2985-7bbb-43cf-a7e0-32bf49363660"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -721,11 +658,9 @@ Cell[BoxData[
   Axes->True,
   AxesOrigin->{0, 0},
   GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.9025532797796063`*^9, 3.9025533499041157`*^9}, {
-   3.9026439869320874`*^9, 3.9026440899091897`*^9}, {3.902650402837268*^9, 
-   3.902650440035024*^9}, {3.9031944420682063`*^9, 3.9031944755300665`*^9}, 
-   3.903194547445693*^9, 3.9034207584841957`*^9},
- CellLabel->"Out[94]=",ExpressionUUID->"3c06bb90-9c74-4363-8c97-68f17fd3450e"],
+ CellChangeTimes->{{3.9035173681973367`*^9, 3.903517433259788*^9}},
+ CellLabel->
+  "Out[197]=",ExpressionUUID->"061e95b4-8e68-4e06-9b31-114e17f62a77"],
 
 Cell[BoxData[
  GraphicsBox[{{
@@ -748,13 +683,11 @@ Cell[BoxData[
   Axes->True,
   AxesOrigin->{0, 0},
   GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.9025532797796063`*^9, 3.9025533499041157`*^9}, {
-   3.9026439869320874`*^9, 3.9026440899091897`*^9}, {3.902650402837268*^9, 
-   3.902650440035024*^9}, {3.9031944420682063`*^9, 3.9031944755300665`*^9}, 
-   3.903194547445693*^9, 3.903420758494196*^9},
- CellLabel->"Out[96]=",ExpressionUUID->"81c7075b-0f1d-4311-a0dd-2e58229ca24f"]
+ CellChangeTimes->{{3.9035173681973367`*^9, 3.9035174332717867`*^9}},
+ CellLabel->
+  "Out[199]=",ExpressionUUID->"26474d5f-eb87-4260-a9ec-c550d66d9fdf"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -978,7 +911,1931 @@ Cell[BoxData[
  CellChangeTimes->{{3.9028146617130136`*^9, 3.902814708646688*^9}},
  CellLabel->"Out[25]=",ExpressionUUID->"bdbf7ebb-48c8-487f-876c-dd2179bd710d"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["HYPERBOLIC LINE",
+ FontWeight->"Bold",
+ FontColor->GrayLevel[0]]], "Subsection",
+ CellChangeTimes->{{3.902553441649083*^9, 3.902553444201406*^9}, {
+  3.902643971815854*^9, 3.902643973388981*^9}, {3.902650388014454*^9, 
+  3.90265038910548*^9}, {3.903517478018839*^9, 
+  3.903517489737362*^9}},ExpressionUUID->"eb55a7f4-a5e3-4df9-bd55-\
+a241565910f6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"newGeo", "[", 
+   RowBox[{"{", 
+    RowBox[{"3", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"newGeo", "[", 
+    RowBox[{"{", 
+     RowBox[{"6", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "2"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"4", ",", "4"}], "}"}]}], "}"}]}], "}"}], "]"}], "//", 
+   "toGL"}], "//", "gr1"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.902553260797392*^9, 3.902553348699284*^9}, {
+  3.902643982685791*^9, 3.9026440892266335`*^9}, {3.902650393188847*^9, 
+  3.9026504393043346`*^9}, {3.9031943456096325`*^9, 3.903194545537507*^9}, {
+  3.903420722943738*^9, 3.903420755422721*^9}, {3.9035173186391597`*^9, 
+  3.903517339223858*^9}, {3.9035173810341473`*^9, 3.9035174321070642`*^9}, {
+  3.903517493858805*^9, 3.903517501466941*^9}},
+ CellLabel->
+  "In[202]:=",ExpressionUUID->"dd2eef64-40f4-43f3-8fa5-df2b65e7a925"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LinearSolve", "nosol", 
+   "\"Linear equation encountered that has no solution.\"", 2, 203, 5, 
+   34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.903517504712483*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"06bcda8b-974c-4843-bb72-3b0237099585"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part", "partw", 
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \
+\\!\\(\\*RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"4\\\", \\\",\\\", \\\"4\\\", \
+\\\",\\\", RowBox[{\\\"-\\\", \\\"1\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\
+\\\"{\\\", RowBox[{\\\"8\\\", \\\",\\\", \\\"8\\\", \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"1\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"1\\\", \\\"2\\\"], \\\",\\\", FractionBox[\\\"1\\\", \
+\\\"2\\\"], \\\",\\\", RowBox[{\\\"-\\\", \\\"1\\\"}]}], \\\"}\\\"}]}], \\\"}\
+\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"8\\\", \\\",\\\", \
+\\\"32\\\", \\\",\\\", FractionBox[\\\"1\\\", \\\"8\\\"]}], \\\"}\\\"}]}], \\\
+\"]\\\"}]\\) does not exist.\"", 2, 203, 6, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175047694874`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"ec947e88-0e61-4b5f-ad75-8aa9d5a7b00d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Thread", "tdlen", 
+   "\"Objects of unequal length in \\!\\(\\*RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\
+\", \\\"2\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \\\"2\\\"}], \\\",\\\", \
+\\\"3\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\
+\\\", \\\"6\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \
+\\\"3\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"3\\\", \\\"2\\\"], \\\",\\\", FractionBox[\\\"3\\\", \
+\\\"2\\\"], \\\",\\\", \\\"3\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"30\\\"}], \\\",\\\", FractionBox[\\\"15\\\", \
+\\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\" \\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"80\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"80\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"65\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1088\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1088\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1025\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]]}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{FractionBox[\\\"17\\\", \\\"64\\\"], \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{FractionBox[\\\"17\\\", \
+\\\"64\\\"], \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \
+\\\"\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{FractionBox[\\\"65\\\", \\\"64\\\"], \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]]}], \
+\\\"}\\\"}]}], \\\"}\\\"}]}]\\) cannot be combined.\"", 2, 203, 7, 
+   34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.903517504857485*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"8de63a1d-8144-469b-8084-42d940a8dc29"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Thread", "tdlen", 
+   "\"Objects of unequal length in \\!\\(\\*RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\
+\", \\\"2\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \\\"2\\\"}], \\\",\\\", \
+\\\"3\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\
+\\\", \\\"6\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \
+\\\"3\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"3\\\", \\\"2\\\"], \\\",\\\", FractionBox[\\\"3\\\", \
+\\\"2\\\"], \\\",\\\", \\\"3\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"30\\\"}], \\\",\\\", FractionBox[\\\"15\\\", \
+\\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\" \\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"80\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"80\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"65\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1088\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1088\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1025\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]]}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{FractionBox[\\\"17\\\", \\\"64\\\"], \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{FractionBox[\\\"17\\\", \
+\\\"64\\\"], \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \
+\\\"\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{FractionBox[\\\"65\\\", \\\"64\\\"], \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]]}], \
+\\\"}\\\"}]}], \\\"}\\\"}]}]\\) cannot be combined.\"", 2, 203, 8, 
+   34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175048854837`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"8fa843cc-1a68-4481-8999-206ae5820da9"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Thread", "tdlen", 
+   "\"Objects of unequal length in \\!\\(\\*RowBox[{\\\"ArcTan\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"2\\\"}], \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"2\\\"}], \\\",\\\", \\\"3\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\
+\", RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \\\"3\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"3\\\", \\\"2\\\"], \
+\\\",\\\", FractionBox[\\\"3\\\", \\\"2\\\"], \\\",\\\", \\\"3\\\"}], \\\"}\\\
+\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \
+\\\"6\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \\\"30\\\"}], \\\",\\\", \
+FractionBox[\\\"15\\\", \\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"80\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"80\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"65\\\", \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\
+\[RightDoubleBracket]\\\"}]}]]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1088\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1088\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"1025\\\", \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]]}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{FractionBox[\\\"17\\\", \\\"64\\\"], \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]], \
+\\\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{FractionBox[\\\"17\\\", \
+\\\"64\\\"], \\\"-\\\", RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}], \\\"\[LeftDoubleBracket]\\\", \\\"3\\\", \
+\\\"\[RightDoubleBracket]\\\"}]}]]], \\\",\\\", FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{FractionBox[\\\"65\\\", \\\"64\\\"], \\\"-\\\", \
+RowBox[{RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\
+\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"3\\\", \\\"\[RightDoubleBracket]\\\"}]}]]]}], \
+\\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) cannot be combined.\"", 2, 203, 
+   9, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175049084854`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"b9ce7958-924b-4a3a-b17d-2da63f7cc09a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Thread\\\", \\\"::\\\", \
+\\\"tdlen\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"", 2, 203, 10, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175049254885`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"e97aa6b4-4291-464a-bfc6-217c1660adec"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LinearSolve", "nosol", 
+   "\"Linear equation encountered that has no solution.\"", 2, 203, 11, 
+   34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175049374847`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"3d41efa6-75cd-4b1d-a7ff-38802cd5214d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part", "partw", 
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \
+\\!\\(\\*RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"4.`\\\", \\\",\\\", \\\"4.`\\\", \\\",\
+\\\", RowBox[{\\\"-\\\", \\\"1.`\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"8.`\\\", \\\",\\\", \\\"8.`\\\", \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"1.`\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"0.5`\\\", \\\",\\\", \\\"0.5`\\\", \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"1.`\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"8.`\\\", \\\",\\\", \\\"32.`\\\", \\\",\\\", \
+\\\"0.125`\\\"}], \\\"}\\\"}]}], \\\"]\\\"}]\\) does not exist.\"", 2, 203, 
+   12, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175049534855`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"1bc6bb3d-5560-4f85-8513-69bdbce7da3f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LinearSolve", "nosol", 
+   "\"Linear equation encountered that has no solution.\"", 2, 203, 13, 
+   34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175049674826`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"0b5b5bb3-0361-4910-bb2a-22ae6df4d149"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"LinearSolve\\\", \\\"::\
+\\\", \\\"nosol\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"", 2, 203, 14, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.903517504980484*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"7103a346-ca79-43da-843a-43016f69c282"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part", "partw", 
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \
+\\!\\(\\*RowBox[{\\\"LinearSolve\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"4.`\\\", \\\",\\\", \\\"4.`\\\", \\\",\
+\\\", RowBox[{\\\"-\\\", \\\"1.`\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"8.`\\\", \\\",\\\", \\\"8.`\\\", \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"1.`\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"0.5`\\\", \\\",\\\", \\\"0.5`\\\", \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"1.`\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"8.`\\\", \\\",\\\", \\\"32.`\\\", \\\",\\\", \
+\\\"0.125`\\\"}], \\\"}\\\"}]}], \\\"]\\\"}]\\) does not exist.\"", 2, 203, 
+   15, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.903517504989484*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"9034f16b-7c4e-4b23-a3b9-0878b8115612"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
+\\\"partw\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"", 2, 203, 16, 34072569497042458766, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9035175050004835`*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"0a2f4e70-66a4-4fbc-a5bc-ed41c57aeea4"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ParametricPlot", "plln", 
+   "\"Limiting value \\!\\(\\*RowBox[{\\\"If\\\", \\\"[\\\", \
+RowBox[{RowBox[{RowBox[{RowBox[{\\\"-\\\", RowBox[{\\\"ArcTan\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\
+\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\[RightSkeleton]\\\"}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"30\\\"}], \\\",\\\", FractionBox[\\\"15\\\", \
+\\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\
+\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}], \\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \
+\\\"]\\\"}]}], \\\"+\\\", RowBox[{\\\"ArcTan\\\", \\\"[\\\", RowBox[{RowBox[{\
+\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"5\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"4\\\"}], \\\",\\\
+\", RowBox[{\\\"-\\\", \\\"4\\\"}], \\\",\\\", \\\"5\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"7\\\", \\\"2\\\"], \
+\\\",\\\", FractionBox[\\\"7\\\", \\\"2\\\"], \\\",\\\", \\\"5\\\"}], \\\"}\\\
+\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \
+\\\"4\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \\\"28\\\"}], \\\",\\\", \
+FractionBox[\\\"31\\\", \\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\"1\\\", \
+SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]]], \\\",\\\", FractionBox[\
+\\\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]]], \\\
+\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}]]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\
+\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\
+\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]]], \\\",\\\", \
+FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]]], \\\
+\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}]]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{FractionBox[\\\
+\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\
+\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]]], \\\",\\\", \
+FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]]], \\\
+\",\\\", FractionBox[\\\"1\\\", SqrtBox[RowBox[{\\\"Plus\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}]]]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]}], \\\"<\\\", \\\"\[Pi]\
+\\\"}], \\\",\\\", \\\"Geometry`Private`ext1$142263\\\", \\\",\\\", \
+RowBox[{\\\"Geometry`Private`ext1$142263\\\", \\\"+\\\", RowBox[{\\\"2\\\", \
+\\\" \\\", \\\"\[Pi]\\\"}]}]}], \\\"]\\\"}]\\) in \\!\\(\\*RowBox[{\\\"{\\\", \
+RowBox[{\\\"t\\\", \\\",\\\", RowBox[{\\\"If\\\", \\\"[\\\", \
+RowBox[{RowBox[{RowBox[{RowBox[{\\\"-\\\", RowBox[{\\\"ArcTan\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\
+\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \
+\\\"}\\\"}]}], \\\"]\\\"}]}], \\\"+\\\", RowBox[{\\\"ArcTan\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\
+\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\[RightSkeleton]\\\"}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"4\\\"}], \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"28\\\"}], \\\",\\\", FractionBox[\\\"31\\\", \
+\\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\
+\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}], \\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \
+\\\"]\\\"}]}], \\\"<\\\", \\\"\[Pi]\\\"}], \\\",\\\", \
+\\\"Geometry`Private`ext1$142263\\\", \\\",\\\", \
+RowBox[{\\\"Geometry`Private`ext1$142263\\\", \\\"+\\\", RowBox[{\\\"2\\\", \
+\\\" \\\", \\\"\[Pi]\\\"}]}]}], \\\"]\\\"}], \\\",\\\", RowBox[{\\\"If\\\", \
+\\\"[\\\", RowBox[{RowBox[{RowBox[{RowBox[{\\\"ArcTan\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\
+\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\[RightSkeleton]\\\"}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"6\\\"}], \\\",\\\", \
+RowBox[{\\\"-\\\", \\\"30\\\"}], \\\",\\\", FractionBox[\\\"15\\\", \
+\\\"8\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\
+\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\
+\\\"}], \\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \
+\\\"]\\\"}], \\\"-\\\", RowBox[{\\\"ArcTan\\\", \\\"[\\\", RowBox[{RowBox[{\\\
+\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\
+\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"3\\\", \\\"\[RightSkeleton]\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]}], \
+\\\"<\\\", \\\"\[Pi]\\\"}], \\\",\\\", \\\"Geometry`Private`ext2$142263\\\", \
+\\\",\\\", RowBox[{\\\"Geometry`Private`ext2$142263\\\", \\\"+\\\", \
+RowBox[{\\\"2\\\", \\\" \\\", \\\"\[Pi]\\\"}]}]}], \\\"]\\\"}]}], \\\"}\\\"}]\
+\\) is not a machine-sized real number.\"", 2, 203, 17, 34072569497042458766, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.90351750505649*^9},
+ CellLabel->
+  "During evaluation of \
+In[202]:=",ExpressionUUID->"fd8827fd-8b99-4a1d-a5e0-fd4d2b182a92"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], Opacity[1], Part[
+    ParametricPlot[{Part[{{{{4, 4, -1}, {8, 8, -1}, {
+             Rational[1, 2], 
+             Rational[1, 2], -1}}, {8, 32, 
+            Rational[1, 8]}}, {{(80 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (80 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (65 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2]}, {(1088 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (1088 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (1025 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^
+            Rational[1, 2]}, {(Rational[17, 64] - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (Rational[17, 64] - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (Rational[65, 64] - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2]}}, 
+          If[-ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                  Rational[3, 2], 
+                  Rational[3, 2], 3}}, {-6, -30, 
+                 Rational[15, 8]}}, {{(80 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                 Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                 Rational[-1, 2], (Rational[17, 64] - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                 Rational[-1, 2], (Rational[65, 64] - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] + 
+            ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+                 Rational[7, 2], 
+                 Rational[7, 2], 5}}, {-4, -28, 
+                Rational[31, 8]}}, {{(80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[65, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+           Geometry`Private`ext1$142263, Geometry`Private`ext1$142263 + 2 Pi], 
+          If[ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                 Rational[3, 2], 
+                 Rational[3, 2], 3}}, {-6, -30, 
+                Rational[15, 8]}}, {{(80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[65, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] - 
+            ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+                Rational[7, 2], 
+                Rational[7, 2], 5}}, {-4, -28, 
+               Rational[31, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+           Geometry`Private`ext2$142263, Geometry`Private`ext2$142263 + 
+           2 Pi], {{
+            Complex[4, 8], 
+            Complex[4, 8], 
+            Complex[-1, 8]}, {
+            Complex[8, 32], 
+            Complex[8, 32], 
+            Complex[-1, 32]}, {
+            Complex[
+             Rational[1, 2], 
+             Rational[1, 8]], 
+            Complex[
+             Rational[1, 2], 
+             Rational[1, 8]], 
+            Complex[-1, 
+             Rational[1, 8]]}}}, 2] Cos[Geometry`t] + 
+      Part[{{{{4, 4, -1}, {8, 8, -1}, {
+            Rational[1, 2], 
+            Rational[1, 2], -1}}, {8, 32, 
+           Rational[1, 8]}}, {{(80 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (80 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (65 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2]}, {(1088 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (1088 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (1025 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^
+           Rational[1, 2]}, {(Rational[17, 64] - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (Rational[17, 64] - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (Rational[65, 64] - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2]}}, 
+         If[-ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                 Rational[3, 2], 
+                 Rational[3, 2], 3}}, {-6, -30, 
+                Rational[15, 8]}}, {{(80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[65, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] + 
+           ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+                Rational[7, 2], 
+                Rational[7, 2], 5}}, {-4, -28, 
+               Rational[31, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+          Geometry`Private`ext1$142263, Geometry`Private`ext1$142263 + 2 Pi], 
+         If[ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                Rational[3, 2], 
+                Rational[3, 2], 3}}, {-6, -30, 
+               Rational[15, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] - 
+           ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+               Rational[7, 2], 
+               Rational[7, 2], 5}}, {-4, -28, 
+              Rational[31, 8]}}, {{(80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[65, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+          Geometry`Private`ext2$142263, Geometry`Private`ext2$142263 + 
+          2 Pi], {{
+           Complex[4, 8], 
+           Complex[4, 8], 
+           Complex[-1, 8]}, {
+           Complex[8, 32], 
+           Complex[8, 32], 
+           Complex[-1, 32]}, {
+           Complex[
+            Rational[1, 2], 
+            Rational[1, 8]], 
+           Complex[
+            Rational[1, 2], 
+            Rational[1, 8]], 
+           Complex[-1, 
+            Rational[1, 8]]}}}, 1, 1], Part[{{{{4, 4, -1}, {8, 8, -1}, {
+             Rational[1, 2], 
+             Rational[1, 2], -1}}, {8, 32, 
+            Rational[1, 8]}}, {{(80 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (80 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (65 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2]}, {(1088 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (1088 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (1025 - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^
+            Rational[1, 2]}, {(Rational[17, 64] - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (Rational[17, 64] - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2], (Rational[65, 64] - Part[
+              LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                 Rational[1, 2], 
+                 Rational[1, 2], -1}}, {8, 32, 
+                Rational[1, 8]}], 3])^Rational[1, 2]}}, 
+          If[-ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                  Rational[3, 2], 
+                  Rational[3, 2], 3}}, {-6, -30, 
+                 Rational[15, 8]}}, {{(80 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                 Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                 Rational[-1, 2], (Rational[17, 64] - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                 Rational[-1, 2], (Rational[65, 64] - Part[
+                   LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] + 
+            ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+                 Rational[7, 2], 
+                 Rational[7, 2], 5}}, {-4, -28, 
+                Rational[31, 8]}}, {{(80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[65, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+           Geometry`Private`ext1$142263, Geometry`Private`ext1$142263 + 2 Pi], 
+          If[ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                 Rational[3, 2], 
+                 Rational[3, 2], 3}}, {-6, -30, 
+                Rational[15, 8]}}, {{(80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[65, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] - 
+            ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+                Rational[7, 2], 
+                Rational[7, 2], 5}}, {-4, -28, 
+               Rational[31, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+           Geometry`Private`ext2$142263, Geometry`Private`ext2$142263 + 
+           2 Pi], {{
+            Complex[4, 8], 
+            Complex[4, 8], 
+            Complex[-1, 8]}, {
+            Complex[8, 32], 
+            Complex[8, 32], 
+            Complex[-1, 32]}, {
+            Complex[
+             Rational[1, 2], 
+             Rational[1, 8]], 
+            Complex[
+             Rational[1, 2], 
+             Rational[1, 8]], 
+            Complex[-1, 
+             Rational[1, 8]]}}}, 2] Sin[Geometry`t] + 
+      Part[{{{{4, 4, -1}, {8, 8, -1}, {
+            Rational[1, 2], 
+            Rational[1, 2], -1}}, {8, 32, 
+           Rational[1, 8]}}, {{(80 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (80 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (65 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2]}, {(1088 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (1088 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (1025 - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^
+           Rational[1, 2]}, {(Rational[17, 64] - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (Rational[17, 64] - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2], (Rational[65, 64] - Part[
+             LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                Rational[1, 2], 
+                Rational[1, 2], -1}}, {8, 32, 
+               Rational[1, 8]}], 3])^Rational[1, 2]}}, 
+         If[-ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                 Rational[3, 2], 
+                 Rational[3, 2], 3}}, {-6, -30, 
+                Rational[15, 8]}}, {{(80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[17, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^
+                Rational[-1, 2], (Rational[65, 64] - Part[
+                  LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                    Rational[1, 8]}], 3])^Rational[-1, 2]}}] + 
+           ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+                Rational[7, 2], 
+                Rational[7, 2], 5}}, {-4, -28, 
+               Rational[31, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+          Geometry`Private`ext1$142263, Geometry`Private`ext1$142263 + 2 Pi], 
+         If[ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                Rational[3, 2], 
+                Rational[3, 2], 3}}, {-6, -30, 
+               Rational[15, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] - 
+           ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+               Rational[7, 2], 
+               Rational[7, 2], 5}}, {-4, -28, 
+              Rational[31, 8]}}, {{(80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[65, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+          Geometry`Private`ext2$142263, Geometry`Private`ext2$142263 + 
+          2 Pi], {{
+           Complex[4, 8], 
+           Complex[4, 8], 
+           Complex[-1, 8]}, {
+           Complex[8, 32], 
+           Complex[8, 32], 
+           Complex[-1, 32]}, {
+           Complex[
+            Rational[1, 2], 
+            Rational[1, 8]], 
+           Complex[
+            Rational[1, 2], 
+            Rational[1, 8]], 
+           Complex[-1, 
+            Rational[1, 8]]}}}, 1, 2]}, {Geometry`t, 
+      Part[{{{{4, 4, -1}, {8, 8, -1}, {
+           Rational[1, 2], 
+           Rational[1, 2], -1}}, {8, 32, 
+          Rational[1, 8]}}, {{(80 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (80 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (65 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2]}, {(1088 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (1088 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (1025 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2]}, {(Rational[17, 64] - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (Rational[17, 64] - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (Rational[65, 64] - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2]}}, 
+        If[-ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                Rational[3, 2], 
+                Rational[3, 2], 3}}, {-6, -30, 
+               Rational[15, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] + 
+          ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+               Rational[7, 2], 
+               Rational[7, 2], 5}}, {-4, -28, 
+              Rational[31, 8]}}, {{(80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[65, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+         Geometry`Private`ext1$142263, Geometry`Private`ext1$142263 + 2 Pi], 
+        If[ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+               Rational[3, 2], 
+               Rational[3, 2], 3}}, {-6, -30, 
+              Rational[15, 8]}}, {{(80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[65, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}}] - 
+          ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+              Rational[7, 2], 
+              Rational[7, 2], 5}}, {-4, -28, 
+             Rational[31, 8]}}, {{(80 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^
+             Rational[-1, 2]}, {(Rational[17, 64] - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^
+             Rational[-1, 2], (Rational[17, 64] - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^
+             Rational[-1, 2], (Rational[65, 64] - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+         Geometry`Private`ext2$142263, Geometry`Private`ext2$142263 + 2 Pi], {{
+          Complex[4, 8], 
+          Complex[4, 8], 
+          Complex[-1, 8]}, {
+          Complex[8, 32], 
+          Complex[8, 32], 
+          Complex[-1, 32]}, {
+          Complex[
+           Rational[1, 2], 
+           Rational[1, 8]], 
+          Complex[
+           Rational[1, 2], 
+           Rational[1, 8]], 
+          Complex[-1, 
+           Rational[1, 8]]}}}, 3], 
+      Part[{{{{4, 4, -1}, {8, 8, -1}, {
+           Rational[1, 2], 
+           Rational[1, 2], -1}}, {8, 32, 
+          Rational[1, 8]}}, {{(80 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (80 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (65 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2]}, {(1088 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (1088 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (1025 - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2]}, {(Rational[17, 64] - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (Rational[17, 64] - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2], (Rational[65, 64] - Part[
+            LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+               Rational[1, 2], 
+               Rational[1, 2], -1}}, {8, 32, 
+              Rational[1, 8]}], 3])^Rational[1, 2]}}, 
+        If[-ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+                Rational[3, 2], 
+                Rational[3, 2], 3}}, {-6, -30, 
+               Rational[15, 8]}}, {{(80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[17, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^
+               Rational[-1, 2], (Rational[65, 64] - Part[
+                 LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                    Rational[1, 2], 
+                    Rational[1, 2], -1}}, {8, 32, 
+                   Rational[1, 8]}], 3])^Rational[-1, 2]}}] + 
+          ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+               Rational[7, 2], 
+               Rational[7, 2], 5}}, {-4, -28, 
+              Rational[31, 8]}}, {{(80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[65, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+         Geometry`Private`ext1$142263, Geometry`Private`ext1$142263 + 2 Pi], 
+        If[ArcTan[{{{-2, -2, 3}, {-6, -6, 3}, {
+               Rational[3, 2], 
+               Rational[3, 2], 3}}, {-6, -30, 
+              Rational[15, 8]}}, {{(80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2]}, {(Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[17, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^
+              Rational[-1, 2], (Rational[65, 64] - Part[
+                LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                   Rational[1, 2], 
+                   Rational[1, 2], -1}}, {8, 32, 
+                  Rational[1, 8]}], 3])^Rational[-1, 2]}}] - 
+          ArcTan[{{{0, 0, 5}, {-4, -4, 5}, {
+              Rational[7, 2], 
+              Rational[7, 2], 5}}, {-4, -28, 
+             Rational[31, 8]}}, {{(80 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (80 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (65 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2]}, {(1088 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (1088 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2], (1025 - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^
+             Rational[-1, 2]}, {(Rational[17, 64] - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^
+             Rational[-1, 2], (Rational[17, 64] - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^
+             Rational[-1, 2], (Rational[65, 64] - Part[
+               LinearSolve[{{4, 4, -1}, {8, 8, -1}, {
+                  Rational[1, 2], 
+                  Rational[1, 2], -1}}, {8, 32, 
+                 Rational[1, 8]}], 3])^Rational[-1, 2]}}] < Pi, 
+         Geometry`Private`ext2$142263, Geometry`Private`ext2$142263 + 2 Pi], {{
+          Complex[4, 8], 
+          Complex[4, 8], 
+          Complex[-1, 8]}, {
+          Complex[8, 32], 
+          Complex[8, 32], 
+          Complex[-1, 32]}, {
+          Complex[
+           Rational[1, 2], 
+           Rational[1, 8]], 
+          Complex[
+           Rational[1, 2], 
+           Rational[1, 8]], 
+          Complex[-1, 
+           Rational[1, 8]]}}}, 4]}, PlotStyle -> Directive[
+       Part[{{{6, {{2, 2}, {4, 4}}}, {
+           RGBColor[1, 0, 0], 1}}, {
+          GrayLevel[0], 1, 0.0125, 2 Pi, 2 Pi}}, 2, 1], 
+       Opacity[
+        Part[{{{6, {{2, 2}, {4, 4}}}, {
+            RGBColor[1, 0, 0], 1}}, {
+           GrayLevel[0], 1, 0.0125, 2 Pi, 2 Pi}}, 2, 2]], 
+       Thickness[
+        Part[{{{6, {{2, 2}, {4, 4}}}, {
+            RGBColor[1, 0, 0], 1}}, {
+           GrayLevel[0], 1, 0.0125, 2 Pi, 2 Pi}}, 2, 3]], 
+       Dashing[{
+         Part[{{{6, {{2, 2}, {4, 4}}}, {
+             RGBColor[1, 0, 0], 1}}, {
+            GrayLevel[0], 1, 0.0125, 2 Pi, 2 Pi}}, 2, 4], 
+         Part[{{{6, {{2, 2}, {4, 4}}}, {
+             RGBColor[1, 0, 0], 1}}, {
+            GrayLevel[0], 1, 0.0125, 2 Pi, 2 Pi}}, 2, 5]}]]], 1, 1, 3]},
+  Axes->True,
+  AxesOrigin->{0, 0},
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{{3.9035173681973367`*^9, 3.903517433259788*^9}, {
+  3.9035174955983777`*^9, 3.903517505118481*^9}},
+ CellLabel->
+  "Out[203]=",ExpressionUUID->"87385774-831d-4ba5-91cc-3c9ae4af1044"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1793,7 +3650,7 @@ Cell[BoxData[
  CellLabel->
   "Out[462]=",ExpressionUUID->"420f204b-9b39-44f6-8ebd-c025f6e6ca8b"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1926,8 +3783,8 @@ Cell[BoxData[
  CellLabel->
   "Out[476]=",ExpressionUUID->"5583da86-348a-4536-8f9a-bd3651e2a325"]
 }, Open  ]]
-}, Closed]]
-}, Closed]]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -45054,7 +46911,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{1128.75, 573},
-WindowMargins->{{78, Automatic}, {Automatic, 32.25}},
+WindowMargins->{{88.5, Automatic}, {38.25, Automatic}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
@@ -45073,449 +46930,467 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 224, 3, 51, "Chapter",ExpressionUUID->"c92fd8e9-36eb-4525-8f22-31b281f241db"],
+Cell[580, 22, 249, 3, 51, "Chapter",ExpressionUUID->"c92fd8e9-36eb-4525-8f22-31b281f241db"],
 Cell[CellGroupData[{
-Cell[829, 29, 258, 4, 50, "Section",ExpressionUUID->"1159b96f-801f-425a-9d98-b7fc4ef0b834"],
-Cell[1090, 35, 422, 10, 91, "Input",ExpressionUUID->"653061c7-7849-4b71-89f6-4a79d0c163dd"]
+Cell[854, 29, 258, 4, 50, "Section",ExpressionUUID->"1159b96f-801f-425a-9d98-b7fc4ef0b834"],
+Cell[1115, 35, 422, 10, 91, "Input",ExpressionUUID->"653061c7-7849-4b71-89f6-4a79d0c163dd"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1549, 50, 168, 3, 40, "Section",ExpressionUUID->"858e9acc-91ba-44cd-b208-373cbc4029d2"],
+Cell[1574, 50, 168, 3, 40, "Section",ExpressionUUID->"858e9acc-91ba-44cd-b208-373cbc4029d2"],
 Cell[CellGroupData[{
-Cell[1742, 57, 220, 5, 41, "Subsection",ExpressionUUID->"7a527be7-7184-4bbc-872d-f1b1917cac9b"],
+Cell[1767, 57, 220, 5, 41, "Subsection",ExpressionUUID->"7a527be7-7184-4bbc-872d-f1b1917cac9b"],
 Cell[CellGroupData[{
-Cell[1987, 66, 1270, 42, 50, "Input",ExpressionUUID->"132216aa-a89b-4380-b950-32cc1675b234"],
-Cell[3260, 110, 941, 27, 25, "Output",ExpressionUUID->"6a132225-7fcb-4cb4-bd81-dcae5c5e2b1b"],
-Cell[4204, 139, 721, 21, 25, "Output",ExpressionUUID->"6fd90352-c8ba-4735-a0c7-98d5b1ce09b9"],
-Cell[4928, 162, 348, 9, 286, "Output",ExpressionUUID->"13b489b1-0440-4e41-b921-d135cedbeb70"]
+Cell[2012, 66, 1270, 42, 50, "Input",ExpressionUUID->"132216aa-a89b-4380-b950-32cc1675b234"],
+Cell[3285, 110, 941, 27, 25, "Output",ExpressionUUID->"6a132225-7fcb-4cb4-bd81-dcae5c5e2b1b"],
+Cell[4229, 139, 721, 21, 25, "Output",ExpressionUUID->"6fd90352-c8ba-4735-a0c7-98d5b1ce09b9"],
+Cell[4953, 162, 348, 9, 286, "Output",ExpressionUUID->"13b489b1-0440-4e41-b921-d135cedbeb70"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[5325, 177, 272, 6, 30, "Subsection",ExpressionUUID->"f72d1759-1f85-4aa4-ac50-7be3f9081603"],
+Cell[5350, 177, 272, 6, 30, "Subsection",ExpressionUUID->"f72d1759-1f85-4aa4-ac50-7be3f9081603"],
 Cell[CellGroupData[{
-Cell[5622, 187, 1370, 44, 50, "Input",ExpressionUUID->"99329b04-ed2f-4767-ba3e-3143d039f9c1"],
-Cell[6995, 233, 1045, 29, 25, "Output",ExpressionUUID->"bc167046-4a66-4188-bff6-e51304954259"],
-Cell[8043, 264, 7819, 165, 49, "Output",ExpressionUUID->"74e65fc8-9c38-4eea-b357-3eb3d91fe432"],
-Cell[15865, 431, 572, 13, 286, "Output",ExpressionUUID->"c17512aa-476d-4d13-9ebb-b1fbdb19a58a"]
+Cell[5647, 187, 1370, 44, 50, "Input",ExpressionUUID->"99329b04-ed2f-4767-ba3e-3143d039f9c1"],
+Cell[7020, 233, 1045, 29, 25, "Output",ExpressionUUID->"bc167046-4a66-4188-bff6-e51304954259"],
+Cell[8068, 264, 7819, 165, 49, "Output",ExpressionUUID->"74e65fc8-9c38-4eea-b357-3eb3d91fe432"],
+Cell[15890, 431, 572, 13, 286, "Output",ExpressionUUID->"c17512aa-476d-4d13-9ebb-b1fbdb19a58a"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[16486, 450, 270, 6, 30, "Subsection",ExpressionUUID->"1ee906dc-bf59-45c4-840d-2016ca04a438"],
+Cell[16511, 450, 270, 6, 30, "Subsection",ExpressionUUID->"1ee906dc-bf59-45c4-840d-2016ca04a438"],
 Cell[CellGroupData[{
-Cell[16781, 460, 1116, 36, 50, "Input",ExpressionUUID->"efda952e-2e1f-4392-bda1-ac9af32a6e47"],
-Cell[17900, 498, 919, 25, 25, "Output",ExpressionUUID->"d5627719-7ec2-4370-be87-99729cc33407"],
-Cell[18822, 525, 824, 22, 27, "Output",ExpressionUUID->"af746a95-6f5e-4850-ba8e-210a57a563b8"],
-Cell[19649, 549, 509, 11, 282, "Output",ExpressionUUID->"80e86003-69c3-4ba7-91cc-10e2e26e61fe"]
+Cell[16806, 460, 1116, 36, 50, "Input",ExpressionUUID->"efda952e-2e1f-4392-bda1-ac9af32a6e47"],
+Cell[17925, 498, 919, 25, 25, "Output",ExpressionUUID->"d5627719-7ec2-4370-be87-99729cc33407"],
+Cell[18847, 525, 824, 22, 27, "Output",ExpressionUUID->"af746a95-6f5e-4850-ba8e-210a57a563b8"],
+Cell[19674, 549, 509, 11, 282, "Output",ExpressionUUID->"80e86003-69c3-4ba7-91cc-10e2e26e61fe"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[20207, 566, 313, 6, 30, "Subsection",ExpressionUUID->"7ec4fe7e-8258-40af-86c1-c4989b28282e"],
+Cell[20232, 566, 313, 6, 30, "Subsection",ExpressionUUID->"7ec4fe7e-8258-40af-86c1-c4989b28282e"],
 Cell[CellGroupData[{
-Cell[20545, 576, 2332, 76, 123, "Input",ExpressionUUID->"517c2985-7bbb-43cf-a7e0-32bf49363660"],
-Cell[22880, 654, 1070, 27, 25, "Output",ExpressionUUID->"e107ab07-f372-4a88-9e04-2a1eafd9256e"],
-Cell[23953, 683, 1155, 29, 25, "Output",ExpressionUUID->"c22331a2-3380-4838-b06d-b2ece9d2fa8c"],
-Cell[25111, 714, 647, 13, 312, "Output",ExpressionUUID->"3c06bb90-9c74-4363-8c97-68f17fd3450e"],
-Cell[25761, 729, 1271, 25, 286, "Output",ExpressionUUID->"81c7075b-0f1d-4311-a0dd-2e58229ca24f"]
+Cell[20570, 576, 2321, 73, 137, "Input",ExpressionUUID->"517c2985-7bbb-43cf-a7e0-32bf49363660"],
+Cell[22894, 651, 445, 11, 297, "Output",ExpressionUUID->"061e95b4-8e68-4e06-9b31-114e17f62a77"],
+Cell[23342, 664, 1073, 23, 297, "Output",ExpressionUUID->"26474d5f-eb87-4260-a9ec-c550d66d9fdf"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[24464, 693, 363, 7, 30, "Subsection",ExpressionUUID->"1fa1d13c-ec45-4287-a9af-837a8250bd0d"],
+Cell[CellGroupData[{
+Cell[24852, 704, 1214, 37, 50, "Input",ExpressionUUID->"c5d4b002-0ad1-4e89-9c32-650fd3628ae3"],
+Cell[26069, 743, 864, 24, 25, "Output",ExpressionUUID->"9913a1ae-bb8f-4828-ab59-459336727cc7"],
+Cell[26936, 769, 1017, 27, 27, "Output",ExpressionUUID->"0c1a1b86-27dd-44c5-a981-cf4ee79f9426"],
+Cell[27956, 798, 440, 8, 282, "Output",ExpressionUUID->"d6434487-cac0-410e-a45e-c69224b67220"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[28445, 812, 471, 8, 30, "Subsection",ExpressionUUID->"f0676b8a-e6e6-4b36-bf19-0f94d7f290d2"],
+Cell[CellGroupData[{
+Cell[28941, 824, 1429, 43, 50, "Input",ExpressionUUID->"326d775f-d5a3-46d0-892f-d50905dcbdc8"],
+Cell[30373, 869, 1176, 32, 25, "Output",ExpressionUUID->"0329319b-8d6b-4cb1-a358-9e7a448ea79a"],
+Cell[31552, 903, 435, 8, 336, "Output",ExpressionUUID->"bdbf7ebb-48c8-487f-876c-dd2179bd710d"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[32036, 917, 373, 7, 30, "Subsection",ExpressionUUID->"eb55a7f4-a5e3-4df9-bd55-a241565910f6"],
+Cell[CellGroupData[{
+Cell[32434, 928, 1161, 31, 50, "Input",ExpressionUUID->"dd2eef64-40f4-43f3-8fa5-df2b65e7a925"],
+Cell[33598, 961, 351, 9, 22, "Message",ExpressionUUID->"06bcda8b-974c-4843-bb72-3b0237099585"],
+Cell[33952, 972, 1041, 18, 31, "Message",ExpressionUUID->"ec947e88-0e61-4b5f-ad75-8aa9d5a7b00d"],
+Cell[34996, 992, 3976, 59, 98, "Message",ExpressionUUID->"8de63a1d-8144-469b-8084-42d940a8dc29"],
+Cell[38975, 1053, 3978, 59, 98, "Message",ExpressionUUID->"8fa843cc-1a68-4481-8999-206ae5820da9"],
+Cell[42956, 1114, 4026, 59, 98, "Message",ExpressionUUID->"b9ce7958-924b-4a3a-b17d-2da63f7cc09a"],
+Cell[46985, 1175, 456, 10, 22, "Message",ExpressionUUID->"e97aa6b4-4291-464a-bfc6-217c1660adec"],
+Cell[47444, 1187, 354, 9, 22, "Message",ExpressionUUID->"3d41efa6-75cd-4b1d-a7ff-38802cd5214d"],
+Cell[47801, 1198, 1001, 18, 22, "Message",ExpressionUUID->"1bc6bb3d-5560-4f85-8513-69bdbce7da3f"],
+Cell[48805, 1218, 354, 9, 22, "Message",ExpressionUUID->"0b5b5bb3-0361-4910-bb2a-22ae6df4d149"],
+Cell[49162, 1229, 459, 10, 22, "Message",ExpressionUUID->"7103a346-ca79-43da-843a-43016f69c282"],
+Cell[49624, 1241, 999, 18, 22, "Message",ExpressionUUID->"9034f16b-7c4e-4b23-a3b9-0878b8115612"],
+Cell[50626, 1261, 454, 10, 22, "Message",ExpressionUUID->"0a2f4e70-66a4-4fbc-a5bc-ed41c57aeea4"],
+Cell[51083, 1273, 11354, 158, 168, "Message",ExpressionUUID->"fd8827fd-8b99-4a1d-a5e0-fd4d2b182a92"],
+Cell[62440, 1433, 68946, 1402, 291, "Output",ExpressionUUID->"87385774-831d-4ba5-91cc-3c9ae4af1044"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[27081, 760, 363, 7, 41, "Subsection",ExpressionUUID->"1fa1d13c-ec45-4287-a9af-837a8250bd0d"],
+Cell[131447, 2842, 220, 4, 50, "Section",ExpressionUUID->"78da95bb-ebf5-4d30-870e-a46fc449e3c8"],
 Cell[CellGroupData[{
-Cell[27469, 771, 1214, 37, 50, "Input",ExpressionUUID->"c5d4b002-0ad1-4e89-9c32-650fd3628ae3"],
-Cell[28686, 810, 864, 24, 25, "Output",ExpressionUUID->"9913a1ae-bb8f-4828-ab59-459336727cc7"],
-Cell[29553, 836, 1017, 27, 27, "Output",ExpressionUUID->"0c1a1b86-27dd-44c5-a981-cf4ee79f9426"],
-Cell[30573, 865, 440, 8, 282, "Output",ExpressionUUID->"d6434487-cac0-410e-a45e-c69224b67220"]
+Cell[131692, 2850, 279, 6, 41, "Subsection",ExpressionUUID->"4580c561-b7c7-4d03-aaac-2bb53934cad7"],
+Cell[CellGroupData[{
+Cell[131996, 2860, 1516, 46, 64, "Input",ExpressionUUID->"8d819629-e1f5-4656-91c2-a98684b17c93"],
+Cell[133515, 2908, 803, 16, 286, "Output",ExpressionUUID->"dba72ac7-e3b8-4a17-9865-7d195101a9c9"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[31062, 879, 471, 8, 30, "Subsection",ExpressionUUID->"f0676b8a-e6e6-4b36-bf19-0f94d7f290d2"],
+Cell[134367, 2930, 324, 6, 30, "Subsection",ExpressionUUID->"c40e3233-ddf9-4cd8-a458-eff3f1cf901a"],
 Cell[CellGroupData[{
-Cell[31558, 891, 1429, 43, 50, "Input",ExpressionUUID->"326d775f-d5a3-46d0-892f-d50905dcbdc8"],
-Cell[32990, 936, 1176, 32, 25, "Output",ExpressionUUID->"0329319b-8d6b-4cb1-a358-9e7a448ea79a"],
-Cell[34169, 970, 435, 8, 336, "Output",ExpressionUUID->"bdbf7ebb-48c8-487f-876c-dd2179bd710d"]
+Cell[134716, 2940, 1656, 51, 78, "Input",ExpressionUUID->"5153efb9-bb9a-4824-9655-a05092a7991a"],
+Cell[136375, 2993, 858, 17, 168, "Output",ExpressionUUID->"9bed8d25-9e0e-4f4d-a69a-ba6b104db4ab"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[137282, 3016, 377, 7, 30, "Subsection",ExpressionUUID->"4cd71781-2e4f-4c5e-b937-9a7ebc98eb96"],
+Cell[CellGroupData[{
+Cell[137684, 3027, 3233, 95, 136, "Input",ExpressionUUID->"3147031a-cb0d-4385-a5b1-34344923ac42"],
+Cell[140920, 3124, 5203, 106, 140, "Output",ExpressionUUID->"d1422c28-8653-4390-a16a-ab5b1a2932ce"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[146172, 3236, 429, 8, 30, "Subsection",ExpressionUUID->"3d5399b2-46aa-4c7a-82e4-e5d174a834fa"],
+Cell[CellGroupData[{
+Cell[146626, 3248, 1755, 48, 64, "Input",ExpressionUUID->"acc45e3f-9e3a-43fe-8385-960e6bb8c67d"],
+Cell[148384, 3298, 952, 18, 297, "Output",ExpressionUUID->"e6ec185a-b0c4-4cf2-a70b-13a19be7c484"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[149385, 3322, 323, 6, 30, "Subsection",ExpressionUUID->"7bcc0fa4-1135-4218-8095-90ace1490da8"],
+Cell[CellGroupData[{
+Cell[149733, 3332, 2473, 74, 136, "Input",ExpressionUUID->"9dd9273e-4253-4791-b308-59087995a1d6"],
+Cell[152209, 3408, 4482, 88, 211, "Output",ExpressionUUID->"32a40f19-c5fb-4b9d-aa74-de8dcabd7f4b"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34665, 985, 220, 4, 50, "Section",ExpressionUUID->"78da95bb-ebf5-4d30-870e-a46fc449e3c8"],
+Cell[156752, 3503, 264, 4, 50, "Section",ExpressionUUID->"ee468941-91cd-44e6-b48f-0416f5ca24fc"],
 Cell[CellGroupData[{
-Cell[34910, 993, 279, 6, 41, "Subsection",ExpressionUUID->"4580c561-b7c7-4d03-aaac-2bb53934cad7"],
+Cell[157041, 3511, 417, 8, 41, "Subsection",ExpressionUUID->"a2bbd5f5-1216-4de2-8722-c876ac73505a"],
 Cell[CellGroupData[{
-Cell[35214, 1003, 1516, 46, 64, "Input",ExpressionUUID->"8d819629-e1f5-4656-91c2-a98684b17c93"],
-Cell[36733, 1051, 803, 16, 286, "Output",ExpressionUUID->"dba72ac7-e3b8-4a17-9865-7d195101a9c9"]
+Cell[157483, 3523, 1675, 49, 136, "Input",ExpressionUUID->"10025e60-ce01-49f7-8e5d-3dc3f0a0c94d"],
+Cell[159161, 3574, 3699, 76, 109, "Output",ExpressionUUID->"420f204b-9b39-44f6-8ebd-c025f6e6ca8b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[162909, 3656, 465, 8, 41, "Subsection",ExpressionUUID->"3f9dee4b-77da-4e58-bec5-87a07960f5b2"],
+Cell[CellGroupData[{
+Cell[163399, 3668, 1786, 48, 122, "Input",ExpressionUUID->"8dcfb93b-9c00-477f-9a57-7e958a81f728"],
+Cell[165188, 3718, 3230, 65, 131, "Output",ExpressionUUID->"5583da86-348a-4536-8f9a-bd3651e2a325"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[168491, 3791, 225, 3, 51, "Chapter",ExpressionUUID->"4eabb0d9-29f4-42c3-9eb7-5aa06bc4497b"],
+Cell[CellGroupData[{
+Cell[168741, 3798, 330, 5, 50, "Section",ExpressionUUID->"6ea0af11-cb43-4422-b1b2-4004736026ea"],
+Cell[CellGroupData[{
+Cell[169096, 3807, 308, 5, 41, "Subsection",ExpressionUUID->"8cdc8657-37ec-405f-856e-2136f9eabd0e"],
+Cell[CellGroupData[{
+Cell[169429, 3816, 4185, 115, 150, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
+Cell[173617, 3933, 291491, 5413, 255, "Output",ExpressionUUID->"c3f43000-be3f-4f01-8a17-63d3bb983f78"]
+}, Open  ]],
+Cell[465123, 9349, 1122, 28, 107, "Input",ExpressionUUID->"8c270098-b83d-40ad-8927-b4ad8115d22e"],
+Cell[CellGroupData[{
+Cell[466270, 9381, 1108, 28, 64, "Input",ExpressionUUID->"4f36d902-03ec-4cd7-9879-c6a8d2080ee6"],
+Cell[467381, 9411, 2079, 35, 161, "Output",ExpressionUUID->"77380f57-d224-4fe6-b5e3-a96572654648"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[469497, 9451, 638, 13, 21, "Input",ExpressionUUID->"d0f57ac6-05a7-40a0-9a19-e394607636ed"],
+Cell[470138, 9466, 733, 15, 280, "Output",ExpressionUUID->"90d31233-a6aa-4ac5-a8f5-3ef3a32d6941"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[470920, 9487, 259, 4, 41, "Subsection",ExpressionUUID->"0785f1f7-5afb-4d64-a8ff-7e81f340441f"],
+Cell[CellGroupData[{
+Cell[471204, 9495, 472, 11, 21, "Input",ExpressionUUID->"c1fd3b80-40c7-4986-8276-21c319ffefdc"],
+Cell[471679, 9508, 1147, 27, 25, "Output",ExpressionUUID->"cf1e3226-05db-4303-9966-36d7db8f0abc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[472863, 9540, 3676, 94, 136, "Input",ExpressionUUID->"a11c9f5a-9458-4c8f-b2c8-77eba195dbfe"],
+Cell[476542, 9636, 207289, 3542, 359, "Output",ExpressionUUID->"ea496b7e-6a52-4edd-bbc8-1991015c255b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[683880, 13184, 359, 6, 41, "Subsection",ExpressionUUID->"c01ddf6f-d255-4ddf-a069-c6710134caf6"],
+Cell[684242, 13192, 847, 17, 21, "Input",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
+Cell[CellGroupData[{
+Cell[685114, 13213, 13724, 353, 78, "Input",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
+Cell[698841, 13568, 5418, 96, 279, "Output",ExpressionUUID->"59b23f6a-6d99-4ed3-9dd4-75381a7056b7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[704296, 13669, 908, 20, 21, "Input",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
+Cell[705207, 13691, 174367, 2926, 306, "Output",ExpressionUUID->"61f77523-5d47-4ce6-9c65-d4c80186c497"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[37585, 1073, 324, 6, 30, "Subsection",ExpressionUUID->"c40e3233-ddf9-4cd8-a458-eff3f1cf901a"],
+Cell[879623, 16623, 475, 7, 30, "Subsection",ExpressionUUID->"b06914ce-9d74-4e63-b949-100071fc8b23"],
 Cell[CellGroupData[{
-Cell[37934, 1083, 1656, 51, 78, "Input",ExpressionUUID->"5153efb9-bb9a-4824-9655-a05092a7991a"],
-Cell[39593, 1136, 858, 17, 168, "Output",ExpressionUUID->"9bed8d25-9e0e-4f4d-a69a-ba6b104db4ab"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[40500, 1159, 377, 7, 30, "Subsection",ExpressionUUID->"4cd71781-2e4f-4c5e-b937-9a7ebc98eb96"],
-Cell[CellGroupData[{
-Cell[40902, 1170, 3233, 95, 136, "Input",ExpressionUUID->"3147031a-cb0d-4385-a5b1-34344923ac42"],
-Cell[44138, 1267, 5203, 106, 140, "Output",ExpressionUUID->"d1422c28-8653-4390-a16a-ab5b1a2932ce"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[49390, 1379, 429, 8, 30, "Subsection",ExpressionUUID->"3d5399b2-46aa-4c7a-82e4-e5d174a834fa"],
-Cell[CellGroupData[{
-Cell[49844, 1391, 1755, 48, 64, "Input",ExpressionUUID->"acc45e3f-9e3a-43fe-8385-960e6bb8c67d"],
-Cell[51602, 1441, 952, 18, 297, "Output",ExpressionUUID->"e6ec185a-b0c4-4cf2-a70b-13a19be7c484"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[52603, 1465, 323, 6, 30, "Subsection",ExpressionUUID->"7bcc0fa4-1135-4218-8095-90ace1490da8"],
-Cell[CellGroupData[{
-Cell[52951, 1475, 2473, 74, 136, "Input",ExpressionUUID->"9dd9273e-4253-4791-b308-59087995a1d6"],
-Cell[55427, 1551, 4482, 88, 211, "Output",ExpressionUUID->"32a40f19-c5fb-4b9d-aa74-de8dcabd7f4b"]
-}, Open  ]]
-}, Closed]]
+Cell[880123, 16634, 12748, 341, 135, "Input",ExpressionUUID->"01b4eb82-8284-40b5-9ad0-33205bbec7f5"],
+Cell[892874, 16977, 4305, 81, 279, "Output",ExpressionUUID->"03080c60-e485-454f-a07f-5bc0de39ec36"]
 }, Open  ]],
+Cell[897194, 17061, 2348, 62, 150, "Input",ExpressionUUID->"59c3fbfc-0f5e-4c09-9feb-1f92b2424aa5"],
 Cell[CellGroupData[{
-Cell[59970, 1646, 264, 4, 50, "Section",ExpressionUUID->"ee468941-91cd-44e6-b48f-0416f5ca24fc"],
-Cell[CellGroupData[{
-Cell[60259, 1654, 417, 8, 41, "Subsection",ExpressionUUID->"a2bbd5f5-1216-4de2-8722-c876ac73505a"],
-Cell[CellGroupData[{
-Cell[60701, 1666, 1675, 49, 136, "Input",ExpressionUUID->"10025e60-ce01-49f7-8e5d-3dc3f0a0c94d"],
-Cell[62379, 1717, 3699, 76, 120, "Output",ExpressionUUID->"420f204b-9b39-44f6-8ebd-c025f6e6ca8b"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[66127, 1799, 465, 8, 30, "Subsection",ExpressionUUID->"3f9dee4b-77da-4e58-bec5-87a07960f5b2"],
-Cell[CellGroupData[{
-Cell[66617, 1811, 1786, 48, 122, "Input",ExpressionUUID->"8dcfb93b-9c00-477f-9a57-7e958a81f728"],
-Cell[68406, 1861, 3230, 65, 141, "Output",ExpressionUUID->"5583da86-348a-4536-8f9a-bd3651e2a325"]
-}, Open  ]]
-}, Closed]]
-}, Closed]]
+Cell[899567, 17127, 1240, 28, 36, "Input",ExpressionUUID->"dd3bc250-4ea0-4b1d-926d-5a4b29b611cf"],
+Cell[900810, 17157, 588218, 9850, 1103, "Output",ExpressionUUID->"ee4ec63a-ce5c-4758-899f-30aef578ff66"]
 }, Open  ]],
+Cell[1489043, 27010, 10889, 201, 145, "Input",ExpressionUUID->"15f1954b-0bdc-4d5a-918a-49828895c13a"],
+Cell[1499935, 27213, 182515, 3149, 595, "Input",ExpressionUUID->"8c3b7670-6dd7-4d4b-a746-d04c6c4a5d13"],
+Cell[1682453, 30364, 182475, 3148, 594, "Input",ExpressionUUID->"2f365170-77ed-4c71-81bb-a88d100f50cb"],
 Cell[CellGroupData[{
-Cell[71709, 1934, 225, 3, 51, "Chapter",ExpressionUUID->"4eabb0d9-29f4-42c3-9eb7-5aa06bc4497b"],
-Cell[CellGroupData[{
-Cell[71959, 1941, 330, 5, 50, "Section",ExpressionUUID->"6ea0af11-cb43-4422-b1b2-4004736026ea"],
-Cell[CellGroupData[{
-Cell[72314, 1950, 308, 5, 41, "Subsection",ExpressionUUID->"8cdc8657-37ec-405f-856e-2136f9eabd0e"],
-Cell[CellGroupData[{
-Cell[72647, 1959, 4185, 115, 150, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
-Cell[76835, 2076, 291491, 5413, 255, "Output",ExpressionUUID->"c3f43000-be3f-4f01-8a17-63d3bb983f78"]
-}, Open  ]],
-Cell[368341, 7492, 1122, 28, 107, "Input",ExpressionUUID->"8c270098-b83d-40ad-8927-b4ad8115d22e"],
-Cell[CellGroupData[{
-Cell[369488, 7524, 1108, 28, 64, "Input",ExpressionUUID->"4f36d902-03ec-4cd7-9879-c6a8d2080ee6"],
-Cell[370599, 7554, 2079, 35, 161, "Output",ExpressionUUID->"77380f57-d224-4fe6-b5e3-a96572654648"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[372715, 7594, 638, 13, 21, "Input",ExpressionUUID->"d0f57ac6-05a7-40a0-9a19-e394607636ed"],
-Cell[373356, 7609, 733, 15, 280, "Output",ExpressionUUID->"90d31233-a6aa-4ac5-a8f5-3ef3a32d6941"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[374138, 7630, 259, 4, 41, "Subsection",ExpressionUUID->"0785f1f7-5afb-4d64-a8ff-7e81f340441f"],
-Cell[CellGroupData[{
-Cell[374422, 7638, 472, 11, 21, "Input",ExpressionUUID->"c1fd3b80-40c7-4986-8276-21c319ffefdc"],
-Cell[374897, 7651, 1147, 27, 25, "Output",ExpressionUUID->"cf1e3226-05db-4303-9966-36d7db8f0abc"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[376081, 7683, 3676, 94, 136, "Input",ExpressionUUID->"a11c9f5a-9458-4c8f-b2c8-77eba195dbfe"],
-Cell[379760, 7779, 207289, 3542, 359, "Output",ExpressionUUID->"ea496b7e-6a52-4edd-bbc8-1991015c255b"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[587098, 11327, 359, 6, 41, "Subsection",ExpressionUUID->"c01ddf6f-d255-4ddf-a069-c6710134caf6"],
-Cell[587460, 11335, 847, 17, 21, "Input",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
-Cell[CellGroupData[{
-Cell[588332, 11356, 13724, 353, 78, "Input",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
-Cell[602059, 11711, 5418, 96, 279, "Output",ExpressionUUID->"59b23f6a-6d99-4ed3-9dd4-75381a7056b7"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[607514, 11812, 908, 20, 21, "Input",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
-Cell[608425, 11834, 174367, 2926, 306, "Output",ExpressionUUID->"61f77523-5d47-4ce6-9c65-d4c80186c497"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[782841, 14766, 475, 7, 30, "Subsection",ExpressionUUID->"b06914ce-9d74-4e63-b949-100071fc8b23"],
-Cell[CellGroupData[{
-Cell[783341, 14777, 12748, 341, 135, "Input",ExpressionUUID->"01b4eb82-8284-40b5-9ad0-33205bbec7f5"],
-Cell[796092, 15120, 4305, 81, 279, "Output",ExpressionUUID->"03080c60-e485-454f-a07f-5bc0de39ec36"]
-}, Open  ]],
-Cell[800412, 15204, 2348, 62, 150, "Input",ExpressionUUID->"59c3fbfc-0f5e-4c09-9feb-1f92b2424aa5"],
-Cell[CellGroupData[{
-Cell[802785, 15270, 1240, 28, 36, "Input",ExpressionUUID->"dd3bc250-4ea0-4b1d-926d-5a4b29b611cf"],
-Cell[804028, 15300, 588218, 9850, 1103, "Output",ExpressionUUID->"ee4ec63a-ce5c-4758-899f-30aef578ff66"]
-}, Open  ]],
-Cell[1392261, 25153, 10889, 201, 145, "Input",ExpressionUUID->"15f1954b-0bdc-4d5a-918a-49828895c13a"],
-Cell[1403153, 25356, 182515, 3149, 595, "Input",ExpressionUUID->"8c3b7670-6dd7-4d4b-a746-d04c6c4a5d13"],
-Cell[1585671, 28507, 182475, 3148, 594, "Input",ExpressionUUID->"2f365170-77ed-4c71-81bb-a88d100f50cb"],
-Cell[CellGroupData[{
-Cell[1768171, 31659, 213, 4, 21, "Input",ExpressionUUID->"91e705ba-4e76-4e62-aeac-160b2ca022ae"],
-Cell[1768387, 31665, 2588, 74, 362, "Output",ExpressionUUID->"10216388-8aee-4f17-9211-c6b78e2bb34a"]
+Cell[1864953, 33516, 213, 4, 21, "Input",ExpressionUUID->"91e705ba-4e76-4e62-aeac-160b2ca022ae"],
+Cell[1865169, 33522, 2588, 74, 362, "Output",ExpressionUUID->"10216388-8aee-4f17-9211-c6b78e2bb34a"]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1771036, 31746, 286, 4, 40, "Section",ExpressionUUID->"723ad1fb-4495-4a29-a61c-12cd838741b6"],
+Cell[1867818, 33603, 286, 4, 40, "Section",ExpressionUUID->"723ad1fb-4495-4a29-a61c-12cd838741b6"],
 Cell[CellGroupData[{
-Cell[1771347, 31754, 428, 9, 21, "Input",ExpressionUUID->"c0cd69a6-4781-47ea-a8c6-2c712817cf15"],
-Cell[1771778, 31765, 303, 5, 24, "Output",ExpressionUUID->"62b589d6-0ee4-450e-8909-2932a9b84a63"]
+Cell[1868129, 33611, 428, 9, 21, "Input",ExpressionUUID->"c0cd69a6-4781-47ea-a8c6-2c712817cf15"],
+Cell[1868560, 33622, 303, 5, 24, "Output",ExpressionUUID->"62b589d6-0ee4-450e-8909-2932a9b84a63"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1772118, 31775, 869, 22, 39, "Input",ExpressionUUID->"7dc424da-5bd2-4308-82cb-87c55d2ad618"],
-Cell[1772990, 31799, 5700, 112, 283, "Output",ExpressionUUID->"917e2892-b581-405a-9a7e-a4df5277d4c6"]
+Cell[1868900, 33632, 869, 22, 39, "Input",ExpressionUUID->"7dc424da-5bd2-4308-82cb-87c55d2ad618"],
+Cell[1869772, 33656, 5700, 112, 283, "Output",ExpressionUUID->"917e2892-b581-405a-9a7e-a4df5277d4c6"]
 }, Open  ]],
-Cell[1778705, 31914, 494, 14, 21, "Input",ExpressionUUID->"72aee36f-e8f3-4a75-9670-109f879aeefe"],
+Cell[1875487, 33771, 494, 14, 21, "Input",ExpressionUUID->"72aee36f-e8f3-4a75-9670-109f879aeefe"],
 Cell[CellGroupData[{
-Cell[1779224, 31932, 394, 10, 21, "Input",ExpressionUUID->"25258653-9bb7-4bbc-903f-fa692b8fa4a4"],
-Cell[1779621, 31944, 443, 12, 24, "Output",ExpressionUUID->"7c1b8673-44ac-4f00-a335-75bbee151169"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1780101, 31961, 430, 12, 21, "Input",ExpressionUUID->"cf28ddd4-8232-4481-ab08-87baa92ebe31"],
-Cell[1780534, 31975, 271, 8, 25, "Output",ExpressionUUID->"a36bc978-4b32-455f-8a21-aa7c15f389cd"]
+Cell[1876006, 33789, 394, 10, 21, "Input",ExpressionUUID->"25258653-9bb7-4bbc-903f-fa692b8fa4a4"],
+Cell[1876403, 33801, 443, 12, 24, "Output",ExpressionUUID->"7c1b8673-44ac-4f00-a335-75bbee151169"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1780842, 31988, 7709, 229, 363, "Input",ExpressionUUID->"9ae59008-4d94-4639-b8fb-321ce7cb43d4"],
-Cell[1788554, 32219, 104577, 2242, 537, "Output",ExpressionUUID->"4c0cf43c-0662-45c7-b2c7-ae91094ba069"]
+Cell[1876883, 33818, 430, 12, 21, "Input",ExpressionUUID->"cf28ddd4-8232-4481-ab08-87baa92ebe31"],
+Cell[1877316, 33832, 271, 8, 25, "Output",ExpressionUUID->"a36bc978-4b32-455f-8a21-aa7c15f389cd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1893168, 34466, 464, 14, 35, "Input",ExpressionUUID->"392c0ccd-1f4d-43f4-b161-ee789f6a9198"],
-Cell[1893635, 34482, 426, 12, 37, "Output",ExpressionUUID->"fee09191-1438-4506-9db0-56a6d114970c"]
-}, Open  ]],
-Cell[1894076, 34497, 603, 20, 37, "Input",ExpressionUUID->"a88f2680-7c3e-42eb-a104-9f163e7120eb"],
-Cell[CellGroupData[{
-Cell[1894704, 34521, 748, 19, 67, "Input",ExpressionUUID->"b12147b7-4f83-48b5-996e-3dc9ad59aea0"],
-Cell[1895455, 34542, 799, 21, 46, "Output",ExpressionUUID->"19ca6d7a-dcb5-4663-9ba5-d2886b9e0021"],
-Cell[1896257, 34565, 797, 21, 46, "Output",ExpressionUUID->"9c086531-6417-4156-84a2-44447509aa9b"],
-Cell[1897057, 34588, 798, 21, 46, "Output",ExpressionUUID->"f202723a-822b-4a7a-b9a7-e7d31aeb41b1"],
-Cell[1897858, 34611, 842, 23, 46, "Output",ExpressionUUID->"66e00d01-8f07-4319-a0be-8c3842d42f61"]
-}, Open  ]],
-Cell[1898715, 34637, 1299, 41, 82, "Input",ExpressionUUID->"bb52fee4-21bd-4902-8765-864f06c2ff39"],
-Cell[CellGroupData[{
-Cell[1900039, 34682, 381, 8, 21, "Input",ExpressionUUID->"a25f0630-b2ae-42f2-b0d7-8bfa466bcfbd"],
-Cell[1900423, 34692, 896, 26, 46, "Output",ExpressionUUID->"f96abc81-e327-4c4d-bb9e-949d08f29820"]
+Cell[1877624, 33845, 7709, 229, 363, "Input",ExpressionUUID->"9ae59008-4d94-4639-b8fb-321ce7cb43d4"],
+Cell[1885336, 34076, 104577, 2242, 537, "Output",ExpressionUUID->"4c0cf43c-0662-45c7-b2c7-ae91094ba069"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1901356, 34723, 386, 9, 21, "Input",ExpressionUUID->"d1024c9d-bf38-468a-a9b3-65cd165746fe"],
-Cell[1901745, 34734, 296, 8, 24, "Output",ExpressionUUID->"cc339951-e4d8-4c5a-b747-02f688843e3d"]
+Cell[1989950, 36323, 464, 14, 35, "Input",ExpressionUUID->"392c0ccd-1f4d-43f4-b161-ee789f6a9198"],
+Cell[1990417, 36339, 426, 12, 37, "Output",ExpressionUUID->"fee09191-1438-4506-9db0-56a6d114970c"]
+}, Open  ]],
+Cell[1990858, 36354, 603, 20, 37, "Input",ExpressionUUID->"a88f2680-7c3e-42eb-a104-9f163e7120eb"],
+Cell[CellGroupData[{
+Cell[1991486, 36378, 748, 19, 67, "Input",ExpressionUUID->"b12147b7-4f83-48b5-996e-3dc9ad59aea0"],
+Cell[1992237, 36399, 799, 21, 46, "Output",ExpressionUUID->"19ca6d7a-dcb5-4663-9ba5-d2886b9e0021"],
+Cell[1993039, 36422, 797, 21, 46, "Output",ExpressionUUID->"9c086531-6417-4156-84a2-44447509aa9b"],
+Cell[1993839, 36445, 798, 21, 46, "Output",ExpressionUUID->"f202723a-822b-4a7a-b9a7-e7d31aeb41b1"],
+Cell[1994640, 36468, 842, 23, 46, "Output",ExpressionUUID->"66e00d01-8f07-4319-a0be-8c3842d42f61"]
+}, Open  ]],
+Cell[1995497, 36494, 1299, 41, 82, "Input",ExpressionUUID->"bb52fee4-21bd-4902-8765-864f06c2ff39"],
+Cell[CellGroupData[{
+Cell[1996821, 36539, 381, 8, 21, "Input",ExpressionUUID->"a25f0630-b2ae-42f2-b0d7-8bfa466bcfbd"],
+Cell[1997205, 36549, 896, 26, 46, "Output",ExpressionUUID->"f96abc81-e327-4c4d-bb9e-949d08f29820"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1902078, 34747, 1699, 50, 82, "Input",ExpressionUUID->"4f88d9ab-b082-474b-9efc-3e0e7ef9e00b"],
-Cell[1903780, 34799, 981, 26, 24, "Output",ExpressionUUID->"4a8a8285-6955-47e9-8c11-f3cac675bd3c"],
-Cell[1904764, 34827, 1087, 30, 24, "Output",ExpressionUUID->"409eaf14-525e-45b5-a69e-6cc511c49c8b"]
-}, Open  ]],
-Cell[1905866, 34860, 750, 20, 21, "Input",ExpressionUUID->"535a5012-bc33-4c29-9d64-e9d80ffddf0c"],
-Cell[CellGroupData[{
-Cell[1906641, 34884, 547, 9, 52, "Input",ExpressionUUID->"a95955d6-88f8-44e7-9da8-97f1c118c910"],
-Cell[1907191, 34895, 324, 5, 24, "Output",ExpressionUUID->"ededa998-2c72-47ed-abca-2e773bdbdce0"],
-Cell[1907518, 34902, 551, 13, 24, "Output",ExpressionUUID->"b90306e9-3b03-4252-93dc-52258b320e54"],
-Cell[1908072, 34917, 688, 16, 24, "Output",ExpressionUUID->"bc02c73e-9614-4e88-baac-2121318f5611"]
+Cell[1998138, 36580, 386, 9, 21, "Input",ExpressionUUID->"d1024c9d-bf38-468a-a9b3-65cd165746fe"],
+Cell[1998527, 36591, 296, 8, 24, "Output",ExpressionUUID->"cc339951-e4d8-4c5a-b747-02f688843e3d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1908797, 34938, 308, 8, 21, "Input",ExpressionUUID->"004fcec8-1ee8-4d23-8fa5-5bec11eb33a3"],
-Cell[1909108, 34948, 244, 5, 24, "Output",ExpressionUUID->"a25fcc45-5584-4831-ac84-4633b9f2e867"]
+Cell[1998860, 36604, 1699, 50, 82, "Input",ExpressionUUID->"4f88d9ab-b082-474b-9efc-3e0e7ef9e00b"],
+Cell[2000562, 36656, 981, 26, 24, "Output",ExpressionUUID->"4a8a8285-6955-47e9-8c11-f3cac675bd3c"],
+Cell[2001546, 36684, 1087, 30, 24, "Output",ExpressionUUID->"409eaf14-525e-45b5-a69e-6cc511c49c8b"]
+}, Open  ]],
+Cell[2002648, 36717, 750, 20, 21, "Input",ExpressionUUID->"535a5012-bc33-4c29-9d64-e9d80ffddf0c"],
+Cell[CellGroupData[{
+Cell[2003423, 36741, 547, 9, 52, "Input",ExpressionUUID->"a95955d6-88f8-44e7-9da8-97f1c118c910"],
+Cell[2003973, 36752, 324, 5, 24, "Output",ExpressionUUID->"ededa998-2c72-47ed-abca-2e773bdbdce0"],
+Cell[2004300, 36759, 551, 13, 24, "Output",ExpressionUUID->"b90306e9-3b03-4252-93dc-52258b320e54"],
+Cell[2004854, 36774, 688, 16, 24, "Output",ExpressionUUID->"bc02c73e-9614-4e88-baac-2121318f5611"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1909389, 34958, 981, 24, 67, "Input",ExpressionUUID->"abb48424-cb9c-468c-aea4-0e4d06bcd81b"],
-Cell[1910373, 34984, 569, 16, 24, "Output",ExpressionUUID->"8a76d1c9-08c4-4c33-ba50-68174547c561"],
-Cell[1910945, 35002, 924, 27, 46, "Output",ExpressionUUID->"83e924cf-2ced-47c9-81ee-d61966c3cc11"],
-Cell[1911872, 35031, 922, 27, 46, "Output",ExpressionUUID->"d78cab61-08ea-47d7-af1a-ecf85657ba83"]
+Cell[2005579, 36795, 308, 8, 21, "Input",ExpressionUUID->"004fcec8-1ee8-4d23-8fa5-5bec11eb33a3"],
+Cell[2005890, 36805, 244, 5, 24, "Output",ExpressionUUID->"a25fcc45-5584-4831-ac84-4633b9f2e867"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1912831, 35063, 295, 6, 37, "Input",ExpressionUUID->"6905a89f-ff68-4deb-bf6f-df1c10c921e0"],
-Cell[1913129, 35071, 670, 20, 46, "Output",ExpressionUUID->"b16f4448-d49b-4dc6-ba6a-3cc4e5fda750"],
-Cell[1913802, 35093, 672, 20, 46, "Output",ExpressionUUID->"8450406b-b107-485a-8e1b-1e652219f5a4"]
+Cell[2006171, 36815, 981, 24, 67, "Input",ExpressionUUID->"abb48424-cb9c-468c-aea4-0e4d06bcd81b"],
+Cell[2007155, 36841, 569, 16, 24, "Output",ExpressionUUID->"8a76d1c9-08c4-4c33-ba50-68174547c561"],
+Cell[2007727, 36859, 924, 27, 46, "Output",ExpressionUUID->"83e924cf-2ced-47c9-81ee-d61966c3cc11"],
+Cell[2008654, 36888, 922, 27, 46, "Output",ExpressionUUID->"d78cab61-08ea-47d7-af1a-ecf85657ba83"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1914511, 35118, 421, 10, 21, "Input",ExpressionUUID->"e5f485df-b660-4deb-90d6-006a7f4228f5"],
-Cell[1914935, 35130, 1120, 24, 310, "Output",ExpressionUUID->"56e8ec88-485f-462f-8a3b-45112b90453f"]
+Cell[2009613, 36920, 295, 6, 37, "Input",ExpressionUUID->"6905a89f-ff68-4deb-bf6f-df1c10c921e0"],
+Cell[2009911, 36928, 670, 20, 46, "Output",ExpressionUUID->"b16f4448-d49b-4dc6-ba6a-3cc4e5fda750"],
+Cell[2010584, 36950, 672, 20, 46, "Output",ExpressionUUID->"8450406b-b107-485a-8e1b-1e652219f5a4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2011293, 36975, 421, 10, 21, "Input",ExpressionUUID->"e5f485df-b660-4deb-90d6-006a7f4228f5"],
+Cell[2011717, 36987, 1120, 24, 310, "Output",ExpressionUUID->"56e8ec88-485f-462f-8a3b-45112b90453f"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1916104, 35160, 255, 4, 40, "Section",ExpressionUUID->"a49c5cd4-636c-428e-9edd-68c3ac685167"],
+Cell[2012886, 37017, 255, 4, 40, "Section",ExpressionUUID->"a49c5cd4-636c-428e-9edd-68c3ac685167"],
 Cell[CellGroupData[{
-Cell[1916384, 35168, 2198, 62, 192, "Input",ExpressionUUID->"9a1a7a48-18be-4f79-b1af-956d05cb7e1a"],
-Cell[1918585, 35232, 808, 18, 284, "Output",ExpressionUUID->"6a3a8ca1-7528-4503-a257-a891e617f4d3"]
+Cell[2013166, 37025, 2198, 62, 192, "Input",ExpressionUUID->"9a1a7a48-18be-4f79-b1af-956d05cb7e1a"],
+Cell[2015367, 37089, 808, 18, 284, "Output",ExpressionUUID->"6a3a8ca1-7528-4503-a257-a891e617f4d3"]
 }, Open  ]],
-Cell[1919408, 35253, 484, 14, 21, "Input",ExpressionUUID->"c077da4b-b43e-4238-ae2a-d88c1e3ad66e"],
+Cell[2016190, 37110, 484, 14, 21, "Input",ExpressionUUID->"c077da4b-b43e-4238-ae2a-d88c1e3ad66e"],
 Cell[CellGroupData[{
-Cell[1919917, 35271, 1038, 24, 21, "Input",ExpressionUUID->"31892c18-d8f1-45d3-a559-3b93f368ab2e"],
-Cell[1920958, 35297, 496, 9, 282, "Output",ExpressionUUID->"008ef322-c72b-4a84-b47e-700d1f439e9f"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1921491, 35311, 942, 28, 21, "Input",ExpressionUUID->"e00860a7-3eb1-4b6e-9302-dbed7898e245"],
-Cell[1922436, 35341, 433, 7, 195, "Output",ExpressionUUID->"d24b896c-2c68-45a8-9264-e89cb50181d2"]
-}, Open  ]],
-Cell[1922884, 35351, 1154, 28, 107, "Input",ExpressionUUID->"d04e9cb4-ec2c-409f-9e79-02a86a6c350b"],
-Cell[CellGroupData[{
-Cell[1924063, 35383, 554, 15, 21, "Input",ExpressionUUID->"cecef89a-6ff2-4f33-b82d-6decb5892964"],
-Cell[1924620, 35400, 1076, 34, 45, "Output",ExpressionUUID->"40906882-cfe2-4172-8295-fe3996b0d84a"]
+Cell[2016699, 37128, 1038, 24, 21, "Input",ExpressionUUID->"31892c18-d8f1-45d3-a559-3b93f368ab2e"],
+Cell[2017740, 37154, 496, 9, 282, "Output",ExpressionUUID->"008ef322-c72b-4a84-b47e-700d1f439e9f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1925733, 35439, 498, 14, 21, "Input",ExpressionUUID->"2a7bf7b8-e046-47af-be72-1e6c81064b8b"],
-Cell[1926234, 35455, 2949, 87, 46, "Output",ExpressionUUID->"b3a71177-dbfe-482e-aa29-e486c7165a89"]
+Cell[2018273, 37168, 942, 28, 21, "Input",ExpressionUUID->"e00860a7-3eb1-4b6e-9302-dbed7898e245"],
+Cell[2019218, 37198, 433, 7, 195, "Output",ExpressionUUID->"d24b896c-2c68-45a8-9264-e89cb50181d2"]
+}, Open  ]],
+Cell[2019666, 37208, 1154, 28, 107, "Input",ExpressionUUID->"d04e9cb4-ec2c-409f-9e79-02a86a6c350b"],
+Cell[CellGroupData[{
+Cell[2020845, 37240, 554, 15, 21, "Input",ExpressionUUID->"cecef89a-6ff2-4f33-b82d-6decb5892964"],
+Cell[2021402, 37257, 1076, 34, 45, "Output",ExpressionUUID->"40906882-cfe2-4172-8295-fe3996b0d84a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1929220, 35547, 595, 16, 21, "Input",ExpressionUUID->"99c23c4b-abf4-48e7-903a-62b05b1d7d20"],
-Cell[1929818, 35565, 541, 9, 247, "Output",ExpressionUUID->"c1a34e62-c156-49c2-a6ac-7ed05c245f4b"]
+Cell[2022515, 37296, 498, 14, 21, "Input",ExpressionUUID->"2a7bf7b8-e046-47af-be72-1e6c81064b8b"],
+Cell[2023016, 37312, 2949, 87, 46, "Output",ExpressionUUID->"b3a71177-dbfe-482e-aa29-e486c7165a89"]
 }, Open  ]],
-Cell[1930374, 35577, 154, 3, 21, "Input",ExpressionUUID->"3a6963b3-f6aa-4d90-bc30-7e6372a6a7a5"]
+Cell[CellGroupData[{
+Cell[2026002, 37404, 595, 16, 21, "Input",ExpressionUUID->"99c23c4b-abf4-48e7-903a-62b05b1d7d20"],
+Cell[2026600, 37422, 541, 9, 247, "Output",ExpressionUUID->"c1a34e62-c156-49c2-a6ac-7ed05c245f4b"]
+}, Open  ]],
+Cell[2027156, 37434, 154, 3, 21, "Input",ExpressionUUID->"3a6963b3-f6aa-4d90-bc30-7e6372a6a7a5"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1930565, 35585, 252, 4, 40, "Section",ExpressionUUID->"b19aa252-d604-4f19-a197-99ac66c5dad9"],
+Cell[2027347, 37442, 252, 4, 40, "Section",ExpressionUUID->"b19aa252-d604-4f19-a197-99ac66c5dad9"],
 Cell[CellGroupData[{
-Cell[1930842, 35593, 892, 25, 60, "Input",ExpressionUUID->"57264bd1-7db4-4b67-a537-cf0ca7243f1d"],
-Cell[1931737, 35620, 749, 23, 72, "Output",ExpressionUUID->"d73c33b2-6653-45f6-94d8-920b37d3862b"],
-Cell[1932489, 35645, 1227, 47, 153, "Output",ExpressionUUID->"c5868524-fa21-46bd-b2b7-cbc89e162555"]
+Cell[2027624, 37450, 892, 25, 60, "Input",ExpressionUUID->"57264bd1-7db4-4b67-a537-cf0ca7243f1d"],
+Cell[2028519, 37477, 749, 23, 72, "Output",ExpressionUUID->"d73c33b2-6653-45f6-94d8-920b37d3862b"],
+Cell[2029271, 37502, 1227, 47, 153, "Output",ExpressionUUID->"c5868524-fa21-46bd-b2b7-cbc89e162555"]
 }, Open  ]],
-Cell[1933731, 35695, 2739, 76, 74, "Input",ExpressionUUID->"3028c41f-2e2a-404b-9817-05cd5a828e64"],
+Cell[2030513, 37552, 2739, 76, 74, "Input",ExpressionUUID->"3028c41f-2e2a-404b-9817-05cd5a828e64"],
 Cell[CellGroupData[{
-Cell[1936495, 35775, 969, 16, 52, "Input",ExpressionUUID->"51281fd2-0013-4fd5-9ee4-2e91143d0784"],
-Cell[1937467, 35793, 7444, 138, 277, "Output",ExpressionUUID->"6ab05e64-7d49-46cc-84e7-2320e316b458"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1944948, 35936, 1416, 42, 51, "Input",ExpressionUUID->"3ffd79f5-9bc9-4fd1-9eb8-dd8e2ecbb4e5"],
-Cell[1946367, 35980, 29418, 535, 282, "Output",ExpressionUUID->"f948387e-490d-44f1-a3c7-354b569a1aad"]
+Cell[2033277, 37632, 969, 16, 52, "Input",ExpressionUUID->"51281fd2-0013-4fd5-9ee4-2e91143d0784"],
+Cell[2034249, 37650, 7444, 138, 277, "Output",ExpressionUUID->"6ab05e64-7d49-46cc-84e7-2320e316b458"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1975822, 36520, 1784, 48, 48, "Input",ExpressionUUID->"f27a1c16-d8d3-423e-bb11-b1ffbbea0ed5"],
-Cell[1977609, 36570, 36229, 722, 342, "Output",ExpressionUUID->"b17b0cf5-afcf-4742-b506-13007711ebd6"]
+Cell[2041730, 37793, 1416, 42, 51, "Input",ExpressionUUID->"3ffd79f5-9bc9-4fd1-9eb8-dd8e2ecbb4e5"],
+Cell[2043149, 37837, 29418, 535, 282, "Output",ExpressionUUID->"f948387e-490d-44f1-a3c7-354b569a1aad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2013875, 37297, 367, 9, 24, "Input",ExpressionUUID->"d910e9b9-e2fd-4549-8506-73e30f9ca0d4"],
-Cell[2014245, 37308, 673, 20, 27, "Output",ExpressionUUID->"d128553c-6c7d-4a4d-b4b1-b2df7cc362be"]
+Cell[2072604, 38377, 1784, 48, 48, "Input",ExpressionUUID->"f27a1c16-d8d3-423e-bb11-b1ffbbea0ed5"],
+Cell[2074391, 38427, 36229, 722, 342, "Output",ExpressionUUID->"b17b0cf5-afcf-4742-b506-13007711ebd6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2110657, 39154, 367, 9, 24, "Input",ExpressionUUID->"d910e9b9-e2fd-4549-8506-73e30f9ca0d4"],
+Cell[2111027, 39165, 673, 20, 27, "Output",ExpressionUUID->"d128553c-6c7d-4a4d-b4b1-b2df7cc362be"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[2014967, 37334, 183, 3, 40, "Section",ExpressionUUID->"613df869-6a08-47a2-be84-0bdbfe9a8c8c"],
+Cell[2111749, 39191, 183, 3, 40, "Section",ExpressionUUID->"613df869-6a08-47a2-be84-0bdbfe9a8c8c"],
 Cell[CellGroupData[{
-Cell[2015175, 37341, 156, 3, 40, "Subsection",ExpressionUUID->"4249748e-b9b0-4fa8-baeb-41775915a3df"],
+Cell[2111957, 39198, 156, 3, 40, "Subsection",ExpressionUUID->"4249748e-b9b0-4fa8-baeb-41775915a3df"],
 Cell[CellGroupData[{
-Cell[2015356, 37348, 666, 20, 21, "Input",ExpressionUUID->"cbc99eec-5d3f-4292-8e45-8b03f964f5e3"],
-Cell[2016025, 37370, 348, 8, 282, "Output",ExpressionUUID->"b74538a8-1520-47d2-86c2-75affbba45e0"]
+Cell[2112138, 39205, 666, 20, 21, "Input",ExpressionUUID->"cbc99eec-5d3f-4292-8e45-8b03f964f5e3"],
+Cell[2112807, 39227, 348, 8, 282, "Output",ExpressionUUID->"b74538a8-1520-47d2-86c2-75affbba45e0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2016410, 37383, 836, 24, 36, "Input",ExpressionUUID->"e3550576-9552-468e-8a7e-1e6373e79e64"],
-Cell[2017249, 37409, 316, 8, 271, "Output",ExpressionUUID->"bb1f9891-4187-4d15-a580-02b3eaa11d44"]
+Cell[2113192, 39240, 836, 24, 36, "Input",ExpressionUUID->"e3550576-9552-468e-8a7e-1e6373e79e64"],
+Cell[2114031, 39266, 316, 8, 271, "Output",ExpressionUUID->"bb1f9891-4187-4d15-a580-02b3eaa11d44"]
 }, Open  ]]
 }, Open  ]],
-Cell[2017592, 37421, 156, 3, 40, "Subsection",ExpressionUUID->"c74466b7-f332-43f5-bbe3-df7248730764"]
+Cell[2114374, 39278, 156, 3, 40, "Subsection",ExpressionUUID->"c74466b7-f332-43f5-bbe3-df7248730764"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[2017785, 37429, 214, 4, 40, "Section",ExpressionUUID->"471693f8-05c6-4f94-bab6-4e666a7a89ab"],
-Cell[2018002, 37435, 574, 13, 36, "Input",ExpressionUUID->"0beb4eee-7fb4-489f-9179-1cd5f19bda81"],
+Cell[2114567, 39286, 214, 4, 40, "Section",ExpressionUUID->"471693f8-05c6-4f94-bab6-4e666a7a89ab"],
+Cell[2114784, 39292, 574, 13, 36, "Input",ExpressionUUID->"0beb4eee-7fb4-489f-9179-1cd5f19bda81"],
 Cell[CellGroupData[{
-Cell[2018601, 37452, 654, 14, 64, "Input",ExpressionUUID->"e806d42c-1a84-4dc6-9864-e2af26c5917c"],
-Cell[2019258, 37468, 438, 10, 22, "Message",ExpressionUUID->"60250ad0-4464-4e01-bff7-21016b9da935"],
-Cell[2019699, 37480, 232, 3, 24, "Output",ExpressionUUID->"37392ead-9700-4d06-aab4-1fc956e4db8c"],
-Cell[2019934, 37485, 437, 10, 22, "Message",ExpressionUUID->"0a177ec2-2d14-40f5-b619-77279a2a108a"],
-Cell[2020374, 37497, 230, 3, 24, "Output",ExpressionUUID->"5b88721e-e365-429b-8117-f87c6c7e927a"]
+Cell[2115383, 39309, 654, 14, 64, "Input",ExpressionUUID->"e806d42c-1a84-4dc6-9864-e2af26c5917c"],
+Cell[2116040, 39325, 438, 10, 22, "Message",ExpressionUUID->"60250ad0-4464-4e01-bff7-21016b9da935"],
+Cell[2116481, 39337, 232, 3, 24, "Output",ExpressionUUID->"37392ead-9700-4d06-aab4-1fc956e4db8c"],
+Cell[2116716, 39342, 437, 10, 22, "Message",ExpressionUUID->"0a177ec2-2d14-40f5-b619-77279a2a108a"],
+Cell[2117156, 39354, 230, 3, 24, "Output",ExpressionUUID->"5b88721e-e365-429b-8117-f87c6c7e927a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2020641, 37505, 209, 3, 21, "Input",ExpressionUUID->"a860f22e-ab5c-4091-acc2-964c11fe31fa"],
-Cell[2020853, 37510, 225, 4, 24, "Output",ExpressionUUID->"dcbbc12c-e2b1-4c8b-aaae-8b6d7cc84250"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[2021127, 37520, 152, 3, 40, "Section",ExpressionUUID->"ac7ca826-47be-4644-8fc8-dedb8eac7c83"],
-Cell[CellGroupData[{
-Cell[2021304, 37527, 2672, 78, 93, "Input",ExpressionUUID->"a7d1be3c-ac92-44b8-bf58-ea64da4954ed"],
-Cell[2023979, 37607, 4883, 76, 97, "Output",ExpressionUUID->"0701efa1-55d7-41f6-9e5f-07ca76540975"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2028899, 37688, 398, 10, 21, "Input",ExpressionUUID->"fbb2f246-8288-426d-9f1e-eb0fff55e85a"],
-Cell[2029300, 37700, 448, 11, 25, "Output",ExpressionUUID->"de7eb64b-dd7c-4eaa-954e-255d88b8cb56"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2029785, 37716, 7814, 166, 46, "Input",ExpressionUUID->"bbf77140-75bf-43b8-95e5-9b5e877573c6"],
-Cell[2037602, 37884, 393, 8, 292, "Output",ExpressionUUID->"9a05c871-5182-4aaa-8289-215beadc949c"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[2038032, 37897, 1419, 40, 19, "Input",ExpressionUUID->"3432cf97-5e89-440b-886b-cbff2deabefa"],
-Cell[2039454, 37939, 862, 15, 282, "Output",ExpressionUUID->"179d061c-e700-46c5-8d21-286c16d72555"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2040353, 37959, 462, 11, 36, "Input",ExpressionUUID->"b4816f5e-1e08-411f-b4c6-36ec437562d3"],
-Cell[2040818, 37972, 27398, 691, 1281, "Output",ExpressionUUID->"251c456b-497f-4d67-86f7-64fdc4ac21ff"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2068253, 38668, 738, 22, 48, "Input",ExpressionUUID->"e627c7d6-12e1-4668-98f7-0a1262c0fdc2"],
-Cell[2068994, 38692, 279, 7, 36, "Output",ExpressionUUID->"f994e96e-5e4a-4186-a1d0-ccec852f8a2e"],
-Cell[2069276, 38701, 237, 5, 24, "Output",ExpressionUUID->"98f4a6f0-9bb8-4609-a3e3-23bb443c1576"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2069550, 38711, 802, 22, 56, "Input",ExpressionUUID->"55be365d-3cc2-47ac-ae38-87a014a17fdc"],
-Cell[2070355, 38735, 373, 11, 41, "Output",ExpressionUUID->"48c1ab0f-c596-4f15-b14b-751626790592"],
-Cell[2070731, 38748, 418, 11, 24, "Output",ExpressionUUID->"e4b2a4dd-3f96-4536-ab94-07a58721ce43"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2071186, 38764, 531, 17, 25, "Input",ExpressionUUID->"5410ba94-35b5-4022-87ca-6ec1006dd3d3"],
-Cell[2071720, 38783, 268, 7, 36, "Output",ExpressionUUID->"0bd06ca0-077a-4bc5-8cbc-cf361309abd3"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2072025, 38795, 403, 13, 25, "Input",ExpressionUUID->"ef72d3ae-27ec-400e-be3f-de385ce33269"],
-Cell[2072431, 38810, 246, 6, 41, "Output",ExpressionUUID->"30e9b6ef-35b9-4272-8716-984bc87adc83"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2072714, 38821, 724, 18, 50, "Input",ExpressionUUID->"681c3de2-2de1-4dff-9de6-5ed1273f7a82"],
-Cell[2073441, 38841, 407, 11, 24, "Output",ExpressionUUID->"34b4019d-9d3f-4441-8eff-e3888c576f9c"],
-Cell[2073851, 38854, 758, 23, 31, "Output",ExpressionUUID->"92489df2-dff0-403d-9903-7624826a3310"],
-Cell[2074612, 38879, 513, 15, 31, "Output",ExpressionUUID->"b19a766b-bcdd-4a1e-9ad3-fceda39a4559"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2075162, 38899, 364, 9, 21, "Input",ExpressionUUID->"45908f8e-e5e9-4164-a97a-3244121397cf"],
-Cell[2075529, 38910, 212, 4, 24, "Output",ExpressionUUID->"ee14c98c-76f0-47cf-99b8-3ac262d9b7e0"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2075778, 38919, 375, 9, 21, "Input",ExpressionUUID->"ca5fad7a-609a-4c17-afe7-2b6401707a9b"],
-Cell[2076156, 38930, 208, 4, 24, "Output",ExpressionUUID->"1649776c-76da-4683-9ea3-f2dba3bc4193"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2076401, 38939, 1346, 39, 50, "Input",ExpressionUUID->"bc4e86de-4656-4c1e-b0d6-92bbea635757"],
-Cell[2077750, 38980, 289797, 5392, 236, "Output",ExpressionUUID->"c5bed1c1-912a-4754-99e1-d40453c416ca"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2367584, 44377, 261, 5, 21, "Input",ExpressionUUID->"9ed1a9be-1608-494f-bc2d-3de01fa58c16"],
-Cell[2367848, 44384, 1062, 18, 288, "Output",ExpressionUUID->"655a56a2-d05e-4a9f-b6a1-e3e1a268cb93"]
-}, Open  ]],
-Cell[2368925, 44405, 994, 25, 107, "Input",ExpressionUUID->"8c1a1c2f-7415-444b-93e1-6b6f4689da72"],
-Cell[CellGroupData[{
-Cell[2369944, 44434, 381, 10, 21, "Input",ExpressionUUID->"ec934ab4-9dda-40ab-8be8-2c74ece66066"],
-Cell[2370328, 44446, 551, 10, 282, "Output",ExpressionUUID->"d52d5898-334d-4f2d-95e3-eb0a83e9074c"]
-}, Open  ]]
+Cell[2117423, 39362, 209, 3, 21, "Input",ExpressionUUID->"a860f22e-ab5c-4091-acc2-964c11fe31fa"],
+Cell[2117635, 39367, 225, 4, 24, "Output",ExpressionUUID->"dcbbc12c-e2b1-4c8b-aaae-8b6d7cc84250"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[2370940, 44463, 223, 3, 44, "Chapter",ExpressionUUID->"43197a8a-b892-4d01-a700-212993dcb840"],
+Cell[2117909, 39377, 152, 3, 40, "Section",ExpressionUUID->"ac7ca826-47be-4644-8fc8-dedb8eac7c83"],
 Cell[CellGroupData[{
-Cell[2371188, 44470, 152, 3, 50, "Section",ExpressionUUID->"b8f6c8dc-e341-4a32-b0d6-e30dbd77842d"],
-Cell[CellGroupData[{
-Cell[2371365, 44477, 525, 16, 21, "Input",ExpressionUUID->"7f25bf72-d324-4006-ac03-7131474a7474"],
-Cell[2371893, 44495, 7691, 163, 49, "Output",ExpressionUUID->"efc8bac9-adcc-40c6-af94-e4928481ab30"]
-}, Open  ]],
-Cell[2379599, 44661, 497, 13, 22, "Input",ExpressionUUID->"03faa8f6-cafe-4114-95d5-607308d2bff1"],
-Cell[CellGroupData[{
-Cell[2380121, 44678, 578, 14, 21, "Input",ExpressionUUID->"9f9f4103-b9ee-45c0-a5f2-3e6c5fe010f7"],
-Cell[2380702, 44694, 428, 11, 196, "Output",ExpressionUUID->"d337d397-c5ed-43c3-8cd9-76f19c0bae75"]
+Cell[2118086, 39384, 2672, 78, 93, "Input",ExpressionUUID->"a7d1be3c-ac92-44b8-bf58-ea64da4954ed"],
+Cell[2120761, 39464, 4883, 76, 97, "Output",ExpressionUUID->"0701efa1-55d7-41f6-9e5f-07ca76540975"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2381167, 44710, 497, 10, 64, "Input",ExpressionUUID->"a9e33821-8c2d-4d54-bbf4-70f860e68657"],
-Cell[2381667, 44722, 225, 4, 32, "Output",ExpressionUUID->"406f245b-b341-4b0b-8701-29b25c4d49a1"]
+Cell[2125681, 39545, 398, 10, 21, "Input",ExpressionUUID->"fbb2f246-8288-426d-9f1e-eb0fff55e85a"],
+Cell[2126082, 39557, 448, 11, 25, "Output",ExpressionUUID->"de7eb64b-dd7c-4eaa-954e-255d88b8cb56"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2381929, 44731, 492, 10, 64, "Input",ExpressionUUID->"7ea4cd49-5237-4038-b544-c7ebb06bcf24"],
-Cell[2382424, 44743, 254, 4, 32, "Output",ExpressionUUID->"059650de-763a-416a-b56c-5dfb0c5cc017"]
+Cell[2126567, 39573, 7814, 166, 46, "Input",ExpressionUUID->"bbf77140-75bf-43b8-95e5-9b5e877573c6"],
+Cell[2134384, 39741, 393, 8, 292, "Output",ExpressionUUID->"9a05c871-5182-4aaa-8289-215beadc949c"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2134814, 39754, 1419, 40, 19, "Input",ExpressionUUID->"3432cf97-5e89-440b-886b-cbff2deabefa"],
+Cell[2136236, 39796, 862, 15, 282, "Output",ExpressionUUID->"179d061c-e700-46c5-8d21-286c16d72555"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2382715, 44752, 208, 3, 21, "Input",ExpressionUUID->"947ad123-5949-4501-88fb-db4afcdda74e"],
-Cell[2382926, 44757, 11343, 174, 424, "Output",ExpressionUUID->"a5ab524e-0a36-4b85-b19a-84c50878f5f6"]
+Cell[2137135, 39816, 462, 11, 36, "Input",ExpressionUUID->"b4816f5e-1e08-411f-b4c6-36ec437562d3"],
+Cell[2137600, 39829, 27398, 691, 1281, "Output",ExpressionUUID->"251c456b-497f-4d67-86f7-64fdc4ac21ff"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2394306, 44936, 491, 7, 21, "Input",ExpressionUUID->"598a5eeb-65f3-432b-8c99-db1f7911a094"],
-Cell[2394800, 44945, 3634, 75, 34, "Output",ExpressionUUID->"0c52c276-0d2d-429b-b644-a77050390028"]
+Cell[2165035, 40525, 738, 22, 48, "Input",ExpressionUUID->"e627c7d6-12e1-4668-98f7-0a1262c0fdc2"],
+Cell[2165776, 40549, 279, 7, 36, "Output",ExpressionUUID->"f994e96e-5e4a-4186-a1d0-ccec852f8a2e"],
+Cell[2166058, 40558, 237, 5, 24, "Output",ExpressionUUID->"98f4a6f0-9bb8-4609-a3e3-23bb443c1576"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2398471, 45025, 696, 13, 64, "Input",ExpressionUUID->"6ffb6381-b8ca-435f-9421-3878e0f1b03f"],
-Cell[2399170, 45040, 509, 10, 24, "Output",ExpressionUUID->"e60629ee-d4b0-4d63-bc47-9d4b5a730b4f"]
+Cell[2166332, 40568, 802, 22, 56, "Input",ExpressionUUID->"55be365d-3cc2-47ac-ae38-87a014a17fdc"],
+Cell[2167137, 40592, 373, 11, 41, "Output",ExpressionUUID->"48c1ab0f-c596-4f15-b14b-751626790592"],
+Cell[2167513, 40605, 418, 11, 24, "Output",ExpressionUUID->"e4b2a4dd-3f96-4536-ab94-07a58721ce43"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2167968, 40621, 531, 17, 25, "Input",ExpressionUUID->"5410ba94-35b5-4022-87ca-6ec1006dd3d3"],
+Cell[2168502, 40640, 268, 7, 36, "Output",ExpressionUUID->"0bd06ca0-077a-4bc5-8cbc-cf361309abd3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2168807, 40652, 403, 13, 25, "Input",ExpressionUUID->"ef72d3ae-27ec-400e-be3f-de385ce33269"],
+Cell[2169213, 40667, 246, 6, 41, "Output",ExpressionUUID->"30e9b6ef-35b9-4272-8716-984bc87adc83"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2169496, 40678, 724, 18, 50, "Input",ExpressionUUID->"681c3de2-2de1-4dff-9de6-5ed1273f7a82"],
+Cell[2170223, 40698, 407, 11, 24, "Output",ExpressionUUID->"34b4019d-9d3f-4441-8eff-e3888c576f9c"],
+Cell[2170633, 40711, 758, 23, 31, "Output",ExpressionUUID->"92489df2-dff0-403d-9903-7624826a3310"],
+Cell[2171394, 40736, 513, 15, 31, "Output",ExpressionUUID->"b19a766b-bcdd-4a1e-9ad3-fceda39a4559"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2171944, 40756, 364, 9, 21, "Input",ExpressionUUID->"45908f8e-e5e9-4164-a97a-3244121397cf"],
+Cell[2172311, 40767, 212, 4, 24, "Output",ExpressionUUID->"ee14c98c-76f0-47cf-99b8-3ac262d9b7e0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2172560, 40776, 375, 9, 21, "Input",ExpressionUUID->"ca5fad7a-609a-4c17-afe7-2b6401707a9b"],
+Cell[2172938, 40787, 208, 4, 24, "Output",ExpressionUUID->"1649776c-76da-4683-9ea3-f2dba3bc4193"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2173183, 40796, 1346, 39, 50, "Input",ExpressionUUID->"bc4e86de-4656-4c1e-b0d6-92bbea635757"],
+Cell[2174532, 40837, 289797, 5392, 236, "Output",ExpressionUUID->"c5bed1c1-912a-4754-99e1-d40453c416ca"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2464366, 46234, 261, 5, 21, "Input",ExpressionUUID->"9ed1a9be-1608-494f-bc2d-3de01fa58c16"],
+Cell[2464630, 46241, 1062, 18, 288, "Output",ExpressionUUID->"655a56a2-d05e-4a9f-b6a1-e3e1a268cb93"]
+}, Open  ]],
+Cell[2465707, 46262, 994, 25, 107, "Input",ExpressionUUID->"8c1a1c2f-7415-444b-93e1-6b6f4689da72"],
+Cell[CellGroupData[{
+Cell[2466726, 46291, 381, 10, 21, "Input",ExpressionUUID->"ec934ab4-9dda-40ab-8be8-2c74ece66066"],
+Cell[2467110, 46303, 551, 10, 282, "Output",ExpressionUUID->"d52d5898-334d-4f2d-95e3-eb0a83e9074c"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2467722, 46320, 223, 3, 44, "Chapter",ExpressionUUID->"43197a8a-b892-4d01-a700-212993dcb840"],
+Cell[CellGroupData[{
+Cell[2467970, 46327, 152, 3, 50, "Section",ExpressionUUID->"b8f6c8dc-e341-4a32-b0d6-e30dbd77842d"],
+Cell[CellGroupData[{
+Cell[2468147, 46334, 525, 16, 21, "Input",ExpressionUUID->"7f25bf72-d324-4006-ac03-7131474a7474"],
+Cell[2468675, 46352, 7691, 163, 49, "Output",ExpressionUUID->"efc8bac9-adcc-40c6-af94-e4928481ab30"]
+}, Open  ]],
+Cell[2476381, 46518, 497, 13, 22, "Input",ExpressionUUID->"03faa8f6-cafe-4114-95d5-607308d2bff1"],
+Cell[CellGroupData[{
+Cell[2476903, 46535, 578, 14, 21, "Input",ExpressionUUID->"9f9f4103-b9ee-45c0-a5f2-3e6c5fe010f7"],
+Cell[2477484, 46551, 428, 11, 196, "Output",ExpressionUUID->"d337d397-c5ed-43c3-8cd9-76f19c0bae75"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2477949, 46567, 497, 10, 64, "Input",ExpressionUUID->"a9e33821-8c2d-4d54-bbf4-70f860e68657"],
+Cell[2478449, 46579, 225, 4, 32, "Output",ExpressionUUID->"406f245b-b341-4b0b-8701-29b25c4d49a1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2478711, 46588, 492, 10, 64, "Input",ExpressionUUID->"7ea4cd49-5237-4038-b544-c7ebb06bcf24"],
+Cell[2479206, 46600, 254, 4, 32, "Output",ExpressionUUID->"059650de-763a-416a-b56c-5dfb0c5cc017"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2479497, 46609, 208, 3, 21, "Input",ExpressionUUID->"947ad123-5949-4501-88fb-db4afcdda74e"],
+Cell[2479708, 46614, 11343, 174, 424, "Output",ExpressionUUID->"a5ab524e-0a36-4b85-b19a-84c50878f5f6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2491088, 46793, 491, 7, 21, "Input",ExpressionUUID->"598a5eeb-65f3-432b-8c99-db1f7911a094"],
+Cell[2491582, 46802, 3634, 75, 34, "Output",ExpressionUUID->"0c52c276-0d2d-429b-b644-a77050390028"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2495253, 46882, 696, 13, 64, "Input",ExpressionUUID->"6ffb6381-b8ca-435f-9421-3878e0f1b03f"],
+Cell[2495952, 46897, 509, 10, 24, "Output",ExpressionUUID->"e60629ee-d4b0-4d63-bc47-9d4b5a730b4f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

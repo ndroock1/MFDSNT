@@ -37,10 +37,12 @@ edg = {{typ, face}, edge};
 
 
 (* GEOMETRIES *)
+
+(* CIRCLE : Type = 2 *)
 ClearAll[gCircle]
-gCircle[cntr : pnt, r_] := newGeo[{2, {cntr, {cntr[[1]], cntr[[2]] + r}}}]
+gCircle[cntr : pnt, r_] := newGeo[{CIRCLE, {cntr, {cntr[[1]], cntr[[2]] + r}}}]
 gCircle[cntr : pnt] := gCircle[cntr, 1]
-gCircle[cntr_, r_] := newGeo[{2, {ReIm[N[cntr]], ReIm[N[cntr + r]]}}]
+gCircle[cntr_, r_] := newGeo[{CIRCLE, {ReIm[N[cntr]], ReIm[N[cntr + r]]}}]
 gCircle[cntr_] := gCircle[cntr, 1]
 gCircle[] := gCircle[0]
 

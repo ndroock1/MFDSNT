@@ -36,6 +36,15 @@ clr = {typ, face};
 edg = {{typ, face}, edge};
 
 
+(* GEOMETRIES *)
+ClearAll[gCircle]
+gCircle[cntr : pnt, r_] := newGeo[{2, {cntr, {cntr[[1]], cntr[[2]] + r}}}]
+gCircle[cntr : pnt] := gCircle[cntr, 1]
+gCircle[cntr_, r_] := newGeo[{2, {ReIm[N[cntr]], ReIm[N[cntr + r]]}}]
+gCircle[cntr_] := gCircle[cntr, 1]
+gCircle[] := gCircle[0]
+
+
 (* GEOMETRIC TRANSFORMATIONS *)
 tra3[figs_,t_]:=figs/.f:pnt:> TranslationTransform[t][f]
 rot3[figs_,{a_,p_}]:=figs/.f:pnt:> RotationTransform[a,p][f]

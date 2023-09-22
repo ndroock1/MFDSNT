@@ -39,16 +39,6 @@ edg = {{typ, face}, edge};
 (* GEOMETRIES *)
 
 (* CIRCLE : Type = 2 *)
-(*
-ClearAll[gCircle]
-gCircle[cntr : pnt, r_] := newGeo[{CIRCLE, {cntr, {cntr[[1]], cntr[[2]] + r}}}]
-gCircle[cntr : pnt] := gCircle[cntr, 1]
-gCircle[cntr_, r_] := newGeo[{CIRCLE, {ReIm[N[cntr]], ReIm[N[cntr + r]]}}]
-gCircle[cntr_] := gCircle[cntr, 1]
-gCircle[] := gCircle[0]
-*)
-
-
 ClearAll[gCircle]
 Options[gCircle] = {"Color" -> Red, "Opacity" -> 1, 
    "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
@@ -88,7 +78,47 @@ gCircle[cntr_?NumericQ, OptionsPattern[]] :=
  gCircle[cntr, 1, Color -> OptionValue[Color], 
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
-gCircle[] := gCircle1[0]
+gCircle[OptionsPattern[]] := 
+ gCircle[0, 1, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], 
+  Dashing -> OptionValue[Dashing]]
+
+(* LINE : Type = 3 *)
+ClearAll[gLine]
+Options[gLine] = {"Color" -> Red, "Opacity" -> 1, 
+   "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
+gLine[p : pnt, q : pnt, OptionsPattern[]] := {
+  {
+   {
+    LINE, {p, q}
+    },
+   {
+    OptionValue[Color], OptionValue[Opacity]
+    }
+   },
+  {
+   OptionValue[Color], OptionValue[Opacity], OptionValue[Thickness], 
+   OptionValue[Dashing][[1]], OptionValue[Dashing][[2]]
+   }
+  }
+gLine[p : pnt, OptionsPattern[]] := 
+ gCircle[p, {p[[1]] + 1, p[[2]] + 1}, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gLine[p_?NumericQ, q_?NumericQ, OptionsPattern[]] := 
+ gLine[ReIm[p], ReIm[q], Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gLine[p_?NumericQ, OptionsPattern[]] := 
+ gLine[ReIm[p], ReIm[p] + {1, 1}, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gLine[OptionsPattern[]] := 
+ gLine[{0, 0}, {1, 1}, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], 
+  Dashing -> OptionValue[Dashing]]
 
 
 (* GEOMETRIC TRANSFORMATIONS *)

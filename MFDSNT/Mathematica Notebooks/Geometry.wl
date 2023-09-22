@@ -39,12 +39,56 @@ edg = {{typ, face}, edge};
 (* GEOMETRIES *)
 
 (* CIRCLE : Type = 2 *)
+(*
 ClearAll[gCircle]
 gCircle[cntr : pnt, r_] := newGeo[{CIRCLE, {cntr, {cntr[[1]], cntr[[2]] + r}}}]
 gCircle[cntr : pnt] := gCircle[cntr, 1]
 gCircle[cntr_, r_] := newGeo[{CIRCLE, {ReIm[N[cntr]], ReIm[N[cntr + r]]}}]
 gCircle[cntr_] := gCircle[cntr, 1]
 gCircle[] := gCircle[0]
+*)
+
+
+ClearAll[gCircle]
+Options[gCircle] = {"Color" -> Red, "Opacity" -> 1, 
+   "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
+gCircle[cntr : pnt, r_?NumericQ, OptionsPattern[]] := {
+  {
+   {
+    CIRCLE, {cntr, {cntr[[1]], cntr[[2]] + r}}
+    },
+   {
+    OptionValue[Color], OptionValue[Opacity]
+    }
+   },
+  {
+   GrayLevel[0], 1, OptionValue[Thickness], OptionValue[Dashing][[1]],
+    OptionValue[Dashing][[2]]
+   }
+  }
+gCircle[cntr : pnt, OptionsPattern[]] := 
+ gCircle[cntr, 1, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gCircle[cntr_?NumericQ, r_?NumericQ, OptionsPattern[]] := {
+  {
+   {
+    CIRCLE, {ReIm[N[cntr]], ReIm[N[cntr + r]]}
+    },
+   {
+    OptionValue[Color], OptionValue[Opacity]
+    }
+   },
+  {
+   GrayLevel[0], 1, OptionValue[Thickness], OptionValue[Dashing][[1]],
+    OptionValue[Dashing][[2]]
+   }
+  }
+gCircle[cntr_?NumericQ, OptionsPattern[]] := 
+ gCircle[cntr, 1, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gCircle[] := gCircle1[0]
 
 
 (* GEOMETRIC TRANSFORMATIONS *)

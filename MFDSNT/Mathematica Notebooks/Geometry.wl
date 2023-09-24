@@ -103,7 +103,7 @@ gLine[p : pnt, q : pnt, OptionsPattern[]] := {
    }
   }
 gLine[p : pnt, OptionsPattern[]] := 
- gCircle[p, {p[[1]] + 1, p[[2]] + 1}, Color -> OptionValue[Color], 
+ gLine[p, {p[[1]] + 1, p[[2]] + 1}, Color -> OptionValue[Color], 
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
 gLine[p_?NumericQ, q_?NumericQ, OptionsPattern[]] := 

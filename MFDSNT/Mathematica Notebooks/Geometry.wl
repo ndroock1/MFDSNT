@@ -41,7 +41,6 @@ edg = {{typ, face}, edge};
 ClearAll[gPoint]
 
 
-
 (* CIRCLE : Type = 2 *)
 ClearAll[gCircle]
 Options[gCircle] = {"Color" -> Red, "Opacity" -> 1, 
@@ -87,6 +86,7 @@ gCircle[OptionsPattern[]] :=
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], 
   Dashing -> OptionValue[Dashing]]
+
 
 (* LINE : Type = 3 *)
 ClearAll[gLine]

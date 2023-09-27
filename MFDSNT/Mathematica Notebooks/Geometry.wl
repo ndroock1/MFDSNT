@@ -37,6 +37,10 @@ edg = {{typ, face}, edge};
 
 
 (* GEOMETRIES *)
+(* CIRCLE : Type = 0 *)
+ClearAll[gPoint]
+
+
 
 (* CIRCLE : Type = 2 *)
 ClearAll[gCircle]
@@ -119,6 +123,7 @@ gLine[OptionsPattern[]] :=
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], 
   Dashing -> OptionValue[Dashing]]
+
 
 
 (* GEOMETRIC TRANSFORMATIONS *)

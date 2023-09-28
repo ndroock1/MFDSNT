@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2432328,      45617]
-NotebookOptionsPosition[   2403052,      45125]
-NotebookOutlinePosition[   2403533,      45143]
-CellTagsIndexPosition[   2403490,      45140]
+NotebookDataLength[   2435807,      45716]
+NotebookOptionsPosition[   2406427,      45223]
+NotebookOutlinePosition[   2406911,      45241]
+CellTagsIndexPosition[   2406868,      45238]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -45119,12 +45119,110 @@ Cell[BoxData[
    3.904877964462304*^9}, {3.9048780100236235`*^9, 3.904878034075368*^9}},
  CellLabel->
   "Out[1138]=",ExpressionUUID->"ddd2cd5c-b3e4-4c34-aa99-b6fcf2cb5d0d"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "gPolygon", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Options", "[", "gPolygon", "]"}], "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<Color\>\"", "->", "Red"}], ",", 
+      RowBox[{"\"\<Opacity\>\"", "->", "1"}], ",", 
+      RowBox[{"\"\<PointSize\>\"", "->", "0.0125"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"gPoint2", "[", 
+   RowBox[{
+    RowBox[{"p", ":", "pnt"}], ",", 
+    RowBox[{"OptionsPattern", "[", "]"}]}], "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"POINT", ",", 
+        RowBox[{"{", "p", "}"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"OptionValue", "[", "Color", "]"}], ",", 
+        RowBox[{"OptionValue", "[", "Opacity", "]"}]}], "}"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"GrayLevel", "[", "0", "]"}], ",", "1", ",", 
+      RowBox[{"OptionValue", "[", "PointSize", "]"}], ",", 
+      RowBox[{"2", " ", "Pi"}], ",", 
+      RowBox[{"2", " ", "Pi"}]}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"gPoint2", "[", 
+   RowBox[{
+    RowBox[{"p", ":", "pts"}], ",", 
+    RowBox[{"OptionsPattern", "[", "]"}]}], "]"}], ":=", 
+  RowBox[{"p", "/.", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"q", ":", "pnt"}], ":>", 
+     RowBox[{"gPoint2", "[", 
+      RowBox[{"q", ",", 
+       RowBox[{"Color", "->", 
+        RowBox[{"OptionValue", "[", "Color", "]"}]}], ",", 
+       RowBox[{"Opacity", "->", 
+        RowBox[{"OptionValue", "[", "Opacity", "]"}]}], ",", 
+       RowBox[{"PointSize", "->", 
+        RowBox[{"OptionValue", "[", "PointSize", "]"}]}]}], "]"}]}], 
+    "}"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"gPoint2", "[", 
+   RowBox[{
+    RowBox[{"p_", "?", "NumericQ"}], ",", 
+    RowBox[{"OptionsPattern", "[", "]"}]}], "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"POINT", ",", 
+        RowBox[{"{", 
+         RowBox[{"ReIm", "[", 
+          RowBox[{"N", "[", "p", "]"}], "]"}], "}"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"OptionValue", "[", "Color", "]"}], ",", 
+        RowBox[{"OptionValue", "[", "Opacity", "]"}]}], "}"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"GrayLevel", "[", "0", "]"}], ",", "1", ",", 
+      RowBox[{"OptionValue", "[", "PointSize", "]"}], ",", 
+      RowBox[{"2", " ", "Pi"}], ",", 
+      RowBox[{"2", " ", "Pi"}]}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"gPoint2", "[", 
+   RowBox[{
+    RowBox[{"p", ":", "nls"}], ",", 
+    RowBox[{"OptionsPattern", "[", "]"}]}], "]"}], ":=", 
+  RowBox[{"p", "/.", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"q_", "?", "NumericQ"}], ":>", 
+     RowBox[{"gPoint2", "[", 
+      RowBox[{"q", ",", 
+       RowBox[{"Color", "->", 
+        RowBox[{"OptionValue", "[", "Color", "]"}]}], ",", 
+       RowBox[{"Opacity", "->", 
+        RowBox[{"OptionValue", "[", "Opacity", "]"}]}], ",", 
+       RowBox[{"PointSize", "->", 
+        RowBox[{"OptionValue", "[", "PointSize", "]"}]}]}], "]"}]}], 
+    "}"}]}]}]}], "Input",
+ CellChangeTimes->{{3.9048984993534126`*^9, 
+  3.904898519831581*^9}},ExpressionUUID->"b19ac05d-5e00-4ff1-b9db-\
+1bee10494865"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1035.75, 639.75},
-WindowMargins->{{189, Automatic}, {Automatic, 11.25}},
+WindowMargins->{{Automatic, 114.75}, {59.25, Automatic}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
@@ -45611,12 +45709,13 @@ Cell[2389985, 44828, 284, 7, 35, "Output",ExpressionUUID->"5c3e1dbc-00ce-455e-95
 }, Closed]],
 Cell[CellGroupData[{
 Cell[2390318, 44841, 211, 4, 40, "Section",ExpressionUUID->"5c185405-251c-488f-b328-368a0214a79d"],
-Cell[2390532, 44847, 6068, 135, 118, "Input",ExpressionUUID->"635e27da-afcd-4b43-983f-1ad35c4b8232"],
+Cell[2390532, 44847, 6068, 135, 107, "Input",ExpressionUUID->"635e27da-afcd-4b43-983f-1ad35c4b8232"],
 Cell[CellGroupData[{
-Cell[2396625, 44986, 4520, 90, 132, "Input",ExpressionUUID->"862d582a-e089-4526-a4a6-71b2fddaf7fe"],
-Cell[2401148, 45078, 937, 20, 290, "Output",ExpressionUUID->"5bf41ea5-7e46-4498-9b68-517490a7cee3"],
-Cell[2402088, 45100, 924, 20, 373, "Output",ExpressionUUID->"ddd2cd5c-b3e4-4c34-aa99-b6fcf2cb5d0d"]
-}, Open  ]]
+Cell[2396625, 44986, 4520, 90, 122, "Input",ExpressionUUID->"862d582a-e089-4526-a4a6-71b2fddaf7fe"],
+Cell[2401148, 45078, 937, 20, 280, "Output",ExpressionUUID->"5bf41ea5-7e46-4498-9b68-517490a7cee3"],
+Cell[2402088, 45100, 924, 20, 336, "Output",ExpressionUUID->"ddd2cd5c-b3e4-4c34-aa99-b6fcf2cb5d0d"]
+}, Open  ]],
+Cell[2403027, 45123, 3372, 96, 122, "Input",ExpressionUUID->"b19ac05d-5e00-4ff1-b9db-1bee10494865"]
 }, Open  ]]
 }, Open  ]]
 }

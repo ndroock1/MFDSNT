@@ -28,6 +28,7 @@ kanweg:=999
 (* DATA STRUCTURES *)
 pnt = {Repeated[Except[_Complex, _?NumericQ], {2}]};
 pts = {RepeatedNull[pnt]};
+nls = {Repeated[_?NumericQ]};
 
 typ = {_?IntegerQ | _Real, {RepeatedNull[pnt]}};
 face = {_RGBColor | _GrayLevel, _?IntegerQ | _Real};
@@ -37,8 +38,32 @@ edg = {{typ, face}, edge};
 
 
 (* GEOMETRIES *)
-(* CIRCLE : Type = 0 *)
+(* POINT : Type = 0 *)
 ClearAll[gPoint]
+Options[gPoint] = {"Color" -> Red, "Opacity" -> 1, 
+   "PointSize" -> 0.0125};
+gPoint[p : pnt, 
+  OptionsPattern[]] := {{{POINT, {p}}, {OptionValue[Color], 
+    OptionValue[Opacity]}}, {GrayLevel[0], 1, OptionValue[PointSize], 
+   2 Pi, 2 Pi}}
+gPoint[p : pts, OptionsPattern[]] := 
+ p /. {q : pnt :> 
+    gPoint[q, Color -> OptionValue[Color], 
+     Opacity -> OptionValue[Opacity], 
+     PointSize -> OptionValue[PointSize]]}
+gPoint[p_?NumericQ, 
+  OptionsPattern[]] := {{{POINT, {ReIm[N[p]]}}, {OptionValue[Color], 
+    OptionValue[Opacity]}}, {GrayLevel[0], 1, OptionValue[PointSize], 
+   2 Pi, 2 Pi}}
+gPoint[p : nls, OptionsPattern[]] := 
+ p /. {q_?NumericQ :> 
+    gPoint[q, Color -> OptionValue[Color], 
+     Opacity -> OptionValue[Opacity], 
+     PointSize -> OptionValue[PointSize]]}
+gPoint[OptionsPattern[]] := 
+ gPoint[0, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  PointSize -> OptionValue[PointSize]]
 
 
 (* CIRCLE : Type = 2 *)

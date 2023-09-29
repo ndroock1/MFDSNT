@@ -66,6 +66,30 @@ gPoint[OptionsPattern[]] :=
   PointSize -> OptionValue[PointSize]]
 
 
+(* POLYGON : Type = 1 *)
+ClearAll[gPolygon];
+Options[gPolygon] = {"FaceColor" -> Red, "FaceOpacity" -> 1, 
+   "EdgeColor" -> Black, "EdgeOpacity" -> 1, "Thickness" -> 0.0125, 
+   "Dashing" -> {2 Pi, 2 Pi}};
+gPolygon[p : pts, 
+  OptionsPattern[]] := {{{POLYGON, p}, {OptionValue[FaceColor], 
+    OptionValue[FaceOpacity]}}, {OptionValue[EdgeColor], 
+   OptionValue[EdgeOpacity], OptionValue[Thickness], 
+   OptionValue[Dashing][[1]], OptionValue[Dashing][[2]]}}
+gPolygon[p : nls, 
+  OptionsPattern[]] := {{{POLYGON, ReIm[p]}, {OptionValue[FaceColor], 
+    OptionValue[FaceOpacity]}}, {OptionValue[EdgeColor], 
+   OptionValue[EdgeOpacity], OptionValue[Thickness], 
+   OptionValue[Dashing][[1]], OptionValue[Dashing][[2]]}}
+gPolygon[OptionsPattern[]] := gPolygon[{I, 0, 1},
+  "FaceColor" -> OptionValue[FaceColor], 
+  "FaceOpacity" -> OptionValue[FaceOpacity], 
+  "EdgeColor" -> OptionValue[EdgeColor], 
+  "EdgeOpacity" -> OptionValue[EdgeOpacity],
+  "Thickness" -> OptionValue[Thickness], 
+  "Dashing" -> {OptionValue[Dashing][[1]], OptionValue[Dashing][[2]]}]
+
+
 (* CIRCLE : Type = 2 *)
 ClearAll[gCircle]
 Options[gCircle] = {"Color" -> Red, "Opacity" -> 1, 

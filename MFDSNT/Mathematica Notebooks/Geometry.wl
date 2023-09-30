@@ -18,8 +18,8 @@ POLYGON:=1;
 CIRCLE:=2;
 LINE:=3;
 DISK:=4;
-FILLEDCURVE:=5;
 
+FILLEDCURVE:=5;
 HYPERBOLICLINE:=6
 
 kanweg:=999
@@ -172,6 +172,43 @@ gLine[OptionsPattern[]] :=
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], 
   Dashing -> OptionValue[Dashing]]
+
+
+(* DISK : Type = 4 *)
+ClearAll[gDisk];
+Options[gDisk] = {"FaceColor" -> Red, "FaceOpacity" -> 1, 
+   "EdgeColor" -> Black, "EdgeOpacity" -> 1, "Thickness" -> 0.0125, 
+   "Dashing" -> {2 Pi, 2 Pi}};
+gDisk[cntr : pnt, r_?NumericQ, 
+  OptionsPattern[]] := {{{DISK, {cntr, {cntr[[1]], 
+      cntr[[2]] + r}}}, {OptionValue[FaceColor], 
+    OptionValue[FaceOpacity]}}, {OptionValue[EdgeColor], 
+   OptionValue[EdgeOpacity], OptionValue[Thickness], 
+   OptionValue[Dashing][[1]], OptionValue[Dashing][[2]]}}
+gDisk[cntr : pnt, OptionsPattern[]] := 
+ gDisk[cntr, 1, FaceColor -> OptionValue[FaceColor], 
+  FaceOpacity -> OptionValue[FaceOpacity], 
+  EdgeColor -> OptionValue[EdgeColor], 
+  EdgeOpacity -> OptionValue[EdgeOpacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gDisk[cntr_?NumericQ, r_?NumericQ, OptionsPattern[]] := 
+ gDisk[ReIm[cntr], r, FaceColor -> OptionValue[FaceColor], 
+  FaceOpacity -> OptionValue[FaceOpacity], 
+  EdgeColor -> OptionValue[EdgeColor], 
+  EdgeOpacity -> OptionValue[EdgeOpacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gDisk[cntr_?NumericQ, OptionsPattern[]] := 
+ gDisk[ReIm[cntr], 1, FaceColor -> OptionValue[FaceColor], 
+  FaceOpacity -> OptionValue[FaceOpacity], 
+  EdgeColor -> OptionValue[EdgeColor], 
+  EdgeOpacity -> OptionValue[EdgeOpacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
+gDisk[OptionsPattern[]] := 
+ gDisk[0, 1, FaceColor -> OptionValue[FaceColor], 
+  FaceOpacity -> OptionValue[FaceOpacity], 
+  EdgeColor -> OptionValue[EdgeColor], 
+  EdgeOpacity -> OptionValue[EdgeOpacity], 
+  Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
 
 
 

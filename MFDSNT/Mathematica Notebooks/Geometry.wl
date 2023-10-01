@@ -37,7 +37,9 @@ clr = {typ, face};
 edg = {{typ, face}, edge};
 
 
+
 (* GEOMETRIES *)
+
 (* POINT : Type = 0 *)
 ClearAll[gPoint]
 Options[gPoint] = {"Color" -> Red, "Opacity" -> 1, 

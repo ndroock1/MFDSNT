@@ -96,6 +96,15 @@ gPolygon[OptionsPattern[]] := gPolygon[{I, 0, 1},
 ClearAll[gCircle]
 Options[gCircle] = {"Color" -> Red, "Opacity" -> 1, 
    "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
+gCircle[cntr : pnt, r_?NumericQ, alfa1_?NumericQ, alfa2_?NumericQ, 
+  OptionsPattern[]] :=
+ {OptionValue[Color], Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], 
+  Dashing -> {OptionValue[Dashing][[1]], 
+    OptionValue[
+      Dashing][[2]]}, (ParametricPlot[{cntr[[1]] + r Cos[t], 
+       cntr[[2]] + r Sin[t]}, {t, alfa1, alfa2}] // InputForm)[[1, 1, 
+    1, 1, 1, 3, 1, 2]]}
 gCircle[cntr : pnt, r_?NumericQ, OptionsPattern[]] := {
   {
    {

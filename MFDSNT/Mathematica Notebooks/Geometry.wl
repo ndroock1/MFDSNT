@@ -600,6 +600,11 @@ gr:=Graphics
 gr1[x_]:=Graphics[x, Axes->True,AxesOrigin->{0,0},GridLines->Automatic]
 gr2[x_]:=Graphics[x, Axes->True,AxesOrigin->{0,0},GridLines->grids, Background->Lighter[LightGray]]
 gr3d[x_]:=Graphics3D[x, Boxed->False]
+grD[x_] := 
+ Graphics[{x, 
+   gDisk[FaceColor -> Cyan, FaceOpacity -> 0.25, 
+     Thickness -> 0.0025] // toGL}, Axes -> True, 
+  AxesOrigin -> {0, 0}, GridLines -> Automatic]
 si:=Simplify
 im:=IdentityMatrix
 

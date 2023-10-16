@@ -222,6 +222,32 @@ gDisk[OptionsPattern[]] :=
   Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
 
 
+(* HYPERBOLIC LINE POINCARE DISK : via gCircle *)
+ClearAll[gHLinePD, x, y]
+Options[gHLinePD] = {"Color" -> Red, "Opacity" -> 1, 
+   "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
+gHLinePD[p : pnt, q : pnt, OptionsPattern[]] := Module[
+  {mPP, mQQ, Ap, Bp, Aq, Bq, sol, x, y, cntr, rad, ang1, ang2},
+  mPP = (p + cnj3[mob[p, {{0, 1}, {1, 0}}]])/2;
+  mQQ = (q + cnj3[mob[q, {{0, 1}, {1, 0}}]])/2;
+  Ap = (-mPP[[1]] + p[[1]])/(mPP[[2]] - p[[2]]);
+  Bp = mPP[[2]] - Ap mPP[[1]];
+  Aq = (-mQQ[[1]] + q[[1]])/(mQQ[[2]] - q[[2]]);
+  Bq = mQQ[[2]] - Aq mQQ[[1]];
+  sol = Solve[{y == Ap x + Bp, y == Aq x + Bq}, {x, y}];
+  x = sol[[1, 1, 2]];
+  y = sol[[1, 2, 2]];
+  cntr = {x, y};
+  rad = EuclideanDistance[cntr, p];
+  ang1 = ArcTan[p[[1]] - x, p[[2]] - y];
+  ang2 = ArcTan[q[[1]] - x, q[[2]] - y];
+  {cntr, rad, ang1, ang2};
+  gCircle[cntr, rad, ang1, ang2, Color -> OptionValue[Color], 
+  Opacity -> OptionValue[Opacity], 
+  Thickness -> OptionValue[Thickness], 
+  Dashing -> OptionValue[Dashing]]
+  ]
+
 
 (* GEOMETRIC TRANSFORMATIONS *)
 tra3[figs_,t_]:=figs/.f:pnt:> TranslationTransform[t][f]

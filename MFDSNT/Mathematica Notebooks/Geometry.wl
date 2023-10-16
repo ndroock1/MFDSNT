@@ -104,7 +104,7 @@ gCircle[cntr : pnt, r_?NumericQ, alfa1_?NumericQ, alfa2_?NumericQ,
     OptionValue[
       Dashing][[2]]}, (ParametricPlot[{cntr[[1]] + r Cos[t], 
        cntr[[2]] + r Sin[t]}, {t, alfa1, alfa2}] // InputForm)[[1, 1, 
-    1, 1, 1, 3, 1, 2]]}
+    1, 1, 1]]}
 gCircle[cntr : pnt, r_?NumericQ, OptionsPattern[]] := {
   {
    {

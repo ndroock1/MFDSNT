@@ -241,12 +241,12 @@ gHLinePD[p : pnt, q : pnt, OptionsPattern[]] := Module[
   rad = EuclideanDistance[cntr, p];
   ang1 = ArcTan[p[[1]] - x, p[[2]] - y];
   ang2 = ArcTan[q[[1]] - x, q[[2]] - y];
-  Print[{cntr, rad, ang1, ang2}];
-  Print[OptionValue[Color]];
+  (*Print[{cntr, rad, ang1, ang2}];
+  Print[OptionValue[Color]];*)
   gCircle[cntr, rad, ang1, ang2, Color -> OptionValue[Color], 
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], 
-  Dashing -> OptionValue[Dashing]]
+  Dashing -> OptionValue[Dashing]]//toGL
   ]
 
 

@@ -102,9 +102,9 @@ gCircle[cntr : pnt, r_?NumericQ, alfa1_?NumericQ, alfa2_?NumericQ,
   Thickness -> OptionValue[Thickness], 
   Dashing -> {OptionValue[Dashing][[1]], 
     OptionValue[
-      Dashing][[2]]}, (ParametricPlot[{cntr[[1]] + r Cos[t], 
+      Dashing][[2]]}, Delete[(ParametricPlot[{cntr[[1]] + r Cos[t], 
        cntr[[2]] + r Sin[t]}, {t, alfa1, alfa2}] // InputForm)[[1, 1, 
-    1, 1, 1]]}
+    1, 1, 1]],{3,1,1}]}
 gCircle[cntr : pnt, r_?NumericQ, OptionsPattern[]] := {
   {
    {
@@ -223,7 +223,7 @@ gDisk[OptionsPattern[]] :=
 
 
 (* HYPERBOLIC LINE POINCARE DISK : via gCircle *)
-ClearAll[gHLinePD, x, y]
+ClearAll[gHLinePD]
 Options[gHLinePD] = {"Color" -> Red, "Opacity" -> 1, 
    "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
 gHLinePD[p : pnt, q : pnt, OptionsPattern[]] := Module[
@@ -241,7 +241,8 @@ gHLinePD[p : pnt, q : pnt, OptionsPattern[]] := Module[
   rad = EuclideanDistance[cntr, p];
   ang1 = ArcTan[p[[1]] - x, p[[2]] - y];
   ang2 = ArcTan[q[[1]] - x, q[[2]] - y];
-  {cntr, rad, ang1, ang2};
+  Print[{cntr, rad, ang1, ang2}];
+  Print[OptionValue[Color]];
   gCircle[cntr, rad, ang1, ang2, Color -> OptionValue[Color], 
   Opacity -> OptionValue[Opacity], 
   Thickness -> OptionValue[Thickness], 

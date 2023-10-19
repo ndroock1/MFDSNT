@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2114547,      39104]
-NotebookOptionsPosition[   2095863,      38788]
-NotebookOutlinePosition[   2096339,      38806]
-CellTagsIndexPosition[   2096296,      38803]
+NotebookDataLength[   2118095,      39203]
+NotebookOptionsPosition[   2099176,      38883]
+NotebookOutlinePosition[   2099653,      38901]
+CellTagsIndexPosition[   2099610,      38898]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24871,7 +24871,7 @@ Cell[BoxData[
 c6b78e2bb34a"]
 }, Open  ]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -38783,11 +38783,106 @@ Cell[BoxData[
  CellChangeTimes->{{3.902890557483286*^9, 3.902890651547688*^9}},
  CellLabel->"Out[22]=",ExpressionUUID->"d52d5898-334d-4f2d-95e3-eb0a83e9074c"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["tmp-4-movie_protocol", "Section",
+ CellChangeTimes->{{3.904538487443001*^9, 3.9045384945469804`*^9}, {
+  3.9045385444919853`*^9, 
+  3.9045385486519938`*^9}},ExpressionUUID->"37960270-7a5e-43ad-86ba-\
+9dd4889cb2fb"],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"gLine", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"k", ",", 
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{"k", "<=", "10"}], ",", "k", ",", 
+             RowBox[{"11", "-", 
+              RowBox[{"Mod", "[", 
+               RowBox[{"k", ",", "10"}], "]"}]}]}], "]"}]}], "}"}], ",", 
+         RowBox[{"Color", "->", "Cyan"}], ",", 
+         RowBox[{"Thickness", "->", "0.0025"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"k", ",", "2", ",", "19"}], "}"}]}], "]"}], "//", "toGL"}], "//", 
+    RowBox[{"gr", "\[IndentingNewLine]", " ", 
+     RowBox[{"f", "[", 
+      RowBox[{"x_", ",", "y_"}], "]"}]}]}], ":=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"gLine", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"x", ",", "y"}], "}"}], ",", 
+          RowBox[{
+           RowBox[{"pGon", "[", "128", "]"}], "[", 
+           RowBox[{"[", "k", "]"}], "]"}], ",", 
+          RowBox[{"Color", "->", "Gray"}], ",", 
+          RowBox[{"Thickness", "->", "0.0025"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"k", ",", "1", ",", "128"}], "}"}]}], "]"}], "//", "toGL"}], 
+     "//", 
+     RowBox[{"gr", "\[IndentingNewLine]", 
+      RowBox[{"f", "[", 
+       RowBox[{
+        RowBox[{"-", "0.5"}], ",", 
+        RowBox[{"-", "0.5"}]}], "]"}], "\[IndentingNewLine]", 
+      "gAnimation"}]}], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"ConstantArray", "[", 
+       RowBox[{"0", ",", "101"}], "]"}], "\[IndentingNewLine]", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"k", ",", "k"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"k", ",", 
+          RowBox[{"-", "0.5"}], ",", "0.5", ",", "0.01"}], "}"}]}], "]"}]}], "//", 
+     RowBox[{"Length", "\[IndentingNewLine]", 
+      RowBox[{"For", "[", 
+       RowBox[{
+        RowBox[{"k", "=", "1"}], ",", 
+        RowBox[{"k", "<=", "101"}], ",", 
+        RowBox[{"k", "++"}], ",", 
+        RowBox[{
+         RowBox[{"gAnimation", "[", 
+          RowBox[{"[", "k", "]"}], "]"}], "=", 
+         RowBox[{"f", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "0.51"}], "+", " ", 
+            RowBox[{"k", "/", "100"}]}], ",", 
+           RowBox[{
+            RowBox[{"-", "0.51"}], "+", " ", 
+            RowBox[{"k", "/", "100"}]}]}], "]"}]}]}], "]"}], 
+      "\[IndentingNewLine]", 
+      RowBox[{"Export", "[", 
+       RowBox[{"\"\<movie.avi\>\"", ",", "gAnimation"}], "]"}]}]}]}]}], 
+  "\[IndentingNewLine]", "*)"}]], "Input",
+ CellChangeTimes->{{3.9045249262423677`*^9, 3.904524942616108*^9}, {
+  3.904525030191759*^9, 3.904525030352129*^9}, {3.9045382943569*^9, 
+  3.904538358597*^9}, {3.904538389163981*^9, 3.9045384053959866`*^9}, {
+  3.9045384492919817`*^9, 
+  3.9045384534609876`*^9}},ExpressionUUID->"35cb0f0c-58d4-4daa-ab5d-\
+9479a47222b5"]
+}, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1074, 606},
-WindowMargins->{{133.5, Automatic}, {43.5, Automatic}},
+WindowSize->{1042.5, 606},
+WindowMargins->{{Automatic, 147}, {30.75, Automatic}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
@@ -38820,7 +38915,7 @@ Cell[CellGroupData[{
 Cell[2288, 69, 308, 5, 41, "Subsection",ExpressionUUID->"8cdc8657-37ec-405f-856e-2136f9eabd0e"],
 Cell[CellGroupData[{
 Cell[2621, 78, 4247, 117, 150, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
-Cell[6871, 197, 21128, 385, 262, "Output",ExpressionUUID->"46217ec7-f038-45c7-aec7-f179f92d49be"]
+Cell[6871, 197, 21128, 385, 252, "Output",ExpressionUUID->"46217ec7-f038-45c7-aec7-f179f92d49be"]
 }, Open  ]],
 Cell[28014, 585, 1122, 28, 107, "Input",ExpressionUUID->"8c270098-b83d-40ad-8927-b4ad8115d22e"],
 Cell[CellGroupData[{
@@ -38875,9 +38970,9 @@ Cell[1429781, 24790, 213, 4, 21, "Input",ExpressionUUID->"91e705ba-4e76-4e62-aea
 Cell[1429997, 24796, 2588, 74, 362, "Output",ExpressionUUID->"10216388-8aee-4f17-9211-c6b78e2bb34a"]
 }, Open  ]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[1432646, 24877, 286, 4, 50, "Section",ExpressionUUID->"723ad1fb-4495-4a29-a61c-12cd838741b6"],
+Cell[1432646, 24877, 286, 4, 40, "Section",ExpressionUUID->"723ad1fb-4495-4a29-a61c-12cd838741b6"],
 Cell[CellGroupData[{
 Cell[1432957, 24885, 428, 9, 21, "Input",ExpressionUUID->"c0cd69a6-4781-47ea-a8c6-2c712817cf15"],
 Cell[1433388, 24896, 303, 5, 24, "Output",ExpressionUUID->"62b589d6-0ee4-450e-8909-2932a9b84a63"]
@@ -39104,7 +39199,11 @@ Cell[CellGroupData[{
 Cell[2094888, 38761, 381, 10, 21, "Input",ExpressionUUID->"ec934ab4-9dda-40ab-8be8-2c74ece66066"],
 Cell[2095272, 38773, 551, 10, 282, "Output",ExpressionUUID->"d52d5898-334d-4f2d-95e3-eb0a83e9074c"]
 }, Open  ]]
-}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2095872, 38789, 220, 4, 40, "Section",ExpressionUUID->"37960270-7a5e-43ad-86ba-9dd4889cb2fb"],
+Cell[2096095, 38795, 3053, 84, 136, "Input",ExpressionUUID->"35cb0f0c-58d4-4daa-ab5d-9479a47222b5"]
+}, Open  ]]
 }, Open  ]]
 }
 ]

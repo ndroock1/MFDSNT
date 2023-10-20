@@ -221,6 +221,29 @@ gDisk[OptionsPattern[]] :=
   Thickness -> OptionValue[Thickness], Dashing -> OptionValue[Dashing]]
 
 
+(* HYPERBOLIC LINE UPPER HALF-PLANE : via gCircle *)
+Options[gHLineHP] = {"Color" -> Red, "Opacity" -> 1, 
+   "Thickness" -> 0.0125, "Dashing" -> {2 Pi, 2 Pi}};
+gHLineHP[p : pnt, q : pnt, OptionsPattern[]] := Module[
+   {A, B, c1, c2, R, a1, a2},
+   p1 = p[[1]];
+   p2 = p[[2]];
+   q1 = q[[1]];
+   q2 = q[[2]];
+   A = -(q1 - p1)/(q2 - p2);
+   B = (p2 + q2)/2 + ((q1 - p1)/(q2 - p2)) (p1 + q1)/2;
+   c1 = -B/A;
+   c2 = 0;
+   R = EuclideanDistance[p, {c1, c2}];
+   a1 = ArcTan[q1 - c1, q2];
+   a2 = ArcTan[p1 - c1, p2];
+   gCircle[{c1, c2}, R, a1, a2, Color -> OptionValue[Color], 
+    Opacity -> OptionValue[Opacity], 
+    Thickness -> OptionValue[Thickness], 
+    Dashing -> {OptionValue[Dashing][[1]], OptionValue[Dashing][[2]]} ]
+   ] /; p[[2]] != q[[2]]
+   
+   
 (* HYPERBOLIC LINE POINCARE DISK : via gCircle *)
 ClearAll[gHLinePD]
 Options[gHLinePD] = {"Color" -> Red, "Opacity" -> 1, 

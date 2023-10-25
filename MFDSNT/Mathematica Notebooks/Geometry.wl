@@ -39,6 +39,8 @@ edg = {{typ, face}, edge};
 
 
 (* GEOMETRIES *)
+(* ========== *)
+
 
 (* POINT : Type = 0 *)
 ClearAll[gPoint]
@@ -479,7 +481,7 @@ overlayColorsFromImage3[data_, {imgdata_, dw_}] := Module[{getColor3},
      iw = Dimensions[imgdata][[2]],
      ih = Dimensions[imgdata][[1]],
      dh
-z     },
+	},
     dh = (ih/iw) dw;
     Mean[Flatten[
       Table[

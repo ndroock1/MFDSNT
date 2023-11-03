@@ -648,8 +648,8 @@ tf:=TableForm
 mf:=MatrixForm
 grids[min_,max_]:=Join[Range[Ceiling[min],Floor[max]],Table[{j+.5,Dashed},{j,Round[min],Round[max-1],1}]]
 gr:=Graphics
-gr1[x_]:=Graphics[x, Axes->True,AxesOrigin->{0,0},GridLines->Automatic]
-gr2[x_]:=Graphics[x, Axes->True,AxesOrigin->{0,0},GridLines->grids, Background->Lighter[LightGray]]
+gr1[x_]:=Graphics[x, Axes->True,AxesOrigin->{0,0},GridLines->Automatic, AxesLabel -> {"x", "y"}]
+gr2[x_]:=Graphics[x, Axes->True,AxesOrigin->{0,0},GridLines->grids, Background->Lighter[LightGray], AxesLabel -> {"x", "y"}]
 gr3d[x_]:=Graphics3D[x, Boxed->False]
 grD[x_] := 
  Graphics[{x, 

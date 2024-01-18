@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7107,        202]
-NotebookOptionsPosition[      5850,        169]
-NotebookOutlinePosition[      6331,        187]
-CellTagsIndexPosition[      6288,        184]
+NotebookDataLength[      9897,        291]
+NotebookOptionsPosition[      8160,        248]
+NotebookOutlinePosition[      8642,        266]
+CellTagsIndexPosition[      8599,        263]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -161,14 +161,93 @@ Cell["DEV", "Chapter",
    3.9145588526817813`*^9}},
  FontWeight->"Bold",ExpressionUUID->"9451c6e6-7b85-4b50-9ef4-686df4089bcf"],
 
+Cell[CellGroupData[{
+
 Cell["Three Reflections Theorem", "Section",
  CellChangeTimes->{{3.9145588647617607`*^9, 
   3.914558874040383*^9}},ExpressionUUID->"c57c8623-6253-4262-86e9-\
-4fe597f2c2a3"]
+4fe597f2c2a3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"gPolygon", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}]}], "}"}], "]"}], "//", "toGL"}], "//", 
+  "gr1"}]], "Input",
+ CellChangeTimes->{3.9145590048004723`*^9},
+ CellLabel->
+  "In[345]:=",ExpressionUUID->"e8f93a2a-0c36-4424-9013-c977ccac407a"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], Opacity[1], 
+   {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0125], Dashing[
+     NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+    PolygonBox[{{0, 0}, {1, 0}, {0, 1}}]}},
+  Axes->True,
+  AxesLabel->{
+    FormBox["\"x\"", TraditionalForm], 
+    FormBox["\"y\"", TraditionalForm]},
+  AxesOrigin->{0, 0},
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.9145590065596952`*^9},
+ CellLabel->
+  "Out[345]=",ExpressionUUID->"99ab0d5e-8528-4e6a-b78b-3736ca449eaa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"tra3", "[", 
+    RowBox[{
+     RowBox[{"gPolygon", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}]}], "}"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", "2"}], "}"}]}], "]"}], "//", "toGL"}], "//", 
+  "gr1"}]], "Input",
+ CellChangeTimes->{{3.914567710930834*^9, 3.9145677399698954`*^9}},
+ CellLabel->
+  "In[347]:=",ExpressionUUID->"f55fb930-db74-4b77-b9aa-86bf22d1c5f7"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], Opacity[1], 
+   {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0125], Dashing[
+     NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+    PolygonBox[{{2, 2}, {3, 2}, {2, 3}}]}},
+  Axes->True,
+  AxesLabel->{
+    FormBox["\"x\"", TraditionalForm], 
+    FormBox["\"y\"", TraditionalForm]},
+  AxesOrigin->{0, 0},
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{{3.914567731003301*^9, 3.9145677409788404`*^9}},
+ CellLabel->
+  "Out[347]=",ExpressionUUID->"b82c59df-4d4a-4873-b4fb-dd6e3b73f533"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{887.25, 528.75},
-WindowMargins->{{Automatic, 28.5}, {45.75, Automatic}},
+WindowMargins->{{Automatic, 27.75}, {50.25, Automatic}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>0.75 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
@@ -202,7 +281,17 @@ Cell[2209, 66, 3053, 84, 136, "Input",ExpressionUUID->"35cb0f0c-58d4-4daa-ab5d-9
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[5311, 156, 348, 5, 51, "Chapter",ExpressionUUID->"9451c6e6-7b85-4b50-9ef4-686df4089bcf"],
-Cell[5662, 163, 172, 3, 50, "Section",ExpressionUUID->"c57c8623-6253-4262-86e9-4fe597f2c2a3"]
+Cell[CellGroupData[{
+Cell[5684, 165, 172, 3, 50, "Section",ExpressionUUID->"c57c8623-6253-4262-86e9-4fe597f2c2a3"],
+Cell[CellGroupData[{
+Cell[5881, 172, 471, 15, 21, "Input",ExpressionUUID->"e8f93a2a-0c36-4424-9013-c977ccac407a"],
+Cell[6355, 189, 539, 14, 294, "Output",ExpressionUUID->"99ab0d5e-8528-4e6a-b78b-3736ca449eaa"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6931, 208, 623, 19, 21, "Input",ExpressionUUID->"f55fb930-db74-4b77-b9aa-86bf22d1c5f7"],
+Cell[7557, 229, 563, 14, 320, "Output",ExpressionUUID->"b82c59df-4d4a-4873-b4fb-dd6e3b73f533"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]

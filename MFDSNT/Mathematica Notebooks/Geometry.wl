@@ -6,7 +6,7 @@
 
 
 BeginPackage["Geometry`"]
-(* Exported symbols added here with SymbolName::usage *) 
+(* Exported symbols added here with SymbolName::usage *)
 
 
 (* CONSTANTS *)

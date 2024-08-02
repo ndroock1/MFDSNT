@@ -1,4 +1,4 @@
-(* ::Package:: *)
+  (* ::Package:: *)
 
 (* Wolfram Language Package *)
 
@@ -31,7 +31,7 @@ tr := Trace
 primeQpos[n_] := If[PrimeQ[n] && n > 0, True, False]
 
 
-(* Cantor Bijection Functions *) 
+(* Cantor Bijection Functions... *) 
 nNaturalToInteger::usage=
 			"nNaturalToInteger[n] maps N to Z"
 
